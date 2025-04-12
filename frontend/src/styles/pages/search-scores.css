@@ -1,0 +1,172 @@
+/* Base layout */
+.ss-page {
+    min-height: calc(100vh - 60px - 300px);
+}
+
+.ss-content {
+    max-width: 1400px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+
+.ss-grid {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 2rem;
+    align-items: start;
+}
+
+/* Keep common filter styles */
+.filter-panel {
+    background: var(--background-light);
+    border-radius: var(--radius-lg);
+    padding: 1.5rem;
+    box-shadow: var(--shadow-sm);
+    position: sticky;
+    top: 80px;
+}
+
+.filter-group {
+    margin-bottom: 1.5rem;
+}
+
+.filter-group:last-child {
+    margin-bottom: 0;
+}
+
+.filter-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.filter-group select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    background-color: var(--background-light);
+}
+
+.ss-scores-panel {
+    background: var(--background-light);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+    overflow: hidden;
+}
+
+.ss-scores-header {
+    padding: 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.year-filter {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--background-color);
+    padding: 0.25rem;
+    border-radius: var(--radius-md);
+}
+
+.year-filter button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background: none;
+    color: var(--text-color);
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    transition: all var(--transition-speed) ease;
+}
+
+.year-filter button.active {
+    background: var(--primary-color);
+    color: white;
+}
+
+.ss-scores-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.ss-scores-table th,
+.ss-scores-table td {
+    padding: 1rem 1.5rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.ss-scores-table th {
+    background: var(--background-color);
+    font-weight: 600;
+    color: var(--text-color);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.ss-scores-table tbody tr:hover {
+    background: var(--background-color);
+}
+
+.ss-scores-table tr:hover {
+    background: var(--background-color);
+}
+
+.score-value {
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.school-link {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color var(--transition-speed) ease;
+}
+
+.school-link:hover {
+    color: var(--primary-light);
+    text-decoration: underline;
+}
+
+.search-header {
+    background: linear-gradient(135deg, var(--primary-light), var(--primary-color));
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 1rem; /* Giảm margin */
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .ss-content {
+        padding: 0 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .ss-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .filter-panel {
+        position: static;
+        margin-bottom: 1.5rem;
+    }
+
+    .ss-scores-header {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: flex-start;
+    }
+
+    .ss-scores-table th,
+    .ss-scores-table td {
+        padding: 0.75rem 1rem;
+    }
+}

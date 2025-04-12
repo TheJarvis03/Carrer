@@ -1,0 +1,14 @@
+{
+  "name": "career-guidance",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm start",
+    "client": "cd frontend && npm start",
+    "install-all": "npm i && cd backend && npm i && cd ../frontend && npm i",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1"
+  }
+}

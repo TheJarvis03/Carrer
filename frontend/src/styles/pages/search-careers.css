@@ -1,0 +1,133 @@
+.sc-page {
+    min-height: calc(100vh - 60px - 300px);
+}
+
+.search-header {
+    background: linear-gradient(135deg, var(--primary-light), var(--primary-color));
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 1rem; /* Giảm margin từ 2rem xuống 1rem */
+}
+
+.sc-content {
+    max-width: 1400px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+
+.sc-grid {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 2rem;
+}
+
+/* Keep common filter styles */
+.filter-panel {
+    background: var(--background-light);
+    border-radius: var(--radius-lg);
+    padding: 1.5rem;
+    box-shadow: var(--shadow-sm);
+    height: fit-content;
+    position: sticky;
+    top: 80px;
+}
+
+.sc-results-panel {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.sc-career-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    background: var(--background-light);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+    transition: all var(--transition-speed) ease;
+    text-decoration: none;
+    color: inherit;
+}
+
+.sc-career-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-md);
+}
+
+.career-icon {
+    width: 80px;
+    height: 80px;
+    background: var(--background-color);
+    border-radius: var(--radius-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.career-info h3 {
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+}
+
+.career-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border-color);
+}
+
+.salary-range {
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.careers-grid {
+    display: grid;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .sc-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .sc-content {
+        padding: 0 1rem;
+    }
+
+    .filter-panel {
+        position: static;
+    }
+
+    .career-card {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .career-icon {
+        margin: 0 auto;
+    }
+
+    .career-stats {
+        text-align: center;
+    }
+    .career-stats span{
+        text-align: left;
+    }
+}
+
+@media (max-width: 992px) {
+    .sc-results-panel {
+        grid-template-columns: 1fr;
+    }
+}
+
