@@ -1,376 +1,376 @@
 .career-detail-page {
-  display: flex;
-  flex-direction: column;
-  min-height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 60px);
 }
 
 .career-banner {
-  background: linear-gradient(
-    135deg,
-    var(--primary-light),
-    var(--primary-color)
-  );
-  color: white;
-  padding: 2rem; /* Giảm padding từ 4rem xuống 2rem */
-  text-align: center;
+    background: linear-gradient(
+        135deg,
+        var(--primary-light),
+        var(--primary-color)
+    );
+    color: white;
+    padding: 2rem; /* Giảm padding từ 4rem xuống 2rem */
+    text-align: center;
 }
 
 .banner-content {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 2rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .banner-content > div:first-child {
-  text-align: left;
+    text-align: left;
 }
 
 .career-banner h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-  animation: fadeIn var(--transition-speed) ease-out;
-  text-align: left;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    animation: fadeIn var(--transition-speed) ease-out;
+    text-align: left;
 }
 
 .career-banner p {
-  font-size: 1.2rem;
-  opacity: 0.9;
-  max-width: 700px;
-  margin: 0 auto;
+    font-size: 1.2rem;
+    opacity: 0.9;
+    max-width: 700px;
+    margin: 0 auto;
 }
 
 .career-meta {
-  display: flex;
-  gap: 2.5rem;
-  margin-top: 0;
+    display: flex;
+    gap: 2.5rem;
+    margin-top: 0;
 }
 
 .meta-item {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 
 .meta-item .label {
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.9rem;
 }
 
 .meta-item .value {
-  font-size: 1.2rem;
-  font-weight: 600;
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
 .value.high {
-  color: var(--success-color);
+    color: var(--success-color);
 }
 
 .career-nav {
-  background: var(--background-light);
-  box-shadow: var(--shadow-sm);
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  margin-top: -1px; /* Thêm để loại bỏ khoảng trống giữa banner và nav */
+    background: var(--background-light);
+    box-shadow: var(--shadow-sm);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    margin-top: -1px; /* Thêm để loại bỏ khoảng trống giữa banner và nav */
 }
 
 .nav-links {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  padding: 1rem;
-  max-width: 1200px;
-  margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .nav-links a {
-  color: var(--text-color);
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  border-radius: var(--radius-md);
-  transition: all var(--transition-speed) ease;
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-md);
+    transition: all var(--transition-speed) ease;
 }
 
 .nav-links a:hover,
 .nav-links a.active {
-  color: var(--primary-color);
-  background: var(--background-color);
+    color: var(--primary-color);
+    background: var(--background-color);
 }
 
 .content {
-  display: grid;
-  grid-template-columns: 2fr 1fr; /* Thay đổi từ 1fr 300px thành 2fr 1fr */
-  gap: 2rem;
-  max-width: 1200px;
-  margin: 2rem auto;
-  padding: 0 2rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* Thay đổi từ 1fr 300px thành 2fr 1fr */
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 2rem;
 }
 
 .main-content {
-  background: var(--background-light);
-  border-radius: var(--radius-lg);
-  padding: 2rem;
-  box-shadow: var(--shadow-sm);
+    background: var(--background-light);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    box-shadow: var(--shadow-sm);
 }
 
 .section {
-  margin-bottom: 3rem;
+    margin-bottom: 3rem;
 }
 
 .section:last-child {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .section-title {
-  color: var(--text-color);
-  margin-bottom: 1.5rem;
-  font-size: 1.5rem;
-  position: relative;
-  padding-bottom: 0.5rem;
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    position: relative;
+    padding-bottom: 0.5rem;
 }
 
 .section-title::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 60px;
-  height: 3px;
-  background: linear-gradient(
-    to right,
-    var(--primary-color),
-    var(--primary-light)
-  );
-  border-radius: var(--radius-sm);
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(
+        to right,
+        var(--primary-color),
+        var(--primary-light)
+    );
+    border-radius: var(--radius-sm);
 }
 
 .requirements-list {
-  display: grid;
-  gap: 1rem;
+    display: grid;
+    gap: 1rem;
 }
 
 .requirement-item {
-  background: var(--background-color);
-  border-radius: var(--radius-md);
-  padding: 1.5rem;
-  border: 1px solid var(--border-color);
-  transition: all var(--transition-speed) ease;
+    background: var(--background-color);
+    border-radius: var(--radius-md);
+    padding: 1.5rem;
+    border: 1px solid var(--border-color);
+    transition: all var(--transition-speed) ease;
 }
 
 .requirement-item:hover {
-  transform: translateX(5px);
-  border-color: var(--primary-light);
-  box-shadow: var(--shadow-sm);
+    transform: translateX(5px);
+    border-color: var(--primary-light);
+    box-shadow: var(--shadow-sm);
 }
 
 .requirement-item h3 {
-  color: var(--primary-color);
-  margin-bottom: 0.5rem;
-  font-size: 1.1rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
 }
 
 .requirement-item p {
-  color: var(--text-color);
-  line-height: 1.5;
-  font-size: 0.95rem;
+    color: var(--text-color);
+    line-height: 1.5;
+    font-size: 0.95rem;
 }
 
 .career-stats {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
-  margin: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin: 2rem 0;
 }
 
 .stat-card {
-  background: var(--background-color);
-  padding: 1.5rem;
-  border-radius: var(--radius-md);
-  text-align: center;
+    background: var(--background-color);
+    padding: 1.5rem;
+    border-radius: var(--radius-md);
+    text-align: center;
 }
 
 .stat-value {
-  color: var(--primary-color);
-  font-size: 2rem;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
+    color: var(--primary-color);
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
 }
 
 .side-content {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 
 .info-card {
-  background: var(--background-light);
-  border-radius: var(--radius-lg);
-  padding: 1.5rem;
-  box-shadow: var(--shadow-sm);
+    background: var(--background-light);
+    border-radius: var(--radius-lg);
+    padding: 1.5rem;
+    box-shadow: var(--shadow-sm);
 }
 
 .info-card h3 {
-  color: var(--primary-color);
-  margin-bottom: 1rem;
-  font-size: 1.25rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
 }
 
 .info-list {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .info-item {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 0.75rem;
-  border-bottom: 1px solid var(--border-color);
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--border-color);
 }
 
 .salary-range {
-  text-align: center;
-  padding: 1.5rem;
-  background: linear-gradient(
-    135deg,
-    var(--primary-light),
-    var(--primary-color)
-  );
-  color: white;
-  border-radius: var(--radius-md);
-  margin: 1rem 0;
+    text-align: center;
+    padding: 1.5rem;
+    background: linear-gradient(
+        135deg,
+        var(--primary-light),
+        var(--primary-color)
+    );
+    color: white;
+    border-radius: var(--radius-md);
+    margin: 1rem 0;
 }
 
 .salary-range h4 {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
-  color: white;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: white;
 }
 
 .salary {
-  color: var(--primary-color);
-  font-weight: 500;
+    color: var(--primary-color);
+    font-weight: 500;
 }
 
 .related-careers {
-  margin-top: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 .related-career-item {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  padding: 1rem;
-  background: var(--background-color);
-  border-radius: var(--radius-md);
-  margin-bottom: 0.5rem;
-  transition: all var(--transition-speed) ease;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background: var(--background-color);
+    border-radius: var(--radius-md);
+    margin-bottom: 0.5rem;
+    transition: all var(--transition-speed) ease;
 }
 
 .related-career-item:hover {
-  transform: translateX(5px);
-  background: var(--background-light);
-  box-shadow: var(--shadow-sm);
+    transform: translateX(5px);
+    background: var(--background-light);
+    box-shadow: var(--shadow-sm);
 }
 
 .related-item,
 .similar-item {
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem;
-  background: var(--background-color);
-  border-radius: var(--radius-md);
-  margin-bottom: 0.5rem;
-  text-decoration: none;
-  color: var(--text-color);
-  transition: all var(--transition-speed) ease;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background: var(--background-color);
+    border-radius: var(--radius-md);
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    color: var(--text-color);
+    transition: all var(--transition-speed) ease;
 }
 
 .related-item:hover,
 .similar-item:hover {
-  transform: translateX(5px);
-  background: var(--background-light);
-  color: var(--primary-color);
+    transform: translateX(5px);
+    background: var(--background-light);
+    color: var(--primary-color);
 }
 
 .skill-category {
-  margin-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
 .skill-category h3 {
-  color: var(--text-color);
-  margin-bottom: 1rem;
-  font-size: 1.1rem;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
 }
 
 .skill-items {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
 }
 
 .skill-tag {
-  background: var(--background-color);
-  padding: 0.5rem 1rem;
-  border-radius: var(--radius-md);
-  font-size: 0.9rem;
-  color: var(--text-color);
-  border: 1px solid var(--border-color);
-  transition: all var(--transition-speed) ease;
+    background: var(--background-color);
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-md);
+    font-size: 0.9rem;
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+    transition: all var(--transition-speed) ease;
 }
 
 .skill-tag:hover {
-  background: var(--primary-light);
-  color: white;
-  border-color: var(--primary-light);
+    background: var(--primary-light);
+    color: white;
+    border-color: var(--primary-light);
 }
 
 /* Responsive Design */
 @media (max-width: 1024px) {
-  .content {
-    grid-template-columns: 1fr;
-    max-width: 800px; /* Thêm max-width khi stack dọc */
-  }
+    .content {
+        grid-template-columns: 1fr;
+        max-width: 800px; /* Thêm max-width khi stack dọc */
+    }
 
-  .side-content {
-    order: -1;
-  }
+    .side-content {
+        order: -1;
+    }
 }
 
 @media (max-width: 768px) {
-  .career-banner {
-    padding: 3rem 1rem;
-  }
+    .career-banner {
+        padding: 3rem 1rem;
+    }
 
-  .career-banner h1 {
-    font-size: 2rem;
-    text-align: center;
-  }
+    .career-banner h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
 
-  .nav-links {
-    gap: 1rem;
-    padding: 0.5rem;
-    overflow-x: auto;
-  }
+    .nav-links {
+        gap: 1rem;
+        padding: 0.5rem;
+        overflow-x: auto;
+    }
 
-  .content {
-    padding: 1rem;
-    margin: 1rem auto;
-  }
+    .content {
+        padding: 1rem;
+        margin: 1rem auto;
+    }
 
-  .banner-content {
-    flex-direction: column;
-    gap: 1.5rem;
-  }
+    .banner-content {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
 
-  .banner-content > div:first-child {
-    text-align: center;
-  }
+    .banner-content > div:first-child {
+        text-align: center;
+    }
 
-  .career-meta {
-    justify-content: center;
-  }
+    .career-meta {
+        justify-content: center;
+    }
 }

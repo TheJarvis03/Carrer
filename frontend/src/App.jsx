@@ -19,58 +19,85 @@ import ArticleDetailPage from './pages/article-detail';
 import { careerService } from './services/api';
 
 function App() {
-  const [careers, setCareers] = useState([]);
+    const [careers, setCareers] = useState([]);
 
-  useEffect(() => {
-    const fetchCareers = async () => {
-      try {
-        const response = await careerService.getAll();
-        setCareers(response.data);
-      } catch (error) {
-        console.error('Error fetching careers:', error);
-      }
-    };
+    useEffect(() => {
+        const fetchCareers = async () => {
+            try {
+                const response = await careerService.getAll();
+                setCareers(response.data);
+            } catch (error) {
+                console.error('Error fetching careers:', error);
+            }
+        };
 
-    fetchCareers();
-  }, []);
+        fetchCareers();
+    }, []);
 
-  return (
-    <Router>
-      <div className="app-container">
-        <Navigation />
-        <main className="main-wrapper">
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/login" element={<LoginPage />} />
-            <Route path="/register" element={<RegisterPage />} />
-            <Route path="/account" element={<UserAccountPage />} />
-            <Route path="/search" element={<GeneralSearchPage />} />
-            <Route path="/search/schools" element={<SearchSchoolsPage />} />
-            <Route path="/search/majors" element={<SearchMajorsPage />} />
-            <Route path="/search/careers" element={<SearchCareersPage />} />
-            <Route path="/search/scores" element={<SearchScoresPage />} />
-            <Route path="/school/:id" element={<SchoolDetailPage />} />
-            <Route path="/major/:id" element={<MajorDetailPage />} />
-            <Route path="/career/:id" element={<CareerDetailPage />} />
-            <Route path="/news" element={<NewsPage />} />
-            <Route path="/article/:id" element={<ArticleDetailPage />} />
-            <Route path="/news/:slug" element={<ArticleDetailPage />} />
-            <Route path="*" element={<div>Page not found</div>} />
-          </Routes>
-          <div>
-            <h1>Career List</h1>
-            {careers.map((career) => (
-              <div key={career._id}>
-                <h2>{career.career_name}</h2>
-                <p>{career.description}</p>
-              </div>
-            ))}
-          </div>
-        </main>
-        <Footer />
-      </div>
-    </Router>
-  );
+    return (
+        <Router>
+            <div className="app-container">
+                <Navigation />
+                <main className="main-wrapper">
+                    <Routes>
+                        <Route path="/" element={<HomePage />} />
+                        <Route path="/login" element={<LoginPage />} />
+                        <Route path="/register" element={<RegisterPage />} />
+                        <Route path="/account" element={<UserAccountPage />} />
+                        <Route path="/search" element={<GeneralSearchPage />} />
+                        <Route
+                            path="/search/schools"
+                            element={<SearchSchoolsPage />}
+                        />
+                        <Route
+                            path="/search/majors"
+                            element={<SearchMajorsPage />}
+                        />
+                        <Route
+                            path="/search/careers"
+                            element={<SearchCareersPage />}
+                        />
+                        <Route
+                            path="/search/scores"
+                            element={<SearchScoresPage />}
+                        />
+                        <Route
+                            path="/school/:id"
+                            element={<SchoolDetailPage />}
+                        />
+                        <Route
+                            path="/major/:id"
+                            element={<MajorDetailPage />}
+                        />
+                        <Route
+                            path="/career/:id"
+                            element={<CareerDetailPage />}
+                        />
+                        <Route path="/news" element={<NewsPage />} />
+                        <Route
+                            path="/article/:id"
+                            element={<ArticleDetailPage />}
+                        />
+                        <Route
+                            path="/news/:slug"
+                            element={<ArticleDetailPage />}
+                        />
+                        <Route path="*" element={<div>Page not found</div>} />
+                    </Routes>
+                    <div>
+                        <h1>Career List</h1>
+                        {careers.map((career) => (
+                            <div key={career._id}>
+                                <h2>{career.career_name}</h2>
+                                <p>{career.description}</p>
+                            </div>
+                        ))}
+                    </div>
+                </main>
+                <Footer />
+            </div>
+        </Router>
+    );
 }
 
 export default App;
