@@ -1,168 +1,170 @@
 .academic-major-page {
-    min-height: calc(100vh - 60px);
+  min-height: calc(100vh - 60px);
 }
 
 .academic-major-header {
-    background: var(--primary-color);
-    padding: 4rem 2rem;
-    color: white;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  background: var(--primary-color);
+  padding: 4rem 2rem;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .academic-major-header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .academic-major-meta {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2.5rem;
-    margin-top: 1rem;
-    font-size: 1.1rem;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  justify-content: center;
 }
 
 .academic-major-meta span {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .academic-major-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem;
-    display: grid;
-    grid-template-columns: 320px 1fr;
-    gap: 2.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 2.5rem;
 }
 
 .academic-major-sidebar {
-    position: sticky;
-    top: 80px;
+  position: sticky;
+  top: 80px;
 }
 
 .major-info-card {
-    background: var(--background-light);
-    border-radius: var(--radius-lg);
-    padding: 2rem;
-    box-shadow: var(--shadow-sm);
+  background: var(--background-light);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  box-shadow: var(--shadow-sm);
 }
 
 .major-info-card ul {
-    display: grid;
-    gap: 1rem;
-    padding: 0.5rem;
+  display: grid;
+  gap: 1rem;
+  padding: 0.5rem;
 }
 
 .major-info-card li {
-    padding: 0.5rem 0;
+  padding: 0.5rem 0;
 }
 
 .major-info-card h3 {
-    margin-bottom: 1rem;
-    color: var(--primary-color);
+  margin-bottom: 1rem;
+  color: var(--primary-color);
 }
 
 .academic-major-main section {
-    background: var(--background-light);
-    border-radius: var(--radius-lg);
-    padding: 2rem;
-    box-shadow: var(--shadow-sm);
-    margin-bottom: 2rem;
+  background: var(--background-light);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 2rem;
 }
 
 .section-title {
-    font-size: 1.5rem;
-    color: var(--primary-color);
-    margin-bottom: 1.5rem;
-    position: relative;
-    padding-bottom: 0.8rem;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+  position: relative;
+  padding-bottom: 0.8rem;
 }
 
 .section-title::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 3px;
-    width: 60px;
-    background: var(--primary-color);
-    border-radius: 2px;
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 60px;
+  background: var(--primary-color);
+  border-radius: 2px;
 }
 
 .prospects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 1.5rem;
-    margin-top: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .prospect-card {
-    background: white;
-    padding: 1.5rem;
-    border-radius: var(--radius-md);
-    border: 1px solid var(--border-color);
+  background: white;
+  padding: 1.5rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
 }
 
 .universities-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 1.5rem;
-    margin-top: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .university-card {
-    background: white;
-    padding: 1.5rem;
-    border-radius: var(--radius-md);
-    border: 1px solid var(--border-color);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    text-decoration: none;
-    color: inherit;
-    display: block;
+  background: white;
+  padding: 1.5rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+  text-decoration: none;
+  color: inherit;
+  display: block;
 }
 
 .university-card:hover {
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-md);
-    border-color: var(--primary-color);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--primary-color);
 }
 
 .university-card h3 {
-    color: var(--primary-color);
-    margin-bottom: 0.8rem;
-    position: relative;
+  color: var(--primary-color);
+  margin-bottom: 0.8rem;
+  position: relative;
 }
 
 .university-card h3::after {
-    content: '↗';
-    position: absolute;
-    right: 0;
-    top: 0;
-    opacity: 0;
-    transition: opacity 0.2s ease;
+  content: '↗';
+  position: absolute;
+  right: 0;
+  top: 0;
+  opacity: 0;
+  transition: opacity 0.2s ease;
 }
 
 .university-card:hover h3::after {
-    opacity: 1;
+  opacity: 1;
 }
 
 .university-card p {
-    color: var(--text-secondary);
-    margin: 0.4rem 0;
+  color: var(--text-secondary);
+  margin: 0.4rem 0;
 }
 
 @media (max-width: 992px) {
-    .academic-major-content {
-        grid-template-columns: 1fr;
-    }
+  .academic-major-content {
+    grid-template-columns: 1fr;
+  }
 
-    .academic-major-sidebar {
-        position: static;
-    }
+  .academic-major-sidebar {
+    position: static;
+  }
 }

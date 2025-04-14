@@ -8,15 +8,17 @@ const routes = require('./routes');
 const app = express();
 
 // Error handling for database connection
-connectDB().catch(err => {
+connectDB().catch((err) => {
   console.error('Database connection error:', err);
 });
 
 // CORS and middleware
-app.use(cors({
-  origin: 'http://localhost:3000',
-  credentials: true
-}));
+app.use(
+  cors({
+    origin: 'http://localhost:3000',
+    credentials: true,
+  }),
+);
 
 // Static file serving
 app.use(express.static(path.join(__dirname, '../public')));
@@ -30,7 +32,7 @@ app.use('/api', routes);
 app.use((err, req, res, next) => {
   console.error(err.stack);
   res.status(err.status || 500).json({
-    message: err.message || 'Internal Server Error'
+    message: err.message || 'Internal Server Error',
   });
 });
 

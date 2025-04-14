@@ -1,594 +1,600 @@
 .sd-school-detail-page {
-    min-height: calc(100vh - 60px);
+  min-height: calc(100vh - 60px);
 }
 
 .sd-school-banner {
-    background: linear-gradient(135deg, var(--primary-light), var(--primary-color));
-    padding: 3rem 0;
+  background: linear-gradient(
+    135deg,
+    var(--primary-light),
+    var(--primary-color)
+  );
+  padding: 3rem 0;
 }
 
 .sd-banner-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 1rem 2rem;
-    display: flex;
-    gap: 4rem;
-    align-items: flex-start;
-    position: relative;
-    padding-bottom: 4rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  gap: 4rem;
+  align-items: flex-start;
+  position: relative;
+  padding-bottom: 4rem;
 }
 
 .sd-school-stats {
-    position: absolute;
-    bottom: 0;
-    right: 2rem;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
-    max-width: 600px;
+  position: absolute;
+  bottom: 0;
+  right: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  max-width: 600px;
 }
 
 .sd-stat-item {
-    background: rgba(255, 255, 255, 0.15);
-    padding: 1rem;
-    border-radius: 8px;
-    text-align: center;
-    backdrop-filter: blur(8px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    min-width: 120px;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  min-width: 120px;
 }
 
 .sd-stat-label {
-    font-size: 0.75rem;
-    color: rgba(255, 255, 255, 0.9);
-    font-weight: 500;
-    margin-bottom: 0.25rem;
-    display: block;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+  display: block;
 }
 
 .sd-stat-value {
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: #ffffff;
-    line-height: 1.2;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 1.2;
 }
 
 .sd-school-logo {
-    width: 180px;
-    height: 180px;
-    background: white;
-    padding: 1.5rem;
-    border-radius: 1rem;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
-    transition: transform 0.3s ease;
+  width: 180px;
+  height: 180px;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
 }
 
 .sd-school-logo:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .sd-school-info {
-    flex: 1;
+  flex: 1;
 }
 
 .sd-school-info h1 {
-    font-size: 3rem;
-    font-weight: 700;
-    color: #ffffff;
-    margin-bottom: 2rem;
-    letter-spacing: -0.02em;
-    line-height: 1.2;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 2rem;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .sd-school-nav {
-    background: white;
-    border-bottom: 1px solid var(--border-color);
-    position: sticky;
-    top: 0;
-    z-index: 100;
+  background: white;
+  border-bottom: 1px solid var(--border-color);
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .sd-nav-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
 }
 
 .sd-school-nav ul {
-    display: flex;
-    gap: 2rem;
-    list-style: none;
+  display: flex;
+  gap: 2rem;
+  list-style: none;
 }
 
 .sd-school-nav a {
-    display: block;
-    padding: 1rem 0;
-    font-size: 0.95rem;
-    font-weight: 500;
-    color: var(--text-color);
-    text-decoration: none;
-    position: relative;
+  display: block;
+  padding: 1rem 0;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text-color);
+  text-decoration: none;
+  position: relative;
 }
 
 .sd-school-nav a.active::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background: var(--primary-color);
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--primary-color);
 }
 
 .sd-main-content {
-    width: 100%;
-    padding: 2rem 0;
-    background: var(--background-color);
+  width: 100%;
+  padding: 2rem 0;
+  background: var(--background-color);
 }
 
 .sd-content-container {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 0 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 2rem;
 }
 
 .sd-content-section {
-    background: white;
-    border-radius: 16px;
-    padding: 3rem;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-    margin-bottom: 2rem;
+  background: white;
+  border-radius: 16px;
+  padding: 3rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
 }
 
 .sd-section-title {
-    text-align: center;
-    font-size: 1.75rem;
-    font-weight: 600;
-    color: var(--text-color);
-    line-height: 1.3;
-    margin-bottom: 2rem;
-    padding-bottom: 0.75rem;
-    position: relative;
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--text-color);
+  line-height: 1.3;
+  margin-bottom: 2rem;
+  padding-bottom: 0.75rem;
+  position: relative;
 }
 
 .sd-section-title::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80px;
-    height: 3px;
-    background: var(--primary-color);
-    border-radius: var(--radius-sm);
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 3px;
+  background: var(--primary-color);
+  border-radius: var(--radius-sm);
 }
 
 .sd-section-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
 }
 
 .sd-overview-stats {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
-    margin-bottom: 3rem;
-    width: 100%;
-    max-width: 600px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 3rem;
+  width: 100%;
+  max-width: 600px;
 }
 
 .sd-stat-box {
-    background: var(--background-light);
-    padding: 2rem;
-    border-radius: 12px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    transition: transform 0.2s ease;
+  background: var(--background-light);
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  transition: transform 0.2s ease;
 }
 
 .sd-stat-box:hover {
-    transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 .sd-stat-number {
-    font-size: 2rem;
-    font-weight: 600;
-    color: var(--primary-color);
-    line-height: 1.1;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  line-height: 1.1;
 }
 
 .sd-stat-box .sd-stat-label {
-    font-size: 0.875rem;
-    color: var(--text-light);
-    font-weight: normal;
+  font-size: 0.875rem;
+  color: var(--text-light);
+  font-weight: normal;
 }
 
 .sd-overview-description {
-    text-align: center;
-    font-size: 1rem;
-    line-height: 1.6;
-    color: var(--text-color);
-    max-width: 600px;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text-color);
+  max-width: 600px;
 }
 
 /* Major Groups Styles */
 .sd-major-groups {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-    width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  width: 100%;
 }
 
 .sd-major-group {
-    background: var(--background-light);
-    padding: 2rem;
-    border-radius: 12px;
-    border: 1px solid var(--border-color);
+  background: var(--background-light);
+  padding: 2rem;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
 }
 
 .sd-major-group h3 {
-    color: var(--primary-color);
-    font-size: 1.25rem;
-    margin-bottom: 1rem;
+  color: var(--primary-color);
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
 }
 
 .sd-major-group ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 .sd-major-group li {
-    padding: 0.5rem 0;
-    border-bottom: 1px solid var(--border-color);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border-color);
 }
 
 /* Admission Styles */
 .sd-admission-info {
-    display: flex;
-    justify-content: center;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .sd-requirements {
-    width: 80%;
+  width: 80%;
 }
 
 .sd-score-table {
-    width: 100%;
-    border-collapse: separate;
-    border-spacing: 0;
-    margin: 1rem auto;
-    border: 1px solid var(--border-color);
-    border-radius: 8px;
-    overflow: hidden;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 1rem auto;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .sd-score-table th,
 .sd-score-table td {
-    padding: 1.25rem;
-    text-align: left;
-    border-bottom: 1px solid var(--border-color);
-    border-right: 1px solid var(--border-color);
+  padding: 1.25rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
 }
 
 .sd-score-table th:last-child,
 .sd-score-table td:last-child {
-    border-right: none;
+  border-right: none;
 }
 
 .sd-score-table tr:last-child td {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 .sd-score-table th {
-    background: var(--primary-color);
-    color: white;
-    font-weight: 600;
-    white-space: nowrap;
+  background: var(--primary-color);
+  color: white;
+  font-weight: 600;
+  white-space: nowrap;
 }
 
 .sd-score-table tbody tr {
-    transition: background-color 0.2s ease;
+  transition: background-color 0.2s ease;
 }
 
 .sd-score-table tbody tr:nth-child(even) {
-    background-color: var(--background-light);
+  background-color: var(--background-light);
 }
 
 .sd-score-table tbody tr:hover {
-    background-color: rgba(var(--primary-rgb), 0.05);
+  background-color: rgba(var(--primary-rgb), 0.05);
 }
 
 .sd-score-table td:nth-child(2) {
-    font-weight: 600;
-    color: var(--primary-color);
-    text-align: center;
+  font-weight: 600;
+  color: var(--primary-color);
+  text-align: center;
 }
 
 .sd-score-table td:last-child {
-    color: var(--text-light);
+  color: var(--text-light);
 }
 
 /* Facilities Styles */
 .sd-facilities-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-    width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  width: 100%;
 }
 
 .sd-facility-item {
-    background: var(--background-light);
-    padding: 2rem;
-    border-radius: 12px;
-    border: 1px solid var(--border-color);
+  background: var(--background-light);
+  padding: 2rem;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
 }
 
 .sd-facility-item h3 {
-    color: var(--primary-color);
-    font-size: 1.25rem;
-    margin-bottom: 1rem;
+  color: var(--primary-color);
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
 }
 
 .sd-admission-nav {
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 2rem;
-    border-bottom: 2px solid #eee;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #eee;
 }
 
 .sd-admission-tab {
-    padding: 0.75rem 1.5rem;
-    border: none;
-    background: none;
-    font-size: 1rem;
-    font-weight: 500;
-    color: #666;
-    cursor: pointer;
-    position: relative;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  background: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #666;
+  cursor: pointer;
+  position: relative;
 }
 
 .sd-admission-tab.active {
-    color: #1a73e8;
+  color: #1a73e8;
 }
 
 .sd-admission-tab.active::after {
-    content: '';
-    position: absolute;
-    bottom: -2px;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background: #1a73e8;
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #1a73e8;
 }
 
 .sd-admission-panel {
-    display: none;
+  display: none;
 }
 
 .sd-admission-panel.active {
-    display: block;
+  display: block;
 }
 
 .sd-score-summary,
 .sd-quota-summary {
-    display: flex;
-    gap: 2rem;
-    margin-bottom: 2rem;
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
 }
 
 .sd-score-highlight,
 .sd-quota-total {
-    padding: 1.5rem;
-    background: #f8f9fa;
-    border-radius: 8px;
-    text-align: center;
-    flex: 1;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  text-align: center;
+  flex: 1;
 }
 
 .sd-score-label,
 .sd-quota-label {
-    display: block;
-    font-size: 0.875rem;
-    color: #666;
-    margin-bottom: 0.5rem;
+  display: block;
+  font-size: 0.875rem;
+  color: #666;
+  margin-bottom: 0.5rem;
 }
 
 .sd-score-value,
 .sd-quota-value {
-    display: block;
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #1a73e8;
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1a73e8;
 }
 
 .sd-score-major {
-    display: block;
-    font-size: 0.875rem;
-    color: #444;
-    margin-top: 0.5rem;
+  display: block;
+  font-size: 0.875rem;
+  color: #444;
+  margin-top: 0.5rem;
 }
 
 .school-detail-page {
-    min-height: calc(100vh - 60px);
+  min-height: calc(100vh - 60px);
 }
 
 .school-header {
-    background: var(--primary-color);
-    padding: 4rem 2rem;
-    color: white;
-    text-align: center;
+  background: var(--primary-color);
+  padding: 4rem 2rem;
+  color: white;
+  text-align: center;
 }
 
 .school-header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
 }
 
 .school-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
 }
 
 .school-info {
-    background: var(--background-light);
-    border-radius: var(--radius-lg);
-    padding: 2rem;
-    margin-bottom: 2rem;
+  background: var(--background-light);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  margin-bottom: 2rem;
 }
 
 .school-info h2 {
-    color: var(--primary-color);
-    margin-bottom: 1rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
 }
 
 .school-meta {
-    margin-top: 1.5rem;
-    display: grid;
-    gap: 1rem;
+  margin-top: 1.5rem;
+  display: grid;
+  gap: 1rem;
 }
 
 .school-meta a {
-    color: var(--primary-color);
-    text-decoration: none;
+  color: var(--primary-color);
+  text-decoration: none;
 }
 
 .school-meta a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .sd-official-link {
-    margin-top: 1.5rem;
-    padding: 1rem;
-    background: var(--background-light);
-    border-radius: var(--radius-md);
-    border: 1px solid var(--border-color);
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: var(--background-light);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
 }
 
 .sd-official-link a {
-    color: var(--primary-color);
-    text-decoration: none;
-    margin-left: 0.5rem;
+  color: var(--primary-color);
+  text-decoration: none;
+  margin-left: 0.5rem;
 }
 
 .sd-official-link a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .external-link-icon {
-    font-size: 0.9em;
-    margin-left: 0.25rem;
+  font-size: 0.9em;
+  margin-left: 0.25rem;
 }
 
 .sd-website-button {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    margin-top: 1.5rem;
-    padding: 0.75rem 1.5rem;
-    background-color: var(--primary-color);
-    color: white;
-    border-radius: var(--radius-md);
-    text-decoration: none;
-    font-weight: 500;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  font-weight: 500;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
 .sd-website-button:hover {
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
 }
 
 .sd-website-button .external-link-icon {
-    font-size: 1.1em;
+  font-size: 1.1em;
 }
 
 @media (max-width: 768px) {
-    .sd-banner-content {
-        flex-direction: column;
-        text-align: center;
-        gap: 2rem;
-        padding-bottom: 1rem;
-    }
+  .sd-banner-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    padding-bottom: 1rem;
+  }
 
-    .sd-school-logo {
-        margin: 0 auto;
-    }
+  .sd-school-logo {
+    margin: 0 auto;
+  }
 
-    .sd-school-nav {
-        overflow-x: auto;
-    }
+  .sd-school-nav {
+    overflow-x: auto;
+  }
 
-    .sd-school-nav ul {
-        padding: 0 1rem;
-    }
+  .sd-school-nav ul {
+    padding: 0 1rem;
+  }
 
-    .sd-overview-stats {
-        grid-template-columns: 1fr;
-        max-width: 300px;
-    }
+  .sd-overview-stats {
+    grid-template-columns: 1fr;
+    max-width: 300px;
+  }
 
-    .sd-school-stats {
-        position: static;
-        margin-top: 2rem;
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .sd-school-stats {
+    position: static;
+    margin-top: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
 
-    .sd-major-groups,
-    .sd-facilities-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    .sd-score-table {
-        font-size: 0.875rem;
-        border: none;
-        border-radius: 0;
-    }
-    
-    .sd-score-table th,
-    .sd-score-table td {
-        padding: 0.75rem;
-    }
+  .sd-major-groups,
+  .sd-facilities-grid {
+    grid-template-columns: 1fr;
+  }
 
-    .sd-score-table thead {
-        display: none;
-    }
+  .sd-score-table {
+    font-size: 0.875rem;
+    border: none;
+    border-radius: 0;
+  }
 
-    .sd-score-table tr {
-        display: block;
-        padding: 1rem;
-        border: 1px solid var(--border-color);
-        border-radius: 8px;
-        margin-bottom: 1rem;
-    }
+  .sd-score-table th,
+  .sd-score-table td {
+    padding: 0.75rem;
+  }
 
-    .sd-score-table td {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        border: none;
-        padding: 0.5rem 0;
-    }
+  .sd-score-table thead {
+    display: none;
+  }
 
-    .sd-score-table td::before {
-        content: attr(data-label);
-        font-weight: 600;
-        margin-right: 1rem;
-    }
+  .sd-score-table tr {
+    display: block;
+    padding: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
 
-    .sd-requirements {
-        width: 100%;
-    }
+  .sd-score-table td {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    padding: 0.5rem 0;
+  }
+
+  .sd-score-table td::before {
+    content: attr(data-label);
+    font-weight: 600;
+    margin-right: 1rem;
+  }
+
+  .sd-requirements {
+    width: 100%;
+  }
 }
 
 @media (max-width: 480px) {
-    .sd-school-stats {
-        grid-template-columns: 1fr;
-    }
+  .sd-school-stats {
+    grid-template-columns: 1fr;
+  }
 }

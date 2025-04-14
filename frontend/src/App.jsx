@@ -59,7 +59,7 @@ function App() {
           </Routes>
           <div>
             <h1>Career List</h1>
-            {careers.map(career => (
+            {careers.map((career) => (
               <div key={career._id}>
                 <h2>{career.career_name}</h2>
                 <p>{career.description}</p>

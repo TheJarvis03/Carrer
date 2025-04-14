@@ -1,16 +1,38 @@
-const mongoose = require('mongoose');
+const pool = require('../config/database');
 
-const careerSchema = new mongoose.Schema({
-  career_name: { type: String, required: true },
-  career_code: { type: String, required: true, unique: true },
-  description: { type: String },
-  created_at: { type: Date, default: Date.now },
-  update_at: { type: Date, default: Date.now }
-});
+class Career {
+  static async findAll() {
+    const [rows] = await pool.query('SELECT * FROM careers');
+    return rows;
+  }
 
-careerSchema.pre('save', function(next) {
-  this.update_at = new Date();
-  next();
-});
+  static async findById(id) {
+    const [rows] = await pool.query('SELECT * FROM careers WHERE id = ?', [id]);
+    return rows[0];
+  }
 
-module.exports = mongoose.model('Career', careerSchema);
+  static async create(careerData) {
+    const { career_name, career_code, description } = careerData;
+    const [result] = await pool.query(
+      'INSERT INTO careers (career_name, career_code, description, created_at, updated_at) VALUES (?, ?, ?, NOW(), NOW())',
+      [career_name, career_code, description],
+    );
+    return { id: result.insertId, ...careerData };
+  }
+
+  static async update(id, careerData) {
+    const { career_name, career_code, description } = careerData;
+    await pool.query(
+      'UPDATE careers SET career_name = ?, career_code = ?, description = ?, updated_at = NOW() WHERE id = ?',
+      [career_name, career_code, description, id],
+    );
+    return this.findById(id);
+  }
+
+  static async delete(id) {
+    const [result] = await pool.query('DELETE FROM careers WHERE id = ?', [id]);
+    return result.affectedRows > 0;
+  }
+}
+
+module.exports = Career;

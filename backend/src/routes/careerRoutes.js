@@ -7,6 +7,11 @@ router.get('/', careerController.getAllCareers);
 router.get('/:id', careerController.getCareerById);
 router.post('/', auth, checkRole(['admin']), careerController.createCareer);
 router.put('/:id', auth, checkRole(['admin']), careerController.updateCareer);
-router.delete('/:id', auth, checkRole(['admin']), careerController.deleteCareer);
+router.delete(
+  '/:id',
+  auth,
+  checkRole(['admin']),
+  careerController.deleteCareer,
+);
 
 module.exports = router;
