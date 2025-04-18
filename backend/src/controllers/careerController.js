@@ -2,7 +2,7 @@ const Career = require('../models/Career');
 const { handleAsync } = require('../utils/crudOperations');
 
 exports.getAllCareers = handleAsync(async (req, res) => {
-    const careers = await Career.findAll();
+    const careers = await Career.find();
     res.json(careers);
 });
 
@@ -18,13 +18,13 @@ exports.createCareer = handleAsync(async (req, res) => {
 });
 
 exports.updateCareer = handleAsync(async (req, res) => {
-    const career = await Career.update(req.params.id, req.body);
+    const career = await Career.findByIdAndUpdate(req.params.id, req.body, { new: true });
     if (!career) return res.status(404).json({ message: 'Career not found' });
     res.json(career);
 });
 
 exports.deleteCareer = handleAsync(async (req, res) => {
-    const result = await Career.delete(req.params.id);
-    if (!result) return res.status(404).json({ message: 'Career not found' });
+    const career = await Career.findByIdAndDelete(req.params.id);
+    if (!career) return res.status(404).json({ message: 'Career not found' });
     res.status(204).send();
 });
