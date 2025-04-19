@@ -1,35 +1,70 @@
 // User.js
 
 const mongoose = require('mongoose');
-const bcrypt = require('bcrypt');
-const { roles } = require('../config');
+const Schema = mongoose.Schema;
 
-const userSchema = new mongoose.Schema({
-    username: {
-        type: String,
-        required: true,
-        unique: true,
-    },
-    password: {
-        type: String,
-        required: true,
-    },
-    role: {
-        type: String,
-        enum: Object.values(roles),
-        default: roles.STUDENT,
-    },
+const userSchema = new Schema({
+  username: {
+    type: String,
+    required: true,
+    unique: true,
+    trim: true
+  },
+  email: {
+    type: String, 
+    required: true,
+    unique: true,
+    trim: true,
+    lowercase: true
+  },
+  password: {
+    type: String,
+    required: true
+  },
+  phone_number: {
+    type: String,
+    maxLength: 10,
+    trim: true
+  },
+  role: {
+    type: String,
+    enum: ['student', 'university_student', 'parent', 'admin'],
+    default: 'student'
+  },
+  full_name: {
+    type: String,
+    required: true
+  },
+  date_of_birth: {
+    type: Date
+  },
+  gender: {
+    type: Boolean, // 0: Female, 1: Male
+    required: true
+  },
+  preferences: {
+    type: Map,
+    of: [String], // Array of strings
+    default: {
+      majors: [],
+      universities: []
+    }
+  },
+  is_active: {
+    type: Boolean,
+    default: true
+  }
+}, {
+  timestamps: { 
+    createdAt: 'created_at',
+    updatedAt: 'updated_at'
+  }
 });
 
-userSchema.pre('save', async function (next) {
-    if (!this.isModified('password')) return next();
-    const salt = await bcrypt.genSalt(10);
-    this.password = await bcrypt.hash(this.password, salt);
-    next();
-});
+// Indexes
+userSchema.index({ email: 1 });
+userSchema.index({ username: 1 });
 
-userSchema.methods.comparePassword = async function (candidatePassword) {
-    return await bcrypt.compare(candidatePassword, this.password);
-};
+const User = mongoose.model('User', userSchema);
 
-module.exports = mongoose.model('User', userSchema);
+module.exports = User;
