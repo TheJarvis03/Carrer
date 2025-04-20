@@ -396,12 +396,6 @@
         "description": ""
     },
     {
-        "major_id": "TF073",
-        "major_code": "72104",
-        "major_name": "Năng khiếu Mỹ thuật ứng dụng",
-        "description": ""
-    },
-    {
         "major_id": "TF074",
         "major_code": "7210402",
         "major_name": "Thiết kế công nghiệp",
@@ -429,18 +423,6 @@
         "major_id": "TF078",
         "major_code": "7210408",
         "major_name": "Nghệ thuật số (Digital Art)",
-        "description": ""
-    },
-    {
-        "major_id": "TF079",
-        "major_code": "72190",
-        "major_name": "Khác",
-        "description": ""
-    },
-    {
-        "major_id": "TF080",
-        "major_code": "72201",
-        "major_name": "Ngôn ngữ, Văn học và Văn hóa Việt Nam",
         "description": ""
     },
     {
