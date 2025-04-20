@@ -1,0 +1,494 @@
+[
+    {
+        "group_id": "71401",
+        "group_name": "Khoa học giáo dục",
+        "majors": [
+            {
+                "major_id": "TF002",
+                "major_code": "7140101",
+                "major_name": "Giáo dục học",
+                "description": ""
+            },
+            {
+                "major_id": "TF003",
+                "major_code": "7140114",
+                "major_name": "Quản lý giáo dục",
+                "description": ""
+            },
+            {
+                "major_id": "TF004",
+                "major_code": "7140199",
+                "major_name": "Kinh tế Giáo dục",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "group_id": "71402",
+        "group_name": "Đào tạo giáo viên sư phạm",
+        "majors": [
+            {
+                "major_id": "TF006",
+                "major_code": "7140201",
+                "major_name": "Giáo dục Mầm non",
+                "description": ""
+            },
+            {
+                "major_id": "TF007",
+                "major_code": "7140202",
+                "major_name": "Giáo dục Tiểu học",
+                "description": ""
+            },
+            {
+                "major_id": "TF008",
+                "major_code": "7140203",
+                "major_name": "Giáo dục Đặc biệt",
+                "description": ""
+            },
+            {
+                "major_id": "TF009",
+                "major_code": "7140204",
+                "major_name": "Giáo dục Công dân",
+                "description": ""
+            },
+            {
+                "major_id": "TF010",
+                "major_code": "7140205",
+                "major_name": "Giáo dục Chính trị",
+                "description": ""
+            },
+            {
+                "major_id": "TF011",
+                "major_code": "7140206",
+                "major_name": "Giáo dục Thể chất",
+                "description": ""
+            },
+            {
+                "major_id": "TF012",
+                "major_code": "7140207",
+                "major_name": "Huấn luyện thể thao",
+                "description": ""
+            },
+            {
+                "major_id": "TF013",
+                "major_code": "7140208",
+                "major_name": "Giáo dục Quốc phòng – An ninh",
+                "description": ""
+            },
+            {
+                "major_id": "TF014",
+                "major_code": "7140209",
+                "major_name": "Sư phạm Toán học",
+                "description": ""
+            },
+            {
+                "major_id": "TF015",
+                "major_code": "7140210",
+                "major_name": "Sư phạm Tin học",
+                "description": ""
+            },
+            {
+                "major_id": "TF016",
+                "major_code": "7140211",
+                "major_name": "Sư phạm Vật lý",
+                "description": ""
+            },
+            {
+                "major_id": "TF017",
+                "major_code": "7140212",
+                "major_name": "Sư phạm Hóa học",
+                "description": ""
+            },
+            {
+                "major_id": "TF018",
+                "major_code": "7140213",
+                "major_name": "Sư phạm Sinh học",
+                "description": ""
+            },
+            {
+                "major_id": "TF019",
+                "major_code": "7140214",
+                "major_name": "Sư phạm Kỹ thuật Công nghiệp",
+                "description": ""
+            },
+            {
+                "major_id": "TF020",
+                "major_code": "7140215",
+                "major_name": "Sư phạm Kỹ thuật Nông nghiệp",
+                "description": ""
+            },
+            {
+                "major_id": "TF021",
+                "major_code": "7140217",
+                "major_name": "Sư phạm Ngữ văn",
+                "description": ""
+            },
+            {
+                "major_id": "TF022",
+                "major_code": "7140218",
+                "major_name": "Sư phạm Lịch sử",
+                "description": ""
+            },
+            {
+                "major_id": "TF023",
+                "major_code": "7140219",
+                "major_name": "Sư phạm Địa lý",
+                "description": ""
+            },
+            {
+                "major_id": "TF024",
+                "major_code": "7140221",
+                "major_name": "Sư phạm Âm nhạc",
+                "description": ""
+            },
+            {
+                "major_id": "TF025",
+                "major_code": "7140222",
+                "major_name": "Sư phạm Mỹ thuật",
+                "description": ""
+            },
+            {
+                "major_id": "TF026",
+                "major_code": "7140231",
+                "major_name": "Sư phạm Tiếng Anh",
+                "description": ""
+            },
+            {
+                "major_id": "TF027",
+                "major_code": "7140232",
+                "major_name": "Sư phạm Tiếng Nga",
+                "description": ""
+            },
+            {
+                "major_id": "TF028",
+                "major_code": "7140233",
+                "major_name": "Sư phạm Tiếng Pháp",
+                "description": ""
+            },
+            {
+                "major_id": "TF029",
+                "major_code": "7140234",
+                "major_name": "Sư phạm Tiếng Trung Quốc",
+                "description": ""
+            },
+            {
+                "major_id": "TF030",
+                "major_code": "7140235",
+                "major_name": "Sư phạm Tiếng Đức",
+                "description": ""
+            },
+            {
+                "major_id": "TF031",
+                "major_code": "7140236",
+                "major_name": "Sư phạm Tiếng Nhật",
+                "description": ""
+            },
+            {
+                "major_id": "TF032",
+                "major_code": "7140237",
+                "major_name": "Sư phạm Tiếng Hàn Quốc",
+                "description": ""
+            },
+            {
+                "major_id": "TF033",
+                "major_code": "7140245",
+                "major_name": "Sư phạm Nghệ thuật",
+                "description": ""
+            },
+            {
+                "major_id": "TF034",
+                "major_code": "7140246",
+                "major_name": "Sư phạm Công nghệ",
+                "description": ""
+            },
+            {
+                "major_id": "TF035",
+                "major_code": "7140247",
+                "major_name": "Sư phạm Khoa học tự nhiên",
+                "description": ""
+            },
+            {
+                "major_id": "TF036",
+                "major_code": "7140248",
+                "major_name": "Giáo dục Pháp luật",
+                "description": ""
+            },
+            {
+                "major_id": "TF037",
+                "major_code": "7140249",
+                "major_name": "Sư phạm Lịch sử - Địa lý",
+                "description": ""
+            },
+            {
+                "major_id": "TF038",
+                "major_code": "7140250",
+                "major_name": "Sư phạm Tin học - Công nghệ",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "group_id": "72101",
+        "group_name": "Năng khiếu Mỹ thuật",
+        "majors": [
+            {
+                "major_id": "TF041",
+                "major_code": "7210101",
+                "major_name": "Lý luận lịch sử và Phê bình mỹ thuật",
+                "description": ""
+            },
+            {
+                "major_id": "TF042",
+                "major_code": "7210103",
+                "major_name": "Hội họa",
+                "description": ""
+            },
+            {
+                "major_id": "TF043",
+                "major_code": "7210104",
+                "major_name": "Đồ họa",
+                "description": ""
+            },
+            {
+                "major_id": "TF044",
+                "major_code": "7210105",
+                "major_name": "Điêu khắc",
+                "description": ""
+            },
+            {
+                "major_id": "TF045",
+                "major_code": "7210107",
+                "major_name": "Gốm",
+                "description": ""
+            },
+            {
+                "major_id": "TF046",
+                "major_code": "7210110",
+                "major_name": "Mỹ thuật đô thị",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "group_id": "72102",
+        "group_name": "Mỹ thuật đô thị",
+        "majors": [
+            {
+                "major_id": "TF047",
+                "major_code": "72102",
+                "major_name": "Năng khiếu Trình diễn",
+                "description": ""
+            },
+            {
+                "major_id": "TF048",
+                "major_code": "7210201",
+                "major_name": "Âm nhạc học",
+                "description": ""
+            },
+            {
+                "major_id": "TF049",
+                "major_code": "7210203",
+                "major_name": "Sáng tác Âm nhạc",
+                "description": ""
+            },
+            {
+                "major_id": "TF050",
+                "major_code": "7210204",
+                "major_name": "Chỉ huy Âm nhạc",
+                "description": ""
+            },
+            {
+                "major_id": "TF051",
+                "major_code": "7210205",
+                "major_name": "Thanh nhạc",
+                "description": ""
+            },
+            {
+                "major_id": "TF052",
+                "major_code": "7210207",
+                "major_name": "Biểu diễn nhạc cụ phương Tây",
+                "description": ""
+            },
+            {
+                "major_id": "TF053",
+                "major_code": "7210208",
+                "major_name": "Piano",
+                "description": ""
+            },
+            {
+                "major_id": "TF054",
+                "major_code": "7210209",
+                "major_name": "Nhạc Jazz",
+                "description": ""
+            },
+            {
+                "major_id": "TF055",
+                "major_code": "7210210",
+                "major_name": "Biểu diễn nhạc cụ truyền thống",
+                "description": ""
+            },
+            {
+                "major_id": "TF056",
+                "major_code": "7210221",
+                "major_name": "Lý luận, Lịch sử và Phê bình sân khấu",
+                "description": ""
+            },
+            {
+                "major_id": "TF057",
+                "major_code": "7210225",
+                "major_name": "Biên kịch sân khấu",
+                "description": ""
+            },
+            {
+                "major_id": "TF058",
+                "major_code": "7210226",
+                "major_name": "Diễn viên sân khấu kịch hát",
+                "description": ""
+            },
+            {
+                "major_id": "TF059",
+                "major_code": "7210227",
+                "major_name": "Đạo diễn sân khấu",
+                "description": ""
+            },
+            {
+                "major_id": "TF060",
+                "major_code": "7210231",
+                "major_name": "Lý luận, Lịch sử và Phê bình điện ảnh, truyền hình",
+                "description": ""
+            },
+            {
+                "major_id": "TF061",
+                "major_code": "7210233",
+                "major_name": "Biên kịch điện ảnh, truyền hình",
+                "description": ""
+            },
+            {
+                "major_id": "TF062",
+                "major_code": "7210234",
+                "major_name": "Diễn viên kịch, điện ảnh - truyền hình",
+                "description": ""
+            },
+            {
+                "major_id": "TF063",
+                "major_code": "7210235",
+                "major_name": "Đạo diễn điện ảnh, truyền hình",
+                "description": ""
+            },
+            {
+                "major_id": "TF064",
+                "major_code": "7210236",
+                "major_name": "Quay phim",
+                "description": ""
+            },
+            {
+                "major_id": "TF065",
+                "major_code": "7210241",
+                "major_name": "Lý luận, Lịch sử và Phê bình múa",
+                "description": ""
+            },
+            {
+                "major_id": "TF066",
+                "major_code": "7210242",
+                "major_name": "Diễn viên múa",
+                "description": ""
+            },
+            {
+                "major_id": "TF067",
+                "major_code": "7210243",
+                "major_name": "Biên đạo múa",
+                "description": ""
+            },
+            {
+                "major_id": "TF068",
+                "major_code": "7210244",
+                "major_name": "Huấn luyện múa",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "group_id": "72103",
+        "group_name": "Năng khiếu nghe nhìn",
+        "majors": [
+            {
+                "major_id": "TF070",
+                "major_code": "7210301",
+                "major_name": "Nhiếp ảnh",
+                "description": ""
+            },
+            {
+                "major_id": "TF071",
+                "major_code": "7210302",
+                "major_name": "Công nghệ điện ảnh, truyền hình",
+                "description": ""
+            },
+            {
+                "major_id": "TF072",
+                "major_code": "7210303",
+                "major_name": "Thiết kế âm thanh, ánh sáng",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "group_id": "71402",
+        "group_name": "Đào tạo giáo viên sư phạm",
+        "majors": [
+            {
+                "major_id": "TF006",
+                "major_code": "7140201",
+                "major_name": "Giáo dục Mầm non",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "group_id": "71402",
+        "group_name": "Đào tạo giáo viên sư phạm",
+        "majors": [
+            {
+                "major_id": "TF006",
+                "major_code": "7140201",
+                "major_name": "Giáo dục Mầm non",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "group_id": "71402",
+        "group_name": "Đào tạo giáo viên sư phạm",
+        "majors": [
+            {
+                "major_id": "TF006",
+                "major_code": "7140201",
+                "major_name": "Giáo dục Mầm non",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "group_id": "71402",
+        "group_name": "Đào tạo giáo viên sư phạm",
+        "majors": [
+            {
+                "major_id": "TF006",
+                "major_code": "7140201",
+                "major_name": "Giáo dục Mầm non",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "group_id": "71402",
+        "group_name": "Đào tạo giáo viên sư phạm",
+        "majors": [
+            {
+                "major_id": "TF006",
+                "major_code": "7140201",
+                "major_name": "Giáo dục Mầm non",
+                "description": ""
+            }
+        ]
+    }
+]

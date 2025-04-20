@@ -1,11 +1,5 @@
 [
     {
-        "major_id": "TF001",
-        "major_code": "71401",
-        "major_name": "Khoa học giáo dục",
-        "description": ""
-    },
-    {
         "major_id": "TF002",
         "major_code": "7140101",
         "major_name": "Giáo dục học",
@@ -21,12 +15,6 @@
         "major_id": "TF004",
         "major_code": "7140199",
         "major_name": "Kinh tế Giáo dục",
-        "description": ""
-    },
-    {
-        "major_id": "TF005",
-        "major_code": "71402",
-        "major_name": "Đào tạo giáo viên sư phạm",
         "description": ""
     },
     {
@@ -228,18 +216,6 @@
         "description": ""
     },
     {
-        "major_id": "TF039",
-        "major_code": "71490",
-        "major_name": "Khác",
-        "description": ""
-    },
-    {
-        "major_id": "TF040",
-        "major_code": "72101",
-        "major_name": "Năng khiếu Mỹ thuật",
-        "description": ""
-    },
-    {
         "major_id": "TF041",
         "major_code": "7210101",
         "major_name": "Lý luận lịch sử và Phê bình mỹ thuật",
@@ -267,12 +243,6 @@
         "major_id": "TF045",
         "major_code": "7210107",
         "major_name": "Gốm",
-        "description": ""
-    },
-    {
-        "major_id": "TF046",
-        "major_code": "7210110",
-        "major_name": "Mỹ thuật đô thị",
         "description": ""
     },
     {
@@ -405,12 +375,6 @@
         "major_id": "TF068",
         "major_code": "7210244",
         "major_name": "Huấn luyện múa",
-        "description": ""
-    },
-    {
-        "major_id": "TF069",
-        "major_code": "72103",
-        "major_name": "Năng khiếu Nghe nhìn",
         "description": ""
     },
     {
