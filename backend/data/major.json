@@ -246,12 +246,6 @@
         "description": ""
     },
     {
-        "major_id": "TF047",
-        "major_code": "72102",
-        "major_name": "Năng khiếu Trình diễn",
-        "description": ""
-    },
-    {
         "major_id": "TF048",
         "major_code": "7210201",
         "major_name": "Âm nhạc học",
@@ -474,12 +468,6 @@
         "description": ""
     },
     {
-        "major_id": "TF089",
-        "major_code": "72202",
-        "major_name": "Ngôn ngữ, Văn học và Văn hóa nước ngoài",
-        "description": ""
-    },
-    {
         "major_id": "TF090",
         "major_code": "7220201",
         "major_name": "Ngôn ngữ Anh",
@@ -606,12 +594,6 @@
         "description": ""
     },
     {
-        "major_id": "TF120",
-        "major_code": "73101",
-        "major_name": "Kinh tế học",
-        "description": ""
-    },
-    {
         "major_id": "TF121",
         "major_code": "7310101",
         "major_name": "Kinh tế",
@@ -672,12 +654,6 @@
         "description": ""
     },
     {
-        "major_id": "TF131",
-        "major_code": "73102",
-        "major_name": "Khoa học chính trị",
-        "description": ""
-    },
-    {
         "major_id": "TF132",
         "major_code": "7310201",
         "major_name": "Chính trị học",
@@ -708,12 +684,6 @@
         "description": ""
     },
     {
-        "major_id": "TF137",
-        "major_code": "73103",
-        "major_name": "Xã hội học và nhân học",
-        "description": ""
-    },
-    {
         "major_id": "TF138",
         "major_code": "7310301",
         "major_name": "Xã hội học",
@@ -732,12 +702,6 @@
         "description": ""
     },
     {
-        "major_id": "TF141",
-        "major_code": "73104",
-        "major_name": "Tâm lý học",
-        "description": ""
-    },
-    {
         "major_id": "TF142",
         "major_code": "7310401",
         "major_name": "Tâm lý học",
@@ -750,21 +714,9 @@
         "description": ""
     },
     {
-        "major_id": "TF144",
-        "major_code": "73105",
-        "major_name": "Địa lý học",
-        "description": ""
-    },
-    {
         "major_id": "TF145",
         "major_code": "7310501",
         "major_name": "Địa lý học",
-        "description": ""
-    },
-    {
-        "major_id": "TF146",
-        "major_code": "73106",
-        "major_name": "Khu vực học",
         "description": ""
     },
     {
@@ -828,12 +780,6 @@
         "description": ""
     },
     {
-        "major_id": "TF157",
-        "major_code": "73201",
-        "major_name": "Báo chí và truyền thông",
-        "description": ""
-    },
-    {
         "major_id": "TF158",
         "major_code": "7320101",
         "major_name": "Báo chí",
@@ -882,12 +828,6 @@
         "description": ""
     },
     {
-        "major_id": "TF166",
-        "major_code": "73202",
-        "major_name": "Thông tin – Thư viện",
-        "description": ""
-    },
-    {
         "major_id": "TF167",
         "major_code": "7320201",
         "major_name": "Thông tin – Thư viện",
@@ -903,12 +843,6 @@
         "major_id": "TF169",
         "major_code": "7320205",
         "major_name": "Quản lý thông tin",
-        "description": ""
-    },
-    {
-        "major_id": "TF170",
-        "major_code": "73203",
-        "major_name": "Văn thư, lưu trữ, bảo tàng",
         "description": ""
     },
     {
@@ -933,18 +867,6 @@
         "major_id": "TF174",
         "major_code": "7320402",
         "major_name": "Kinh doanh xuất bản phẩm",
-        "description": ""
-    },
-    {
-        "major_id": "TF175",
-        "major_code": "73290",
-        "major_name": "Khác",
-        "description": ""
-    },
-    {
-        "major_id": "TF176",
-        "major_code": "73401",
-        "major_name": "Kinh doanh",
         "description": ""
     },
     {
@@ -1008,12 +930,6 @@
         "description": ""
     },
     {
-        "major_id": "TF187",
-        "major_code": "73402",
-        "major_name": "Tài chính – Ngân hàng – Bảo hiểm",
-        "description": ""
-    },
-    {
         "major_id": "TF188",
         "major_code": "7340201",
         "major_name": "Tài chính – Ngân hàng",
@@ -1044,12 +960,6 @@
         "description": ""
     },
     {
-        "major_id": "TF193",
-        "major_code": "73403",
-        "major_name": "Kế toán – Kiểm toán",
-        "description": ""
-    },
-    {
         "major_id": "TF194",
         "major_code": "7340301",
         "major_name": "Kế toán",
@@ -1059,12 +969,6 @@
         "major_id": "TF195",
         "major_code": "7340302",
         "major_name": "Kiểm toán",
-        "description": ""
-    },
-    {
-        "major_id": "TF196",
-        "major_code": "73404",
-        "major_name": "Quản trị – Quản lý",
         "description": ""
     },
     {
@@ -1140,21 +1044,9 @@
         "description": ""
     },
     {
-        "major_id": "TF209",
-        "major_code": "73490",
-        "major_name": "Khác",
-        "description": ""
-    },
-    {
         "major_id": "TF210",
         "major_code": "7349004",
         "major_name": "Phân tích dữ liệu kinh doanh",
-        "description": ""
-    },
-    {
-        "major_id": "TF211",
-        "major_code": "73801",
-        "major_name": "Luật",
         "description": ""
     },
     {
@@ -1206,18 +1098,6 @@
         "description": ""
     },
     {
-        "major_id": "TF220",
-        "major_code": "73890",
-        "major_name": "Khác",
-        "description": ""
-    },
-    {
-        "major_id": "TF221",
-        "major_code": "74201",
-        "major_name": "Sinh học",
-        "description": ""
-    },
-    {
         "major_id": "TF222",
         "major_code": "7420101",
         "major_name": "Sinh học",
@@ -1266,12 +1146,6 @@
         "description": ""
     },
     {
-        "major_id": "TF230",
-        "major_code": "74401",
-        "major_name": "Khoa học vật chất",
-        "description": ""
-    },
-    {
         "major_id": "TF231",
         "major_code": "7440101",
         "major_name": "Thiên văn học",
@@ -1305,12 +1179,6 @@
         "major_id": "TF236",
         "major_code": "7440122",
         "major_name": "Khoa học vật liệu",
-        "description": ""
-    },
-    {
-        "major_id": "TF237",
-        "major_code": "74402",
-        "major_name": "Khoa học trái đất",
         "description": ""
     },
     {
@@ -1356,21 +1224,9 @@
         "description": ""
     },
     {
-        "major_id": "TF245",
-        "major_code": "74403",
-        "major_name": "Khoa học môi trường",
-        "description": ""
-    },
-    {
         "major_id": "TF246",
         "major_code": "7440301",
         "major_name": "Khoa học môi trường",
-        "description": ""
-    },
-    {
-        "major_id": "TF247",
-        "major_code": "74601",
-        "major_name": "Toán học",
         "description": ""
     },
     {
@@ -1410,27 +1266,9 @@
         "description": ""
     },
     {
-        "major_id": "TF254",
-        "major_code": "74602",
-        "major_name": "Nhóm Thống kê",
-        "description": ""
-    },
-    {
         "major_id": "TF255",
         "major_code": "7460201",
         "major_name": "Thống kê",
-        "description": ""
-    },
-    {
-        "major_id": "TF256",
-        "major_code": "74690",
-        "major_name": "Khác",
-        "description": ""
-    },
-    {
-        "major_id": "TF257",
-        "major_code": "74801",
-        "major_name": "Máy tính",
         "description": ""
     },
     {
@@ -1494,12 +1332,6 @@
         "description": ""
     },
     {
-        "major_id": "TF268",
-        "major_code": "74802",
-        "major_name": "Công nghệ thông tin",
-        "description": ""
-    },
-    {
         "major_id": "TF269",
         "major_code": "7480201",
         "major_name": "Công nghệ thông tin",
@@ -1542,12 +1374,6 @@
         "description": ""
     },
     {
-        "major_id": "TF275",
-        "major_code": "75101",
-        "major_name": "Công nghệ kỹ thuật kiến trúc và công trình xây dựng",
-        "description": ""
-    },
-    {
         "major_id": "TF276",
         "major_code": "7510101",
         "major_name": "Công nghệ Kỹ thuật Kiến trúc",
@@ -1581,12 +1407,6 @@
         "major_id": "TF281",
         "major_code": "7510106",
         "major_name": "Hệ thống Kỹ thuật Công trình xây dựng",
-        "description": ""
-    },
-    {
-        "major_id": "TF282",
-        "major_code": "75102",
-        "major_name": "Công nghệ Kỹ thuật cơ khí",
         "description": ""
     },
     {
@@ -1656,12 +1476,6 @@
         "description": ""
     },
     {
-        "major_id": "TF294",
-        "major_code": "75103",
-        "major_name": "Công nghệ Kỹ thuật điện, điện tử và viễn thông",
-        "description": ""
-    },
-    {
         "major_id": "TF295",
         "major_code": "7510300",
         "major_name": "Điện tử – Tin học công nghiệp",
@@ -1689,12 +1503,6 @@
         "major_id": "TF299",
         "major_code": "7510304",
         "major_name": "IoT và Trí tuệ nhân tạo ứng dụng",
-        "description": ""
-    },
-    {
-        "major_id": "TF300",
-        "major_code": "75104",
-        "major_name": "Công nghệ hóa học, vật liệu, luyện kim và môi trường",
         "description": ""
     },
     {
@@ -1728,12 +1536,6 @@
         "description": ""
     },
     {
-        "major_id": "TF306",
-        "major_code": "75106",
-        "major_name": "Quản lý công nghiệp",
-        "description": ""
-    },
-    {
         "major_id": "TF307",
         "major_code": "7510601",
         "major_name": "Quản lý Công nghiệp",
@@ -1764,33 +1566,15 @@
         "description": ""
     },
     {
-        "major_id": "TF312",
-        "major_code": "75107",
-        "major_name": "Công nghệ dầu khí và khai thác",
-        "description": ""
-    },
-    {
         "major_id": "TF313",
         "major_code": "7510701",
         "major_name": "Công nghệ Dầu khí và Khai thác dầu",
         "description": ""
     },
     {
-        "major_id": "TF314",
-        "major_code": "75108",
-        "major_name": "Công nghệ kỹ thuật in",
-        "description": ""
-    },
-    {
         "major_id": "TF315",
         "major_code": "7510801",
         "major_name": "Công nghệ Kỹ thuật in",
-        "description": ""
-    },
-    {
-        "major_id": "TF316",
-        "major_code": "75190",
-        "major_name": "Khác",
         "description": ""
     },
     {
@@ -1815,12 +1599,6 @@
         "major_id": "TF320",
         "major_code": "7519007",
         "major_name": "Công nghệ Kỹ thuật Năng lượng tái tạo",
-        "description": ""
-    },
-    {
-        "major_id": "TF321",
-        "major_code": "75201",
-        "major_name": "Nhóm Kỹ thuật cơ khí và cơ kỹ thuật",
         "description": ""
     },
     {
@@ -1914,12 +1692,6 @@
         "description": ""
     },
     {
-        "major_id": "TF337",
-        "major_code": "75202",
-        "major_name": "Kỹ thuật điện, điện tử và viễn thông",
-        "description": ""
-    },
-    {
         "major_id": "TF338",
         "major_code": "7520201",
         "major_name": "Kỹ thuật điện",
@@ -1980,12 +1752,6 @@
         "description": ""
     },
     {
-        "major_id": "TF348",
-        "major_code": "75203",
-        "major_name": "Kỹ thuật hóa học, vật liệu, luyện kim và môi trường",
-        "description": ""
-    },
-    {
         "major_id": "TF349",
         "major_code": "7520301",
         "major_name": "Kỹ thuật Hóa học",
@@ -2016,12 +1782,6 @@
         "description": ""
     },
     {
-        "major_id": "TF354",
-        "major_code": "75204",
-        "major_name": "Vật lý kỹ thuật",
-        "description": ""
-    },
-    {
         "major_id": "TF355",
         "major_code": "7520401",
         "major_name": "Vật lý Kỹ thuật",
@@ -2040,12 +1800,6 @@
         "description": ""
     },
     {
-        "major_id": "TF358",
-        "major_code": "75205",
-        "major_name": "Kỹ thuật địa chất, địa vật lý và trắc địa",
-        "description": ""
-    },
-    {
         "major_id": "TF359",
         "major_code": "7520501",
         "major_name": "Kỹ thuật địa chất",
@@ -2061,12 +1815,6 @@
         "major_id": "TF361",
         "major_code": "7520503",
         "major_name": "Kỹ thuật trắc địa – bản đồ",
-        "description": ""
-    },
-    {
-        "major_id": "TF362",
-        "major_code": "75206",
-        "major_name": "Kỹ thuật mỏ",
         "description": ""
     },
     {
@@ -2103,12 +1851,6 @@
         "major_id": "TF368",
         "major_code": "7520607",
         "major_name": "Kỹ thuật Tuyển khoáng",
-        "description": ""
-    },
-    {
-        "major_id": "TF369",
-        "major_code": "75401",
-        "major_name": "Chế biến lương thực, thực phẩm và đồ uống",
         "description": ""
     },
     {
@@ -2154,12 +1896,6 @@
         "description": ""
     },
     {
-        "major_id": "TF377",
-        "major_code": "75402",
-        "major_name": "Sản xuất, chế biến sợi, vải, giày, da",
-        "description": ""
-    },
-    {
         "major_id": "TF378",
         "major_code": "7540202",
         "major_name": "Công nghệ sợi, dệt",
@@ -2190,21 +1926,9 @@
         "description": ""
     },
     {
-        "major_id": "TF383",
-        "major_code": "75490",
-        "major_name": "Khác",
-        "description": ""
-    },
-    {
         "major_id": "TF384",
         "major_code": "7549001",
         "major_name": "Công nghệ chế biến lâm sản",
-        "description": ""
-    },
-    {
-        "major_id": "TF385",
-        "major_code": "75801",
-        "major_name": "Kiến trúc và quy hoạch",
         "description": ""
     },
     {
@@ -2262,12 +1986,6 @@
         "description": ""
     },
     {
-        "major_id": "TF395",
-        "major_code": "75802",
-        "major_name": "Xây dựng",
-        "description": ""
-    },
-    {
         "major_id": "TF396",
         "major_code": "7580201",
         "major_name": "Kỹ thuật xây dựng",
@@ -2322,12 +2040,6 @@
         "description": ""
     },
     {
-        "major_id": "TF405",
-        "major_code": "75803",
-        "major_name": "Quản lý xây dựng",
-        "description": ""
-    },
-    {
         "major_id": "TF406",
         "major_code": "7580301",
         "major_name": "Kinh tế Xây dựng",
@@ -2337,12 +2049,6 @@
         "major_id": "TF407",
         "major_code": "7580302",
         "major_name": "Quản lý Xây dựng",
-        "description": ""
-    },
-    {
-        "major_id": "TF408",
-        "major_code": "76201",
-        "major_name": "Nông nghiệp",
         "description": ""
     },
     {
@@ -2442,12 +2148,6 @@
         "description": ""
     },
     {
-        "major_id": "TF425",
-        "major_code": "76202",
-        "major_name": "Lâm nghiệp",
-        "description": ""
-    },
-    {
         "major_id": "TF426",
         "major_code": "7620201",
         "major_name": "Lâm học",
@@ -2469,12 +2169,6 @@
         "major_id": "TF429",
         "major_code": "7620211",
         "major_name": "Quản lý tài nguyên rừng",
-        "description": ""
-    },
-    {
-        "major_id": "TF430",
-        "major_code": "76203",
-        "major_name": "Thủy sản",
         "description": ""
     },
     {
@@ -2514,12 +2208,6 @@
         "description": ""
     },
     {
-        "major_id": "TF437",
-        "major_code": "77201",
-        "major_name": "Y học",
-        "description": ""
-    },
-    {
         "major_id": "TF438",
         "major_code": "7720101",
         "major_name": "Y khoa",
@@ -2538,12 +2226,6 @@
         "description": ""
     },
     {
-        "major_id": "TF441",
-        "major_code": "77202",
-        "major_name": "Dược học",
-        "description": ""
-    },
-    {
         "major_id": "TF442",
         "major_code": "7720201",
         "major_name": "Dược học",
@@ -2553,12 +2235,6 @@
         "major_id": "TF443",
         "major_code": "7720203",
         "major_name": "Hóa dược",
-        "description": ""
-    },
-    {
-        "major_id": "TF444",
-        "major_code": "77203",
-        "major_name": "Điều dưỡng – hộ sinh",
         "description": ""
     },
     {
@@ -2580,12 +2256,6 @@
         "description": ""
     },
     {
-        "major_id": "TF448",
-        "major_code": "77204",
-        "major_name": "Dinh dưỡng",
-        "description": ""
-    },
-    {
         "major_id": "TF449",
         "major_code": "7720401",
         "major_name": "Dinh dưỡng",
@@ -2598,12 +2268,6 @@
         "description": ""
     },
     {
-        "major_id": "TF451",
-        "major_code": "77205",
-        "major_name": "Răng – Hàm – Mặt (Nha khoa)",
-        "description": ""
-    },
-    {
         "major_id": "TF452",
         "major_code": "7720501",
         "major_name": "Răng – Hàm – Mặt",
@@ -2613,12 +2277,6 @@
         "major_id": "TF453",
         "major_code": "7720502",
         "major_name": "Kỹ thuật phục hình răng",
-        "description": ""
-    },
-    {
-        "major_id": "TF454",
-        "major_code": "77206",
-        "major_name": "Kỹ thuật Y học",
         "description": ""
     },
     {
@@ -2646,21 +2304,9 @@
         "description": ""
     },
     {
-        "major_id": "TF459",
-        "major_code": "77207",
-        "major_name": "Y tế công cộng",
-        "description": ""
-    },
-    {
         "major_id": "TF460",
         "major_code": "7720701",
         "major_name": "Y tế công cộng",
-        "description": ""
-    },
-    {
-        "major_id": "TF461",
-        "major_code": "77208",
-        "major_name": "Quản lý y tế",
         "description": ""
     },
     {
@@ -2676,21 +2322,9 @@
         "description": ""
     },
     {
-        "major_id": "TF464",
-        "major_code": "77290",
-        "major_name": "Khác",
-        "description": ""
-    },
-    {
         "major_id": "TF465",
         "major_code": "7729001",
         "major_name": "Y sinh học Thể dục thể thao",
-        "description": ""
-    },
-    {
-        "major_id": "TF466",
-        "major_code": "77601",
-        "major_name": "Công tác xã hội",
         "description": ""
     },
     {
@@ -2715,12 +2349,6 @@
         "major_id": "TF470",
         "major_code": "7760104",
         "major_name": "Dân số và Phát triển",
-        "description": ""
-    },
-    {
-        "major_id": "TF471",
-        "major_code": "77690",
-        "major_name": "Khác",
         "description": ""
     },
     {
@@ -2760,12 +2388,6 @@
         "description": ""
     },
     {
-        "major_id": "TF478",
-        "major_code": "78102",
-        "major_name": "Khách sạn, nhà hàng",
-        "description": ""
-    },
-    {
         "major_id": "TF479",
         "major_code": "7810201",
         "major_name": "Quản trị Khách sạn",
@@ -2784,12 +2406,6 @@
         "description": ""
     },
     {
-        "major_id": "TF482",
-        "major_code": "78103",
-        "major_name": "Thể dục, thể thao",
-        "description": ""
-    },
-    {
         "major_id": "TF483",
         "major_code": "7810301",
         "major_name": "Quản lý thể dục thể thao",
@@ -2802,21 +2418,9 @@
         "description": ""
     },
     {
-        "major_id": "TF485",
-        "major_code": "78105",
-        "major_name": "Kinh tế gia đình",
-        "description": ""
-    },
-    {
         "major_id": "TF486",
         "major_code": "7810501",
         "major_name": "Kinh tế gia đình",
-        "description": ""
-    },
-    {
-        "major_id": "TF487",
-        "major_code": "78190",
-        "major_name": "Khác",
         "description": ""
     },
     {
@@ -2829,12 +2433,6 @@
         "major_id": "TF489",
         "major_code": "7819010",
         "major_name": "Khoa học Chế biến món ăn",
-        "description": ""
-    },
-    {
-        "major_id": "TF490",
-        "major_code": "78401",
-        "major_name": "Khai thác vận tải",
         "description": ""
     },
     {
@@ -2859,12 +2457,6 @@
         "major_id": "TF494",
         "major_code": "7840106",
         "major_name": "Khoa học hàng hải",
-        "description": ""
-    },
-    {
-        "major_id": "TF495",
-        "major_code": "78501",
-        "major_name": "Quản lý tài nguyên và môi trường",
         "description": ""
     },
     {
@@ -2928,21 +2520,9 @@
         "description": ""
     },
     {
-        "major_id": "TF506",
-        "major_code": "78502",
-        "major_name": "Dịch vụ an toàn lao động và vệ sinh công nghiệp",
-        "description": ""
-    },
-    {
         "major_id": "TF507",
         "major_code": "7850201",
         "major_name": "Bảo hộ lao động",
-        "description": ""
-    },
-    {
-        "major_id": "TF508",
-        "major_code": "78590",
-        "major_name": "Khác",
         "description": ""
     },
     {
@@ -2955,12 +2535,6 @@
         "major_id": "TF510",
         "major_code": "7859007",
         "major_name": "Cảnh quan và Kỹ thuật hoa viên",
-        "description": ""
-    },
-    {
-        "major_id": "TF511",
-        "major_code": "78601",
-        "major_name": "An ninh và trật tự xã hội",
         "description": ""
     },
     {
@@ -3051,12 +2625,6 @@
         "major_id": "TF526",
         "major_code": "7860117",
         "major_name": "Tình báo an ninh",
-        "description": ""
-    },
-    {
-        "major_id": "TF527",
-        "major_code": "78602",
-        "major_name": "Quân sự",
         "description": ""
     },
     {
@@ -3177,12 +2745,6 @@
         "major_id": "TF547",
         "major_code": "7860233",
         "major_name": "Chỉ huy kỹ thuật tác chiến điện tử",
-        "description": ""
-    },
-    {
-        "major_id": "TF548",
-        "major_code": "790",
-        "major_name": "Khác",
         "description": ""
     },
     {
