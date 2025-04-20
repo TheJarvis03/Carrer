@@ -1,0 +1,3266 @@
+[
+    {
+        "field_id": "TF001",
+        "field_code": "71401",
+        "field_name": "Khoa học giáo dục",
+        "description": ""
+    },
+    {
+        "field_id": "TF002",
+        "field_code": "7140101",
+        "field_name": "Giáo dục học",
+        "description": ""
+    },
+    {
+        "field_id": "TF003",
+        "field_code": "7140114",
+        "field_name": "Quản lý giáo dục",
+        "description": ""
+    },
+    {
+        "field_id": "TF004",
+        "field_code": "7140199",
+        "field_name": "Kinh tế Giáo dục",
+        "description": ""
+    },
+    {
+        "field_id": "TF005",
+        "field_code": "71402",
+        "field_name": "Đào tạo giáo viên sư phạm",
+        "description": ""
+    },
+    {
+        "field_id": "TF006",
+        "field_code": "7140201",
+        "field_name": "Giáo dục Mầm non",
+        "description": ""
+    },
+    {
+        "field_id": "TF007",
+        "field_code": "7140202",
+        "field_name": "Giáo dục Tiểu học",
+        "description": ""
+    },
+    {
+        "field_id": "TF008",
+        "field_code": "7140203",
+        "field_name": "Giáo dục Đặc biệt",
+        "description": ""
+    },
+    {
+        "field_id": "TF009",
+        "field_code": "7140204",
+        "field_name": "Giáo dục Công dân",
+        "description": ""
+    },
+    {
+        "field_id": "TF010",
+        "field_code": "7140205",
+        "field_name": "Giáo dục Chính trị",
+        "description": ""
+    },
+    {
+        "field_id": "TF011",
+        "field_code": "7140206",
+        "field_name": "Giáo dục Thể chất",
+        "description": ""
+    },
+    {
+        "field_id": "TF012",
+        "field_code": "7140207",
+        "field_name": "Huấn luyện thể thao",
+        "description": ""
+    },
+    {
+        "field_id": "TF013",
+        "field_code": "7140208",
+        "field_name": "Giáo dục Quốc phòng – An ninh",
+        "description": ""
+    },
+    {
+        "field_id": "TF014",
+        "field_code": "7140209",
+        "field_name": "Sư phạm Toán học",
+        "description": ""
+    },
+    {
+        "field_id": "TF015",
+        "field_code": "7140210",
+        "field_name": "Sư phạm Tin học",
+        "description": ""
+    },
+    {
+        "field_id": "TF016",
+        "field_code": "7140211",
+        "field_name": "Sư phạm Vật lý",
+        "description": ""
+    },
+    {
+        "field_id": "TF017",
+        "field_code": "7140212",
+        "field_name": "Sư phạm Hóa học",
+        "description": ""
+    },
+    {
+        "field_id": "TF018",
+        "field_code": "7140213",
+        "field_name": "Sư phạm Sinh học",
+        "description": ""
+    },
+    {
+        "field_id": "TF019",
+        "field_code": "7140214",
+        "field_name": "Sư phạm Kỹ thuật Công nghiệp",
+        "description": ""
+    },
+    {
+        "field_id": "TF020",
+        "field_code": "7140215",
+        "field_name": "Sư phạm Kỹ thuật Nông nghiệp",
+        "description": ""
+    },
+    {
+        "field_id": "TF021",
+        "field_code": "7140217",
+        "field_name": "Sư phạm Ngữ văn",
+        "description": ""
+    },
+    {
+        "field_id": "TF022",
+        "field_code": "7140218",
+        "field_name": "Sư phạm Lịch sử",
+        "description": ""
+    },
+    {
+        "field_id": "TF023",
+        "field_code": "7140219",
+        "field_name": "Sư phạm Địa lý",
+        "description": ""
+    },
+    {
+        "field_id": "TF024",
+        "field_code": "7140221",
+        "field_name": "Sư phạm Âm nhạc",
+        "description": ""
+    },
+    {
+        "field_id": "TF025",
+        "field_code": "7140222",
+        "field_name": "Sư phạm Mỹ thuật",
+        "description": ""
+    },
+    {
+        "field_id": "TF026",
+        "field_code": "7140231",
+        "field_name": "Sư phạm Tiếng Anh",
+        "description": ""
+    },
+    {
+        "field_id": "TF027",
+        "field_code": "7140232",
+        "field_name": "Sư phạm Tiếng Nga",
+        "description": ""
+    },
+    {
+        "field_id": "TF028",
+        "field_code": "7140233",
+        "field_name": "Sư phạm Tiếng Pháp",
+        "description": ""
+    },
+    {
+        "field_id": "TF029",
+        "field_code": "7140234",
+        "field_name": "Sư phạm Tiếng Trung Quốc",
+        "description": ""
+    },
+    {
+        "field_id": "TF030",
+        "field_code": "7140235",
+        "field_name": "Sư phạm Tiếng Đức",
+        "description": ""
+    },
+    {
+        "field_id": "TF031",
+        "field_code": "7140236",
+        "field_name": "Sư phạm Tiếng Nhật",
+        "description": ""
+    },
+    {
+        "field_id": "TF032",
+        "field_code": "7140237",
+        "field_name": "Sư phạm Tiếng Hàn Quốc",
+        "description": ""
+    },
+    {
+        "field_id": "TF033",
+        "field_code": "7140245",
+        "field_name": "Sư phạm Nghệ thuật",
+        "description": ""
+    },
+    {
+        "field_id": "TF034",
+        "field_code": "7140246",
+        "field_name": "Sư phạm Công nghệ",
+        "description": ""
+    },
+    {
+        "field_id": "TF035",
+        "field_code": "7140247",
+        "field_name": "Sư phạm Khoa học tự nhiên",
+        "description": ""
+    },
+    {
+        "field_id": "TF036",
+        "field_code": "7140248",
+        "field_name": "Giáo dục Pháp luật",
+        "description": ""
+    },
+    {
+        "field_id": "TF037",
+        "field_code": "7140249",
+        "field_name": "Sư phạm Lịch sử - Địa lý",
+        "description": ""
+    },
+    {
+        "field_id": "TF038",
+        "field_code": "7140250",
+        "field_name": "Sư phạm Tin học - Công nghệ",
+        "description": ""
+    },
+    {
+        "field_id": "TF039",
+        "field_code": "71490",
+        "field_name": "Khác",
+        "description": ""
+    },
+    {
+        "field_id": "TF040",
+        "field_code": "72101",
+        "field_name": "Năng khiếu Mỹ thuật",
+        "description": ""
+    },
+    {
+        "field_id": "TF041",
+        "field_code": "7210101",
+        "field_name": "Lý luận lịch sử và Phê bình mỹ thuật",
+        "description": ""
+    },
+    {
+        "field_id": "TF042",
+        "field_code": "7210103",
+        "field_name": "Hội họa",
+        "description": ""
+    },
+    {
+        "field_id": "TF043",
+        "field_code": "7210104",
+        "field_name": "Đồ họa",
+        "description": ""
+    },
+    {
+        "field_id": "TF044",
+        "field_code": "7210105",
+        "field_name": "Điêu khắc",
+        "description": ""
+    },
+    {
+        "field_id": "TF045",
+        "field_code": "7210107",
+        "field_name": "Gốm",
+        "description": ""
+    },
+    {
+        "field_id": "TF046",
+        "field_code": "7210110",
+        "field_name": "Mỹ thuật đô thị",
+        "description": ""
+    },
+    {
+        "field_id": "TF047",
+        "field_code": "72102",
+        "field_name": "Năng khiếu Trình diễn",
+        "description": ""
+    },
+    {
+        "field_id": "TF048",
+        "field_code": "7210201",
+        "field_name": "Âm nhạc học",
+        "description": ""
+    },
+    {
+        "field_id": "TF049",
+        "field_code": "7210203",
+        "field_name": "Sáng tác Âm nhạc",
+        "description": ""
+    },
+    {
+        "field_id": "TF050",
+        "field_code": "7210204",
+        "field_name": "Chỉ huy Âm nhạc",
+        "description": ""
+    },
+    {
+        "field_id": "TF051",
+        "field_code": "7210205",
+        "field_name": "Thanh nhạc",
+        "description": ""
+    },
+    {
+        "field_id": "TF052",
+        "field_code": "7210207",
+        "field_name": "Biểu diễn nhạc cụ phương Tây",
+        "description": ""
+    },
+    {
+        "field_id": "TF053",
+        "field_code": "7210208",
+        "field_name": "Piano",
+        "description": ""
+    },
+    {
+        "field_id": "TF054",
+        "field_code": "7210209",
+        "field_name": "Nhạc Jazz",
+        "description": ""
+    },
+    {
+        "field_id": "TF055",
+        "field_code": "7210210",
+        "field_name": "Biểu diễn nhạc cụ truyền thống",
+        "description": ""
+    },
+    {
+        "field_id": "TF056",
+        "field_code": "7210221",
+        "field_name": "Lý luận, Lịch sử và Phê bình sân khấu",
+        "description": ""
+    },
+    {
+        "field_id": "TF057",
+        "field_code": "7210225",
+        "field_name": "Biên kịch sân khấu",
+        "description": ""
+    },
+    {
+        "field_id": "TF058",
+        "field_code": "7210226",
+        "field_name": "Diễn viên sân khấu kịch hát",
+        "description": ""
+    },
+    {
+        "field_id": "TF059",
+        "field_code": "7210227",
+        "field_name": "Đạo diễn sân khấu",
+        "description": ""
+    },
+    {
+        "field_id": "TF060",
+        "field_code": "7210231",
+        "field_name": "Lý luận, Lịch sử và Phê bình điện ảnh, truyền hình",
+        "description": ""
+    },
+    {
+        "field_id": "TF061",
+        "field_code": "7210233",
+        "field_name": "Biên kịch điện ảnh, truyền hình",
+        "description": ""
+    },
+    {
+        "field_id": "TF062",
+        "field_code": "7210234",
+        "field_name": "Diễn viên kịch, điện ảnh - truyền hình",
+        "description": ""
+    },
+    {
+        "field_id": "TF063",
+        "field_code": "7210235",
+        "field_name": "Đạo diễn điện ảnh, truyền hình",
+        "description": ""
+    },
+    {
+        "field_id": "TF064",
+        "field_code": "7210236",
+        "field_name": "Quay phim",
+        "description": ""
+    },
+    {
+        "field_id": "TF065",
+        "field_code": "7210241",
+        "field_name": "Lý luận, Lịch sử và Phê bình múa",
+        "description": ""
+    },
+    {
+        "field_id": "TF066",
+        "field_code": "7210242",
+        "field_name": "Diễn viên múa",
+        "description": ""
+    },
+    {
+        "field_id": "TF067",
+        "field_code": "7210243",
+        "field_name": "Biên đạo múa",
+        "description": ""
+    },
+    {
+        "field_id": "TF068",
+        "field_code": "7210244",
+        "field_name": "Huấn luyện múa",
+        "description": ""
+    },
+    {
+        "field_id": "TF069",
+        "field_code": "72103",
+        "field_name": "Năng khiếu Nghe nhìn",
+        "description": ""
+    },
+    {
+        "field_id": "TF070",
+        "field_code": "7210301",
+        "field_name": "Nhiếp ảnh",
+        "description": ""
+    },
+    {
+        "field_id": "TF071",
+        "field_code": "7210302",
+        "field_name": "Công nghệ điện ảnh, truyền hình",
+        "description": ""
+    },
+    {
+        "field_id": "TF072",
+        "field_code": "7210303",
+        "field_name": "Thiết kế âm thanh, ánh sáng",
+        "description": ""
+    },
+    {
+        "field_id": "TF073",
+        "field_code": "72104",
+        "field_name": "Năng khiếu Mỹ thuật ứng dụng",
+        "description": ""
+    },
+    {
+        "field_id": "TF074",
+        "field_code": "7210402",
+        "field_name": "Thiết kế công nghiệp",
+        "description": ""
+    },
+    {
+        "field_id": "TF075",
+        "field_code": "7210403",
+        "field_name": "Thiết kế đồ họa",
+        "description": ""
+    },
+    {
+        "field_id": "TF076",
+        "field_code": "7210404",
+        "field_name": "Thiết kế thời trang",
+        "description": ""
+    },
+    {
+        "field_id": "TF077",
+        "field_code": "7210406",
+        "field_name": "Thiết kế mỹ thuật sân khấu, điện ảnh",
+        "description": ""
+    },
+    {
+        "field_id": "TF078",
+        "field_code": "7210408",
+        "field_name": "Nghệ thuật số (Digital Art)",
+        "description": ""
+    },
+    {
+        "field_id": "TF079",
+        "field_code": "72190",
+        "field_name": "Khác",
+        "description": ""
+    },
+    {
+        "field_id": "TF080",
+        "field_code": "72201",
+        "field_name": "Ngôn ngữ, Văn học và Văn hóa Việt Nam",
+        "description": ""
+    },
+    {
+        "field_id": "TF081",
+        "field_code": "7220101",
+        "field_name": "Tiếng Việt và Văn hóa Việt Nam",
+        "description": ""
+    },
+    {
+        "field_id": "TF082",
+        "field_code": "7220104",
+        "field_name": "Hán Nôm",
+        "description": ""
+    },
+    {
+        "field_id": "TF083",
+        "field_code": "7220105",
+        "field_name": "Ngôn ngữ Jrai",
+        "description": ""
+    },
+    {
+        "field_id": "TF084",
+        "field_code": "7220106",
+        "field_name": "Ngôn ngữ Khmer",
+        "description": ""
+    },
+    {
+        "field_id": "TF085",
+        "field_code": "7220107",
+        "field_name": "Ngôn ngữ H'mông",
+        "description": ""
+    },
+    {
+        "field_id": "TF086",
+        "field_code": "7220108",
+        "field_name": "Ngôn ngữ Chăm",
+        "description": ""
+    },
+    {
+        "field_id": "TF087",
+        "field_code": "7220110",
+        "field_name": "Sáng tác Văn học",
+        "description": ""
+    },
+    {
+        "field_id": "TF088",
+        "field_code": "7220112",
+        "field_name": "Văn hóa các dân tộc thiểu số Việt Nam",
+        "description": ""
+    },
+    {
+        "field_id": "TF089",
+        "field_code": "72202",
+        "field_name": "Ngôn ngữ, Văn học và Văn hóa nước ngoài",
+        "description": ""
+    },
+    {
+        "field_id": "TF090",
+        "field_code": "7220201",
+        "field_name": "Ngôn ngữ Anh",
+        "description": ""
+    },
+    {
+        "field_id": "TF091",
+        "field_code": "7220202",
+        "field_name": "Ngôn ngữ Nga",
+        "description": ""
+    },
+    {
+        "field_id": "TF092",
+        "field_code": "7220203",
+        "field_name": "Ngôn ngữ Pháp",
+        "description": ""
+    },
+    {
+        "field_id": "TF093",
+        "field_code": "7220204",
+        "field_name": "Ngôn ngữ Trung Quốc",
+        "description": ""
+    },
+    {
+        "field_id": "TF094",
+        "field_code": "7220205",
+        "field_name": "Ngôn ngữ Đức",
+        "description": ""
+    },
+    {
+        "field_id": "TF095",
+        "field_code": "7220206",
+        "field_name": "Ngôn ngữ Tây Ban Nha",
+        "description": ""
+    },
+    {
+        "field_id": "TF096",
+        "field_code": "7220207",
+        "field_name": "Ngôn ngữ Bồ Đào Nha",
+        "description": ""
+    },
+    {
+        "field_id": "TF097",
+        "field_code": "7220208",
+        "field_name": "Ngôn ngữ Italia",
+        "description": ""
+    },
+    {
+        "field_id": "TF098",
+        "field_code": "7220209",
+        "field_name": "Ngôn ngữ Nhật",
+        "description": ""
+    },
+    {
+        "field_id": "TF099",
+        "field_code": "7220210",
+        "field_name": "Ngôn ngữ Hàn Quốc",
+        "description": ""
+    },
+    {
+        "field_id": "TF100",
+        "field_code": "7220211",
+        "field_name": "Ngôn ngữ Ả Rập",
+        "description": ""
+    },
+    {
+        "field_id": "TF101",
+        "field_code": "7220212",
+        "field_name": "Ngôn ngữ Thái Lan",
+        "description": ""
+    },
+    {
+        "field_id": "TF102",
+        "field_code": "7229001",
+        "field_name": "Triết học",
+        "description": ""
+    },
+    {
+        "field_id": "TF103",
+        "field_code": "7229008",
+        "field_name": "Chủ nghĩa xã hội khoa học",
+        "description": ""
+    },
+    {
+        "field_id": "TF104",
+        "field_code": "7229009",
+        "field_name": "Tôn giáo học",
+        "description": ""
+    },
+    {
+        "field_id": "TF105",
+        "field_code": "7229010",
+        "field_name": "Lịch sử",
+        "description": ""
+    },
+    {
+        "field_id": "TF115",
+        "field_code": "7229020",
+        "field_name": "Ngôn ngữ học",
+        "description": ""
+    },
+    {
+        "field_id": "TF116",
+        "field_code": "7229030",
+        "field_name": "Văn học",
+        "description": ""
+    },
+    {
+        "field_id": "TF117",
+        "field_code": "7229040",
+        "field_name": "Văn hóa học",
+        "description": ""
+    },
+    {
+        "field_id": "TF118",
+        "field_code": "7229042",
+        "field_name": "Quản lý văn hóa",
+        "description": ""
+    },
+    {
+        "field_id": "TF119",
+        "field_code": "7229045",
+        "field_name": "Gia đình học",
+        "description": ""
+    },
+    {
+        "field_id": "TF120",
+        "field_code": "73101",
+        "field_name": "Kinh tế học",
+        "description": ""
+    },
+    {
+        "field_id": "TF121",
+        "field_code": "7310101",
+        "field_name": "Kinh tế",
+        "description": ""
+    },
+    {
+        "field_id": "TF122",
+        "field_code": "7310102",
+        "field_name": "Kinh tế chính trị",
+        "description": ""
+    },
+    {
+        "field_id": "TF123",
+        "field_code": "7310104",
+        "field_name": "Kinh tế đầu tư",
+        "description": ""
+    },
+    {
+        "field_id": "TF124",
+        "field_code": "7310105",
+        "field_name": "Kinh tế phát triển",
+        "description": ""
+    },
+    {
+        "field_id": "TF125",
+        "field_code": "7310106",
+        "field_name": "Kinh tế quốc tế",
+        "description": ""
+    },
+    {
+        "field_id": "TF126",
+        "field_code": "7310107",
+        "field_name": "Thống kê kinh tế",
+        "description": ""
+    },
+    {
+        "field_id": "TF127",
+        "field_code": "7310108",
+        "field_name": "Toán kinh tế",
+        "description": ""
+    },
+    {
+        "field_id": "TF128",
+        "field_code": "7310109",
+        "field_name": "Kinh tế số",
+        "description": ""
+    },
+    {
+        "field_id": "TF129",
+        "field_code": "7310110",
+        "field_name": "Quản lý kinh tế",
+        "description": ""
+    },
+    {
+        "field_id": "TF130",
+        "field_code": "7310111",
+        "field_name": "Nghiên cứu phát triển",
+        "description": ""
+    },
+    {
+        "field_id": "TF131",
+        "field_code": "73102",
+        "field_name": "Khoa học chính trị",
+        "description": ""
+    },
+    {
+        "field_id": "TF132",
+        "field_code": "7310201",
+        "field_name": "Chính trị học",
+        "description": ""
+    },
+    {
+        "field_id": "TF133",
+        "field_code": "7310202",
+        "field_name": "Xây dựng Đảng và Chính quyền Nhà nước",
+        "description": ""
+    },
+    {
+        "field_id": "TF134",
+        "field_code": "7310203",
+        "field_name": "Chính trị Công an nhân dân",
+        "description": ""
+    },
+    {
+        "field_id": "TF135",
+        "field_code": "7310205",
+        "field_name": "Quản lý nhà nước",
+        "description": ""
+    },
+    {
+        "field_id": "TF136",
+        "field_code": "7310206",
+        "field_name": "Quan hệ quốc tế",
+        "description": ""
+    },
+    {
+        "field_id": "TF137",
+        "field_code": "73103",
+        "field_name": "Xã hội học và nhân học",
+        "description": ""
+    },
+    {
+        "field_id": "TF138",
+        "field_code": "7310301",
+        "field_name": "Xã hội học",
+        "description": ""
+    },
+    {
+        "field_id": "TF139",
+        "field_code": "7310302",
+        "field_name": "Nhân học",
+        "description": ""
+    },
+    {
+        "field_id": "TF140",
+        "field_code": "7310399",
+        "field_name": "Giới và Phát triển",
+        "description": ""
+    },
+    {
+        "field_id": "TF141",
+        "field_code": "73104",
+        "field_name": "Tâm lý học",
+        "description": ""
+    },
+    {
+        "field_id": "TF142",
+        "field_code": "7310401",
+        "field_name": "Tâm lý học",
+        "description": ""
+    },
+    {
+        "field_id": "TF143",
+        "field_code": "7310403",
+        "field_name": "Tâm lý học giáo dục",
+        "description": ""
+    },
+    {
+        "field_id": "TF144",
+        "field_code": "73105",
+        "field_name": "Địa lý học",
+        "description": ""
+    },
+    {
+        "field_id": "TF145",
+        "field_code": "7310501",
+        "field_name": "Địa lý học",
+        "description": ""
+    },
+    {
+        "field_id": "TF146",
+        "field_code": "73106",
+        "field_name": "Khu vực học",
+        "description": ""
+    },
+    {
+        "field_id": "TF147",
+        "field_code": "7310601",
+        "field_name": "Quốc tế học",
+        "description": ""
+    },
+    {
+        "field_id": "TF148",
+        "field_code": "7310602",
+        "field_name": "Châu Á học",
+        "description": ""
+    },
+    {
+        "field_id": "TF149",
+        "field_code": "7310607",
+        "field_name": "Thái Bình Dương học",
+        "description": ""
+    },
+    {
+        "field_id": "TF150",
+        "field_code": "7310608",
+        "field_name": "Đông phương học",
+        "description": ""
+    },
+    {
+        "field_id": "TF151",
+        "field_code": "7310612",
+        "field_name": "Trung Quốc học",
+        "description": ""
+    },
+    {
+        "field_id": "TF152",
+        "field_code": "7310613",
+        "field_name": "Nhật Bản học",
+        "description": ""
+    },
+    {
+        "field_id": "TF153",
+        "field_code": "7310614",
+        "field_name": "Hàn Quốc học",
+        "description": ""
+    },
+    {
+        "field_id": "TF154",
+        "field_code": "7310620",
+        "field_name": "Đông Nam Á học",
+        "description": ""
+    },
+    {
+        "field_id": "TF155",
+        "field_code": "7310630",
+        "field_name": "Việt Nam học",
+        "description": ""
+    },
+    {
+        "field_id": "TF156",
+        "field_code": "7310640",
+        "field_name": "Hoa Kỳ học",
+        "description": ""
+    },
+    {
+        "field_id": "TF157",
+        "field_code": "73201",
+        "field_name": "Báo chí và truyền thông",
+        "description": ""
+    },
+    {
+        "field_id": "TF158",
+        "field_code": "7320101",
+        "field_name": "Báo chí",
+        "description": ""
+    },
+    {
+        "field_id": "TF159",
+        "field_code": "7320104",
+        "field_name": "Truyền thông đa phương tiện",
+        "description": ""
+    },
+    {
+        "field_id": "TF160",
+        "field_code": "7320105",
+        "field_name": "Truyền thông đại chúng",
+        "description": ""
+    },
+    {
+        "field_id": "TF161",
+        "field_code": "7320106",
+        "field_name": "Công nghệ truyền thông",
+        "description": ""
+    },
+    {
+        "field_id": "TF162",
+        "field_code": "7320107",
+        "field_name": "Truyền thông quốc tế",
+        "description": ""
+    },
+    {
+        "field_id": "TF163",
+        "field_code": "7320108",
+        "field_name": "Quan hệ công chúng",
+        "description": ""
+    },
+    {
+        "field_id": "TF164",
+        "field_code": "7320109",
+        "field_name": "Truyền thông doanh nghiệp",
+        "description": ""
+    },
+    {
+        "field_id": "TF165",
+        "field_code": "7320110",
+        "field_name": "Quảng cáo",
+        "description": ""
+    },
+    {
+        "field_id": "TF166",
+        "field_code": "73202",
+        "field_name": "Thông tin – Thư viện",
+        "description": ""
+    },
+    {
+        "field_id": "TF167",
+        "field_code": "7320201",
+        "field_name": "Thông tin – Thư viện",
+        "description": ""
+    },
+    {
+        "field_id": "TF168",
+        "field_code": "7320202",
+        "field_name": "Khoa học thư viện",
+        "description": ""
+    },
+    {
+        "field_id": "TF169",
+        "field_code": "7320205",
+        "field_name": "Quản lý thông tin",
+        "description": ""
+    },
+    {
+        "field_id": "TF170",
+        "field_code": "73203",
+        "field_name": "Văn thư, lưu trữ, bảo tàng",
+        "description": ""
+    },
+    {
+        "field_id": "TF171",
+        "field_code": "7320303",
+        "field_name": "Lưu trữ học",
+        "description": ""
+    },
+    {
+        "field_id": "TF172",
+        "field_code": "7320305",
+        "field_name": "Bảo tàng học",
+        "description": ""
+    },
+    {
+        "field_id": "TF173",
+        "field_code": "7320401",
+        "field_name": "Xuất bản",
+        "description": ""
+    },
+    {
+        "field_id": "TF174",
+        "field_code": "7320402",
+        "field_name": "Kinh doanh xuất bản phẩm",
+        "description": ""
+    },
+    {
+        "field_id": "TF175",
+        "field_code": "73290",
+        "field_name": "Khác",
+        "description": ""
+    },
+    {
+        "field_id": "TF176",
+        "field_code": "73401",
+        "field_name": "Kinh doanh",
+        "description": ""
+    },
+    {
+        "field_id": "TF177",
+        "field_code": "7340101",
+        "field_name": "Quản trị kinh doanh",
+        "description": ""
+    },
+    {
+        "field_id": "TF178",
+        "field_code": "7340102",
+        "field_name": "Quản trị – Luật",
+        "description": ""
+    },
+    {
+        "field_id": "TF179",
+        "field_code": "7340114",
+        "field_name": "Digital Marketing",
+        "description": ""
+    },
+    {
+        "field_id": "TF180",
+        "field_code": "7340115",
+        "field_name": "Marketing",
+        "description": ""
+    },
+    {
+        "field_id": "TF181",
+        "field_code": "7340116",
+        "field_name": "Bất động sản",
+        "description": ""
+    },
+    {
+        "field_id": "TF182",
+        "field_code": "7340120",
+        "field_name": "Kinh doanh quốc tế",
+        "description": ""
+    },
+    {
+        "field_id": "TF183",
+        "field_code": "7340121",
+        "field_name": "Kinh doanh thương mại",
+        "description": ""
+    },
+    {
+        "field_id": "TF184",
+        "field_code": "7340122",
+        "field_name": "Thương mại điện tử",
+        "description": ""
+    },
+    {
+        "field_id": "TF185",
+        "field_code": "7340123",
+        "field_name": "Kinh doanh thời trang và dệt may",
+        "description": ""
+    },
+    {
+        "field_id": "TF186",
+        "field_code": "7340124",
+        "field_name": "Quản trị và kinh doanh quốc tế",
+        "description": ""
+    },
+    {
+        "field_id": "TF187",
+        "field_code": "73402",
+        "field_name": "Tài chính – Ngân hàng – Bảo hiểm",
+        "description": ""
+    },
+    {
+        "field_id": "TF188",
+        "field_code": "7340201",
+        "field_name": "Tài chính – Ngân hàng",
+        "description": ""
+    },
+    {
+        "field_id": "TF189",
+        "field_code": "7340202",
+        "field_name": "Bảo hiểm – Tài chính",
+        "description": ""
+    },
+    {
+        "field_id": "TF190",
+        "field_code": "7340204",
+        "field_name": "Bảo hiểm",
+        "description": ""
+    },
+    {
+        "field_id": "TF191",
+        "field_code": "7340205",
+        "field_name": "Công nghệ tài chính",
+        "description": ""
+    },
+    {
+        "field_id": "TF192",
+        "field_code": "7340206",
+        "field_name": "Tài chính quốc tế",
+        "description": ""
+    },
+    {
+        "field_id": "TF193",
+        "field_code": "73403",
+        "field_name": "Kế toán – Kiểm toán",
+        "description": ""
+    },
+    {
+        "field_id": "TF194",
+        "field_code": "7340301",
+        "field_name": "Kế toán",
+        "description": ""
+    },
+    {
+        "field_id": "TF195",
+        "field_code": "7340302",
+        "field_name": "Kiểm toán",
+        "description": ""
+    },
+    {
+        "field_id": "TF196",
+        "field_code": "73404",
+        "field_name": "Quản trị – Quản lý",
+        "description": ""
+    },
+    {
+        "field_id": "TF197",
+        "field_code": "7340401",
+        "field_name": "Khoa học quản lý",
+        "description": ""
+    },
+    {
+        "field_id": "TF198",
+        "field_code": "7340403",
+        "field_name": "Quản lý công",
+        "description": ""
+    },
+    {
+        "field_id": "TF199",
+        "field_code": "7340404",
+        "field_name": "Quản trị nhân lực",
+        "description": ""
+    },
+    {
+        "field_id": "TF200",
+        "field_code": "7340405",
+        "field_name": "Hệ thống thông tin quản lý",
+        "description": ""
+    },
+    {
+        "field_id": "TF201",
+        "field_code": "7340406",
+        "field_name": "Quản trị văn phòng",
+        "description": ""
+    },
+    {
+        "field_id": "TF202",
+        "field_code": "7340408",
+        "field_name": "Quan hệ lao động",
+        "description": ""
+    },
+    {
+        "field_id": "TF203",
+        "field_code": "7340409",
+        "field_name": "Quản lý dự án",
+        "description": ""
+    },
+    {
+        "field_id": "TF204",
+        "field_code": "7340410",
+        "field_name": "Quản trị công nghệ truyền thông",
+        "description": ""
+    },
+    {
+        "field_id": "TF205",
+        "field_code": "7340411",
+        "field_name": "Quản lý và phát triển nguồn nhân lực",
+        "description": ""
+    },
+    {
+        "field_id": "TF206",
+        "field_code": "7340412",
+        "field_name": "Quản trị sự kiện",
+        "description": ""
+    },
+    {
+        "field_id": "TF207",
+        "field_code": "7340415",
+        "field_name": "Kinh doanh số",
+        "description": ""
+    },
+    {
+        "field_id": "TF208",
+        "field_code": "7340420",
+        "field_name": "Khoa học dữ liệu và phân tích kinh doanh",
+        "description": ""
+    },
+    {
+        "field_id": "TF209",
+        "field_code": "73490",
+        "field_name": "Khác",
+        "description": ""
+    },
+    {
+        "field_id": "TF210",
+        "field_code": "7349004",
+        "field_name": "Phân tích dữ liệu kinh doanh",
+        "description": ""
+    },
+    {
+        "field_id": "TF211",
+        "field_code": "73801",
+        "field_name": "Luật",
+        "description": ""
+    },
+    {
+        "field_id": "TF212",
+        "field_code": "7380101",
+        "field_name": "Luật",
+        "description": ""
+    },
+    {
+        "field_id": "TF213",
+        "field_code": "7380102",
+        "field_name": "Luật hiến pháp và luật hành chính",
+        "description": ""
+    },
+    {
+        "field_id": "TF214",
+        "field_code": "7380103",
+        "field_name": "Luật tố tụng và tố tụng dân sự",
+        "description": ""
+    },
+    {
+        "field_id": "TF215",
+        "field_code": "7380104",
+        "field_name": "Luật hình sự và tố tụng hình sự",
+        "description": ""
+    },
+    {
+        "field_id": "TF216",
+        "field_code": "7380107",
+        "field_name": "Luật kinh tế",
+        "description": ""
+    },
+    {
+        "field_id": "TF217",
+        "field_code": "7380108",
+        "field_name": "Luật quốc tế",
+        "description": ""
+    },
+    {
+        "field_id": "TF218",
+        "field_code": "7380109",
+        "field_name": "Luật thương mại quốc tế",
+        "description": ""
+    },
+    {
+        "field_id": "TF219",
+        "field_code": "7380110",
+        "field_name": "Luật kinh doanh",
+        "description": ""
+    },
+    {
+        "field_id": "TF220",
+        "field_code": "73890",
+        "field_name": "Khác",
+        "description": ""
+    },
+    {
+        "field_id": "TF221",
+        "field_code": "74201",
+        "field_name": "Sinh học",
+        "description": ""
+    },
+    {
+        "field_id": "TF222",
+        "field_code": "7420101",
+        "field_name": "Sinh học",
+        "description": ""
+    },
+    {
+        "field_id": "TF223",
+        "field_code": "74202",
+        "field_name": "Sinh học ứng dụng",
+        "description": ""
+    },
+    {
+        "field_id": "TF224",
+        "field_code": "7420201",
+        "field_name": "Công nghệ Sinh học",
+        "description": ""
+    },
+    {
+        "field_id": "TF225",
+        "field_code": "7420202",
+        "field_name": "Kỹ thuật Sinh học",
+        "description": ""
+    },
+    {
+        "field_id": "TF226",
+        "field_code": "7420203",
+        "field_name": "Sinh học ứng dụng",
+        "description": ""
+    },
+    {
+        "field_id": "TF227",
+        "field_code": "7420204",
+        "field_name": "Khoa học Y sinh",
+        "description": ""
+    },
+    {
+        "field_id": "TF228",
+        "field_code": "7420205",
+        "field_name": "Công nghệ Sinh học Y dược",
+        "description": ""
+    },
+    {
+        "field_id": "TF229",
+        "field_code": "7420207",
+        "field_name": "Công nghệ thẩm mỹ",
+        "description": ""
+    },
+    {
+        "field_id": "TF230",
+        "field_code": "74401",
+        "field_name": "Khoa học vật chất",
+        "description": ""
+    },
+    {
+        "field_id": "TF231",
+        "field_code": "7440101",
+        "field_name": "Thiên văn học",
+        "description": ""
+    },
+    {
+        "field_id": "TF232",
+        "field_code": "7440102",
+        "field_name": "Vật lý học",
+        "description": ""
+    },
+    {
+        "field_id": "TF233",
+        "field_code": "7440106",
+        "field_name": "Vật lý nguyên tử hạt nhân",
+        "description": ""
+    },
+    {
+        "field_id": "TF234",
+        "field_code": "7440110",
+        "field_name": "Cơ học",
+        "description": ""
+    },
+    {
+        "field_id": "TF235",
+        "field_code": "7440112",
+        "field_name": "Hóa học",
+        "description": ""
+    },
+    {
+        "field_id": "TF236",
+        "field_code": "7440122",
+        "field_name": "Khoa học vật liệu",
+        "description": ""
+    },
+    {
+        "field_id": "TF237",
+        "field_code": "74402",
+        "field_name": "Khoa học trái đất",
+        "description": ""
+    },
+    {
+        "field_id": "TF238",
+        "field_code": "7440201",
+        "field_name": "Địa chất học",
+        "description": ""
+    },
+    {
+        "field_id": "TF239",
+        "field_code": "7440212",
+        "field_name": "Bản đồ học",
+        "description": ""
+    },
+    {
+        "field_id": "TF240",
+        "field_code": "7440217",
+        "field_name": "Địa lý tự nhiên",
+        "description": ""
+    },
+    {
+        "field_id": "TF241",
+        "field_code": "7440221",
+        "field_name": "Khí tượng và Khí hậu học",
+        "description": ""
+    },
+    {
+        "field_id": "TF242",
+        "field_code": "7440224",
+        "field_name": "Thủy văn học",
+        "description": ""
+    },
+    {
+        "field_id": "TF243",
+        "field_code": "7440228",
+        "field_name": "Hải dương học",
+        "description": ""
+    },
+    {
+        "field_id": "TF244",
+        "field_code": "7440298",
+        "field_name": "Biến đổi khí hậu và phát triển bền vững",
+        "description": ""
+    },
+    {
+        "field_id": "TF245",
+        "field_code": "74403",
+        "field_name": "Khoa học môi trường",
+        "description": ""
+    },
+    {
+        "field_id": "TF246",
+        "field_code": "7440301",
+        "field_name": "Khoa học môi trường",
+        "description": ""
+    },
+    {
+        "field_id": "TF247",
+        "field_code": "74601",
+        "field_name": "Toán học",
+        "description": ""
+    },
+    {
+        "field_id": "TF248",
+        "field_code": "7460101",
+        "field_name": "Toán học",
+        "description": ""
+    },
+    {
+        "field_id": "TF249",
+        "field_code": "7460107",
+        "field_name": "Khoa học tính toán",
+        "description": ""
+    },
+    {
+        "field_id": "TF250",
+        "field_code": "7460108",
+        "field_name": "Khoa học dữ liệu",
+        "description": ""
+    },
+    {
+        "field_id": "TF251",
+        "field_code": "7460112",
+        "field_name": "Toán ứng dụng",
+        "description": ""
+    },
+    {
+        "field_id": "TF252",
+        "field_code": "7460115",
+        "field_name": "Toán cơ",
+        "description": ""
+    },
+    {
+        "field_id": "TF253",
+        "field_code": "7460117",
+        "field_name": "Toán tin",
+        "description": ""
+    },
+    {
+        "field_id": "TF254",
+        "field_code": "74602",
+        "field_name": "Nhóm Thống kê",
+        "description": ""
+    },
+    {
+        "field_id": "TF255",
+        "field_code": "7460201",
+        "field_name": "Thống kê",
+        "description": ""
+    },
+    {
+        "field_id": "TF256",
+        "field_code": "74690",
+        "field_name": "Khác",
+        "description": ""
+    },
+    {
+        "field_id": "TF257",
+        "field_code": "74801",
+        "field_name": "Máy tính",
+        "description": ""
+    },
+    {
+        "field_id": "TF258",
+        "field_code": "7480101",
+        "field_name": "Khoa học máy tính",
+        "description": ""
+    },
+    {
+        "field_id": "TF259",
+        "field_code": "7480102",
+        "field_name": "Mạng máy tính và Truyền thông dữ liệu",
+        "description": ""
+    },
+    {
+        "field_id": "TF260",
+        "field_code": "7480103",
+        "field_name": "Kỹ thuật phần mềm",
+        "description": ""
+    },
+    {
+        "field_id": "TF261",
+        "field_code": "7480104",
+        "field_name": "Hệ thống thông tin",
+        "description": ""
+    },
+    {
+        "field_id": "TF262",
+        "field_code": "7480105",
+        "field_name": "Máy tính và Khoa học thông tin",
+        "description": ""
+    },
+    {
+        "field_id": "TF263",
+        "field_code": "7480106",
+        "field_name": "Kỹ thuật máy tính",
+        "description": ""
+    },
+    {
+        "field_id": "TF264",
+        "field_code": "7480107",
+        "field_name": "Trí tuệ nhân tạo",
+        "description": ""
+    },
+    {
+        "field_id": "TF265",
+        "field_code": "7480108",
+        "field_name": "Công nghệ Kỹ thuật máy tính",
+        "description": ""
+    },
+    {
+        "field_id": "TF266",
+        "field_code": "7480111",
+        "field_name": "Tin học và Kỹ thuật máy tính",
+        "description": ""
+    },
+    {
+        "field_id": "TF267",
+        "field_code": "7480112",
+        "field_name": "Khoa học dữ liệu và Trí tuệ nhân tạo",
+        "description": ""
+    },
+    {
+        "field_id": "TF268",
+        "field_code": "74802",
+        "field_name": "Công nghệ thông tin",
+        "description": ""
+    },
+    {
+        "field_id": "TF269",
+        "field_code": "7480201",
+        "field_name": "Công nghệ thông tin",
+        "description": ""
+    },
+    {
+        "field_id": "TF270",
+        "field_code": "7480202",
+        "field_name": "An toàn thông tin",
+        "description": ""
+    },
+    {
+        "field_id": "TF271",
+        "field_code": "7480203",
+        "field_name": "Công nghệ đa phương tiện",
+        "description": ""
+    },
+    {
+        "field_id": "TF272",
+        "field_code": "7480204",
+        "field_name": "Khoa học và Kỹ thuật máy tính",
+        "description": ""
+    },
+    {
+        "field_id": "TF273",
+        "field_code": "7480205",
+        "field_name": "Khoa học dữ liệu theo cơ chế đặc thù",
+        "description": ""
+    },
+    {
+        "field_id": "TF274",
+        "field_code": "7480206",
+        "field_name": "Địa tin học",
+        "description": ""
+    },
+    {
+        "field_id": "TF275",
+        "field_code": "7489001",
+        "field_name": "Công nghệ đổi mới sáng tạo",
+        "description": ""
+    },
+    {
+        "field_id": "TF275",
+        "field_code": "75101",
+        "field_name": "Công nghệ kỹ thuật kiến trúc và công trình xây dựng",
+        "description": ""
+    },
+    {
+        "field_id": "TF276",
+        "field_code": "7510101",
+        "field_name": "Công nghệ Kỹ thuật Kiến trúc",
+        "description": ""
+    },
+    {
+        "field_id": "TF277",
+        "field_code": "7510102",
+        "field_name": "Công nghệ Kỹ thuật Công trình xây dựng",
+        "description": ""
+    },
+    {
+        "field_id": "TF278",
+        "field_code": "7510103",
+        "field_name": "Công nghệ Kỹ thuật Xây dựng",
+        "description": ""
+    },
+    {
+        "field_id": "TF279",
+        "field_code": "7510104",
+        "field_name": "Công nghệ Kỹ thuật Giao thông",
+        "description": ""
+    },
+    {
+        "field_id": "TF280",
+        "field_code": "7510105",
+        "field_name": "Công nghệ Kỹ thuật Vật liệu xây dựng",
+        "description": ""
+    },
+    {
+        "field_id": "TF281",
+        "field_code": "7510106",
+        "field_name": "Hệ thống Kỹ thuật Công trình xây dựng",
+        "description": ""
+    },
+    {
+        "field_id": "TF282",
+        "field_code": "75102",
+        "field_name": "Công nghệ Kỹ thuật cơ khí",
+        "description": ""
+    },
+    {
+        "field_id": "TF283",
+        "field_code": "7510201",
+        "field_name": "Công nghệ Kỹ thuật Cơ khí",
+        "description": ""
+    },
+    {
+        "field_id": "TF284",
+        "field_code": "7510202",
+        "field_name": "Công nghệ Chế tạo máy",
+        "description": ""
+    },
+    {
+        "field_id": "TF285",
+        "field_code": "7510203",
+        "field_name": "Công nghệ Kỹ thuật Cơ điện tử",
+        "description": ""
+    },
+    {
+        "field_id": "TF286",
+        "field_code": "7510205",
+        "field_name": "Công nghệ Kỹ thuật Ô tô",
+        "description": ""
+    },
+    {
+        "field_id": "TF287",
+        "field_code": "7510206",
+        "field_name": "Công nghệ Kỹ thuật Nhiệt",
+        "description": ""
+    },
+    {
+        "field_id": "TF288",
+        "field_code": "7510207",
+        "field_name": "Công nghệ Kỹ thuật Tàu thủy",
+        "description": ""
+    },
+    {
+        "field_id": "TF289",
+        "field_code": "7510208",
+        "field_name": "Năng lượng tái tạo",
+        "description": ""
+    },
+    {
+        "field_id": "TF290",
+        "field_code": "7510209",
+        "field_name": "Robot và Trí tuệ nhân tạo",
+        "description": ""
+    },
+    {
+        "field_id": "TF291",
+        "field_code": "7510210",
+        "field_name": "Điện lạnh và Điều hòa không khí",
+        "description": ""
+    },
+    {
+        "field_id": "TF292",
+        "field_code": "7510211",
+        "field_name": "Bảo dưỡng Công nghiệp",
+        "description": ""
+    },
+    {
+        "field_id": "TF293",
+        "field_code": "7510212",
+        "field_name": "Công nghệ Ô tô",
+        "description": ""
+    },
+    {
+        "field_id": "TF294",
+        "field_code": "75103",
+        "field_name": "Công nghệ Kỹ thuật điện, điện tử và viễn thông",
+        "description": ""
+    },
+    {
+        "field_id": "TF295",
+        "field_code": "7510300",
+        "field_name": "Điện tử – Tin học công nghiệp",
+        "description": ""
+    },
+    {
+        "field_id": "TF296",
+        "field_code": "7510301",
+        "field_name": "Công nghệ Kỹ thuật điện, điện tử",
+        "description": ""
+    },
+    {
+        "field_id": "TF297",
+        "field_code": "7510302",
+        "field_name": "Công nghệ Kỹ thuật điện tử – viễn thông",
+        "description": ""
+    },
+    {
+        "field_id": "TF298",
+        "field_code": "7510303",
+        "field_name": "Công nghệ Kỹ thuật điều khiển và tự động hóa",
+        "description": ""
+    },
+    {
+        "field_id": "TF299",
+        "field_code": "7510304",
+        "field_name": "IoT và Trí tuệ nhân tạo ứng dụng",
+        "description": ""
+    },
+    {
+        "field_id": "TF300",
+        "field_code": "75104",
+        "field_name": "Công nghệ hóa học, vật liệu, luyện kim và môi trường",
+        "description": ""
+    },
+    {
+        "field_id": "TF301",
+        "field_code": "7510401",
+        "field_name": "Công nghệ Kỹ thuật Hóa học",
+        "description": ""
+    },
+    {
+        "field_id": "TF302",
+        "field_code": "7510402",
+        "field_name": "Công nghệ Vật liệu",
+        "description": ""
+    },
+    {
+        "field_id": "TF303",
+        "field_code": "7510403",
+        "field_name": "Công nghệ Kỹ thuật Năng lượng",
+        "description": ""
+    },
+    {
+        "field_id": "TF304",
+        "field_code": "7510406",
+        "field_name": "Công nghệ Kỹ thuật Môi trường",
+        "description": ""
+    },
+    {
+        "field_id": "TF305",
+        "field_code": "7510407",
+        "field_name": "Công nghệ Kỹ thuật Hạt nhân",
+        "description": ""
+    },
+    {
+        "field_id": "TF306",
+        "field_code": "75106",
+        "field_name": "Quản lý công nghiệp",
+        "description": ""
+    },
+    {
+        "field_id": "TF307",
+        "field_code": "7510601",
+        "field_name": "Quản lý Công nghiệp",
+        "description": ""
+    },
+    {
+        "field_id": "TF308",
+        "field_code": "7510602",
+        "field_name": "Quản lý Năng lượng",
+        "description": ""
+    },
+    {
+        "field_id": "TF309",
+        "field_code": "7510604",
+        "field_name": "Kinh tế Công nghiệp",
+        "description": ""
+    },
+    {
+        "field_id": "TF310",
+        "field_code": "7510605",
+        "field_name": "Logistics và Quản lý chuỗi cung ứng",
+        "description": ""
+    },
+    {
+        "field_id": "TF311",
+        "field_code": "7510606",
+        "field_name": "Quản trị Môi trường doanh nghiệp",
+        "description": ""
+    },
+    {
+        "field_id": "TF312",
+        "field_code": "75107",
+        "field_name": "Công nghệ dầu khí và khai thác",
+        "description": ""
+    },
+    {
+        "field_id": "TF313",
+        "field_code": "7510701",
+        "field_name": "Công nghệ Dầu khí và Khai thác dầu",
+        "description": ""
+    },
+    {
+        "field_id": "TF314",
+        "field_code": "75108",
+        "field_name": "Công nghệ kỹ thuật in",
+        "description": ""
+    },
+    {
+        "field_id": "TF315",
+        "field_code": "7510801",
+        "field_name": "Công nghệ Kỹ thuật in",
+        "description": ""
+    },
+    {
+        "field_id": "TF316",
+        "field_code": "75190",
+        "field_name": "Khác",
+        "description": ""
+    },
+    {
+        "field_id": "TF317",
+        "field_code": "7519002",
+        "field_name": "Công nghệ Kỹ thuật khuôn mẫu",
+        "description": ""
+    },
+    {
+        "field_id": "TF318",
+        "field_code": "7519004",
+        "field_name": "Thiết kế cơ khí và Kiểu dáng công nghiệp",
+        "description": ""
+    },
+    {
+        "field_id": "TF319",
+        "field_code": "7519005",
+        "field_name": "Công nghệ Kỹ thuật Cơ điện tử ô tô",
+        "description": ""
+    },
+    {
+        "field_id": "TF320",
+        "field_code": "7519007",
+        "field_name": "Công nghệ Kỹ thuật Năng lượng tái tạo",
+        "description": ""
+    },
+    {
+        "field_id": "TF321",
+        "field_code": "75201",
+        "field_name": "Nhóm Kỹ thuật cơ khí và cơ kỹ thuật",
+        "description": ""
+    },
+    {
+        "field_id": "TF322",
+        "field_code": "7520101",
+        "field_name": "Cơ kỹ thuật",
+        "description": ""
+    },
+    {
+        "field_id": "TF323",
+        "field_code": "7520103",
+        "field_name": "Kỹ thuật Cơ khí",
+        "description": ""
+    },
+    {
+        "field_id": "TF324",
+        "field_code": "7520114",
+        "field_name": "Kỹ thuật Cơ điện tử",
+        "description": ""
+    },
+    {
+        "field_id": "TF325",
+        "field_code": "7520115",
+        "field_name": "Kỹ thuật Nhiệt",
+        "description": ""
+    },
+    {
+        "field_id": "TF326",
+        "field_code": "7520116",
+        "field_name": "Kỹ thuật Cơ khí động lực",
+        "description": ""
+    },
+    {
+        "field_id": "TF327",
+        "field_code": "7520117",
+        "field_name": "Kỹ thuật Công nghiệp",
+        "description": ""
+    },
+    {
+        "field_id": "TF328",
+        "field_code": "7520118",
+        "field_name": "Kỹ thuật Hệ thống công nghiệp",
+        "description": ""
+    },
+    {
+        "field_id": "TF329",
+        "field_code": "7520119",
+        "field_name": "Cơ điện tử",
+        "description": ""
+    },
+    {
+        "field_id": "TF330",
+        "field_code": "7520120",
+        "field_name": "Kỹ thuật Hàng không",
+        "description": ""
+    },
+    {
+        "field_id": "TF331",
+        "field_code": "7520121",
+        "field_name": "Kỹ thuật Không gian",
+        "description": ""
+    },
+    {
+        "field_id": "TF332",
+        "field_code": "7520122",
+        "field_name": "Kỹ thuật tàu thủy",
+        "description": ""
+    },
+    {
+        "field_id": "TF333",
+        "field_code": "7520130",
+        "field_name": "Kỹ thuật ô tô",
+        "description": ""
+    },
+    {
+        "field_id": "TF334",
+        "field_code": "7520137",
+        "field_name": "Kỹ thuật in",
+        "description": ""
+    },
+    {
+        "field_id": "TF335",
+        "field_code": "7520138",
+        "field_name": "Kỹ thuật hàng hải",
+        "description": ""
+    },
+    {
+        "field_id": "TF336",
+        "field_code": "7520141",
+        "field_name": "Công nghệ Ô tô điện",
+        "description": ""
+    },
+    {
+        "field_id": "TF337",
+        "field_code": "75202",
+        "field_name": "Kỹ thuật điện, điện tử và viễn thông",
+        "description": ""
+    },
+    {
+        "field_id": "TF338",
+        "field_code": "7520201",
+        "field_name": "Kỹ thuật điện",
+        "description": ""
+    },
+    {
+        "field_id": "TF339",
+        "field_code": "7520204",
+        "field_name": "Kỹ thuật ra đa – dẫn đường",
+        "description": ""
+    },
+    {
+        "field_id": "TF340",
+        "field_code": "7520205",
+        "field_name": "Kỹ thuật thủy âm",
+        "description": ""
+    },
+    {
+        "field_id": "TF341",
+        "field_code": "7520206",
+        "field_name": "Kỹ thuật biển",
+        "description": ""
+    },
+    {
+        "field_id": "TF342",
+        "field_code": "7520207",
+        "field_name": "Kỹ thuật điện tử – viễn thông",
+        "description": ""
+    },
+    {
+        "field_id": "TF343",
+        "field_code": "7520208",
+        "field_name": "Công nghệ Internet và vạn vật",
+        "description": ""
+    },
+    {
+        "field_id": "TF344",
+        "field_code": "7520212",
+        "field_name": "Kỹ thuật y sinh",
+        "description": ""
+    },
+    {
+        "field_id": "TF345",
+        "field_code": "7520216",
+        "field_name": "Kỹ thuật điều khiển và tự động hóa",
+        "description": ""
+    },
+    {
+        "field_id": "TF346",
+        "field_code": "7520218",
+        "field_name": "Kỹ thuật Robot và Trí tuệ nhân tạo",
+        "description": ""
+    },
+    {
+        "field_id": "TF347",
+        "field_code": "7520219",
+        "field_name": "Hệ thống giao thông thông minh",
+        "description": ""
+    },
+    {
+        "field_id": "TF348",
+        "field_code": "75203",
+        "field_name": "Kỹ thuật hóa học, vật liệu, luyện kim và môi trường",
+        "description": ""
+    },
+    {
+        "field_id": "TF349",
+        "field_code": "7520301",
+        "field_name": "Kỹ thuật Hóa học",
+        "description": ""
+    },
+    {
+        "field_id": "TF350",
+        "field_code": "7520309",
+        "field_name": "Kỹ thuật Vật liệu",
+        "description": ""
+    },
+    {
+        "field_id": "TF351",
+        "field_code": "7520310",
+        "field_name": "Kỹ thuật Vật liệu kim loại",
+        "description": ""
+    },
+    {
+        "field_id": "TF352",
+        "field_code": "7520312",
+        "field_name": "Kỹ thuật Dệt",
+        "description": ""
+    },
+    {
+        "field_id": "TF353",
+        "field_code": "7520320",
+        "field_name": "Kỹ thuật Môi trường",
+        "description": ""
+    },
+    {
+        "field_id": "TF354",
+        "field_code": "75204",
+        "field_name": "Vật lý kỹ thuật",
+        "description": ""
+    },
+    {
+        "field_id": "TF355",
+        "field_code": "7520401",
+        "field_name": "Vật lý Kỹ thuật",
+        "description": ""
+    },
+    {
+        "field_id": "TF356",
+        "field_code": "7520402",
+        "field_name": "Kỹ thuật Hạt nhân",
+        "description": ""
+    },
+    {
+        "field_id": "TF357",
+        "field_code": "7520403",
+        "field_name": "Vật lý Y khoa",
+        "description": ""
+    },
+    {
+        "field_id": "TF358",
+        "field_code": "75205",
+        "field_name": "Kỹ thuật địa chất, địa vật lý và trắc địa",
+        "description": ""
+    },
+    {
+        "field_id": "TF359",
+        "field_code": "7520501",
+        "field_name": "Kỹ thuật địa chất",
+        "description": ""
+    },
+    {
+        "field_id": "TF360",
+        "field_code": "7520502",
+        "field_name": "Kỹ thuật địa vật lý",
+        "description": ""
+    },
+    {
+        "field_id": "TF361",
+        "field_code": "7520503",
+        "field_name": "Kỹ thuật trắc địa – bản đồ",
+        "description": ""
+    },
+    {
+        "field_id": "TF362",
+        "field_code": "75206",
+        "field_name": "Kỹ thuật mỏ",
+        "description": ""
+    },
+    {
+        "field_id": "TF363",
+        "field_code": "7520601",
+        "field_name": "Kỹ thuật mỏ",
+        "description": ""
+    },
+    {
+        "field_id": "TF364",
+        "field_code": "7520602",
+        "field_name": "Kỹ thuật thăm dò và khảo sát",
+        "description": ""
+    },
+    {
+        "field_id": "TF365",
+        "field_code": "7520604",
+        "field_name": "Kỹ thuật dầu khí",
+        "description": ""
+    },
+    {
+        "field_id": "TF366",
+        "field_code": "7520605",
+        "field_name": "Kỹ thuật Khí thiên nhiên",
+        "description": ""
+    },
+    {
+        "field_id": "TF367",
+        "field_code": "7520606",
+        "field_name": "Công nghệ số trong thăm dò và Khai thác tài nguyên thiên nhiên",
+        "description": ""
+    },
+    {
+        "field_id": "TF368",
+        "field_code": "7520607",
+        "field_name": "Kỹ thuật Tuyển khoáng",
+        "description": ""
+    },
+    {
+        "field_id": "TF369",
+        "field_code": "75401",
+        "field_name": "Chế biến lương thực, thực phẩm và đồ uống",
+        "description": ""
+    },
+    {
+        "field_id": "TF370",
+        "field_code": "7540101",
+        "field_name": "Công nghệ thực phẩm",
+        "description": ""
+    },
+    {
+        "field_id": "TF371",
+        "field_code": "7540102",
+        "field_name": "Kỹ thuật thực phẩm",
+        "description": ""
+    },
+    {
+        "field_id": "TF372",
+        "field_code": "7540103",
+        "field_name": "Công nghệ hóa thực phẩm",
+        "description": ""
+    },
+    {
+        "field_id": "TF373",
+        "field_code": "7540104",
+        "field_name": "Công nghệ sau thu hoạch",
+        "description": ""
+    },
+    {
+        "field_id": "TF374",
+        "field_code": "7540105",
+        "field_name": "Công nghệ chế biến thủy sản",
+        "description": ""
+    },
+    {
+        "field_id": "TF375",
+        "field_code": "7540106",
+        "field_name": "Đảm bảo chất lượng và an toàn thực phẩm",
+        "description": ""
+    },
+    {
+        "field_id": "TF376",
+        "field_code": "7540108",
+        "field_name": "Công nghệ và Kinh doanh thực phẩm",
+        "description": ""
+    },
+    {
+        "field_id": "TF377",
+        "field_code": "75402",
+        "field_name": "Sản xuất, chế biến sợi, vải, giày, da",
+        "description": ""
+    },
+    {
+        "field_id": "TF378",
+        "field_code": "7540202",
+        "field_name": "Công nghệ sợi, dệt",
+        "description": ""
+    },
+    {
+        "field_id": "TF379",
+        "field_code": "7540203",
+        "field_name": "Công nghệ vật liệu dệt, may",
+        "description": ""
+    },
+    {
+        "field_id": "TF380",
+        "field_code": "7540204",
+        "field_name": "Công nghệ dệt, may",
+        "description": ""
+    },
+    {
+        "field_id": "TF381",
+        "field_code": "7540205",
+        "field_name": "Công nghệ may",
+        "description": ""
+    },
+    {
+        "field_id": "TF382",
+        "field_code": "7540206",
+        "field_name": "Công nghệ da giày",
+        "description": ""
+    },
+    {
+        "field_id": "TF383",
+        "field_code": "75490",
+        "field_name": "Khác",
+        "description": ""
+    },
+    {
+        "field_id": "TF384",
+        "field_code": "7549001",
+        "field_name": "Công nghệ chế biến lâm sản",
+        "description": ""
+    },
+    {
+        "field_id": "TF385",
+        "field_code": "75801",
+        "field_name": "Kiến trúc và quy hoạch",
+        "description": ""
+    },
+    {
+        "field_id": "TF386",
+        "field_code": "7580101",
+        "field_name": "Kiến trúc",
+        "description": ""
+    },
+    {
+        "field_id": "TF387",
+        "field_code": "7580102",
+        "field_name": "Kiến trúc cảnh quan",
+        "description": ""
+    },
+    {
+        "field_id": "TF388",
+        "field_code": "7580103",
+        "field_name": "Kiến trúc nội thất",
+        "description": ""
+    },
+    {
+        "field_id": "TF389",
+        "field_code": "7580104",
+        "field_name": "Kiến trúc đô thị",
+        "description": ""
+    },
+    {
+        "field_id": "TF390",
+        "field_code": "7580105",
+        "field_name": "Quy hoạch vùng và đô thị",
+        "description": ""
+    },
+    {
+        "field_id": "TF391",
+        "field_code": "7580106",
+        "field_name": "Quản lý đô thị và Công trình",
+        "description": ""
+    },
+    {
+        "field_id": "TF392",
+        "field_code": "7580108",
+        "field_name": "Thiết kế nội thất",
+        "description": ""
+    },
+    {
+        "field_id": "TF393",
+        "field_code": "7580111",
+        "field_name": "Bảo tồn di sản kiến trúc – Đô thị",
+        "description": ""
+    },
+    {
+        "field_id": "TF394",
+        "field_code": "7580112",
+        "field_name": "Đô thị học",
+        "description": ""
+    },
+    {
+        "field_id": "TF395",
+        "field_code": "75802",
+        "field_name": "Xây dựng",
+        "description": ""
+    },
+    {
+        "field_id": "TF396",
+        "field_code": "7580201",
+        "field_name": "Kỹ thuật xây dựng",
+        "description": ""
+    },
+    {
+        "field_id": "TF397",
+        "field_code": "7580202",
+        "field_name": "Kỹ thuật xây dựng công trình thủy",
+        "description": ""
+    },
+    {
+        "field_id": "TF398",
+        "field_code": "7580203",
+        "field_name": "Kỹ thuật xây dựng công trình biển",
+        "description": ""
+    },
+    {
+        "field_id": "TF399",
+        "field_code": "7580204",
+        "field_name": "Kỹ thuật công trình ngầm thành phố và Hệ thống tàu điện ngầm",
+        "description": ""
+    },
+    {
+        "field_id": "TF400",
+        "field_code": "7580205",
+        "field_name": "Kỹ thuật xây dựng công trình giao thông",
+        "description": ""
+    },
+    {
+        "field_id": "TF401",
+        "field_code": "7580210",
+        "field_name": "Kỹ thuật cơ sở hạ tầng",
+        "description": ""
+    },
+    {
+        "field_id": "TF402",
+        "field_code": "7580211",
+        "field_name": "Địa kỹ thuật xây dựng",
+        "description": ""
+    },
+    {
+        "field_id": "TF403",
+        "field_code": "7580212",
+        "field_name": "Kỹ thuật tài nguyên nước",
+        "description": ""
+    },
+    {
+        "field_id": "TF404",
+        "field_code": "7580213",
+        "field_name": "Kỹ thuật cấp thoát nước",
+        "description": ""
+    },
+    {
+        "field_id": "TF405",
+        "field_code": "75803",
+        "field_name": "Quản lý xây dựng",
+        "description": ""
+    },
+    {
+        "field_id": "TF406",
+        "field_code": "7580301",
+        "field_name": "Kinh tế Xây dựng",
+        "description": ""
+    },
+    {
+        "field_id": "TF407",
+        "field_code": "7580302",
+        "field_name": "Quản lý Xây dựng",
+        "description": ""
+    },
+    {
+        "field_id": "TF408",
+        "field_code": "76201",
+        "field_name": "Nông nghiệp",
+        "description": ""
+    },
+    {
+        "field_id": "TF409",
+        "field_code": "7620101",
+        "field_name": "Nông nghiệp",
+        "description": ""
+    },
+    {
+        "field_id": "TF410",
+        "field_code": "7620102",
+        "field_name": "Khuyến nông",
+        "description": ""
+    },
+    {
+        "field_id": "TF411",
+        "field_code": "7620103",
+        "field_name": "Khoa học đất",
+        "description": ""
+    },
+    {
+        "field_id": "TF412",
+        "field_code": "7620105",
+        "field_name": "Chăn nuôi",
+        "description": ""
+    },
+    {
+        "field_id": "TF413",
+        "field_code": "7620106",
+        "field_name": "Chăn nuôi – Thú y",
+        "description": ""
+    },
+    {
+        "field_id": "TF414",
+        "field_code": "7620108",
+        "field_name": "Phân bón và Dinh dưỡng cây trồng",
+        "description": ""
+    },
+    {
+        "field_id": "TF415",
+        "field_code": "7620109",
+        "field_name": "Nông học",
+        "description": ""
+    },
+    {
+        "field_id": "TF416",
+        "field_code": "7620110",
+        "field_name": "Khoa học cây trồng",
+        "description": ""
+    },
+    {
+        "field_id": "TF417",
+        "field_code": "7620112",
+        "field_name": "Bảo vệ thực vật",
+        "description": ""
+    },
+    {
+        "field_id": "TF418",
+        "field_code": "7620113",
+        "field_name": "Công nghệ rau hoa quả và cảnh quan",
+        "description": ""
+    },
+    {
+        "field_id": "TF419",
+        "field_code": "7620114",
+        "field_name": "Kinh doanh nông nghiệp",
+        "description": ""
+    },
+    {
+        "field_id": "TF420",
+        "field_code": "7620115",
+        "field_name": "Kinh tế nông nghiệp",
+        "description": ""
+    },
+    {
+        "field_id": "TF421",
+        "field_code": "7620116",
+        "field_name": "Phát triển nông thôn",
+        "description": ""
+    },
+    {
+        "field_id": "TF422",
+        "field_code": "7620118",
+        "field_name": "Nông nghiệp công nghệ cao",
+        "description": ""
+    },
+    {
+        "field_id": "TF423",
+        "field_code": "7620119",
+        "field_name": "Kinh doanh và Khởi nghiệp nông thôn",
+        "description": ""
+    },
+    {
+        "field_id": "TF424",
+        "field_code": "7620122",
+        "field_name": "Nông nghiệp thông minh và bền vững",
+        "description": ""
+    },
+    {
+        "field_id": "TF425",
+        "field_code": "76202",
+        "field_name": "Lâm nghiệp",
+        "description": ""
+    },
+    {
+        "field_id": "TF426",
+        "field_code": "7620201",
+        "field_name": "Lâm học",
+        "description": ""
+    },
+    {
+        "field_id": "TF427",
+        "field_code": "7620202",
+        "field_name": "Lâm nghiệp đô thị",
+        "description": ""
+    },
+    {
+        "field_id": "TF428",
+        "field_code": "7620205",
+        "field_name": "Lâm sinh",
+        "description": ""
+    },
+    {
+        "field_id": "TF429",
+        "field_code": "7620211",
+        "field_name": "Quản lý tài nguyên rừng",
+        "description": ""
+    },
+    {
+        "field_id": "TF430",
+        "field_code": "76203",
+        "field_name": "Thủy sản",
+        "description": ""
+    },
+    {
+        "field_id": "TF431",
+        "field_code": "7620301",
+        "field_name": "Nuôi trồng thủy sản",
+        "description": ""
+    },
+    {
+        "field_id": "TF432",
+        "field_code": "7620302",
+        "field_name": "Bệnh học thủy sản",
+        "description": ""
+    },
+    {
+        "field_id": "TF433",
+        "field_code": "7620303",
+        "field_name": "Khoa học thủy sản",
+        "description": ""
+    },
+    {
+        "field_id": "TF434",
+        "field_code": "7620304",
+        "field_name": "Khai thác thủy sản",
+        "description": ""
+    },
+    {
+        "field_id": "TF435",
+        "field_code": "7620305",
+        "field_name": "Quản lý thủy sản",
+        "description": ""
+    },
+    {
+        "field_id": "TF436",
+        "field_code": "7640101",
+        "field_name": "Thú y",
+        "description": ""
+    },
+    {
+        "field_id": "TF437",
+        "field_code": "77201",
+        "field_name": "Y học",
+        "description": ""
+    },
+    {
+        "field_id": "TF438",
+        "field_code": "7720101",
+        "field_name": "Y khoa",
+        "description": ""
+    },
+    {
+        "field_id": "TF439",
+        "field_code": "7720110",
+        "field_name": "Y học dự phòng",
+        "description": ""
+    },
+    {
+        "field_id": "TF440",
+        "field_code": "7720115",
+        "field_name": "Y học cổ truyền",
+        "description": ""
+    },
+    {
+        "field_id": "TF441",
+        "field_code": "77202",
+        "field_name": "Dược học",
+        "description": ""
+    },
+    {
+        "field_id": "TF442",
+        "field_code": "7720201",
+        "field_name": "Dược học",
+        "description": ""
+    },
+    {
+        "field_id": "TF443",
+        "field_code": "7720203",
+        "field_name": "Hóa dược",
+        "description": ""
+    },
+    {
+        "field_id": "TF444",
+        "field_code": "77203",
+        "field_name": "Điều dưỡng – hộ sinh",
+        "description": ""
+    },
+    {
+        "field_id": "TF445",
+        "field_code": "7720301",
+        "field_name": "Điều dưỡng",
+        "description": ""
+    },
+    {
+        "field_id": "TF446",
+        "field_code": "7720302",
+        "field_name": "Hộ sinh",
+        "description": ""
+    },
+    {
+        "field_id": "TF447",
+        "field_code": "7720399",
+        "field_name": "Dụng cụ chỉnh hình chân tay giả",
+        "description": ""
+    },
+    {
+        "field_id": "TF448",
+        "field_code": "77204",
+        "field_name": "Dinh dưỡng",
+        "description": ""
+    },
+    {
+        "field_id": "TF449",
+        "field_code": "7720401",
+        "field_name": "Dinh dưỡng",
+        "description": ""
+    },
+    {
+        "field_id": "TF450",
+        "field_code": "7720497",
+        "field_name": "Dinh dưỡng và Khoa học thực phẩm",
+        "description": ""
+    },
+    {
+        "field_id": "TF451",
+        "field_code": "77205",
+        "field_name": "Răng – Hàm – Mặt (Nha khoa)",
+        "description": ""
+    },
+    {
+        "field_id": "TF452",
+        "field_code": "7720501",
+        "field_name": "Răng – Hàm – Mặt",
+        "description": ""
+    },
+    {
+        "field_id": "TF453",
+        "field_code": "7720502",
+        "field_name": "Kỹ thuật phục hình răng",
+        "description": ""
+    },
+    {
+        "field_id": "TF454",
+        "field_code": "77206",
+        "field_name": "Kỹ thuật Y học",
+        "description": ""
+    },
+    {
+        "field_id": "TF455",
+        "field_code": "7720601",
+        "field_name": "Kỹ thuật Xét nghiệm Y học",
+        "description": ""
+    },
+    {
+        "field_id": "TF456",
+        "field_code": "7720602",
+        "field_name": "Kỹ thuật Hình ảnh Y học",
+        "description": ""
+    },
+    {
+        "field_id": "TF457",
+        "field_code": "7720603",
+        "field_name": "Kỹ thuật Phục hồi chức năng",
+        "description": ""
+    },
+    {
+        "field_id": "TF458",
+        "field_code": "7720604",
+        "field_name": "Khúc xạ nhãn khoa",
+        "description": ""
+    },
+    {
+        "field_id": "TF459",
+        "field_code": "77207",
+        "field_name": "Y tế công cộng",
+        "description": ""
+    },
+    {
+        "field_id": "TF460",
+        "field_code": "7720701",
+        "field_name": "Y tế công cộng",
+        "description": ""
+    },
+    {
+        "field_id": "TF461",
+        "field_code": "77208",
+        "field_name": "Quản lý y tế",
+        "description": ""
+    },
+    {
+        "field_id": "TF462",
+        "field_code": "7720801",
+        "field_name": "Tổ chức và Quản lý y tế",
+        "description": ""
+    },
+    {
+        "field_id": "TF463",
+        "field_code": "7720802",
+        "field_name": "Quản lý bệnh viện",
+        "description": ""
+    },
+    {
+        "field_id": "TF464",
+        "field_code": "77290",
+        "field_name": "Khác",
+        "description": ""
+    },
+    {
+        "field_id": "TF465",
+        "field_code": "7729001",
+        "field_name": "Y sinh học Thể dục thể thao",
+        "description": ""
+    },
+    {
+        "field_id": "TF466",
+        "field_code": "77601",
+        "field_name": "Công tác xã hội",
+        "description": ""
+    },
+    {
+        "field_id": "TF467",
+        "field_code": "7760101",
+        "field_name": "Công tác xã hội",
+        "description": ""
+    },
+    {
+        "field_id": "TF468",
+        "field_code": "7760102",
+        "field_name": "Công tác thanh thiếu niên",
+        "description": ""
+    },
+    {
+        "field_id": "TF469",
+        "field_code": "7760103",
+        "field_name": "Hỗ trợ giáo dục người khuyết tật",
+        "description": ""
+    },
+    {
+        "field_id": "TF470",
+        "field_code": "7760104",
+        "field_name": "Dân số và Phát triển",
+        "description": ""
+    },
+    {
+        "field_id": "TF471",
+        "field_code": "77690",
+        "field_name": "Khác",
+        "description": ""
+    },
+    {
+        "field_id": "TF472",
+        "field_code": "78101",
+        "field_name": "Du lịch",
+        "description": ""
+    },
+    {
+        "field_id": "TF473",
+        "field_code": "7810101",
+        "field_name": "Du lịch",
+        "description": ""
+    },
+    {
+        "field_id": "TF474",
+        "field_code": "7810102",
+        "field_name": "Du lịch Điện tử",
+        "description": ""
+    },
+    {
+        "field_id": "TF475",
+        "field_code": "7810103",
+        "field_name": "Quản trị Dịch vụ du lịch và Lữ hành",
+        "description": ""
+    },
+    {
+        "field_id": "TF476",
+        "field_code": "7810105",
+        "field_name": "Du lịch Địa chất",
+        "description": ""
+    },
+    {
+        "field_id": "TF477",
+        "field_code": "7810106",
+        "field_name": "Văn hóa Du lịch",
+        "description": ""
+    },
+    {
+        "field_id": "TF478",
+        "field_code": "78102",
+        "field_name": "Khách sạn, nhà hàng",
+        "description": ""
+    },
+    {
+        "field_id": "TF479",
+        "field_code": "7810201",
+        "field_name": "Quản trị Khách sạn",
+        "description": ""
+    },
+    {
+        "field_id": "TF480",
+        "field_code": "7810202",
+        "field_name": "Quản trị Nhà hàng và Dịch vụ ăn uống",
+        "description": ""
+    },
+    {
+        "field_id": "TF481",
+        "field_code": "7810203",
+        "field_name": "Quản trị Khách sạn – Nhà hàng",
+        "description": ""
+    },
+    {
+        "field_id": "TF482",
+        "field_code": "78103",
+        "field_name": "Thể dục, thể thao",
+        "description": ""
+    },
+    {
+        "field_id": "TF483",
+        "field_code": "7810301",
+        "field_name": "Quản lý thể dục thể thao",
+        "description": ""
+    },
+    {
+        "field_id": "TF484",
+        "field_code": "7810302",
+        "field_name": "Huấn luyện thể thao",
+        "description": ""
+    },
+    {
+        "field_id": "TF485",
+        "field_code": "78105",
+        "field_name": "Kinh tế gia đình",
+        "description": ""
+    },
+    {
+        "field_id": "TF486",
+        "field_code": "7810501",
+        "field_name": "Kinh tế gia đình",
+        "description": ""
+    },
+    {
+        "field_id": "TF487",
+        "field_code": "78190",
+        "field_name": "Khác",
+        "description": ""
+    },
+    {
+        "field_id": "TF488",
+        "field_code": "7819009",
+        "field_name": "Khoa học Dinh dưỡng và Ẩm thực",
+        "description": ""
+    },
+    {
+        "field_id": "TF489",
+        "field_code": "7819010",
+        "field_name": "Khoa học Chế biến món ăn",
+        "description": ""
+    },
+    {
+        "field_id": "TF490",
+        "field_code": "78401",
+        "field_name": "Khai thác vận tải",
+        "description": ""
+    },
+    {
+        "field_id": "TF491",
+        "field_code": "7840101",
+        "field_name": "Khai thác vận tải",
+        "description": ""
+    },
+    {
+        "field_id": "TF492",
+        "field_code": "7840102",
+        "field_name": "Quản lý hoạt động bay",
+        "description": ""
+    },
+    {
+        "field_id": "TF493",
+        "field_code": "7840104",
+        "field_name": "Kinh tế vận tải",
+        "description": ""
+    },
+    {
+        "field_id": "TF494",
+        "field_code": "7840106",
+        "field_name": "Khoa học hàng hải",
+        "description": ""
+    },
+    {
+        "field_id": "TF495",
+        "field_code": "78501",
+        "field_name": "Quản lý tài nguyên và môi trường",
+        "description": ""
+    },
+    {
+        "field_id": "TF496",
+        "field_code": "7850101",
+        "field_name": "Quản lý tài nguyên và môi trường",
+        "description": ""
+    },
+    {
+        "field_id": "TF497",
+        "field_code": "7850102",
+        "field_name": "Kinh tế tài nguyên thiên nhiên",
+        "description": ""
+    },
+    {
+        "field_id": "TF498",
+        "field_code": "7850103",
+        "field_name": "Quản lý đất đai",
+        "description": ""
+    },
+    {
+        "field_id": "TF499",
+        "field_code": "7850104",
+        "field_name": "Du lịch sinh thái",
+        "description": ""
+    },
+    {
+        "field_id": "TF500",
+        "field_code": "7850106",
+        "field_name": "Quản lý tài nguyên thiên nhiên",
+        "description": ""
+    },
+    {
+        "field_id": "TF501",
+        "field_code": "7850195",
+        "field_name": "Quản lý tổng hợp tài nguyên nước",
+        "description": ""
+    },
+    {
+        "field_id": "TF502",
+        "field_code": "7850196",
+        "field_name": "Quản lý tài nguyên khoáng sản",
+        "description": ""
+    },
+    {
+        "field_id": "TF503",
+        "field_code": "7850197",
+        "field_name": "Quản lý tài nguyên và môi trường biển đảo",
+        "description": ""
+    },
+    {
+        "field_id": "TF504",
+        "field_code": "7850198",
+        "field_name": "Quản lý tài nguyên nước",
+        "description": ""
+    },
+    {
+        "field_id": "TF505",
+        "field_code": "7850199",
+        "field_name": "Quản lý biển",
+        "description": ""
+    },
+    {
+        "field_id": "TF506",
+        "field_code": "78502",
+        "field_name": "Dịch vụ an toàn lao động và vệ sinh công nghiệp",
+        "description": ""
+    },
+    {
+        "field_id": "TF507",
+        "field_code": "7850201",
+        "field_name": "Bảo hộ lao động",
+        "description": ""
+    },
+    {
+        "field_id": "TF508",
+        "field_code": "78590",
+        "field_name": "Khác",
+        "description": ""
+    },
+    {
+        "field_id": "TF509",
+        "field_code": "7859002",
+        "field_name": "Tài nguyên và Du lịch sinh thái",
+        "description": ""
+    },
+    {
+        "field_id": "TF510",
+        "field_code": "7859007",
+        "field_name": "Cảnh quan và Kỹ thuật hoa viên",
+        "description": ""
+    },
+    {
+        "field_id": "TF511",
+        "field_code": "78601",
+        "field_name": "An ninh và trật tự xã hội",
+        "description": ""
+    },
+    {
+        "field_id": "TF512",
+        "field_code": "7860100",
+        "field_name": "Nghiệp vụ an ninh",
+        "description": ""
+    },
+    {
+        "field_id": "TF513",
+        "field_code": "7860101",
+        "field_name": "Trinh sát an ninh",
+        "description": ""
+    },
+    {
+        "field_id": "TF514",
+        "field_code": "7860102",
+        "field_name": "Điều tra trinh sát",
+        "description": ""
+    },
+    {
+        "field_id": "TF515",
+        "field_code": "7860103",
+        "field_name": "Trinh sát kỹ thuật",
+        "description": ""
+    },
+    {
+        "field_id": "TF516",
+        "field_code": "7860104",
+        "field_name": "Điều tra hình sự",
+        "description": ""
+    },
+    {
+        "field_id": "TF517",
+        "field_code": "7860105",
+        "field_name": "Nghiệp vụ cảnh sát",
+        "description": ""
+    },
+    {
+        "field_id": "TF518",
+        "field_code": "7860107",
+        "field_name": "Kỹ thuật Công an nhân dân",
+        "description": ""
+    },
+    {
+        "field_id": "TF519",
+        "field_code": "7860108",
+        "field_name": "Kỹ thuật hình sự",
+        "description": ""
+    },
+    {
+        "field_id": "TF520",
+        "field_code": "7860109",
+        "field_name": "Quản lý nhà nước về trật tự an ninh",
+        "description": ""
+    },
+    {
+        "field_id": "TF521",
+        "field_code": "7860110",
+        "field_name": "Quản lý trật tự an toàn giao thông",
+        "description": ""
+    },
+    {
+        "field_id": "TF522",
+        "field_code": "7860111",
+        "field_name": "Thi hành án hình sự và hỗ trợ tư pháp",
+        "description": ""
+    },
+    {
+        "field_id": "TF523",
+        "field_code": "7860112",
+        "field_name": "Tham mưu, chỉ huy vũ trang bảo vệ an ninh",
+        "description": ""
+    },
+    {
+        "field_id": "TF524",
+        "field_code": "7860113",
+        "field_name": "Phòng cháy chữa cháy và cứu hộ cứu nạn",
+        "description": ""
+    },
+    {
+        "field_id": "TF525",
+        "field_code": "7860116",
+        "field_name": "Hậu cần công an nhân dân",
+        "description": ""
+    },
+    {
+        "field_id": "TF526",
+        "field_code": "7860117",
+        "field_name": "Tình báo an ninh",
+        "description": ""
+    },
+    {
+        "field_id": "TF527",
+        "field_code": "78602",
+        "field_name": "Quân sự",
+        "description": ""
+    },
+    {
+        "field_id": "TF528",
+        "field_code": "7860201",
+        "field_name": "Chỉ huy tham mưu Lục quân",
+        "description": ""
+    },
+    {
+        "field_id": "TF529",
+        "field_code": "7860202",
+        "field_name": "Chỉ huy tham mưu Hải quân",
+        "description": ""
+    },
+    {
+        "field_id": "TF530",
+        "field_code": "7860203",
+        "field_name": "Chỉ huy tham mưu Không quân",
+        "description": ""
+    },
+    {
+        "field_id": "TF531",
+        "field_code": "7860204",
+        "field_name": "Chỉ huy tham mưu Phòng không",
+        "description": ""
+    },
+    {
+        "field_id": "TF532",
+        "field_code": "7860205",
+        "field_name": "Chỉ huy tham mưu Pháo binh",
+        "description": ""
+    },
+    {
+        "field_id": "TF533",
+        "field_code": "7860206",
+        "field_name": "Chỉ huy tham mưu Tăng – thiết giáp",
+        "description": ""
+    },
+    {
+        "field_id": "TF534",
+        "field_code": "7860207",
+        "field_name": "Chỉ huy tham mưu Đặc công",
+        "description": ""
+    },
+    {
+        "field_id": "TF535",
+        "field_code": "7860214",
+        "field_name": "Biên phòng",
+        "description": ""
+    },
+    {
+        "field_id": "TF536",
+        "field_code": "7860217",
+        "field_name": "Tình báo quân sự",
+        "description": ""
+    },
+    {
+        "field_id": "TF537",
+        "field_code": "7860218",
+        "field_name": "Hậu cần quân sự",
+        "description": ""
+    },
+    {
+        "field_id": "TF538",
+        "field_code": "7860219",
+        "field_name": "Chỉ huy, tham mưu thông tin",
+        "description": ""
+    },
+    {
+        "field_id": "TF539",
+        "field_code": "7860220",
+        "field_name": "Chỉ huy, quản lý kỹ thuật",
+        "description": ""
+    },
+    {
+        "field_id": "TF540",
+        "field_code": "7860222",
+        "field_name": "Quân sự cơ sở",
+        "description": ""
+    },
+    {
+        "field_id": "TF541",
+        "field_code": "7860226",
+        "field_name": "Chỉ huy kỹ thuật Phòng không",
+        "description": ""
+    },
+    {
+        "field_id": "TF542",
+        "field_code": "7860227",
+        "field_name": "Chỉ huy kỹ thuật Tăng – thiết giáp",
+        "description": ""
+    },
+    {
+        "field_id": "TF543",
+        "field_code": "7860228",
+        "field_name": "Chỉ huy kỹ thuật công binh",
+        "description": ""
+    },
+    {
+        "field_id": "TF544",
+        "field_code": "7860229",
+        "field_name": "Chỉ huy kỹ thuật hóa học",
+        "description": ""
+    },
+    {
+        "field_id": "TF545",
+        "field_code": "7860231",
+        "field_name": "Trinh sát kỹ thuật",
+        "description": ""
+    },
+    {
+        "field_id": "TF546",
+        "field_code": "7860232",
+        "field_name": "Chỉ huy kỹ thuật Hải quân",
+        "description": ""
+    },
+    {
+        "field_id": "TF547",
+        "field_code": "7860233",
+        "field_name": "Chỉ huy kỹ thuật tác chiến điện tử",
+        "description": ""
+    },
+    {
+        "field_id": "TF548",
+        "field_code": "790",
+        "field_name": "Khác",
+        "description": ""
+    },
+    {
+        "field_id": "TF549",
+        "field_code": "7900101",
+        "field_name": "Quản trị doanh nghiệp và Công nghệ",
+        "description": ""
+    },
+    {
+        "field_id": "TF550",
+        "field_code": "7900102",
+        "field_name": "Marketing và Truyền thông",
+        "description": ""
+    },
+    {
+        "field_id": "TF551",
+        "field_code": "7900103",
+        "field_name": "Quản trị nhân lực và nhân tài",
+        "description": ""
+    },
+    {
+        "field_id": "TF552",
+        "field_code": "7900189",
+        "field_name": "Quản trị và An ninh",
+        "description": ""
+    }
+]

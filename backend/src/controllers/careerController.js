@@ -18,7 +18,9 @@ exports.createCareer = handleAsync(async (req, res) => {
 });
 
 exports.updateCareer = handleAsync(async (req, res) => {
-    const career = await Career.findByIdAndUpdate(req.params.id, req.body, { new: true });
+    const career = await Career.findByIdAndUpdate(req.params.id, req.body, {
+        new: true,
+    });
     if (!career) return res.status(404).json({ message: 'Career not found' });
     res.json(career);
 });
