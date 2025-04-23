@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/pages/search-majors.css';
+import { majorService } from '../services/majorService';
 
 const SearchMajorsPage = () => {
     const [searchQuery, setSearchQuery] = useState('');
@@ -9,15 +10,69 @@ const SearchMajorsPage = () => {
         examGroup: 'all',
         opportunity: 'all',
     });
+    const [fields, setFields] = useState([]);
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        const fetchFields = async () => {
+            try {
+                setLoading(true);
+                const response = await majorService.getAll();
+                console.log('Fetched data:', response);
+                if (response.success && Array.isArray(response.data)) {
+                    setFields(response.data);
+                } else {
+                    console.error('Invalid data format:', response);
+                }
+            } catch (error) {
+                console.error('Error:', error);
+            } finally {
+                setLoading(false);
+            }
+        };
+        fetchFields();
+    }, []);
 
     const handleSearch = (e) => {
         e.preventDefault();
-        console.log('Searching for:', searchQuery);
+        const filteredFields = fields.map(field => ({
+            ...field,
+            majors: field.majors.filter(major => 
+                major.major_name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                major.major_code.includes(searchQuery)
+            )
+        })).filter(field => field.majors.length > 0);
+        setFields(filteredFields);
     };
 
     const handleApplyFilters = () => {
-        console.log('Applying filters:', filters);
+        const fetchAndFilterMajors = async () => {
+            try {
+                setLoading(true);
+                const response = await majorService.getAll();
+                let filteredData = response.data;
+
+                if (filters.field !== 'all') {
+                    filteredData = filteredData.filter(field => 
+                        field.group_id === filters.field
+                    );
+                }
+
+                setFields(filteredData);
+            } catch (error) {
+                console.error('Error:', error);
+            } finally {
+                setLoading(false);
+            }
+        };
+
+        fetchAndFilterMajors();
     };
+
+    const filterOptions = fields.map(field => ({
+        value: field.group_id,
+        label: field.group_name
+    }));
 
     return (
         <div className="sm-page">
@@ -50,8 +105,11 @@ const SearchMajorsPage = () => {
                                 }
                             >
                                 <option value="all">Tất cả</option>
-                                <option value="it">Công nghệ thông tin</option>
-                                <option value="economics">Kinh tế</option>
+                                {filterOptions.map(option => (
+                                    <option key={option.value} value={option.value}>
+                                        {option.label}
+                                    </option>
+                                ))}
                             </select>
                         </div>
                         <div className="filter-group">
@@ -98,96 +156,37 @@ const SearchMajorsPage = () => {
                     </div>
 
                     <div className="sm-results-panel">
-                        {[
-                            {
-                                id: 1,
-                                name: 'Công nghệ thông tin',
-                                type: 'Khối A00, A01',
-                                description:
-                                    'Chuyên ngành đào tạo về phát triển phần mềm, trí tuệ nhân tạo, và công nghệ web.',
-                                avgScore: 26.5,
-                                employmentRate: 92,
-                            },
-                            {
-                                id: 2,
-                                name: 'Quản trị kinh doanh',
-                                type: 'Khối A00, D01',
-                                description:
-                                    'Đào tạo các nhà quản lý tương lai với kiến thức về kinh doanh, marketing.',
-                                avgScore: 25.75,
-                                employmentRate: 88,
-                            },
-                            {
-                                id: 3,
-                                name: 'Kỹ thuật phần mềm',
-                                type: 'Khối A00, A01',
-                                description:
-                                    'Chuyên sâu về quy trình phát triển phần mềm, đảm bảo chất lượng phần mềm.',
-                                avgScore: 25.8,
-                                employmentRate: 90,
-                            },
-                            {
-                                id: 4,
-                                name: 'Marketing',
-                                type: 'Khối A00, D01',
-                                description:
-                                    'Nghiên cứu thị trường, xây dựng chiến lược marketing và quảng cáo.',
-                                avgScore: 24.5,
-                                employmentRate: 85,
-                            },
-                            {
-                                id: 5,
-                                name: 'Khoa học dữ liệu',
-                                type: 'Khối A00, A01',
-                                description:
-                                    'Phân tích dữ liệu lớn, học máy và trí tuệ nhân tạo.',
-                                avgScore: 26.0,
-                                employmentRate: 91,
-                            },
-                            {
-                                id: 6,
-                                name: 'Tài chính - Ngân hàng',
-                                type: 'Khối A00, D01',
-                                description:
-                                    'Quản lý tài chính, đầu tư và hoạt động ngân hàng.',
-                                avgScore: 25.2,
-                                employmentRate: 87,
-                            },
-                        ].map((major) => (
-                            <Link
-                                to={`/major/${major.id}`}
-                                key={major.id}
-                                className="sm-major-card"
-                            >
-                                <div className="sm-major-header">
-                                    <h3>{major.name}</h3>
-                                    <span className="sm-major-type">
-                                        {major.type}
-                                    </span>
-                                </div>
-                                <div className="sm-major-content">
-                                    <p>{major.description}</p>
-                                    <div className="sm-major-stats">
-                                        <div className="sm-stat-item">
-                                            <div className="sm-stat-label">
-                                                Điểm chuẩn
-                                            </div>
-                                            <div className="sm-stat-value">
-                                                {major.avgScore}
-                                            </div>
-                                        </div>
-                                        <div className="sm-stat-item">
-                                            <div className="sm-stat-label">
-                                                Tỷ lệ việc làm
-                                            </div>
-                                            <div className="sm-stat-value">
-                                                {major.employmentRate}%
-                                            </div>
-                                        </div>
+                        {loading ? (
+                            <div>Đang tải dữ liệu...</div>
+                        ) : fields.length === 0 ? (
+                            <div>Không có dữ liệu</div>
+                        ) : (
+                            fields.map((field) => (
+                                <div key={field.group_id} className="major-group">
+                                    <h3 className="group-name">{field.group_name}</h3>
+                                    <div className="majors-grid">
+                                        {field.majors?.length > 0 ? (
+                                            field.majors.map((major) => (
+                                                <Link 
+                                                    to={`/major/${major.major_code}`}
+                                                    key={major.major_code} 
+                                                    className="sm-major-card"
+                                                >
+                                                    <div className="sm-major-header">
+                                                        <h4>{major.major_name}</h4>
+                                                        <span className="major-code">
+                                                            Mã ngành: {major.major_code}
+                                                        </span>
+                                                    </div>
+                                                </Link>
+                                            ))
+                                        ) : (
+                                            <div>Chưa có ngành trong nhóm này</div>
+                                        )}
                                     </div>
                                 </div>
-                            </Link>
-                        ))}
+                            ))
+                        )}
                     </div>
                 </div>
             </div>

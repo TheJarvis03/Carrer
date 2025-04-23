@@ -22,7 +22,6 @@ app.use(
 
 // Static file serving
 app.use(express.static(path.join(__dirname, '../public')));
-app.use('/images', express.static(path.join(__dirname, '../public/images')));
 
 // API routes
 app.use(express.json());
