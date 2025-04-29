@@ -1,38 +1,34 @@
 const AdmissionScore = require('../models/AdmissionScore');
-const { handleAsync } = require('../utils/crudOperations');
+const { handleAsync, createResponse } = require('../utils/crudOperations');
 
-exports.getAllScores = async (req, res) => {
-    try {
-        console.log('Getting admission scores...');
-        const scores = await AdmissionScore.find({});
-        console.log(`Found ${scores.length} scores`);
-        res.json({
-            success: true,
-            count: scores.length,
-            data: scores
-        });
-    } catch (error) {
-        console.error('Error getting scores:', error);
-        res.status(500).json({
-            success: false,
-            message: error.message
-        });
-    }
-};
+exports.getAllScores = handleAsync(async (req, res) => {
+    const scores = await AdmissionScore.find({});
+    res.json(createResponse(true, 'Scores retrieved successfully', {
+        count: scores.length,
+        data: scores
+    }));
+});
 
 exports.getScoresByUniversity = handleAsync(async (req, res) => {
-  const { universityId } = req.params;
-  const scores = await AdmissionScore.find({ university: universityId });
-  res.json(scores);
+    const { universityId } = req.params;
+    const scores = await AdmissionScore.find({ university: universityId });
+    
+    if (!scores.length) {
+        return res.status(404).json(createResponse(false, 'No scores found for this university'));
+    }
+    
+    res.json(createResponse(true, 'Scores retrieved successfully', scores));
 });
 
 exports.getScoresByMajor = handleAsync(async (req, res) => {
-  const { majorId } = req.params;
-  const scores = await AdmissionScore.find({ 
-    $or: [
-      { major: majorId },
-      { major_code: majorId }
-    ]
-  });
-  res.json(scores);
+    const { majorId } = req.params;
+    const scores = await AdmissionScore.find({ 
+        $or: [{ major: majorId }, { major_code: majorId }]
+    });
+
+    if (!scores.length) {
+        return res.status(404).json(createResponse(false, 'No scores found for this major'));
+    }
+
+    res.json(createResponse(true, 'Scores retrieved successfully', scores));
 });

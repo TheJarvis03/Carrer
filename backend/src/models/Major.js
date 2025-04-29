@@ -1,23 +1,18 @@
 const mongoose = require('mongoose');
 
-const majorDetailSchema = new mongoose.Schema({
-  major_id: String,
-  major_code: String,
-  major_name: String,
-  description: String
-});
-
 const majorSchema = new mongoose.Schema({
-  group_id: {
-    type: String,
-    required: true,
-    unique: true
-  },
-  group_name: {
-    type: String,
-    required: true
-  },
-  majors: [majorDetailSchema]
+    _id: String,
+    group_id: String,
+    group_name: String,
+    majors: [{
+        major_id: String,
+        major_code: String,
+        major_name: String,
+        description: String
+    }]
+}, { 
+    collection: 'majors',
+    timestamps: true
 });
 
 module.exports = mongoose.model('Major', majorSchema);

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navigation from './components/navigation';
 import Footer from './components/footer';
@@ -16,24 +16,8 @@ import GeneralSearchPage from './pages/general-search';
 import NewsPage from './pages/news';
 import MajorDetailPage from './pages/major-detail';
 import ArticleDetailPage from './pages/article-detail';
-import { careerService } from './services/api';
 
 function App() {
-    const [careers, setCareers] = useState([]);
-
-    useEffect(() => {
-        const fetchCareers = async () => {
-            try {
-                const response = await careerService.getAll();
-                setCareers(response.data);
-            } catch (error) {
-                console.error('Error fetching careers:', error);
-            }
-        };
-
-        fetchCareers();
-    }, []);
-
     return (
         <Router>
             <div className="app-container">
@@ -84,15 +68,6 @@ function App() {
                         />
                         <Route path="*" element={<div>Page not found</div>} />
                     </Routes>
-                    <div>
-                        <h1>Career List</h1>
-                        {careers.map((career) => (
-                            <div key={career._id}>
-                                <h2>{career.career_name}</h2>
-                                <p>{career.description}</p>
-                            </div>
-                        ))}
-                    </div>
                 </main>
                 <Footer />
             </div>
