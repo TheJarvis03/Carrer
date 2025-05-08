@@ -13,6 +13,16 @@
     height: 60px;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
+}
+
 .navigation .logo a {
     font-size: 1.5rem;
     font-weight: bold;
@@ -192,4 +202,88 @@
     .navigation ul {
         gap: 0.5rem;
     }
+
+    .mobile-menu-btn {
+        display: block;
+    }
+
+    .nav-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: white;
+        flex-direction: column;
+        padding: 1rem;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .nav-menu li {
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+
+    .dropdown-menu {
+        position: static;
+        box-shadow: none;
+        width: 100%;
+    }
+
+    .dropdown-menu.active {
+        display: block;
+    }
+}
+
+.mobile-menu-btn {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+.hamburger {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: #333;
+    position: relative;
+    transition: all 0.3s;
+}
+
+.hamburger::before,
+.hamburger::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: #333;
+    transition: all 0.3s;
+}
+
+.hamburger::before {
+    top: -8px;
+}
+
+.hamburger::after {
+    bottom: -8px;
+}
+
+.hamburger.active {
+    background: transparent;
+}
+
+.hamburger.active::before {
+    top: 0;
+    transform: rotate(45deg);
+}
+
+.hamburger.active::after {
+    bottom: 0;
+    transform: rotate(-45deg);
 }

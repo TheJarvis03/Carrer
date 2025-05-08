@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import '../styles/components/navigation.css';
+import logo from '../assets/images/logo.svg';
 
 const Navigation = () => {
     const [showDropdown, setShowDropdown] = useState(false);
@@ -31,7 +32,9 @@ const Navigation = () => {
     return (
         <nav className="navigation">
             <div className="logo">
-                <Link to="/">Định hướng tương lai</Link>
+                <Link to="/">
+                    <img src={logo} alt="Career Guide Logo" height="40" />
+                </Link>
             </div>
 
             <div className="nav-search">

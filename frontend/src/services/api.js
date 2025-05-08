@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-    baseURL: 'http://localhost:5000/',
+    baseURL: 'http://localhost:5000/api',
     timeout: 5000,
 });
 
@@ -23,4 +23,37 @@ export const careerService = {
     getById: (id) => API.get(`/careers/${id}`),
 };
 
-// ... other services ...
+export const majorService = {
+    getAll: () => API.get('/search/majors'),
+    getById: (id) => API.get(`/majors/${id}`),
+    getByField: (field) => API.get(`/majors/field/${field}`),
+};
+
+export const schoolService = {
+    getAll: () => API.get('/schools'),
+    getById: (id) => API.get(`/schools/${id}`),
+    getByLocation: (location) => API.get(`/schools/location/${location}`),
+};
+
+export const scoreService = {
+    getAll: () => API.get('/admissionScores'),
+    getBySchool: (schoolId) => API.get(`/admissionScores/school/${schoolId}`),
+    getByMajor: (majorId) => API.get(`/admissionScores/major/${majorId}`),
+};
+
+export const newsService = {
+    getAll: (page = 1, limit = 10) => API.get(`/news?page=${page}&limit=${limit}`),
+    getById: (id) => API.get(`/news/${id}`),
+    getByCategory: (category) => API.get(`/news/category/${category}`),
+};
+
+// Add interceptors for authentication
+API.interceptors.request.use((config) => {
+    const token = localStorage.getItem('token');
+    if (token) {
+        config.headers.Authorization = `Bearer ${token}`;
+    }
+    return config;
+});
+
+export default API;

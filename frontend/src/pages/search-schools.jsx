@@ -8,22 +8,41 @@ const SearchSchoolsPage = () => {
         region: 'all',
         tuition: 'all',
     });
+    const [searchQuery, setSearchQuery] = useState('');
 
     const handleApplyFilters = () => {
         // TODO: Implement filter logic
         console.log('Applying filters:', filters);
     };
 
+    const handleSearch = (e) => {
+        e.preventDefault();
+        console.log('Searching for:', searchQuery);
+    };
+
     return (
         <div className="ssh-page">
             <section className="search-header">
-                <h1>Tìm kiếm trường học</h1>
+                <h1>Khám phá trường đại học</h1>
                 <p>
-                    Tra cứu thông tin chi tiết về các trường đại học, cao đẳng
+                    Tìm hiểu và so sánh các trường đại học, cao đẳng trên toàn quốc
                 </p>
-                <div className="search-box">
-                    <input type="text" placeholder="Nhập tên trường..." />
-                    <button>Tìm kiếm</button>
+                <form className="search-box" onSubmit={handleSearch}>
+                    <input 
+                        type="text" 
+                        placeholder="Tìm kiếm theo tên trường, ngành học..." 
+                        value={searchQuery}
+                        onChange={(e) => setSearchQuery(e.target.value)}
+                    />
+                    <button type="submit">
+                        <i className="fas fa-search"></i>
+                        Tìm kiếm
+                    </button>
+                </form>
+                <div className="search-stats">
+                    <span><strong>156</strong> trường</span>
+                    <span><strong>2,450</strong> ngành học</span>
+                    <span><strong>12,000+</strong> đánh giá</span>
                 </div>
             </section>
 

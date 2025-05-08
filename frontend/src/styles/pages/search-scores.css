@@ -91,27 +91,48 @@
 .ss-scores-table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 20px;
+    table-layout: fixed;
 }
 
 .ss-scores-table th,
 .ss-scores-table td {
     padding: 12px;
     text-align: left;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid var(--border-color);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
-.ss-scores-table th {
-    background-color: #f5f5f5;
-    font-weight: 600;
+/* Column widths update */
+.ss-scores-table th:nth-child(1),
+.ss-scores-table td:nth-child(1) { width: 22%; } /* Tên trường */
+.ss-scores-table th:nth-child(2),
+.ss-scores-table td:nth-child(2) { width: 10%; } /* Mã trường */
+.ss-scores-table th:nth-child(3),
+.ss-scores-table td:nth-child(3) { width: 25%; } /* Ngành học */
+.ss-scores-table th:nth-child(4),
+.ss-scores-table td:nth-child(4) { width: 13%; } /* Khối thi */
+.ss-scores-table th:nth-child(5),
+.ss-scores-table td:nth-child(5) { width: 10%; } /* Điểm chuẩn */
+.ss-scores-table th:nth-child(6),
+.ss-scores-table td:nth-child(6) { width: 20%; } /* Ghi chú */
+
+.note-cell {
+    color: var(--text-light);
+    font-style: italic;
+    font-size: 0.9em;
 }
 
-.ss-scores-table tbody tr:hover {
-    background-color: #f8f9fa;
+.truncate {
+    max-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .ss-scores-table tr:hover {
-    background-color: #f8f9fa;
+    background-color: var(--background-alt);
 }
 
 .score-value {
@@ -143,6 +164,78 @@
     margin-bottom: 1rem; /* Giảm margin */
 }
 
+.error-state {
+    text-align: center;
+    padding: 2rem;
+    background: rgba(231, 76, 60, 0.1);
+    border-radius: var(--radius-lg);
+    color: #e74c3c;
+    margin: 1rem 0;
+}
+
+.error-state p {
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.retry-btn {
+    padding: 0.5rem 1.5rem;
+    background: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    font-weight: 500;
+    transition: all var(--transition-speed) ease;
+}
+
+.retry-btn:hover {
+    background: #c0392b;
+    transform: translateY(-1px);
+}
+
+/* Pagination styles */
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.pagination-btn {
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--border-color);
+    background: white;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    transition: all var(--transition-speed) ease;
+}
+
+.pagination-btn:hover:not(:disabled) {
+    background: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+.pagination-btn.active {
+    background: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+.pagination-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.pagination-ellipsis {
+    padding: 0.5rem;
+    color: var(--text-light);
+    user-select: none;
+}
+
 /* Responsive Design */
 @media (max-width: 1024px) {
     .ss-content {
@@ -170,4 +263,45 @@
     .ss-scores-table td {
         padding: 0.75rem 1rem;
     }
+}
+
+/* New styles for score section */
+.score-section {
+    background: white;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+    margin-bottom: 2rem;
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+}
+
+.score-section-header {
+    background: var(--background-alt);
+    padding: 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.university-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.university-info h3 {
+    color: var(--primary-color);
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+.university-code {
+    color: var(--text-light);
+    font-size: 0.9rem;
+    padding: 0.25rem 0.75rem;
+    background: rgba(var(--primary-rgb), 0.1);
+    border-radius: var(--radius-sm);
+}
+
+.exam-group {
+    font-weight: 500;
+    color: var(--primary-color);
 }

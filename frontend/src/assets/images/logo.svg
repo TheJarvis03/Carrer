@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <!-- Graduation cap -->
+  <path d="M40 15L10 25L40 35L70 25L40 15Z" fill="#2563eb"/>
+  <path d="M25 27v10l15 8 15-8v-10" fill="none" stroke="#2563eb" stroke-width="2"/>
+  
+  <!-- Text -->
+  <text x="85" y="35" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1e40af">
+    Career Guide
+  </text>
+  
+  <!-- Optional tag line -->
+  <text x="85" y="48" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">
+    Your path to success
+  </text>
+</svg>

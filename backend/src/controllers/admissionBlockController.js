@@ -6,11 +6,7 @@ exports.getAllBlocks = handleAsync(async (req, res) => {
     .populate('universityId')
     .populate('admissionMethodId');
   
-  res.json({
-    success: true,
-    count: blocks.length,
-    data: blocks
-  });
+  res.json(blocks);
 });
 
 exports.getBlockById = handleAsync(async (req, res) => {

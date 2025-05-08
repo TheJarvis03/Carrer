@@ -3,11 +3,7 @@ const { handleAsync } = require('../utils/crudOperations');
 
 exports.getAllMethods = handleAsync(async (req, res) => {
   const methods = await AdmissionMethod.find({});
-  res.json({
-    success: true,
-    count: methods.length,
-    data: methods
-  });
+  res.json(methods);
 });
 
 exports.getMethodById = handleAsync(async (req, res) => {
