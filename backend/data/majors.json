@@ -630,7 +630,7 @@
             {
                 "major_id": "TF115",
                 "major_code": "7229020",
-                "major_name": "Ngôn ngữ học", 
+                "major_name": "Ngôn ngữ học",
                 "description": ""
             },
             {
@@ -671,7 +671,7 @@
             },
             {
                 "major_id": "TF122",
-                "major_code": "7310102", 
+                "major_code": "7310102",
                 "major_name": "Kinh tế chính trị",
                 "description": ""
             },
@@ -742,7 +742,7 @@
                 "description": ""
             },
             {
-                "major_id": "TF134", 
+                "major_id": "TF134",
                 "major_code": "7310203",
                 "major_name": "Chính trị Công an nhân dân",
                 "description": ""
@@ -899,7 +899,7 @@
             },
             {
                 "major_id": "TF160",
-                "major_code": "7320105", 
+                "major_code": "7320105",
                 "major_name": "Truyền thông đại chúng",
                 "description": ""
             },
@@ -1283,7 +1283,7 @@
             },
             {
                 "major_id": "TF225",
-                "major_code": "7420202", 
+                "major_code": "7420202",
                 "major_name": "Kỹ thuật Sinh học",
                 "description": ""
             },
@@ -1369,7 +1369,7 @@
     },
     {
         "group_id": "74402",
-        "group_name": "Khoa học trái đất", 
+        "group_name": "Khoa học trái đất",
         "majors": [
             {
                 "major_id": "TF238",
@@ -1493,7 +1493,7 @@
             },
             {
                 "major_id": "TF259",
-                "major_code": "7480102", 
+                "major_code": "7480102",
                 "major_name": "Mạng máy tính và Truyền thông dữ liệu",
                 "description": ""
             },
@@ -1848,7 +1848,7 @@
         ]
     },
     {
-        "group_id": "75190", 
+        "group_id": "75190",
         "group_name": "Khác",
         "majors": [
             {
@@ -1883,7 +1883,7 @@
         "majors": [
             {
                 "major_id": "TF322",
-                "major_code": "7520101", 
+                "major_code": "7520101",
                 "major_name": "Cơ kỹ thuật",
                 "description": ""
             },
@@ -2110,7 +2110,7 @@
                 "description": ""
             },
             {
-                "major_id": "TF360", 
+                "major_id": "TF360",
                 "major_code": "7520502",
                 "major_name": "Kỹ thuật địa vật lý",
                 "description": ""
@@ -2401,7 +2401,7 @@
     },
     {
         "group_id": "76201",
-        "group_name": "Nông nghiệp", 
+        "group_name": "Nông nghiệp",
         "majors": [
             {
                 "major_id": "TF409",
@@ -2417,7 +2417,7 @@
             },
             {
                 "major_id": "TF411",
-                "major_code": "7620103", 
+                "major_code": "7620103",
                 "major_name": "Khoa học đất",
                 "description": ""
             },
@@ -2568,7 +2568,7 @@
         ]
     },
     {
-        "group_id": "76401", 
+        "group_id": "76401",
         "group_name": "Thú y",
         "majors": [
             {
@@ -2585,7 +2585,7 @@
         "majors": [
             {
                 "major_id": "TF439",
-                "major_code": "7720101", 
+                "major_code": "7720101",
                 "major_name": "Y khoa",
                 "description": ""
             },
@@ -2616,7 +2616,7 @@
             {
                 "major_id": "TF444",
                 "major_code": "7720203",
-                "major_name": "Hóa dược", 
+                "major_name": "Hóa dược",
                 "description": ""
             }
         ]
@@ -2734,7 +2734,7 @@
                 "description": ""
             },
             {
-                "major_id": "TF464", 
+                "major_id": "TF464",
                 "major_code": "7720802",
                 "major_name": "Quản lý bệnh viện",
                 "description": ""
@@ -2784,7 +2784,7 @@
         ]
     },
     {
-        "group_id": "78101", 
+        "group_id": "78101",
         "group_name": "Du lịch",
         "majors": [
             {
@@ -2892,7 +2892,7 @@
         ]
     },
     {
-        "group_id": "78401", 
+        "group_id": "78401",
         "group_name": "Khai thác vận tải",
         "majors": [
             {
@@ -2903,7 +2903,7 @@
             },
             {
                 "major_id": "TF492",
-                "major_code": "7840102", 
+                "major_code": "7840102",
                 "major_name": "Quản lý hoạt động bay",
                 "description": ""
             },
@@ -3011,7 +3011,7 @@
             },
             {
                 "major_id": "TF510",
-                "major_code": "7859007", 
+                "major_code": "7859007",
                 "major_name": "Cảnh quan và Kỹ thuật hoa viên",
                 "description": ""
             }
@@ -3019,7 +3019,7 @@
     },
     {
         "group_id": "78601",
-        "group_name": "An ninh và trật tự xã hội", 
+        "group_name": "An ninh và trật tự xã hội",
         "majors": [
             {
                 "major_id": "TF512",
@@ -3035,7 +3035,7 @@
             },
             {
                 "major_id": "TF514",
-                "major_code": "7860102", 
+                "major_code": "7860102",
                 "major_name": "Điều tra trinh sát",
                 "description": ""
             },
@@ -3244,14 +3244,14 @@
         "group_name": "Khác",
         "majors": [
             {
-                "major_id": "TF549", 
+                "major_id": "TF549",
                 "major_code": "7900101",
                 "major_name": "Quản trị doanh nghiệp và Công nghệ",
                 "description": ""
             },
             {
                 "major_id": "TF550",
-                "major_code": "7900102", 
+                "major_code": "7900102",
                 "major_name": "Marketing và Truyền thông",
                 "description": ""
             },

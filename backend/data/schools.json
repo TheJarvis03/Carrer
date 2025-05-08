@@ -1,3270 +1,3272 @@
-[{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453462"
-  },
-  "school_name": "ĐẠI HỌC BÁCH KHOA HÀ NỘI",
-  "school_id": "BKA",
-  "location": "Hà Nội",
-  "school_type": "Đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453463"
-  },
-  "school_name": "ĐẠI HỌC ĐÀ NẴNG",
-  "school_id": "E",
-  "location": "Đà Nẵng",
-  "school_type": "Đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453464"
-  },
-  "school_name": "ĐẠI HỌC HUẾ",
-  "school_id": "D",
-  "location": "Thừa Thiên Huế",
-  "school_type": "Đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453465"
-  },
-  "school_name": "ĐẠI HỌC KINH TẾ TP. HỒ CHÍ MINH",
-  "school_id": "KSA",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453466"
-  },
-  "school_name": "ĐẠI HỌC QUỐC GIA HÀ NỘI",
-  "school_id": "A",
-  "location": "Hà Nội",
-  "school_type": "Đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453467"
-  },
-  "school_name": "ĐẠI HỌC QUỐC GIA TP. HỒ CHÍ MINH",
-  "school_id": "C",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453468"
-  },
-  "school_name": "ĐẠI HỌC THÁI NGUYÊN",
-  "school_id": "B",
-  "location": "Thái Nguyên",
-  "school_type": "Đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453469"
-  },
-  "school_name": "ĐẠI HỌC Y DƯỢC TP. HỒ CHÍ MINH",
-  "school_id": "YDS",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045346a"
-  },
-  "school_name": "HỌC VIỆN ÂM NHẠC HUẾ",
-  "school_id": "HVA",
-  "location": "Thừa Thiên Huế",
-  "school_type": "Học viện",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045346b"
-  },
-  "school_name": "HỌC VIỆN ÂM NHẠC QUỐC GIA VIỆT NAM",
-  "school_id": "NVH",
-  "location": "Hà Nội",
-  "school_type": "Học viện",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045346c"
-  },
-  "school_name": "HỌC VIỆN BÁO CHÍ VÀ TUYÊN TRUYỀN",
-  "school_id": "HBT",
-  "location": "Hà Nội",
-  "school_type": "Học viện",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045346d"
-  },
-  "school_name": "HỌC VIỆN CÁN BỘ THÀNH PHỐ HỒ CHÍ MINH",
-  "school_id": "HVC",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đào tạo, bồi dưỡng",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045346e"
-  },
-  "school_name": "HỌC VIỆN CÔNG NGHỆ BƯU CHÍNH VIỄN THÔNG",
-  "school_id": "BVH",
-  "location": "Hà Nội",
-  "school_type": "Học viện",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045346f"
-  },
-  "school_name": "HỌC VIỆN CHÍNH SÁCH VÀ PHÁT TRIỂN",
-  "school_id": "HCP",
-  "location": "Hà Nội",
-  "school_type": "Học viện",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453470"
-  },
-  "school_name": "HỌC VIỆN CHÍNH TRỊ KHU VỰC I",
-  "school_id": "HCC",
-  "location": "Hà Nội",
-  "school_type": "Trường đào tạo, bồi dưỡng",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453471"
-  },
-  "school_name": "HỌC VIỆN CHÍNH TRỊ QUỐC GIA HỒ CHÍ MINH",
-  "school_id": "HVH",
-  "location": "Hà Nội",
-  "school_type": "Trường đào tạo, bồi dưỡng",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453472"
-  },
-  "school_name": "HỌC VIỆN DÂN TỘC",
-  "school_id": "HVD",
-  "location": "Hà Nội",
-  "school_type": "Trường đào tạo, bồi dưỡng",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453473"
-  },
-  "school_name": "HỌC VIỆN HÀNG KHÔNG VIỆT NAM",
-  "school_id": "HHK",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Học viện",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453474"
-  },
-  "school_name": "HỌC VIỆN HÀNH CHÍNH QUỐC GIA",
-  "school_id": "HCH",
-  "location": "Hà Nội",
-  "school_type": "Trường đào tạo, bồi dưỡng",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453475"
-  },
-  "school_name": "HỌC VIỆN KHOA HỌC VÀ CÔNG NGHỆ",
-  "school_id": "HKC",
-  "location": "Hà Nội",
-  "school_type": "Trường đào tạo, bồi dưỡng",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453476"
-  },
-  "school_name": "HỌC VIỆN KHOA HỌC XÃ HỘI",
-  "school_id": "HXH",
-  "location": "Hà Nội",
-  "school_type": "Trường đào tạo, bồi dưỡng",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453477"
-  },
-  "school_name": "HỌC VIỆN KHOA HỌC, CÔNG NGHỆ VÀ ĐỔI MỚI SÁNG TẠO",
-  "school_id": "V24",
-  "location": "Hà Nội",
-  "school_type": "Trường đào tạo, bồi dưỡng",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453478"
-  },
-  "school_name": "HỌC VIỆN MÚA VIỆT NAM",
-  "school_id": "CMH",
-  "location": "Hà Nội",
-  "school_type": "Học viện",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453479"
-  },
-  "school_name": "HỌC VIỆN NÔNG NGHIỆP VIỆT NAM",
-  "school_id": "HVN",
-  "location": "Hà Nội",
-  "school_type": "Học viện",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045347a"
-  },
-  "school_name": "HỌC VIỆN NGÂN HÀNG",
-  "school_id": "NHH",
-  "location": "Hà Nội",
-  "school_type": "Học viện",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045347b"
-  },
-  "school_name": "HỌC VIỆN NGOẠI GIAO",
-  "school_id": "HQT",
-  "location": "Hà Nội",
-  "school_type": "Học viện",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045347c"
-  },
-  "school_name": "HỌC VIỆN PHỤ NỮ VIỆT NAM",
-  "school_id": "HPN",
-  "location": "Hà Nội",
-  "school_type": "Học viện",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045347d"
-  },
-  "school_name": "HỌC VIỆN QUẢN LÝ GIÁO DỤC",
-  "school_id": "HVQ",
-  "location": "Hà Nội",
-  "school_type": "Học viện",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045347e"
-  },
-  "school_name": "HỌC VIỆN TÀI CHÍNH",
-  "school_id": "HTC",
-  "location": "Hà Nội",
-  "school_type": "Học viện",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045347f"
-  },
-  "school_name": "HỌC VIỆN TOÀ ÁN",
-  "school_id": "HTA",
-  "location": "Hà Nội",
-  "school_type": "Học viện",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453480"
-  },
-  "school_name": "HỌC VIỆN THANH THIẾU NIÊN VIỆT NAM",
-  "school_id": "HTN",
-  "location": "Hà Nội",
-  "school_type": "Học viện",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453481"
-  },
-  "school_name": "HỌC VIỆN Y DƯỢC HỌC CỔ TRUYỀN VIỆT NAM",
-  "school_id": "HYD",
-  "location": "Hà Nội",
-  "school_type": "Học viện",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453482"
-  },
-  "school_name": "NHẠC VIỆN TP. HỒ CHÍ MINH",
-  "school_id": "NVS",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Học viện",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453483"
-  },
-  "school_name": "Trường Cao đẳng Bắc Kạn",
-  "school_id": "C11",
-  "location": "Bắc Kạn",
-  "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453484"
-  },
-  "school_name": "Trường Cao đẳng Bến Tre",
-  "school_id": "C56",
-  "location": "Bến Tre",
-  "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453485"
-  },
-  "school_name": "Trường Cao đẳng Bình Định",
-  "school_id": "C37",
-  "location": "Bình Định",
-  "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453486"
-  },
-  "school_name": "Trường Cao đẳng Bình Phước",
-  "school_id": "C43",
-  "location": "Bình Phước",
-  "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453487"
-  },
-  "school_name": "Trường Cao đẳng Cần Thơ",
-  "school_id": "C55",
-  "location": "Cần Thơ",
-  "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453488"
-  },
-  "school_name": "Trường Cao đẳng Cộng đồng Bình Thuận",
-  "school_id": "C47",
-  "location": "Bình Thuận",
-  "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453489"
-  },
-  "school_name": "Trường Cao đẳng Cộng đồng Cà Mau",
-  "school_id": "D61",
-  "location": "Cà Mau",
-  "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045348a"
-  },
-  "school_name": "Trường Cao đẳng Cộng đồng Hà Nội",
-  "school_id": "CHN",
-  "location": "Hà Nội",
-  "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045348b"
-  },
-  "school_name": "Trường Cao đẳng Cộng đồng Hậu Giang",
-  "school_id": "D64",
-  "location": "Hậu Giang",
-  "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045348c"
-  },
-  "school_name": "Trường Cao đẳng Cộng đồng Hưng Yên",
-  "school_id": "C22",
-  "location": "Hưng Yên",
-  "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045348d"
-  },
-  "school_name": "Trường Cao đẳng Cộng đồng Kon Tum",
-  "school_id": "C36",
-  "location": "Kon Tum",
-  "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045348e"
-  },
-  "school_name": "Trường Cao đẳng Cộng đồng Lai Châu",
-  "school_id": "CLC",
-  "location": "Lai Châu",
-  "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045348f"
-  },
-  "school_name": "Trường Cao đẳng Cộng đồng Sóc Trăng",
-  "school_id": "CST",
-  "location": "Sóc Trăng",
-  "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453490"
-  },
-  "school_name": "Trường Cao đẳng Cộng đồng Vĩnh Long",
-  "school_id": "D57",
-  "location": "Vĩnh Long",
-  "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453491"
-  },
-  "school_name": "TRƯỜNG CAO ĐẲNG ĐÀ LẠT",
-  "school_id": "C42",
-  "location": "Lâm Đồng",
-  "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453492"
-  },
-  "school_name": "Trường Cao đẳng Đại Việt Sài Gòn",
-  "school_id": 219,
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Cao đẳng",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453493"
-  },
-  "school_name": "Trường Cao đẳng Hải Dương",
-  "school_id": "C21",
-  "location": "Hải Dương",
-  "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453494"
-  },
-  "school_name": "Trường Cao đẳng Ngô Gia Tự Bắc Giang",
-  "school_id": "C18",
-  "location": "Bắc Giang",
-  "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453495"
-  },
-  "school_name": "Trường Cao đẳng Sơn La",
-  "school_id": "C14",
-  "location": "Sơn La",
-  "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453496"
-  },
-  "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM BÀ RỊA-VŨNG TÀU",
-  "school_id": "C52",
-  "location": "Bà Rịa - Vũng Tàu",
-  "school_type": "Trường cao đẳng sư phạm",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453497"
-  },
-  "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM BẮC NINH",
-  "school_id": "C19",
-  "location": "Bắc Ninh",
-  "school_type": "Trường cao đẳng sư phạm",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453498"
-  },
-  "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM CAO BẰNG",
-  "school_id": "C06",
-  "location": "Cao Bằng",
-  "school_type": "Trường cao đẳng sư phạm",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453499"
-  },
-  "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM ĐẮK LẮK",
-  "school_id": "C40",
-  "location": "Đắk Lắk",
-  "school_type": "Trường cao đẳng sư phạm",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045349a"
-  },
-  "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM ĐIỆN BIÊN",
-  "school_id": "C62",
-  "location": "Điện Biên",
-  "school_type": "Trường cao đẳng sư phạm",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045349b"
-  },
-  "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM GIA LAI",
-  "school_id": "C38",
-  "location": "Gia Lai",
-  "school_type": "Trường cao đẳng sư phạm",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045349c"
-  },
-  "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM HÀ GIANG",
-  "school_id": "C05",
-  "location": "Hà Giang",
-  "school_type": "Trường cao đẳng sư phạm",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045349d"
-  },
-  "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM HÀ TÂY",
-  "school_id": "C20",
-  "location": "Hà Nội",
-  "school_type": "Trường cao đẳng sư phạm",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045349e"
-  },
-  "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM HOÀ BÌNH",
-  "school_id": "C23",
-  "location": "Hoà Bình",
-  "school_type": "Trường cao đẳng sư phạm",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045349f"
-  },
-  "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM KIÊN GIANG",
-  "school_id": "C54",
-  "location": "Kiên Giang",
-  "school_type": "Trường cao đẳng sư phạm",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534a0"
-  },
-  "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM LẠNG SƠN",
-  "school_id": "C10",
-  "location": "Lạng Sơn",
-  "school_type": "Trường cao đẳng sư phạm",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534a1"
-  },
-  "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM LONG AN",
-  "school_id": "C49",
-  "location": "Long An",
-  "school_type": "Trường cao đẳng sư phạm",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534a2"
-  },
-  "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM NAM ĐỊNH",
-  "school_id": "C25",
-  "location": "Nam Định",
-  "school_type": "Trường cao đẳng sư phạm",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534a3"
-  },
-  "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM NGHỆ AN",
-  "school_id": "C29",
-  "location": "Nghệ An",
-  "school_type": "Trường cao đẳng sư phạm",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534a4"
-  },
-  "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM QUẢNG TRỊ",
-  "school_id": "C32",
-  "location": "Quảng Trị",
-  "school_type": "Trường cao đẳng sư phạm",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534a5"
-  },
-  "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM TÂY NINH",
-  "school_id": "C46",
-  "location": "Tây Ninh",
-  "school_type": "Trường cao đẳng sư phạm",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534a6"
-  },
-  "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM THÁI BÌNH",
-  "school_id": "C26",
-  "location": "Thái Bình",
-  "school_type": "Trường cao đẳng sư phạm",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534a7"
-  },
-  "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM THỪA THIÊN HUẾ",
-  "school_id": "C33",
-  "location": "Thừa Thiên Huế",
-  "school_type": "Trường cao đẳng sư phạm",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534a8"
-  },
-  "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM TRUNG ƯƠNG",
-  "school_id": "CM1",
-  "location": "Hà Nội",
-  "school_type": "Trường cao đẳng sư phạm",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534a9"
-  },
-  "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM TRUNG ƯƠNG NHA TRANG",
-  "school_id": "CM2",
-  "location": "Khánh Hoà",
-  "school_type": "Trường cao đẳng sư phạm",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534aa"
-  },
-  "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM TRUNG ƯƠNG TP.HỒ CHÍ MINH",
-  "school_id": "CM3",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường cao đẳng sư phạm",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534ab"
-  },
-  "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM YÊN BÁI",
-  "school_id": "C13",
-  "location": "Yên Bái",
-  "school_type": "Trường cao đẳng sư phạm",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534ac"
-  },
-  "school_name": "Trường Cao đẳng Vĩnh Long",
-  "school_id": "C57",
-  "location": "Vĩnh Long",
-  "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534ad"
-  },
-  "school_name": "Trường Cao đẳng Vĩnh Phúc",
-  "school_id": "C16",
-  "location": "Vĩnh Phúc",
-  "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534ae"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC AN GIANG - ĐẠI HỌC QUỐC GIA TP. HỒ CHÍ MINH",
-  "school_id": "TAG",
-  "location": "An Giang",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534af"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC ANH QUỐC - VIỆT NAM",
-  "school_id": "BUV",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Nước ngoài"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534b0"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC BÀ RỊA - VŨNG TÀU",
-  "school_id": "BVU",
-  "location": "Bà Rịa - Vũng Tàu",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534b1"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC BẠC LIÊU",
-  "school_id": "DBL",
-  "location": "Bạc Liêu",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534b2"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC BÁCH KHOA - ĐẠI HỌC QUỐC GIA TP. HỒ CHÍ MINH",
-  "school_id": "QSB",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534b3"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC BÁCH KHOA, ĐẠI HỌC ĐÀ NẴNG",
-  "school_id": "DDK",
-  "location": "Đà Nẵng",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534b4"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC BÌNH DƯƠNG",
-  "school_id": "DBD",
-  "location": "Bình Dương",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534b5"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC CẦN THƠ",
-  "school_id": "TCT",
-  "location": "Cần Thơ",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534b6"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC CMC",
-  "school_id": "MCA",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534b7"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC CÔNG ĐOÀN",
-  "school_id": "LDA",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534b8"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC CÔNG NGHỆ - ĐẠI HỌC QUỐC GIA HÀ NỘI",
-  "school_id": "QHI",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534b9"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC CÔNG NGHỆ ĐỒNG NAI",
-  "school_id": "DCD",
-  "location": "Đồng Nai",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534ba"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC CÔNG NGHỆ ĐÔNG Á",
-  "school_id": "DDA",
-  "location": "Bắc Ninh",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534bb"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC CÔNG NGHỆ GIAO THÔNG VẬN TẢI",
-  "school_id": "GTA",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534bc"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC CÔNG NGHỆ MIỀN ĐÔNG",
-  "school_id": "DMD",
-  "location": "Đồng Nai",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534bd"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC CÔNG NGHỆ SÀI GÒN",
-  "school_id": "DSG",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Dân lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534be"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC CÔNG NGHỆ TP. HỒ CHÍ MINH",
-  "school_id": "DKC",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534bf"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN - ĐẠI HỌC QUỐC GIA TP. HỒ CHÍ MINH",
-  "school_id": "QSC",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534c0"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN VÀ TRUYỀN THÔNG VIỆT HÀN, ĐẠI HỌC ĐÀ NẴNG",
-  "school_id": "VKU",
-  "location": "Đà Nẵng",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534c1"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN VÀ TRUYỀN THÔNG, ĐẠI HỌC THÁI NGUYÊN",
-  "school_id": "DTC",
-  "location": "Thái Nguyên",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534c2"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC CÔNG NGHỆ VÀ QUẢN LÝ HỮU NGHỊ",
-  "school_id": "DCQ",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534c3"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC CÔNG NGHỆ VẠN XUÂN",
-  "school_id": "DVX",
-  "location": "Nghệ An",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534c4"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP DỆT MAY HÀ NỘI",
-  "school_id": "CCM",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534c5"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI",
-  "school_id": "DCN",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534c6"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP QUẢNG NINH",
-  "school_id": "DDM",
-  "location": "Quảng Ninh",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534c7"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP TP. HỒ CHÍ MINH",
-  "school_id": "HUI",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534c8"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP VIỆT - HUNG",
-  "school_id": "VHD",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534c9"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP VIỆT TRÌ",
-  "school_id": "VUI",
-  "location": "Phú Thọ",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534ca"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP VINH",
-  "school_id": "DCV",
-  "location": "Nghệ An",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534cb"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC CÔNG THƯƠNG TP. HỒ CHÍ MINH",
-  "school_id": "DCT",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534cc"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC CỬU LONG",
-  "school_id": "DCL",
-  "location": "Vĩnh Long",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534cd"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC CHU VĂN AN",
-  "school_id": "DCA",
-  "location": "Hưng Yên",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534ce"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC DẦU KHÍ VIỆT NAM",
-  "school_id": "PVU",
-  "location": "Bà Rịa - Vũng Tàu",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534cf"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC DÂN LẬP PHƯƠNG ĐÔNG",
-  "school_id": "DPD",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Dân lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534d0"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC DUY TÂN",
-  "school_id": "DDT",
-  "location": "Đà Nẵng",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534d1"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC DƯỢC HÀ NỘI",
-  "school_id": "DKH",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534d2"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC ĐÀ LẠT",
-  "school_id": "TDL",
-  "location": "Lâm Đồng",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534d3"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC ĐẠI NAM",
-  "school_id": "DDN",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534d4"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC ĐIỆN LỰC",
-  "school_id": "DDL",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534d5"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC ĐIỀU DƯỠNG NAM ĐỊNH",
-  "school_id": "YDD",
-  "location": "Nam Định",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534d6"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC ĐỒNG NAI",
-  "school_id": "DNU",
-  "location": "Đồng Nai",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534d7"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC ĐỒNG THÁP",
-  "school_id": "SPD",
-  "location": "Đồng Tháp",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534d8"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC ĐÔNG Á",
-  "school_id": "DAD",
-  "location": "Đà Nẵng",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534d9"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC ĐÔNG ĐÔ",
-  "school_id": "DDD",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534da"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC FPT",
-  "school_id": "FPT",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534db"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC FULBRIGHT VIỆT NAM",
-  "school_id": "FUV",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Nước ngoài"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534dc"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC GIA ĐỊNH",
-  "school_id": "DCG",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534dd"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC GIÁO DỤC - ĐẠI HỌC QUỐC GIA HÀ NỘI",
-  "school_id": "QHS",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534de"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC GIAO THÔNG VẬN TẢI",
-  "school_id": "GHA",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534df"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC GIAO THÔNG VẬN TẢI TP. HỒ CHÍ MINH",
-  "school_id": "GTS",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534e0"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC HÀ HOA TIÊN",
-  "school_id": "DHH",
-  "location": "Hà Nam",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534e1"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC HẠ LONG",
-  "school_id": "HLU",
-  "location": "Quảng Ninh",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534e2"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC HÀ NỘI",
-  "school_id": "NHF",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534e3"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC HÀ TĨNH",
-  "school_id": "HHT",
-  "location": "Hà Tĩnh",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534e4"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC HẢI DƯƠNG",
-  "school_id": "DKT",
-  "location": "Hải Dương",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534e5"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC HẢI PHÒNG",
-  "school_id": "THP",
-  "location": "Hải Phòng",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534e6"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC HÀNG HẢI VIỆT NAM",
-  "school_id": "HHA",
-  "location": "Hải Phòng",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534e7"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC HOÀ BÌNH",
-  "school_id": "ETU",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534e8"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC HOA LƯ",
-  "school_id": "DNB",
-  "location": "Ninh Bình",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534e9"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC HOA SEN",
-  "school_id": "HSU",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534ea"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC HỒNG ĐỨC",
-  "school_id": "HDT",
-  "location": "Thanh Hóa",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534eb"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC HÙNG VƯƠNG",
-  "school_id": "THV",
-  "location": "Phú Thọ",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534ec"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC HÙNG VƯƠNG - TP. HỒ CHÍ MINH",
-  "school_id": "DHV",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534ed"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC KIỂM SÁT HÀ NỘI",
-  "school_id": "DKS",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534ee"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC KIẾN TRÚC ĐÀ NẴNG",
-  "school_id": "KTD",
-  "location": "Đà Nẵng",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534ef"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC KIẾN TRÚC HÀ NỘI",
-  "school_id": "KTA",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534f0"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC KIẾN TRÚC TP. HỒ CHÍ MINH",
-  "school_id": "KTS",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534f1"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC KIÊN GIANG",
-  "school_id": "TKG",
-  "location": "Kiên Giang",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534f2"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC KINH BẮC",
-  "school_id": "UKB",
-  "location": "Bắc Ninh",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534f3"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC KINH DOANH VÀ CÔNG NGHỆ HÀ NỘI",
-  "school_id": "DQK",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534f4"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC KINH TẾ - CÔNG NGHỆ THÁI NGUYÊN",
-  "school_id": "DVB",
-  "location": "Thái Nguyên",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534f5"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC KINH TẾ - ĐẠI HỌC QUỐC GIA HÀ NỘI",
-  "school_id": "QHE",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534f6"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC KINH TẾ - KỸ THUẬT BÌNH DƯƠNG",
-  "school_id": "DKB",
-  "location": "Bình Dương",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534f7"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC KINH TẾ - LUẬT - ĐẠI HỌC QUỐC GIA TP. HỒ CHÍ MINH",
-  "school_id": "QSK",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534f8"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC KINH TẾ - TÀI CHÍNH TP. HỒ CHÍ MINH",
-  "school_id": "UEF",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534f9"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC KINH TẾ CÔNG NGHIỆP LONG AN",
-  "school_id": "DLA",
-  "location": "Long An",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534fa"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC KINH TẾ KỸ THUẬT CÔNG NGHIỆP",
-  "school_id": "DKK",
-  "location": "Nam Định",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534fb"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC KINH TẾ NGHỆ AN",
-  "school_id": "CEA",
-  "location": "Nghệ An",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534fc"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC KINH TẾ QUỐC DÂN",
-  "school_id": "KHA",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534fd"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC KINH TẾ VÀ QUẢN TRỊ KINH DOANH, ĐẠI HỌC THÁI NGUYÊN",
-  "school_id": "DTE",
-  "location": "Thái Nguyên",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534fe"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC KINH TẾ, ĐẠI HỌC HUẾ",
-  "school_id": "DHK",
-  "location": "Thừa Thiên Huế",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004534ff"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC KỸ THUẬT - CÔNG NGHỆ CẦN THƠ",
-  "school_id": "KCC",
-  "location": "Cần Thơ",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453500"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC KỸ THUẬT CÔNG NGHIỆP, ĐẠI HỌC THÁI NGUYÊN",
-  "school_id": "DTK",
-  "location": "Thái Nguyên",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453501"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC KỸ THUẬT Y - DƯỢC ĐÀ NẴNG",
-  "school_id": "YDN",
-  "location": "Đà Nẵng",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453502"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC KỸ THUẬT Y TẾ HẢI DƯƠNG",
-  "school_id": "DKY",
-  "location": "Hải Dương",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453503"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC KHÁNH HOÀ",
-  "school_id": "UKH",
-  "location": "Khánh Hoà",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453504"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC KHOA HỌC TỰ NHIÊN - ĐẠI HỌC QUỐC GIA HÀ NỘI",
-  "school_id": "QHT",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453505"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC KHOA HỌC TỰ NHIÊN - ĐẠI HỌC QUỐC GIA TP. HỒ CHÍ MINH",
-  "school_id": "QST",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453506"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC KHOA HỌC VÀ CÔNG NGHỆ HÀ NỘI",
-  "school_id": "KCN",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453507"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC KHOA HỌC XÃ HỘI VÀ NHÂN VĂN - ĐẠI HỌC QUỐC GIA HÀ NỘI",
-  "school_id": "QHX",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453508"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC KHOA HỌC XÃ HỘI VÀ NHÂN VĂN - ĐẠI HỌC QUỐC GIA TP. HỒ CHÍ MINH",
-  "school_id": "QSX",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453509"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC KHOA HỌC, ĐẠI HỌC HUẾ",
-  "school_id": "DHT",
-  "location": "Thừa Thiên Huế",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045350a"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC KHOA HỌC, ĐẠI HỌC THÁI NGUYÊN",
-  "school_id": "DTZ",
-  "location": "Thái Nguyên",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045350b"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC LẠC HỒNG",
-  "school_id": "DLH",
-  "location": "Đồng Nai",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045350c"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC LAO ĐỘNG - XÃ HỘI",
-  "school_id": "DLX",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045350d"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC LÂM NGHIỆP",
-  "school_id": "LNH",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045350e"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC LUẬT - ĐẠI HỌC QUỐC GIA HÀ NỘI",
-  "school_id": "QHL",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045350f"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC LUẬT HÀ NỘI",
-  "school_id": "LPH",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453510"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC LUẬT TP. HỒ CHÍ MINH",
-  "school_id": "LPS",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453511"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC LUẬT, ĐẠI HỌC HUẾ",
-  "school_id": "DHA",
-  "location": "Thừa Thiên Huế",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453512"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC LƯƠNG THẾ VINH",
-  "school_id": "DTV",
-  "location": "Nam Định",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453513"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC MỎ - ĐỊA CHẤT",
-  "school_id": "MDA",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453514"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC MỞ HÀ NỘI",
-  "school_id": "MHN",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453515"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC MỞ TP. HỒ CHÍ MINH",
-  "school_id": "MBS",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453516"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC MỸ TẠI VIỆT NAM",
-  "school_id": "AUV",
-  "location": "Đà Nẵng",
-  "school_type": "Trường đại học",
-  "ownership": "Nước ngoài"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453517"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC MỸ THUẬT CÔNG NGHIỆP",
-  "school_id": "MTC",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453518"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC MỸ THUẬT TP. HỒ CHÍ MINH",
-  "school_id": "MTS",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453519"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC MỸ THUẬT VIỆT NAM",
-  "school_id": "MTH",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045351a"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC NAM CẦN THƠ",
-  "school_id": "DNC",
-  "location": "Cần Thơ",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045351b"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC NỘI VỤ HÀ NỘI",
-  "school_id": "DNV",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045351c"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC NÔNG LÂM BẮC GIANG",
-  "school_id": "DBG",
-  "location": "Bắc Giang",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045351d"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC NÔNG LÂM TP. HỒ CHÍ MINH",
-  "school_id": "NLS",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045351e"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC NÔNG LÂM, ĐẠI HỌC HUẾ",
-  "school_id": "DHL",
-  "location": "Thừa Thiên Huế",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045351f"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC NÔNG LÂM, ĐẠI HỌC THÁI NGUYÊN",
-  "school_id": "DTN",
-  "location": "Thái Nguyên",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453520"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC NGÂN HÀNG TP. HỒ CHÍ MINH",
-  "school_id": "NHS",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453521"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC NGHỆ THUẬT, ĐẠI HỌC HUẾ",
-  "school_id": "DHN",
-  "location": "Thừa Thiên Huế",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453522"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC NGOẠI NGỮ - ĐẠI HỌC QUỐC GIA HÀ NỘI",
-  "school_id": "QHF",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453523"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC NGOẠI NGỮ - TIN HỌC TP. HỒ CHÍ MINH",
-  "school_id": "DNT",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453524"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC NGOẠI NGỮ, ĐẠI HỌC HUẾ",
-  "school_id": "DHF",
-  "location": "Thừa Thiên Huế",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453525"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC NGOẠI THƯƠNG",
-  "school_id": "NTH",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453526"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC NGUYỄN TẤT THÀNH",
-  "school_id": "NTT",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453527"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC NGUYỄN TRÃI",
-  "school_id": "NTU",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453528"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC NHA TRANG",
-  "school_id": "TSN",
-  "location": "Khánh Hoà",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453529"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC PHẠM VĂN ĐỒNG",
-  "school_id": "DPQ",
-  "location": "Quảng Ngãi",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045352a"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC PHAN CHÂU TRINH",
-  "school_id": "DPC",
-  "location": "Quảng Nam",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045352b"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC PHAN THIẾT",
-  "school_id": "DPT",
-  "location": "Bình Thuận",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045352c"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC PHENIKAA",
-  "school_id": "DTA",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045352d"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC PHÚ XUÂN",
-  "school_id": "DPX",
-  "location": "Thừa Thiên Huế",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045352e"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC PHÚ YÊN",
-  "school_id": "DPY",
-  "location": "Phú Yên",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045352f"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC QUẢN LÝ VÀ CÔNG NGHỆ HẢI PHÒNG",
-  "school_id": "DHP",
-  "location": "Hải Phòng",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453530"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC QUẢN LÝ VÀ CÔNG NGHỆ TP. HỒ CHÍ MINH",
-  "school_id": "UMT",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453531"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC QUẢNG BÌNH",
-  "school_id": "DQB",
-  "location": "Quảng Bình",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453532"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC QUẢNG NAM",
-  "school_id": "DQU",
-  "location": "Quảng Nam",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453533"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC QUANG TRUNG",
-  "school_id": "DQT",
-  "location": "Bình Định",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453534"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC QUỐC TẾ - ĐẠI HỌC QUỐC GIA TP. HỒ CHÍ MINH",
-  "school_id": "QSQ",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453535"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC QUỐC TẾ BẮC HÀ",
-  "school_id": "DBH",
-  "location": "Bắc Ninh",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453536"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC QUỐC TẾ HỒNG BÀNG",
-  "school_id": "HIU",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453537"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC QUỐC TẾ MIỀN ĐÔNG",
-  "school_id": "EIU",
-  "location": "Bình Dương",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453538"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC QUỐC TẾ RMIT VIỆT NAM",
-  "school_id": "RMU",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Nước ngoài"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453539"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC QUY NHƠN",
-  "school_id": "DQN",
-  "location": "Bình Định",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045353a"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC SÀI GÒN",
-  "school_id": "SGD",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045353b"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC SAO ĐỎ",
-  "school_id": "SDU",
-  "location": "Hải Dương",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045353c"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC SÂN KHẤU ĐIỆN ẢNH HÀ NỘI",
-  "school_id": "SKD",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045353d"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC SÂN KHẤU, ĐIỆN ẢNH TP. HỒ CHÍ MINH",
-  "school_id": "DSD",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045353e"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC SƯ PHẠM HÀ NỘI",
-  "school_id": "SPH",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045353f"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC SƯ PHẠM HÀ NỘI 2",
-  "school_id": "SP2",
-  "location": "Vĩnh Phúc",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453540"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬT HƯNG YÊN",
-  "school_id": "SKH",
-  "location": "Hưng Yên",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453541"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬT NAM ĐỊNH",
-  "school_id": "SKN",
-  "location": "Nam Định",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453542"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬT TP. HỒ CHÍ MINH",
-  "school_id": "SPK",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453543"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬT VINH",
-  "school_id": "SKV",
-  "location": "Nghệ An",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453544"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬT VĨNH LONG",
-  "school_id": "VLU",
-  "location": "Vĩnh Long",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453545"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC SƯ PHẠM NGHỆ THUẬT TRUNG ƯƠNG",
-  "school_id": "GNT",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453546"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC SƯ PHẠM TP. HỒ CHÍ MINH",
-  "school_id": "SPS",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453547"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC SƯ PHẠM THỂ DỤC THỂ THAO HÀ NỘI",
-  "school_id": "TDH",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453548"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC SƯ PHẠM THỂ DỤC THỂ THAO TP. HỒ CHÍ MINH",
-  "school_id": "STS",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453549"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC SƯ PHẠM, ĐẠI HỌC ĐÀ NẴNG",
-  "school_id": "DDS",
-  "location": "Đà Nẵng",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045354a"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC SƯ PHẠM, ĐẠI HỌC HUẾ",
-  "school_id": "DHS",
-  "location": "Thừa Thiên Huế",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045354b"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC SƯ PHẠM, ĐẠI HỌC THÁI NGUYÊN",
-  "school_id": "DTS",
-  "location": "Thái Nguyên",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045354c"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC TÀI CHÍNH - KẾ TOÁN",
-  "school_id": "DKQ",
-  "location": "Quảng Ngãi",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045354d"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC TÀI CHÍNH - MARKETING",
-  "school_id": "DMS",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045354e"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC TÀI CHÍNH - NGÂN HÀNG HÀ NỘI",
-  "school_id": "FBU",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045354f"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC TÀI CHÍNH - QUẢN TRỊ KINH DOANH",
-  "school_id": "DFA",
-  "location": "Hưng Yên",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453550"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC TÀI NGUYÊN VÀ MÔI TRƯỜNG HÀ NỘI",
-  "school_id": "DMT",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453551"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC TÀI NGUYÊN VÀ MÔI TRƯỜNG TP. HỒ CHÍ MINH",
-  "school_id": "DTM",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453552"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC TÂN TẠO",
-  "school_id": "TTU",
-  "location": "Long An",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453553"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC TÂN TRÀO",
-  "school_id": "TQU",
-  "location": "Tuyên Quang",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453554"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC TÂY BẮC",
-  "school_id": "TTB",
-  "location": "Sơn La",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453555"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC TÂY ĐÔ",
-  "school_id": "DTD",
-  "location": "Cần Thơ",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453556"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC TÂY NGUYÊN",
-  "school_id": "TTN",
-  "location": "Đắk Lắk",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453557"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC TIỀN GIANG",
-  "school_id": "TTG",
-  "location": "Tiền Giang",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453558"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC TÔN ĐỨC THẮNG",
-  "school_id": "DTT",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453559"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC TƯ THỤC QUỐC TẾ SÀI GÒN",
-  "school_id": "TTQ",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045355a"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC THÁI BÌNH",
-  "school_id": "DTB",
-  "location": "Thái Bình",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045355b"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC THÁI BÌNH DƯƠNG",
-  "school_id": "TBD",
-  "location": "Khánh Hoà",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045355c"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC THÀNH ĐÔ",
-  "school_id": "TDD",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045355d"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC THÀNH ĐÔNG",
-  "school_id": "DDB",
-  "location": "Hải Dương",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045355e"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC THĂNG LONG",
-  "school_id": "DTL",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045355f"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC THỂ DỤC THỂ THAO BẮC NINH",
-  "school_id": "TDB",
-  "location": "Bắc Ninh",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453560"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC THỂ DỤC THỂ THAO ĐÀ NẴNG",
-  "school_id": "TTD",
-  "location": "Đà Nẵng",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453561"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC THỂ DỤC THỂ THAO TP. HỒ CHÍ MINH",
-  "school_id": "TDS",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453562"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC THỦ DẦU MỘT",
-  "school_id": "TDM",
-  "location": "Bình Dương",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453563"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC THỦ ĐÔ HÀ NỘI",
-  "school_id": "HNM",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453564"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC THUỶ LỢI",
-  "school_id": "TLA",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453565"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC THƯƠNG MẠI",
-  "school_id": "TMA",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453566"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC TRÀ VINH",
-  "school_id": "DVT",
-  "location": "Trà Vinh",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453567"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC TRƯNG VƯƠNG",
-  "school_id": "DVP",
-  "location": "Vĩnh Phúc",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453568"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC VĂN HIẾN",
-  "school_id": "DVH",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453569"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC VĂN HOÁ HÀ NỘI",
-  "school_id": "VHH",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045356a"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC VĂN HOÁ TP. HỒ CHÍ MINH",
-  "school_id": "VHS",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045356b"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC VĂN HOÁ, THỂ THAO VÀ DU LỊCH THANH HOÁ",
-  "school_id": "DVD",
-  "location": "Thanh Hóa",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045356c"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC VĂN LANG",
-  "school_id": "DVL",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045356d"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC VIỆT ĐỨC",
-  "school_id": "VGU",
-  "location": "Bình Dương",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045356e"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC VIỆT NHẬT - ĐẠI HỌC QUỐC GIA HÀ NỘI",
-  "school_id": "VJU",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045356f"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC VINUNI",
-  "school_id": "VIN",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453570"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC VINH",
-  "school_id": "TDV",
-  "location": "Nghệ An",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453571"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC VÕ TRƯỜNG TOẢN",
-  "school_id": "VTT",
-  "location": "Hậu Giang",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453572"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC XÂY DỰNG HÀ NỘI",
-  "school_id": "XDA",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453573"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC XÂY DỰNG MIỀN TÂY",
-  "school_id": "MTU",
-  "location": "Vĩnh Long",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453574"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC XÂY DỰNG MIỀN TRUNG",
-  "school_id": "XDT",
-  "location": "Phú Yên",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453575"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC Y DƯỢC - ĐẠI HỌC QUỐC GIA HÀ NỘI",
-  "school_id": "QHY",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453576"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC Y DƯỢC BUÔN MA THUỘT",
-  "school_id": "BMU",
-  "location": "Đắk Lắk",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453577"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC Y DƯỢC CẦN THƠ",
-  "school_id": "YCT",
-  "location": "Cần Thơ",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453578"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC Y DƯỢC HẢI PHÒNG",
-  "school_id": "YPB",
-  "location": "Hải Phòng",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453579"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC Y DƯỢC THÁI BÌNH",
-  "school_id": "YTB",
-  "location": "Thái Bình",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045357a"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC Y DƯỢC, ĐẠI HỌC HUẾ",
-  "school_id": "DHY",
-  "location": "Thừa Thiên Huế",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045357b"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC Y DƯỢC, ĐẠI HỌC THÁI NGUYÊN",
-  "school_id": "DTY",
-  "location": "Thái Nguyên",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045357c"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC Y HÀ NỘI",
-  "school_id": "YHB",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045357d"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC Y KHOA PHẠM NGỌC THẠCH",
-  "school_id": "TYS",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045357e"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC Y KHOA TOKYO VIỆT NAM",
-  "school_id": "THU",
-  "location": "Hưng Yên",
-  "school_type": "Trường đại học",
-  "ownership": "Nước ngoài"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045357f"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC Y KHOA VINH",
-  "school_id": "YKV",
-  "location": "Nghệ An",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453580"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC Y TẾ CÔNG CỘNG",
-  "school_id": "YTC",
-  "location": "Hà Nội",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453581"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC YERSIN ĐÀ LẠT",
-  "school_id": "DYD",
-  "location": "Lâm Đồng",
-  "school_type": "Trường đại học",
-  "ownership": "Tư thục"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453582"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC KINH TẾ, ĐẠI HỌC ĐÀ NẴNG",
-  "school_id": "DDQ",
-  "location": "Đà Nẵng",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453583"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC NGOẠI NGỮ, ĐẠI HỌC ĐÀ NẴNG",
-  "school_id": "DDF",
-  "location": "Đà Nẵng",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453584"
-  },
-  "school_name": "TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬT, ĐẠI HỌC ĐÀ NẴNG",
-  "school_id": "DDC",
-  "location": "Đà Nẵng",
-  "school_type": "Trường đại học",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453585"
-  },
-  "school_name": "Viện Công nghiệp thực phẩm",
-  "school_id": "V08",
-  "location": "Hà Nội",
-  "school_type": "Viện nghiên cứu",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453586"
-  },
-  "school_name": "Viện Cơ điện Nông nghiệp và Công nghệ sau thu hoạch",
-  "school_id": "VCD",
-  "location": "Hà Nội",
-  "school_type": "Viện nghiên cứu",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453587"
-  },
-  "school_name": "Viện Chăn nuôi",
-  "school_id": "VCN",
-  "location": "Hà Nội",
-  "school_type": "Viện nghiên cứu",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453588"
-  },
-  "school_name": "Viện Chiến lược phát triển",
-  "school_id": "V19",
-  "location": "Hà Nội",
-  "school_type": "Viện nghiên cứu",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453589"
-  },
-  "school_name": "Viện Dầu khí Việt Nam",
-  "school_id": "VDK",
-  "location": "Hà Nội",
-  "school_type": "Viện nghiên cứu",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045358a"
-  },
-  "school_name": "Viện Dinh dưỡng",
-  "school_id": "V66",
-  "location": "Hà Nội",
-  "school_type": "Viện nghiên cứu",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045358b"
-  },
-  "school_name": "Viện Dược liệu",
-  "school_id": "V22",
-  "location": "Hà Nội",
-  "school_type": "Viện nghiên cứu",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045358c"
-  },
-  "school_name": "Viện Hoá học công nghiệp",
-  "school_id": "V11",
-  "location": "Hà Nội",
-  "school_type": "Viện nghiên cứu",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045358d"
-  },
-  "school_name": "Viện Kiểm nghiệm thuốc Trung ương",
-  "school_id": "NQC",
-  "location": "Hà Nội",
-  "school_type": "Viện nghiên cứu",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045358e"
-  },
-  "school_name": "Viện Kiến trúc Quốc gia",
-  "school_id": "V12",
-  "location": "Hà Nội",
-  "school_type": "Viện nghiên cứu",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045358f"
-  },
-  "school_name": "Viện Khoa học công nghệ xây dựng",
-  "school_id": "V14",
-  "location": "Hà Nội",
-  "school_type": "Viện nghiên cứu",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453590"
-  },
-  "school_name": "Viện Khoa học Địa chất và Khoáng sản",
-  "school_id": "V47",
-  "location": "Hà Nội",
-  "school_type": "Viện nghiên cứu",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453591"
-  },
-  "school_name": "Viện Khoa học Đo đạc và Bản đồ",
-  "school_id": "KBD",
-  "location": "Hà Nội",
-  "school_type": "Viện nghiên cứu",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453592"
-  },
-  "school_name": "Viện Khoa học Giáo dục Việt nam",
-  "school_id": "V46",
-  "location": "Hà Nội",
-  "school_type": "Viện nghiên cứu",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453593"
-  },
-  "school_name": "Viện Khoa học Khí tượng Thủy văn và Biến đổi khí hậu",
-  "school_id": "V50",
-  "location": "Hà Nội",
-  "school_type": "Viện nghiên cứu",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453594"
-  },
-  "school_name": "Viện Khoa học Lâm nghiệp Việt Nam",
-  "school_id": "VLN",
-  "location": "Hà Nội",
-  "school_type": "Viện nghiên cứu",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453595"
-  },
-  "school_name": "Viện Khoa học Nông nghiệp Việt Nam",
-  "school_id": "VKN",
-  "location": "Hà Nội",
-  "school_type": "Viện nghiên cứu",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453596"
-  },
-  "school_name": "Viện Khoa học Thể dục thể thao",
-  "school_id": "VKT",
-  "location": "Hà Nội",
-  "school_type": "Viện nghiên cứu",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453597"
-  },
-  "school_name": "Viện Khoa học Thuỷ lợi Việt Nam",
-  "school_id": "VTL",
-  "location": "Hà Nội",
-  "school_type": "Viện nghiên cứu",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453598"
-  },
-  "school_name": "Viện Khoa học và Công nghệ Giao thông vận tải",
-  "school_id": "V13",
-  "location": "Hà Nội",
-  "school_type": "Viện nghiên cứu",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b00453599"
-  },
-  "school_name": "Viện Máy và Dụng cụ công nghiệp",
-  "school_id": "V48",
-  "location": "Hà Nội",
-  "school_type": "Viện nghiên cứu",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045359a"
-  },
-  "school_name": "Viện Năng lượng nguyên tử Việt Nam",
-  "school_id": "V04",
-  "location": "Hà Nội",
-  "school_type": "Viện nghiên cứu",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045359b"
-  },
-  "school_name": "Viện Nghiên cứu Cơ khí",
-  "school_id": "V49",
-  "location": "Hà Nội",
-  "school_type": "Viện nghiên cứu",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045359c"
-  },
-  "school_name": "Viện Nghiên cứu Chiến lược, Chính sách Công Thương",
-  "school_id": "V17",
-  "location": "Hà Nội",
-  "school_type": "Viện nghiên cứu",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045359d"
-  },
-  "school_name": "Viện Nghiên cứu Điện tử, Tin học, Tự động hoá",
-  "school_id": "V02",
-  "location": "Hà Nội",
-  "school_type": "Viện nghiên cứu",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045359e"
-  },
-  "school_name": "Viện Nghiên cứu hải sản",
-  "school_id": "V62",
-  "location": "Hải Phòng",
-  "school_type": "Viện nghiên cứu",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b0045359f"
-  },
-  "school_name": "Viện Nghiên cứu Nuôi trồng thuỷ sản I",
-  "school_id": "VTS",
-  "location": "Bắc Ninh",
-  "school_type": "Viện nghiên cứu",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004535a0"
-  },
-  "school_name": "Viện Nghiên cứu quản lý kinh tế Trung ương",
-  "school_id": "V18",
-  "location": "Hà Nội",
-  "school_type": "Viện nghiên cứu",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004535a1"
-  },
-  "school_name": "Viện Pasteur Thành phố Hồ Chí Minh",
-  "school_id": "V26",
-  "location": "TP. Hồ Chí Minh",
-  "school_type": "Viện nghiên cứu",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004535a2"
-  },
-  "school_name": "Viện Sốt rét - Ký sinh trùng - Côn trùng Trung ương",
-  "school_id": "V25",
-  "location": "Hà Nội",
-  "school_type": "Viện nghiên cứu",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004535a3"
-  },
-  "school_name": "Viện Sức khoẻ nghề nghiệp và môi trường",
-  "school_id": "VYL",
-  "location": "Hà Nội",
-  "school_type": "Viện nghiên cứu",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004535a4"
-  },
-  "school_name": "Viện Toán học",
-  "school_id": "V59",
-  "location": "Hà Nội",
-  "school_type": "Viện nghiên cứu",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004535a5"
-  },
-  "school_name": "Viện Thú y",
-  "school_id": "VTY",
-  "location": "Hà Nội",
-  "school_type": "Viện nghiên cứu",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004535a6"
-  },
-  "school_name": "Viện Ứng dụng Công nghệ",
-  "school_id": "VUD",
-  "location": "Hà Nội",
-  "school_type": "Viện nghiên cứu",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004535a7"
-  },
-  "school_name": "Viện Văn hoá Nghệ thuật quốc gia Việt Nam",
-  "school_id": "V45",
-  "location": "Hà Nội",
-  "school_type": "Viện nghiên cứu",
-  "ownership": "Công lập"
-},
-{
-  "_id": {
-    "$oid": "681c5fdb6023e69b004535a8"
-  },
-  "school_name": "Viện Vệ sinh Dịch tễ Trung ương",
-  "school_id": "V27",
-  "location": "Hà Nội",
-  "school_type": "Viện nghiên cứu",
-  "ownership": "Công lập"
-}]
+[
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453462"
+        },
+        "school_name": "ĐẠI HỌC BÁCH KHOA HÀ NỘI",
+        "school_id": "BKA",
+        "location": "Hà Nội",
+        "school_type": "Đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453463"
+        },
+        "school_name": "ĐẠI HỌC ĐÀ NẴNG",
+        "school_id": "E",
+        "location": "Đà Nẵng",
+        "school_type": "Đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453464"
+        },
+        "school_name": "ĐẠI HỌC HUẾ",
+        "school_id": "D",
+        "location": "Thừa Thiên Huế",
+        "school_type": "Đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453465"
+        },
+        "school_name": "ĐẠI HỌC KINH TẾ TP. HỒ CHÍ MINH",
+        "school_id": "KSA",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453466"
+        },
+        "school_name": "ĐẠI HỌC QUỐC GIA HÀ NỘI",
+        "school_id": "A",
+        "location": "Hà Nội",
+        "school_type": "Đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453467"
+        },
+        "school_name": "ĐẠI HỌC QUỐC GIA TP. HỒ CHÍ MINH",
+        "school_id": "C",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453468"
+        },
+        "school_name": "ĐẠI HỌC THÁI NGUYÊN",
+        "school_id": "B",
+        "location": "Thái Nguyên",
+        "school_type": "Đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453469"
+        },
+        "school_name": "ĐẠI HỌC Y DƯỢC TP. HỒ CHÍ MINH",
+        "school_id": "YDS",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045346a"
+        },
+        "school_name": "HỌC VIỆN ÂM NHẠC HUẾ",
+        "school_id": "HVA",
+        "location": "Thừa Thiên Huế",
+        "school_type": "Học viện",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045346b"
+        },
+        "school_name": "HỌC VIỆN ÂM NHẠC QUỐC GIA VIỆT NAM",
+        "school_id": "NVH",
+        "location": "Hà Nội",
+        "school_type": "Học viện",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045346c"
+        },
+        "school_name": "HỌC VIỆN BÁO CHÍ VÀ TUYÊN TRUYỀN",
+        "school_id": "HBT",
+        "location": "Hà Nội",
+        "school_type": "Học viện",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045346d"
+        },
+        "school_name": "HỌC VIỆN CÁN BỘ THÀNH PHỐ HỒ CHÍ MINH",
+        "school_id": "HVC",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đào tạo, bồi dưỡng",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045346e"
+        },
+        "school_name": "HỌC VIỆN CÔNG NGHỆ BƯU CHÍNH VIỄN THÔNG",
+        "school_id": "BVH",
+        "location": "Hà Nội",
+        "school_type": "Học viện",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045346f"
+        },
+        "school_name": "HỌC VIỆN CHÍNH SÁCH VÀ PHÁT TRIỂN",
+        "school_id": "HCP",
+        "location": "Hà Nội",
+        "school_type": "Học viện",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453470"
+        },
+        "school_name": "HỌC VIỆN CHÍNH TRỊ KHU VỰC I",
+        "school_id": "HCC",
+        "location": "Hà Nội",
+        "school_type": "Trường đào tạo, bồi dưỡng",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453471"
+        },
+        "school_name": "HỌC VIỆN CHÍNH TRỊ QUỐC GIA HỒ CHÍ MINH",
+        "school_id": "HVH",
+        "location": "Hà Nội",
+        "school_type": "Trường đào tạo, bồi dưỡng",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453472"
+        },
+        "school_name": "HỌC VIỆN DÂN TỘC",
+        "school_id": "HVD",
+        "location": "Hà Nội",
+        "school_type": "Trường đào tạo, bồi dưỡng",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453473"
+        },
+        "school_name": "HỌC VIỆN HÀNG KHÔNG VIỆT NAM",
+        "school_id": "HHK",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Học viện",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453474"
+        },
+        "school_name": "HỌC VIỆN HÀNH CHÍNH QUỐC GIA",
+        "school_id": "HCH",
+        "location": "Hà Nội",
+        "school_type": "Trường đào tạo, bồi dưỡng",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453475"
+        },
+        "school_name": "HỌC VIỆN KHOA HỌC VÀ CÔNG NGHỆ",
+        "school_id": "HKC",
+        "location": "Hà Nội",
+        "school_type": "Trường đào tạo, bồi dưỡng",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453476"
+        },
+        "school_name": "HỌC VIỆN KHOA HỌC XÃ HỘI",
+        "school_id": "HXH",
+        "location": "Hà Nội",
+        "school_type": "Trường đào tạo, bồi dưỡng",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453477"
+        },
+        "school_name": "HỌC VIỆN KHOA HỌC, CÔNG NGHỆ VÀ ĐỔI MỚI SÁNG TẠO",
+        "school_id": "V24",
+        "location": "Hà Nội",
+        "school_type": "Trường đào tạo, bồi dưỡng",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453478"
+        },
+        "school_name": "HỌC VIỆN MÚA VIỆT NAM",
+        "school_id": "CMH",
+        "location": "Hà Nội",
+        "school_type": "Học viện",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453479"
+        },
+        "school_name": "HỌC VIỆN NÔNG NGHIỆP VIỆT NAM",
+        "school_id": "HVN",
+        "location": "Hà Nội",
+        "school_type": "Học viện",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045347a"
+        },
+        "school_name": "HỌC VIỆN NGÂN HÀNG",
+        "school_id": "NHH",
+        "location": "Hà Nội",
+        "school_type": "Học viện",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045347b"
+        },
+        "school_name": "HỌC VIỆN NGOẠI GIAO",
+        "school_id": "HQT",
+        "location": "Hà Nội",
+        "school_type": "Học viện",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045347c"
+        },
+        "school_name": "HỌC VIỆN PHỤ NỮ VIỆT NAM",
+        "school_id": "HPN",
+        "location": "Hà Nội",
+        "school_type": "Học viện",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045347d"
+        },
+        "school_name": "HỌC VIỆN QUẢN LÝ GIÁO DỤC",
+        "school_id": "HVQ",
+        "location": "Hà Nội",
+        "school_type": "Học viện",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045347e"
+        },
+        "school_name": "HỌC VIỆN TÀI CHÍNH",
+        "school_id": "HTC",
+        "location": "Hà Nội",
+        "school_type": "Học viện",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045347f"
+        },
+        "school_name": "HỌC VIỆN TOÀ ÁN",
+        "school_id": "HTA",
+        "location": "Hà Nội",
+        "school_type": "Học viện",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453480"
+        },
+        "school_name": "HỌC VIỆN THANH THIẾU NIÊN VIỆT NAM",
+        "school_id": "HTN",
+        "location": "Hà Nội",
+        "school_type": "Học viện",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453481"
+        },
+        "school_name": "HỌC VIỆN Y DƯỢC HỌC CỔ TRUYỀN VIỆT NAM",
+        "school_id": "HYD",
+        "location": "Hà Nội",
+        "school_type": "Học viện",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453482"
+        },
+        "school_name": "NHẠC VIỆN TP. HỒ CHÍ MINH",
+        "school_id": "NVS",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Học viện",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453483"
+        },
+        "school_name": "Trường Cao đẳng Bắc Kạn",
+        "school_id": "C11",
+        "location": "Bắc Kạn",
+        "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453484"
+        },
+        "school_name": "Trường Cao đẳng Bến Tre",
+        "school_id": "C56",
+        "location": "Bến Tre",
+        "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453485"
+        },
+        "school_name": "Trường Cao đẳng Bình Định",
+        "school_id": "C37",
+        "location": "Bình Định",
+        "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453486"
+        },
+        "school_name": "Trường Cao đẳng Bình Phước",
+        "school_id": "C43",
+        "location": "Bình Phước",
+        "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453487"
+        },
+        "school_name": "Trường Cao đẳng Cần Thơ",
+        "school_id": "C55",
+        "location": "Cần Thơ",
+        "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453488"
+        },
+        "school_name": "Trường Cao đẳng Cộng đồng Bình Thuận",
+        "school_id": "C47",
+        "location": "Bình Thuận",
+        "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453489"
+        },
+        "school_name": "Trường Cao đẳng Cộng đồng Cà Mau",
+        "school_id": "D61",
+        "location": "Cà Mau",
+        "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045348a"
+        },
+        "school_name": "Trường Cao đẳng Cộng đồng Hà Nội",
+        "school_id": "CHN",
+        "location": "Hà Nội",
+        "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045348b"
+        },
+        "school_name": "Trường Cao đẳng Cộng đồng Hậu Giang",
+        "school_id": "D64",
+        "location": "Hậu Giang",
+        "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045348c"
+        },
+        "school_name": "Trường Cao đẳng Cộng đồng Hưng Yên",
+        "school_id": "C22",
+        "location": "Hưng Yên",
+        "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045348d"
+        },
+        "school_name": "Trường Cao đẳng Cộng đồng Kon Tum",
+        "school_id": "C36",
+        "location": "Kon Tum",
+        "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045348e"
+        },
+        "school_name": "Trường Cao đẳng Cộng đồng Lai Châu",
+        "school_id": "CLC",
+        "location": "Lai Châu",
+        "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045348f"
+        },
+        "school_name": "Trường Cao đẳng Cộng đồng Sóc Trăng",
+        "school_id": "CST",
+        "location": "Sóc Trăng",
+        "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453490"
+        },
+        "school_name": "Trường Cao đẳng Cộng đồng Vĩnh Long",
+        "school_id": "D57",
+        "location": "Vĩnh Long",
+        "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453491"
+        },
+        "school_name": "TRƯỜNG CAO ĐẲNG ĐÀ LẠT",
+        "school_id": "C42",
+        "location": "Lâm Đồng",
+        "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453492"
+        },
+        "school_name": "Trường Cao đẳng Đại Việt Sài Gòn",
+        "school_id": 219,
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Cao đẳng",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453493"
+        },
+        "school_name": "Trường Cao đẳng Hải Dương",
+        "school_id": "C21",
+        "location": "Hải Dương",
+        "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453494"
+        },
+        "school_name": "Trường Cao đẳng Ngô Gia Tự Bắc Giang",
+        "school_id": "C18",
+        "location": "Bắc Giang",
+        "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453495"
+        },
+        "school_name": "Trường Cao đẳng Sơn La",
+        "school_id": "C14",
+        "location": "Sơn La",
+        "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453496"
+        },
+        "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM BÀ RỊA-VŨNG TÀU",
+        "school_id": "C52",
+        "location": "Bà Rịa - Vũng Tàu",
+        "school_type": "Trường cao đẳng sư phạm",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453497"
+        },
+        "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM BẮC NINH",
+        "school_id": "C19",
+        "location": "Bắc Ninh",
+        "school_type": "Trường cao đẳng sư phạm",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453498"
+        },
+        "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM CAO BẰNG",
+        "school_id": "C06",
+        "location": "Cao Bằng",
+        "school_type": "Trường cao đẳng sư phạm",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453499"
+        },
+        "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM ĐẮK LẮK",
+        "school_id": "C40",
+        "location": "Đắk Lắk",
+        "school_type": "Trường cao đẳng sư phạm",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045349a"
+        },
+        "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM ĐIỆN BIÊN",
+        "school_id": "C62",
+        "location": "Điện Biên",
+        "school_type": "Trường cao đẳng sư phạm",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045349b"
+        },
+        "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM GIA LAI",
+        "school_id": "C38",
+        "location": "Gia Lai",
+        "school_type": "Trường cao đẳng sư phạm",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045349c"
+        },
+        "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM HÀ GIANG",
+        "school_id": "C05",
+        "location": "Hà Giang",
+        "school_type": "Trường cao đẳng sư phạm",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045349d"
+        },
+        "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM HÀ TÂY",
+        "school_id": "C20",
+        "location": "Hà Nội",
+        "school_type": "Trường cao đẳng sư phạm",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045349e"
+        },
+        "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM HOÀ BÌNH",
+        "school_id": "C23",
+        "location": "Hoà Bình",
+        "school_type": "Trường cao đẳng sư phạm",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045349f"
+        },
+        "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM KIÊN GIANG",
+        "school_id": "C54",
+        "location": "Kiên Giang",
+        "school_type": "Trường cao đẳng sư phạm",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534a0"
+        },
+        "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM LẠNG SƠN",
+        "school_id": "C10",
+        "location": "Lạng Sơn",
+        "school_type": "Trường cao đẳng sư phạm",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534a1"
+        },
+        "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM LONG AN",
+        "school_id": "C49",
+        "location": "Long An",
+        "school_type": "Trường cao đẳng sư phạm",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534a2"
+        },
+        "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM NAM ĐỊNH",
+        "school_id": "C25",
+        "location": "Nam Định",
+        "school_type": "Trường cao đẳng sư phạm",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534a3"
+        },
+        "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM NGHỆ AN",
+        "school_id": "C29",
+        "location": "Nghệ An",
+        "school_type": "Trường cao đẳng sư phạm",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534a4"
+        },
+        "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM QUẢNG TRỊ",
+        "school_id": "C32",
+        "location": "Quảng Trị",
+        "school_type": "Trường cao đẳng sư phạm",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534a5"
+        },
+        "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM TÂY NINH",
+        "school_id": "C46",
+        "location": "Tây Ninh",
+        "school_type": "Trường cao đẳng sư phạm",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534a6"
+        },
+        "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM THÁI BÌNH",
+        "school_id": "C26",
+        "location": "Thái Bình",
+        "school_type": "Trường cao đẳng sư phạm",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534a7"
+        },
+        "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM THỪA THIÊN HUẾ",
+        "school_id": "C33",
+        "location": "Thừa Thiên Huế",
+        "school_type": "Trường cao đẳng sư phạm",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534a8"
+        },
+        "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM TRUNG ƯƠNG",
+        "school_id": "CM1",
+        "location": "Hà Nội",
+        "school_type": "Trường cao đẳng sư phạm",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534a9"
+        },
+        "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM TRUNG ƯƠNG NHA TRANG",
+        "school_id": "CM2",
+        "location": "Khánh Hoà",
+        "school_type": "Trường cao đẳng sư phạm",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534aa"
+        },
+        "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM TRUNG ƯƠNG TP.HỒ CHÍ MINH",
+        "school_id": "CM3",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường cao đẳng sư phạm",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534ab"
+        },
+        "school_name": "TRƯỜNG CAO ĐẲNG SƯ PHẠM YÊN BÁI",
+        "school_id": "C13",
+        "location": "Yên Bái",
+        "school_type": "Trường cao đẳng sư phạm",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534ac"
+        },
+        "school_name": "Trường Cao đẳng Vĩnh Long",
+        "school_id": "C57",
+        "location": "Vĩnh Long",
+        "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534ad"
+        },
+        "school_name": "Trường Cao đẳng Vĩnh Phúc",
+        "school_id": "C16",
+        "location": "Vĩnh Phúc",
+        "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534ae"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC AN GIANG - ĐẠI HỌC QUỐC GIA TP. HỒ CHÍ MINH",
+        "school_id": "TAG",
+        "location": "An Giang",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534af"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC ANH QUỐC - VIỆT NAM",
+        "school_id": "BUV",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Nước ngoài"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534b0"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC BÀ RỊA - VŨNG TÀU",
+        "school_id": "BVU",
+        "location": "Bà Rịa - Vũng Tàu",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534b1"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC BẠC LIÊU",
+        "school_id": "DBL",
+        "location": "Bạc Liêu",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534b2"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC BÁCH KHOA - ĐẠI HỌC QUỐC GIA TP. HỒ CHÍ MINH",
+        "school_id": "QSB",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534b3"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC BÁCH KHOA, ĐẠI HỌC ĐÀ NẴNG",
+        "school_id": "DDK",
+        "location": "Đà Nẵng",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534b4"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC BÌNH DƯƠNG",
+        "school_id": "DBD",
+        "location": "Bình Dương",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534b5"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC CẦN THƠ",
+        "school_id": "TCT",
+        "location": "Cần Thơ",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534b6"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC CMC",
+        "school_id": "MCA",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534b7"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC CÔNG ĐOÀN",
+        "school_id": "LDA",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534b8"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC CÔNG NGHỆ - ĐẠI HỌC QUỐC GIA HÀ NỘI",
+        "school_id": "QHI",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534b9"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC CÔNG NGHỆ ĐỒNG NAI",
+        "school_id": "DCD",
+        "location": "Đồng Nai",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534ba"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC CÔNG NGHỆ ĐÔNG Á",
+        "school_id": "DDA",
+        "location": "Bắc Ninh",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534bb"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC CÔNG NGHỆ GIAO THÔNG VẬN TẢI",
+        "school_id": "GTA",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534bc"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC CÔNG NGHỆ MIỀN ĐÔNG",
+        "school_id": "DMD",
+        "location": "Đồng Nai",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534bd"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC CÔNG NGHỆ SÀI GÒN",
+        "school_id": "DSG",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Dân lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534be"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC CÔNG NGHỆ TP. HỒ CHÍ MINH",
+        "school_id": "DKC",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534bf"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN - ĐẠI HỌC QUỐC GIA TP. HỒ CHÍ MINH",
+        "school_id": "QSC",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534c0"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN VÀ TRUYỀN THÔNG VIỆT HÀN, ĐẠI HỌC ĐÀ NẴNG",
+        "school_id": "VKU",
+        "location": "Đà Nẵng",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534c1"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC CÔNG NGHỆ THÔNG TIN VÀ TRUYỀN THÔNG, ĐẠI HỌC THÁI NGUYÊN",
+        "school_id": "DTC",
+        "location": "Thái Nguyên",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534c2"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC CÔNG NGHỆ VÀ QUẢN LÝ HỮU NGHỊ",
+        "school_id": "DCQ",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534c3"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC CÔNG NGHỆ VẠN XUÂN",
+        "school_id": "DVX",
+        "location": "Nghệ An",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534c4"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP DỆT MAY HÀ NỘI",
+        "school_id": "CCM",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534c5"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI",
+        "school_id": "DCN",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534c6"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP QUẢNG NINH",
+        "school_id": "DDM",
+        "location": "Quảng Ninh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534c7"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP TP. HỒ CHÍ MINH",
+        "school_id": "HUI",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534c8"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP VIỆT - HUNG",
+        "school_id": "VHD",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534c9"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP VIỆT TRÌ",
+        "school_id": "VUI",
+        "location": "Phú Thọ",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534ca"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP VINH",
+        "school_id": "DCV",
+        "location": "Nghệ An",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534cb"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC CÔNG THƯƠNG TP. HỒ CHÍ MINH",
+        "school_id": "DCT",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534cc"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC CỬU LONG",
+        "school_id": "DCL",
+        "location": "Vĩnh Long",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534cd"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC CHU VĂN AN",
+        "school_id": "DCA",
+        "location": "Hưng Yên",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534ce"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC DẦU KHÍ VIỆT NAM",
+        "school_id": "PVU",
+        "location": "Bà Rịa - Vũng Tàu",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534cf"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC DÂN LẬP PHƯƠNG ĐÔNG",
+        "school_id": "DPD",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Dân lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534d0"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC DUY TÂN",
+        "school_id": "DDT",
+        "location": "Đà Nẵng",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534d1"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC DƯỢC HÀ NỘI",
+        "school_id": "DKH",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534d2"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC ĐÀ LẠT",
+        "school_id": "TDL",
+        "location": "Lâm Đồng",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534d3"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC ĐẠI NAM",
+        "school_id": "DDN",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534d4"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC ĐIỆN LỰC",
+        "school_id": "DDL",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534d5"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC ĐIỀU DƯỠNG NAM ĐỊNH",
+        "school_id": "YDD",
+        "location": "Nam Định",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534d6"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC ĐỒNG NAI",
+        "school_id": "DNU",
+        "location": "Đồng Nai",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534d7"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC ĐỒNG THÁP",
+        "school_id": "SPD",
+        "location": "Đồng Tháp",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534d8"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC ĐÔNG Á",
+        "school_id": "DAD",
+        "location": "Đà Nẵng",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534d9"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC ĐÔNG ĐÔ",
+        "school_id": "DDD",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534da"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC FPT",
+        "school_id": "FPT",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534db"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC FULBRIGHT VIỆT NAM",
+        "school_id": "FUV",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Nước ngoài"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534dc"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC GIA ĐỊNH",
+        "school_id": "DCG",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534dd"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC GIÁO DỤC - ĐẠI HỌC QUỐC GIA HÀ NỘI",
+        "school_id": "QHS",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534de"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC GIAO THÔNG VẬN TẢI",
+        "school_id": "GHA",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534df"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC GIAO THÔNG VẬN TẢI TP. HỒ CHÍ MINH",
+        "school_id": "GTS",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534e0"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC HÀ HOA TIÊN",
+        "school_id": "DHH",
+        "location": "Hà Nam",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534e1"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC HẠ LONG",
+        "school_id": "HLU",
+        "location": "Quảng Ninh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534e2"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC HÀ NỘI",
+        "school_id": "NHF",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534e3"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC HÀ TĨNH",
+        "school_id": "HHT",
+        "location": "Hà Tĩnh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534e4"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC HẢI DƯƠNG",
+        "school_id": "DKT",
+        "location": "Hải Dương",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534e5"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC HẢI PHÒNG",
+        "school_id": "THP",
+        "location": "Hải Phòng",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534e6"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC HÀNG HẢI VIỆT NAM",
+        "school_id": "HHA",
+        "location": "Hải Phòng",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534e7"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC HOÀ BÌNH",
+        "school_id": "ETU",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534e8"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC HOA LƯ",
+        "school_id": "DNB",
+        "location": "Ninh Bình",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534e9"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC HOA SEN",
+        "school_id": "HSU",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534ea"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC HỒNG ĐỨC",
+        "school_id": "HDT",
+        "location": "Thanh Hóa",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534eb"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC HÙNG VƯƠNG",
+        "school_id": "THV",
+        "location": "Phú Thọ",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534ec"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC HÙNG VƯƠNG - TP. HỒ CHÍ MINH",
+        "school_id": "DHV",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534ed"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC KIỂM SÁT HÀ NỘI",
+        "school_id": "DKS",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534ee"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC KIẾN TRÚC ĐÀ NẴNG",
+        "school_id": "KTD",
+        "location": "Đà Nẵng",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534ef"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC KIẾN TRÚC HÀ NỘI",
+        "school_id": "KTA",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534f0"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC KIẾN TRÚC TP. HỒ CHÍ MINH",
+        "school_id": "KTS",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534f1"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC KIÊN GIANG",
+        "school_id": "TKG",
+        "location": "Kiên Giang",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534f2"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC KINH BẮC",
+        "school_id": "UKB",
+        "location": "Bắc Ninh",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534f3"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC KINH DOANH VÀ CÔNG NGHỆ HÀ NỘI",
+        "school_id": "DQK",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534f4"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC KINH TẾ - CÔNG NGHỆ THÁI NGUYÊN",
+        "school_id": "DVB",
+        "location": "Thái Nguyên",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534f5"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC KINH TẾ - ĐẠI HỌC QUỐC GIA HÀ NỘI",
+        "school_id": "QHE",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534f6"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC KINH TẾ - KỸ THUẬT BÌNH DƯƠNG",
+        "school_id": "DKB",
+        "location": "Bình Dương",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534f7"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC KINH TẾ - LUẬT - ĐẠI HỌC QUỐC GIA TP. HỒ CHÍ MINH",
+        "school_id": "QSK",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534f8"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC KINH TẾ - TÀI CHÍNH TP. HỒ CHÍ MINH",
+        "school_id": "UEF",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534f9"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC KINH TẾ CÔNG NGHIỆP LONG AN",
+        "school_id": "DLA",
+        "location": "Long An",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534fa"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC KINH TẾ KỸ THUẬT CÔNG NGHIỆP",
+        "school_id": "DKK",
+        "location": "Nam Định",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534fb"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC KINH TẾ NGHỆ AN",
+        "school_id": "CEA",
+        "location": "Nghệ An",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534fc"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC KINH TẾ QUỐC DÂN",
+        "school_id": "KHA",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534fd"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC KINH TẾ VÀ QUẢN TRỊ KINH DOANH, ĐẠI HỌC THÁI NGUYÊN",
+        "school_id": "DTE",
+        "location": "Thái Nguyên",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534fe"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC KINH TẾ, ĐẠI HỌC HUẾ",
+        "school_id": "DHK",
+        "location": "Thừa Thiên Huế",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004534ff"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC KỸ THUẬT - CÔNG NGHỆ CẦN THƠ",
+        "school_id": "KCC",
+        "location": "Cần Thơ",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453500"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC KỸ THUẬT CÔNG NGHIỆP, ĐẠI HỌC THÁI NGUYÊN",
+        "school_id": "DTK",
+        "location": "Thái Nguyên",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453501"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC KỸ THUẬT Y - DƯỢC ĐÀ NẴNG",
+        "school_id": "YDN",
+        "location": "Đà Nẵng",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453502"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC KỸ THUẬT Y TẾ HẢI DƯƠNG",
+        "school_id": "DKY",
+        "location": "Hải Dương",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453503"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC KHÁNH HOÀ",
+        "school_id": "UKH",
+        "location": "Khánh Hoà",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453504"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC KHOA HỌC TỰ NHIÊN - ĐẠI HỌC QUỐC GIA HÀ NỘI",
+        "school_id": "QHT",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453505"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC KHOA HỌC TỰ NHIÊN - ĐẠI HỌC QUỐC GIA TP. HỒ CHÍ MINH",
+        "school_id": "QST",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453506"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC KHOA HỌC VÀ CÔNG NGHỆ HÀ NỘI",
+        "school_id": "KCN",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453507"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC KHOA HỌC XÃ HỘI VÀ NHÂN VĂN - ĐẠI HỌC QUỐC GIA HÀ NỘI",
+        "school_id": "QHX",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453508"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC KHOA HỌC XÃ HỘI VÀ NHÂN VĂN - ĐẠI HỌC QUỐC GIA TP. HỒ CHÍ MINH",
+        "school_id": "QSX",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453509"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC KHOA HỌC, ĐẠI HỌC HUẾ",
+        "school_id": "DHT",
+        "location": "Thừa Thiên Huế",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045350a"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC KHOA HỌC, ĐẠI HỌC THÁI NGUYÊN",
+        "school_id": "DTZ",
+        "location": "Thái Nguyên",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045350b"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC LẠC HỒNG",
+        "school_id": "DLH",
+        "location": "Đồng Nai",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045350c"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC LAO ĐỘNG - XÃ HỘI",
+        "school_id": "DLX",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045350d"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC LÂM NGHIỆP",
+        "school_id": "LNH",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045350e"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC LUẬT - ĐẠI HỌC QUỐC GIA HÀ NỘI",
+        "school_id": "QHL",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045350f"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC LUẬT HÀ NỘI",
+        "school_id": "LPH",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453510"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC LUẬT TP. HỒ CHÍ MINH",
+        "school_id": "LPS",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453511"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC LUẬT, ĐẠI HỌC HUẾ",
+        "school_id": "DHA",
+        "location": "Thừa Thiên Huế",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453512"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC LƯƠNG THẾ VINH",
+        "school_id": "DTV",
+        "location": "Nam Định",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453513"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC MỎ - ĐỊA CHẤT",
+        "school_id": "MDA",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453514"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC MỞ HÀ NỘI",
+        "school_id": "MHN",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453515"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC MỞ TP. HỒ CHÍ MINH",
+        "school_id": "MBS",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453516"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC MỸ TẠI VIỆT NAM",
+        "school_id": "AUV",
+        "location": "Đà Nẵng",
+        "school_type": "Trường đại học",
+        "ownership": "Nước ngoài"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453517"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC MỸ THUẬT CÔNG NGHIỆP",
+        "school_id": "MTC",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453518"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC MỸ THUẬT TP. HỒ CHÍ MINH",
+        "school_id": "MTS",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453519"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC MỸ THUẬT VIỆT NAM",
+        "school_id": "MTH",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045351a"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC NAM CẦN THƠ",
+        "school_id": "DNC",
+        "location": "Cần Thơ",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045351b"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC NỘI VỤ HÀ NỘI",
+        "school_id": "DNV",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045351c"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC NÔNG LÂM BẮC GIANG",
+        "school_id": "DBG",
+        "location": "Bắc Giang",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045351d"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC NÔNG LÂM TP. HỒ CHÍ MINH",
+        "school_id": "NLS",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045351e"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC NÔNG LÂM, ĐẠI HỌC HUẾ",
+        "school_id": "DHL",
+        "location": "Thừa Thiên Huế",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045351f"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC NÔNG LÂM, ĐẠI HỌC THÁI NGUYÊN",
+        "school_id": "DTN",
+        "location": "Thái Nguyên",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453520"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC NGÂN HÀNG TP. HỒ CHÍ MINH",
+        "school_id": "NHS",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453521"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC NGHỆ THUẬT, ĐẠI HỌC HUẾ",
+        "school_id": "DHN",
+        "location": "Thừa Thiên Huế",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453522"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC NGOẠI NGỮ - ĐẠI HỌC QUỐC GIA HÀ NỘI",
+        "school_id": "QHF",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453523"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC NGOẠI NGỮ - TIN HỌC TP. HỒ CHÍ MINH",
+        "school_id": "DNT",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453524"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC NGOẠI NGỮ, ĐẠI HỌC HUẾ",
+        "school_id": "DHF",
+        "location": "Thừa Thiên Huế",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453525"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC NGOẠI THƯƠNG",
+        "school_id": "NTH",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453526"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC NGUYỄN TẤT THÀNH",
+        "school_id": "NTT",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453527"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC NGUYỄN TRÃI",
+        "school_id": "NTU",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453528"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC NHA TRANG",
+        "school_id": "TSN",
+        "location": "Khánh Hoà",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453529"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC PHẠM VĂN ĐỒNG",
+        "school_id": "DPQ",
+        "location": "Quảng Ngãi",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045352a"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC PHAN CHÂU TRINH",
+        "school_id": "DPC",
+        "location": "Quảng Nam",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045352b"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC PHAN THIẾT",
+        "school_id": "DPT",
+        "location": "Bình Thuận",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045352c"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC PHENIKAA",
+        "school_id": "DTA",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045352d"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC PHÚ XUÂN",
+        "school_id": "DPX",
+        "location": "Thừa Thiên Huế",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045352e"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC PHÚ YÊN",
+        "school_id": "DPY",
+        "location": "Phú Yên",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045352f"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC QUẢN LÝ VÀ CÔNG NGHỆ HẢI PHÒNG",
+        "school_id": "DHP",
+        "location": "Hải Phòng",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453530"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC QUẢN LÝ VÀ CÔNG NGHỆ TP. HỒ CHÍ MINH",
+        "school_id": "UMT",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453531"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC QUẢNG BÌNH",
+        "school_id": "DQB",
+        "location": "Quảng Bình",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453532"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC QUẢNG NAM",
+        "school_id": "DQU",
+        "location": "Quảng Nam",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453533"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC QUANG TRUNG",
+        "school_id": "DQT",
+        "location": "Bình Định",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453534"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC QUỐC TẾ - ĐẠI HỌC QUỐC GIA TP. HỒ CHÍ MINH",
+        "school_id": "QSQ",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453535"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC QUỐC TẾ BẮC HÀ",
+        "school_id": "DBH",
+        "location": "Bắc Ninh",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453536"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC QUỐC TẾ HỒNG BÀNG",
+        "school_id": "HIU",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453537"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC QUỐC TẾ MIỀN ĐÔNG",
+        "school_id": "EIU",
+        "location": "Bình Dương",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453538"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC QUỐC TẾ RMIT VIỆT NAM",
+        "school_id": "RMU",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Nước ngoài"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453539"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC QUY NHƠN",
+        "school_id": "DQN",
+        "location": "Bình Định",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045353a"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC SÀI GÒN",
+        "school_id": "SGD",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045353b"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC SAO ĐỎ",
+        "school_id": "SDU",
+        "location": "Hải Dương",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045353c"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC SÂN KHẤU ĐIỆN ẢNH HÀ NỘI",
+        "school_id": "SKD",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045353d"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC SÂN KHẤU, ĐIỆN ẢNH TP. HỒ CHÍ MINH",
+        "school_id": "DSD",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045353e"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC SƯ PHẠM HÀ NỘI",
+        "school_id": "SPH",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045353f"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC SƯ PHẠM HÀ NỘI 2",
+        "school_id": "SP2",
+        "location": "Vĩnh Phúc",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453540"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬT HƯNG YÊN",
+        "school_id": "SKH",
+        "location": "Hưng Yên",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453541"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬT NAM ĐỊNH",
+        "school_id": "SKN",
+        "location": "Nam Định",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453542"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬT TP. HỒ CHÍ MINH",
+        "school_id": "SPK",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453543"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬT VINH",
+        "school_id": "SKV",
+        "location": "Nghệ An",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453544"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬT VĨNH LONG",
+        "school_id": "VLU",
+        "location": "Vĩnh Long",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453545"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC SƯ PHẠM NGHỆ THUẬT TRUNG ƯƠNG",
+        "school_id": "GNT",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453546"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC SƯ PHẠM TP. HỒ CHÍ MINH",
+        "school_id": "SPS",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453547"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC SƯ PHẠM THỂ DỤC THỂ THAO HÀ NỘI",
+        "school_id": "TDH",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453548"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC SƯ PHẠM THỂ DỤC THỂ THAO TP. HỒ CHÍ MINH",
+        "school_id": "STS",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453549"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC SƯ PHẠM, ĐẠI HỌC ĐÀ NẴNG",
+        "school_id": "DDS",
+        "location": "Đà Nẵng",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045354a"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC SƯ PHẠM, ĐẠI HỌC HUẾ",
+        "school_id": "DHS",
+        "location": "Thừa Thiên Huế",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045354b"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC SƯ PHẠM, ĐẠI HỌC THÁI NGUYÊN",
+        "school_id": "DTS",
+        "location": "Thái Nguyên",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045354c"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC TÀI CHÍNH - KẾ TOÁN",
+        "school_id": "DKQ",
+        "location": "Quảng Ngãi",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045354d"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC TÀI CHÍNH - MARKETING",
+        "school_id": "DMS",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045354e"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC TÀI CHÍNH - NGÂN HÀNG HÀ NỘI",
+        "school_id": "FBU",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045354f"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC TÀI CHÍNH - QUẢN TRỊ KINH DOANH",
+        "school_id": "DFA",
+        "location": "Hưng Yên",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453550"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC TÀI NGUYÊN VÀ MÔI TRƯỜNG HÀ NỘI",
+        "school_id": "DMT",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453551"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC TÀI NGUYÊN VÀ MÔI TRƯỜNG TP. HỒ CHÍ MINH",
+        "school_id": "DTM",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453552"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC TÂN TẠO",
+        "school_id": "TTU",
+        "location": "Long An",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453553"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC TÂN TRÀO",
+        "school_id": "TQU",
+        "location": "Tuyên Quang",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453554"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC TÂY BẮC",
+        "school_id": "TTB",
+        "location": "Sơn La",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453555"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC TÂY ĐÔ",
+        "school_id": "DTD",
+        "location": "Cần Thơ",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453556"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC TÂY NGUYÊN",
+        "school_id": "TTN",
+        "location": "Đắk Lắk",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453557"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC TIỀN GIANG",
+        "school_id": "TTG",
+        "location": "Tiền Giang",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453558"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC TÔN ĐỨC THẮNG",
+        "school_id": "DTT",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453559"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC TƯ THỤC QUỐC TẾ SÀI GÒN",
+        "school_id": "TTQ",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045355a"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC THÁI BÌNH",
+        "school_id": "DTB",
+        "location": "Thái Bình",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045355b"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC THÁI BÌNH DƯƠNG",
+        "school_id": "TBD",
+        "location": "Khánh Hoà",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045355c"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC THÀNH ĐÔ",
+        "school_id": "TDD",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045355d"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC THÀNH ĐÔNG",
+        "school_id": "DDB",
+        "location": "Hải Dương",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045355e"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC THĂNG LONG",
+        "school_id": "DTL",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045355f"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC THỂ DỤC THỂ THAO BẮC NINH",
+        "school_id": "TDB",
+        "location": "Bắc Ninh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453560"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC THỂ DỤC THỂ THAO ĐÀ NẴNG",
+        "school_id": "TTD",
+        "location": "Đà Nẵng",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453561"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC THỂ DỤC THỂ THAO TP. HỒ CHÍ MINH",
+        "school_id": "TDS",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453562"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC THỦ DẦU MỘT",
+        "school_id": "TDM",
+        "location": "Bình Dương",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453563"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC THỦ ĐÔ HÀ NỘI",
+        "school_id": "HNM",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453564"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC THUỶ LỢI",
+        "school_id": "TLA",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453565"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC THƯƠNG MẠI",
+        "school_id": "TMA",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453566"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC TRÀ VINH",
+        "school_id": "DVT",
+        "location": "Trà Vinh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453567"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC TRƯNG VƯƠNG",
+        "school_id": "DVP",
+        "location": "Vĩnh Phúc",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453568"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC VĂN HIẾN",
+        "school_id": "DVH",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453569"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC VĂN HOÁ HÀ NỘI",
+        "school_id": "VHH",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045356a"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC VĂN HOÁ TP. HỒ CHÍ MINH",
+        "school_id": "VHS",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045356b"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC VĂN HOÁ, THỂ THAO VÀ DU LỊCH THANH HOÁ",
+        "school_id": "DVD",
+        "location": "Thanh Hóa",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045356c"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC VĂN LANG",
+        "school_id": "DVL",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045356d"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC VIỆT ĐỨC",
+        "school_id": "VGU",
+        "location": "Bình Dương",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045356e"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC VIỆT NHẬT - ĐẠI HỌC QUỐC GIA HÀ NỘI",
+        "school_id": "VJU",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045356f"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC VINUNI",
+        "school_id": "VIN",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453570"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC VINH",
+        "school_id": "TDV",
+        "location": "Nghệ An",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453571"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC VÕ TRƯỜNG TOẢN",
+        "school_id": "VTT",
+        "location": "Hậu Giang",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453572"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC XÂY DỰNG HÀ NỘI",
+        "school_id": "XDA",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453573"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC XÂY DỰNG MIỀN TÂY",
+        "school_id": "MTU",
+        "location": "Vĩnh Long",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453574"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC XÂY DỰNG MIỀN TRUNG",
+        "school_id": "XDT",
+        "location": "Phú Yên",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453575"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC Y DƯỢC - ĐẠI HỌC QUỐC GIA HÀ NỘI",
+        "school_id": "QHY",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453576"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC Y DƯỢC BUÔN MA THUỘT",
+        "school_id": "BMU",
+        "location": "Đắk Lắk",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453577"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC Y DƯỢC CẦN THƠ",
+        "school_id": "YCT",
+        "location": "Cần Thơ",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453578"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC Y DƯỢC HẢI PHÒNG",
+        "school_id": "YPB",
+        "location": "Hải Phòng",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453579"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC Y DƯỢC THÁI BÌNH",
+        "school_id": "YTB",
+        "location": "Thái Bình",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045357a"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC Y DƯỢC, ĐẠI HỌC HUẾ",
+        "school_id": "DHY",
+        "location": "Thừa Thiên Huế",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045357b"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC Y DƯỢC, ĐẠI HỌC THÁI NGUYÊN",
+        "school_id": "DTY",
+        "location": "Thái Nguyên",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045357c"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC Y HÀ NỘI",
+        "school_id": "YHB",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045357d"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC Y KHOA PHẠM NGỌC THẠCH",
+        "school_id": "TYS",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045357e"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC Y KHOA TOKYO VIỆT NAM",
+        "school_id": "THU",
+        "location": "Hưng Yên",
+        "school_type": "Trường đại học",
+        "ownership": "Nước ngoài"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045357f"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC Y KHOA VINH",
+        "school_id": "YKV",
+        "location": "Nghệ An",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453580"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC Y TẾ CÔNG CỘNG",
+        "school_id": "YTC",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453581"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC YERSIN ĐÀ LẠT",
+        "school_id": "DYD",
+        "location": "Lâm Đồng",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453582"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC KINH TẾ, ĐẠI HỌC ĐÀ NẴNG",
+        "school_id": "DDQ",
+        "location": "Đà Nẵng",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453583"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC NGOẠI NGỮ, ĐẠI HỌC ĐÀ NẴNG",
+        "school_id": "DDF",
+        "location": "Đà Nẵng",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453584"
+        },
+        "school_name": "TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬT, ĐẠI HỌC ĐÀ NẴNG",
+        "school_id": "DDC",
+        "location": "Đà Nẵng",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453585"
+        },
+        "school_name": "Viện Công nghiệp thực phẩm",
+        "school_id": "V08",
+        "location": "Hà Nội",
+        "school_type": "Viện nghiên cứu",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453586"
+        },
+        "school_name": "Viện Cơ điện Nông nghiệp và Công nghệ sau thu hoạch",
+        "school_id": "VCD",
+        "location": "Hà Nội",
+        "school_type": "Viện nghiên cứu",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453587"
+        },
+        "school_name": "Viện Chăn nuôi",
+        "school_id": "VCN",
+        "location": "Hà Nội",
+        "school_type": "Viện nghiên cứu",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453588"
+        },
+        "school_name": "Viện Chiến lược phát triển",
+        "school_id": "V19",
+        "location": "Hà Nội",
+        "school_type": "Viện nghiên cứu",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453589"
+        },
+        "school_name": "Viện Dầu khí Việt Nam",
+        "school_id": "VDK",
+        "location": "Hà Nội",
+        "school_type": "Viện nghiên cứu",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045358a"
+        },
+        "school_name": "Viện Dinh dưỡng",
+        "school_id": "V66",
+        "location": "Hà Nội",
+        "school_type": "Viện nghiên cứu",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045358b"
+        },
+        "school_name": "Viện Dược liệu",
+        "school_id": "V22",
+        "location": "Hà Nội",
+        "school_type": "Viện nghiên cứu",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045358c"
+        },
+        "school_name": "Viện Hoá học công nghiệp",
+        "school_id": "V11",
+        "location": "Hà Nội",
+        "school_type": "Viện nghiên cứu",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045358d"
+        },
+        "school_name": "Viện Kiểm nghiệm thuốc Trung ương",
+        "school_id": "NQC",
+        "location": "Hà Nội",
+        "school_type": "Viện nghiên cứu",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045358e"
+        },
+        "school_name": "Viện Kiến trúc Quốc gia",
+        "school_id": "V12",
+        "location": "Hà Nội",
+        "school_type": "Viện nghiên cứu",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045358f"
+        },
+        "school_name": "Viện Khoa học công nghệ xây dựng",
+        "school_id": "V14",
+        "location": "Hà Nội",
+        "school_type": "Viện nghiên cứu",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453590"
+        },
+        "school_name": "Viện Khoa học Địa chất và Khoáng sản",
+        "school_id": "V47",
+        "location": "Hà Nội",
+        "school_type": "Viện nghiên cứu",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453591"
+        },
+        "school_name": "Viện Khoa học Đo đạc và Bản đồ",
+        "school_id": "KBD",
+        "location": "Hà Nội",
+        "school_type": "Viện nghiên cứu",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453592"
+        },
+        "school_name": "Viện Khoa học Giáo dục Việt nam",
+        "school_id": "V46",
+        "location": "Hà Nội",
+        "school_type": "Viện nghiên cứu",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453593"
+        },
+        "school_name": "Viện Khoa học Khí tượng Thủy văn và Biến đổi khí hậu",
+        "school_id": "V50",
+        "location": "Hà Nội",
+        "school_type": "Viện nghiên cứu",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453594"
+        },
+        "school_name": "Viện Khoa học Lâm nghiệp Việt Nam",
+        "school_id": "VLN",
+        "location": "Hà Nội",
+        "school_type": "Viện nghiên cứu",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453595"
+        },
+        "school_name": "Viện Khoa học Nông nghiệp Việt Nam",
+        "school_id": "VKN",
+        "location": "Hà Nội",
+        "school_type": "Viện nghiên cứu",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453596"
+        },
+        "school_name": "Viện Khoa học Thể dục thể thao",
+        "school_id": "VKT",
+        "location": "Hà Nội",
+        "school_type": "Viện nghiên cứu",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453597"
+        },
+        "school_name": "Viện Khoa học Thuỷ lợi Việt Nam",
+        "school_id": "VTL",
+        "location": "Hà Nội",
+        "school_type": "Viện nghiên cứu",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453598"
+        },
+        "school_name": "Viện Khoa học và Công nghệ Giao thông vận tải",
+        "school_id": "V13",
+        "location": "Hà Nội",
+        "school_type": "Viện nghiên cứu",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b00453599"
+        },
+        "school_name": "Viện Máy và Dụng cụ công nghiệp",
+        "school_id": "V48",
+        "location": "Hà Nội",
+        "school_type": "Viện nghiên cứu",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045359a"
+        },
+        "school_name": "Viện Năng lượng nguyên tử Việt Nam",
+        "school_id": "V04",
+        "location": "Hà Nội",
+        "school_type": "Viện nghiên cứu",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045359b"
+        },
+        "school_name": "Viện Nghiên cứu Cơ khí",
+        "school_id": "V49",
+        "location": "Hà Nội",
+        "school_type": "Viện nghiên cứu",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045359c"
+        },
+        "school_name": "Viện Nghiên cứu Chiến lược, Chính sách Công Thương",
+        "school_id": "V17",
+        "location": "Hà Nội",
+        "school_type": "Viện nghiên cứu",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045359d"
+        },
+        "school_name": "Viện Nghiên cứu Điện tử, Tin học, Tự động hoá",
+        "school_id": "V02",
+        "location": "Hà Nội",
+        "school_type": "Viện nghiên cứu",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045359e"
+        },
+        "school_name": "Viện Nghiên cứu hải sản",
+        "school_id": "V62",
+        "location": "Hải Phòng",
+        "school_type": "Viện nghiên cứu",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b0045359f"
+        },
+        "school_name": "Viện Nghiên cứu Nuôi trồng thuỷ sản I",
+        "school_id": "VTS",
+        "location": "Bắc Ninh",
+        "school_type": "Viện nghiên cứu",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004535a0"
+        },
+        "school_name": "Viện Nghiên cứu quản lý kinh tế Trung ương",
+        "school_id": "V18",
+        "location": "Hà Nội",
+        "school_type": "Viện nghiên cứu",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004535a1"
+        },
+        "school_name": "Viện Pasteur Thành phố Hồ Chí Minh",
+        "school_id": "V26",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Viện nghiên cứu",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004535a2"
+        },
+        "school_name": "Viện Sốt rét - Ký sinh trùng - Côn trùng Trung ương",
+        "school_id": "V25",
+        "location": "Hà Nội",
+        "school_type": "Viện nghiên cứu",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004535a3"
+        },
+        "school_name": "Viện Sức khoẻ nghề nghiệp và môi trường",
+        "school_id": "VYL",
+        "location": "Hà Nội",
+        "school_type": "Viện nghiên cứu",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004535a4"
+        },
+        "school_name": "Viện Toán học",
+        "school_id": "V59",
+        "location": "Hà Nội",
+        "school_type": "Viện nghiên cứu",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004535a5"
+        },
+        "school_name": "Viện Thú y",
+        "school_id": "VTY",
+        "location": "Hà Nội",
+        "school_type": "Viện nghiên cứu",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004535a6"
+        },
+        "school_name": "Viện Ứng dụng Công nghệ",
+        "school_id": "VUD",
+        "location": "Hà Nội",
+        "school_type": "Viện nghiên cứu",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004535a7"
+        },
+        "school_name": "Viện Văn hoá Nghệ thuật quốc gia Việt Nam",
+        "school_id": "V45",
+        "location": "Hà Nội",
+        "school_type": "Viện nghiên cứu",
+        "ownership": "Công lập"
+    },
+    {
+        "_id": {
+            "$oid": "681c5fdb6023e69b004535a8"
+        },
+        "school_name": "Viện Vệ sinh Dịch tễ Trung ương",
+        "school_id": "V27",
+        "location": "Hà Nội",
+        "school_type": "Viện nghiên cứu",
+        "ownership": "Công lập"
+    }
+]

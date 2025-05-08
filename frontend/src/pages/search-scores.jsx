@@ -70,7 +70,10 @@ const SearchScoresPage = () => {
 
             if (pagination.currentPage <= leftOffset) {
                 endPage = MAX_VISIBLE_PAGES;
-            } else if (pagination.currentPage >= pagination.totalPages - rightOffset) {
+            } else if (
+                pagination.currentPage >=
+                pagination.totalPages - rightOffset
+            ) {
                 startPage = pagination.totalPages - MAX_VISIBLE_PAGES + 1;
             } else {
                 startPage = pagination.currentPage - leftOffset;
@@ -86,10 +89,14 @@ const SearchScoresPage = () => {
                     onClick={() => handlePageChange(1)}
                 >
                     1
-                </button>
+                </button>,
             );
             if (startPage > 2) {
-                pages.push(<span key="start-ellipsis" className="pagination-ellipsis">...</span>);
+                pages.push(
+                    <span key="start-ellipsis" className="pagination-ellipsis">
+                        ...
+                    </span>,
+                );
             }
         }
 
@@ -101,13 +108,17 @@ const SearchScoresPage = () => {
                     onClick={() => handlePageChange(i)}
                 >
                     {i}
-                </button>
+                </button>,
             );
         }
 
         if (endPage < pagination.totalPages) {
             if (endPage < pagination.totalPages - 1) {
-                pages.push(<span key="end-ellipsis" className="pagination-ellipsis">...</span>);
+                pages.push(
+                    <span key="end-ellipsis" className="pagination-ellipsis">
+                        ...
+                    </span>,
+                );
             }
             pages.push(
                 <button
@@ -116,7 +127,7 @@ const SearchScoresPage = () => {
                     onClick={() => handlePageChange(pagination.totalPages)}
                 >
                     {pagination.totalPages}
-                </button>
+                </button>,
             );
         }
 
@@ -196,11 +207,13 @@ const SearchScoresPage = () => {
 
                     <div className="ss-scores-panel">
                         {loading ? (
-                            <div className="loading-state">Đang tải dữ liệu...</div>
+                            <div className="loading-state">
+                                Đang tải dữ liệu...
+                            </div>
                         ) : error ? (
                             <div className="error-state">
                                 <p>{error}</p>
-                                <button 
+                                <button
                                     className="retry-btn"
                                     onClick={fetchScores}
                                 >
@@ -211,27 +224,31 @@ const SearchScoresPage = () => {
                             <>
                                 <div className="ss-scores-header">
                                     <div className="year-filter">
-                                        {[2024, 2023, 2022, 2021, 2020].map((year) => (
-                                            <button
-                                                key={year}
-                                                className={
-                                                    filters.year === year.toString()
-                                                        ? 'active'
-                                                        : ''
-                                                }
-                                                onClick={() =>
-                                                    handleFilterChange(
-                                                        'year',
-                                                        year.toString(),
-                                                    )
-                                                }
-                                            >
-                                                {year}
-                                            </button>
-                                        ))}
+                                        {[2024, 2023, 2022, 2021, 2020].map(
+                                            (year) => (
+                                                <button
+                                                    key={year}
+                                                    className={
+                                                        filters.year ===
+                                                        year.toString()
+                                                            ? 'active'
+                                                            : ''
+                                                    }
+                                                    onClick={() =>
+                                                        handleFilterChange(
+                                                            'year',
+                                                            year.toString(),
+                                                        )
+                                                    }
+                                                >
+                                                    {year}
+                                                </button>
+                                            ),
+                                        )}
                                     </div>
                                     <div className="total-results">
-                                        Tổng số kết quả: <strong>{pagination.totalItems}</strong>
+                                        Tổng số kết quả:{' '}
+                                        <strong>{pagination.totalItems}</strong>
                                     </div>
                                 </div>
 
@@ -249,7 +266,10 @@ const SearchScoresPage = () => {
                                     <tbody>
                                         {scores.map((score, index) => (
                                             <tr key={score._id || index}>
-                                                <td className="truncate" title={score.university}>
+                                                <td
+                                                    className="truncate"
+                                                    title={score.university}
+                                                >
                                                     <Link
                                                         to={`/school/${score.major_code}`}
                                                         className="school-link"
@@ -258,14 +278,22 @@ const SearchScoresPage = () => {
                                                     </Link>
                                                 </td>
                                                 <td>{score.major_code}</td>
-                                                <td className="truncate" title={score.major_name}>
+                                                <td
+                                                    className="truncate"
+                                                    title={score.major_name}
+                                                >
                                                     {score.major_name}
                                                 </td>
-                                                <td className="exam-group">{score.subject_group}</td>
+                                                <td className="exam-group">
+                                                    {score.subject_group}
+                                                </td>
                                                 <td className="score-value">
                                                     {score.score}
                                                 </td>
-                                                <td className="note-cell" title={score.note}>
+                                                <td
+                                                    className="note-cell"
+                                                    title={score.note}
+                                                >
                                                     {score.note}
                                                 </td>
                                             </tr>
@@ -274,20 +302,31 @@ const SearchScoresPage = () => {
                                 </table>
 
                                 <div className="pagination">
-                                    <button 
+                                    <button
                                         className="pagination-btn"
                                         disabled={pagination.currentPage === 1}
-                                        onClick={() => handlePageChange(pagination.currentPage - 1)}
+                                        onClick={() =>
+                                            handlePageChange(
+                                                pagination.currentPage - 1,
+                                            )
+                                        }
                                     >
                                         Trước
                                     </button>
-                                    
+
                                     {renderPaginationButtons()}
-                                    
-                                    <button 
+
+                                    <button
                                         className="pagination-btn"
-                                        disabled={pagination.currentPage === pagination.totalPages}
-                                        onClick={() => handlePageChange(pagination.currentPage + 1)}
+                                        disabled={
+                                            pagination.currentPage ===
+                                            pagination.totalPages
+                                        }
+                                        onClick={() =>
+                                            handlePageChange(
+                                                pagination.currentPage + 1,
+                                            )
+                                        }
                                     >
                                         Sau
                                     </button>

@@ -19,24 +19,24 @@ const searchRoutes = [
     { path: '/search/schools', element: <SearchSchoolsPage /> },
     { path: '/search/majors', element: <SearchMajorsPage /> },
     { path: '/search/careers', element: <SearchCareersPage /> },
-    { path: '/search/scores', element: <SearchScoresPage /> }
+    { path: '/search/scores', element: <SearchScoresPage /> },
 ];
 
 const detailRoutes = [
     { path: '/school/:id', element: <SchoolDetailPage /> },
     { path: '/major/:id', element: <MajorDetailPage /> },
-    { path: '/career/:id', element: <CareerDetailPage /> }
+    { path: '/career/:id', element: <CareerDetailPage /> },
 ];
 
 const newsRoutes = [
     { path: '/news', element: <NewsPage /> },
-    { path: '/article/:id', element: <ArticleDetailPage /> }, 
-    { path: '/news/:slug', element: <ArticleDetailPage /> }
+    { path: '/article/:id', element: <ArticleDetailPage /> },
+    { path: '/news/:slug', element: <ArticleDetailPage /> },
 ];
 
 const authRoutes = [
     { path: '/login', element: <LoginPage /> },
-    { path: '/register', element: <RegisterPage /> }
+    { path: '/register', element: <RegisterPage /> },
 ];
 
 // Public routes that don't require authentication
@@ -45,12 +45,10 @@ const publicRoutes = [
     ...authRoutes,
     ...searchRoutes,
     ...detailRoutes,
-    ...newsRoutes
+    ...newsRoutes,
 ];
 
 // Private routes that require authentication
-const privateRoutes = [
-    { path: '/account', element: <UserAccountPage /> }
-];
+const privateRoutes = [{ path: '/account', element: <UserAccountPage /> }];
 
 export { publicRoutes, privateRoutes };

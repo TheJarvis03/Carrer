@@ -1,11 +1,28 @@
-import axios, { getAdapter } from "axios";
+import axios from 'axios';
 
-const API_URL = "http://localhost:5000/api/seacrch/schools";
+const API_URL = 'http://localhost:5000/api/search/schools';
 
 export const schoolService = {
     getAll: async () => {
         try {
             const res = await axios.get(API_URL);
+            console.log('API Response:', res.data);
+
+            // Trường hợp API trả về mảng trực tiếp
+            if (Array.isArray(res.data)) {
+                return {
+                    success: true,
+                    data: res.data.map((school) => ({
+                        id: school.id || school.school_id,
+                        name: school.name || school.school_name,
+                        location: school.location || school.school_location,
+                        type: school.type || school.school_type,
+                        ownership: school.ownership || school.school_ownership,
+                    })),
+                };
+            }
+
+            // Trường hợp API bọc mảng trong object có success/data
             const { success, data } = res.data;
 
             if (success && Array.isArray(data)) {
@@ -16,16 +33,18 @@ export const schoolService = {
                         name: school.name || school.school_name,
                         location: school.location || school.school_location,
                         type: school.type || school.school_type,
-                        description: school.description || "",
+                        ownership: school.ownership || school.school_ownership,
                     })),
                 };
             }
 
-            return { success: false, error: "Invalid data format" };
+            return {
+                success: false,
+                error: 'No data received or invalid format',
+            };
         } catch (error) {
-            console.error("Error fetching schools:", error);
+            console.error('Error fetching schools:', error);
             return { success: false, error: error.message };
         }
     },
-
-}
+};

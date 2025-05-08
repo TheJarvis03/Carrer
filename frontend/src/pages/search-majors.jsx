@@ -14,7 +14,7 @@ const SearchMajorsPage = () => {
     const [filters, setFilters] = useState({
         field: 'all',
         examGroup: 'all',
-        opportunity: 'all'
+        opportunity: 'all',
     });
     const [majorGroups, setMajorGroups] = useState([]);
 
@@ -23,8 +23,8 @@ const SearchMajorsPage = () => {
             { value: 'A00', label: 'A00 (Toán, Lý, Hóa)' },
             { value: 'A01', label: 'A01 (Toán, Lý, Anh)' },
             { value: 'B00', label: 'B00 (Toán, Hóa, Sinh)' },
-            { value: 'D01', label: 'D01 (Toán, Văn, Anh)' }
-        ]
+            { value: 'D01', label: 'D01 (Toán, Văn, Anh)' },
+        ],
     };
 
     useEffect(() => {
@@ -62,18 +62,20 @@ const SearchMajorsPage = () => {
         let results = [...originalMajors];
 
         if (filters.field !== 'all') {
-            results = results.filter(major => major.group_id === filters.field);
+            results = results.filter(
+                (major) => major.group_id === filters.field,
+            );
         }
 
         if (filters.examGroup !== 'all') {
-            results = results.filter(major => 
-                major.exam_groups?.includes(filters.examGroup)
+            results = results.filter((major) =>
+                major.exam_groups?.includes(filters.examGroup),
             );
         }
 
         if (filters.opportunity !== 'all') {
-            results = results.filter(major => 
-                major.job_opportunity === filters.opportunity
+            results = results.filter(
+                (major) => major.job_opportunity === filters.opportunity,
             );
         }
 
@@ -95,9 +97,14 @@ const SearchMajorsPage = () => {
             return;
         }
 
-        const results = originalMajors.filter(major => 
-            major.major_name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-            major.major_code.toLowerCase().includes(searchQuery.toLowerCase())
+        const results = originalMajors.filter(
+            (major) =>
+                major.major_name
+                    .toLowerCase()
+                    .includes(searchQuery.toLowerCase()) ||
+                major.major_code
+                    .toLowerCase()
+                    .includes(searchQuery.toLowerCase()),
         );
 
         setMajors(results);
@@ -126,15 +133,17 @@ const SearchMajorsPage = () => {
                             <label>Khối ngành</label>
                             <select
                                 value={filters.field}
-                                onChange={(e) => setFilters({
-                                    ...filters,
-                                    field: e.target.value
-                                })}
+                                onChange={(e) =>
+                                    setFilters({
+                                        ...filters,
+                                        field: e.target.value,
+                                    })
+                                }
                             >
                                 <option value="all">Tất cả khối ngành</option>
-                                {majorGroups.map(group => (
-                                    <option 
-                                        key={group.group_id} 
+                                {majorGroups.map((group) => (
+                                    <option
+                                        key={group.group_id}
                                         value={group.group_id}
                                     >
                                         {group.group_name}
@@ -146,14 +155,19 @@ const SearchMajorsPage = () => {
                             <label>Khối thi</label>
                             <select
                                 value={filters.examGroup}
-                                onChange={(e) => setFilters({
-                                    ...filters,
-                                    examGroup: e.target.value
-                                })}
+                                onChange={(e) =>
+                                    setFilters({
+                                        ...filters,
+                                        examGroup: e.target.value,
+                                    })
+                                }
                             >
                                 <option value="all">Tất cả</option>
-                                {filterOptions.examGroups.map(option => (
-                                    <option key={option.value} value={option.value}>
+                                {filterOptions.examGroups.map((option) => (
+                                    <option
+                                        key={option.value}
+                                        value={option.value}
+                                    >
                                         {option.label}
                                     </option>
                                 ))}
@@ -177,7 +191,7 @@ const SearchMajorsPage = () => {
                             </select>
                         </div>
                         <div className="filter-actions">
-                            <button 
+                            <button
                                 className="filter-apply-btn"
                                 onClick={handleApplyFilters}
                             >
@@ -189,9 +203,11 @@ const SearchMajorsPage = () => {
                                     setFilters({
                                         field: 'all',
                                         examGroup: 'all',
-                                        opportunity: 'all'
+                                        opportunity: 'all',
                                     });
-                                    setMajors(originalMajors.slice(0, ITEMS_PER_PAGE));
+                                    setMajors(
+                                        originalMajors.slice(0, ITEMS_PER_PAGE),
+                                    );
                                 }}
                             >
                                 Đặt lại
@@ -207,37 +223,61 @@ const SearchMajorsPage = () => {
                         ) : (
                             <div className="sma-majors-grid">
                                 {getCurrentItems().map((major) => (
-                                    <Link 
+                                    <Link
                                         to={`/major/${major.major_name}`}
-                                        key={major.code} 
+                                        key={major.code}
                                         className="sma-major-card"
                                     >
                                         <div className="sma-major-header">
-                                            <h4 className="sma-major-name">{major.major_name}</h4>
-                                            <span className="sma-major-code">Mã: {major.code}</span>
-                                        </div> 
+                                            <h4 className="sma-major-name">
+                                                {major.major_name}
+                                            </h4>
+                                            <span className="sma-major-code">
+                                                Mã: {major.code}
+                                            </span>
+                                        </div>
                                         <div className="sma-major-content">
                                             <div className="sma-major-info">
                                                 <p className="sma-major-row">
-                                                    <span className="label">Khối ngành:</span>
-                                                    <span className="value">{major.group_name}</span>
+                                                    <span className="label">
+                                                        Khối ngành:
+                                                    </span>
+                                                    <span className="value">
+                                                        {major.group_name}
+                                                    </span>
                                                 </p>
                                                 <p>
-                                                    <span className="label">Khối thi</span>
+                                                    <span className="label">
+                                                        Khối thi
+                                                    </span>
                                                     <div className="sma-exam-groups">
-                                                        {major.exam_groups?.map(group => (
-                                                            <span key={group} className="sma-exam-group">
-                                                                {group}
-                                                            </span>
-                                                        ))}
+                                                        {major.exam_groups?.map(
+                                                            (group) => (
+                                                                <span
+                                                                    key={group}
+                                                                    className="sma-exam-group"
+                                                                >
+                                                                    {group}
+                                                                </span>
+                                                            ),
+                                                        )}
                                                     </div>
                                                 </p>
                                             </div>
-                                            <div className={`sma-job-opportunity ${major.job_opportunity}`}>
-                                                <span className="label">Cơ hội việc làm</span>
+                                            <div
+                                                className={`sma-job-opportunity ${major.job_opportunity}`}
+                                            >
+                                                <span className="label">
+                                                    Cơ hội việc làm
+                                                </span>
                                                 <span className="value">
-                                                    {major.job_opportunity === 'high' ? 'Cao' :
-                                                     major.job_opportunity === 'medium' ? 'Trung bình' : 'Thấp'}
+                                                    {major.job_opportunity ===
+                                                    'high'
+                                                        ? 'Cao'
+                                                        : major.job_opportunity ===
+                                                            'medium'
+                                                          ? 'Trung bình'
+                                                          : 'Thấp'}
                                                 </span>
                                             </div>
                                         </div>

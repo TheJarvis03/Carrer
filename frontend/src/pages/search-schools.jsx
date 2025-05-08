@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/pages/search-schools.css';
+import { schoolService } from '../services/schoolService';
 
 const SearchSchoolsPage = () => {
     const [filters, setFilters] = useState({
@@ -9,28 +10,100 @@ const SearchSchoolsPage = () => {
         tuition: 'all',
     });
     const [searchQuery, setSearchQuery] = useState('');
+    const [schools, setSchools] = useState([]);
+    const [filteredSchools, setFilteredSchools] = useState([]);
+    const [loading, setLoading] = useState(false);
+    const [error, setError] = useState(null);
+    const [currentPage, setCurrentPage] = useState(1);
+    const itemsPerPage = 10;
+
+    useEffect(() => {
+        const fetchSchools = async () => {
+            setLoading(true);
+            const result = await schoolService.getAll();
+            console.log('Kết quả trả về:', result);
+            if (result.success) {
+                setSchools(result.data);
+            } else {
+                setError(result.error);
+            }
+            setLoading(false);
+        };
+        fetchSchools();
+    }, []);
+
+    useEffect(() => {
+        setFilteredSchools(schools);
+    }, [schools]);
 
     const handleApplyFilters = () => {
-        // TODO: Implement filter logic
-        console.log('Applying filters:', filters);
+        try {
+            let filtered = [...schools];
+
+            // Filter by type
+            if (filters.type !== 'all') {
+                filtered = filtered.filter(
+                    (school) => school.type === filters.type,
+                );
+            }
+
+            // Filter by region
+            if (filters.region !== 'all') {
+                filtered = filtered.filter((school) =>
+                    school.location.toLowerCase().includes(filters.region),
+                );
+            }
+
+            // Filter by search query
+            if (searchQuery.trim()) {
+                filtered = filtered.filter(
+                    (school) =>
+                        school.name
+                            .toLowerCase()
+                            .includes(searchQuery.toLowerCase()) ||
+                        school.location
+                            .toLowerCase()
+                            .includes(searchQuery.toLowerCase()),
+                );
+            }
+
+            setFilteredSchools(filtered);
+            setError(null);
+        } catch (err) {
+            setError('Lỗi khi lọc dữ liệu');
+            console.error('Filter error:', err);
+        }
     };
 
     const handleSearch = (e) => {
         e.preventDefault();
-        console.log('Searching for:', searchQuery);
+        handleApplyFilters();
     };
+
+    const paginateSchools = (filtered) => {
+        const indexOfLastSchool = currentPage * itemsPerPage;
+        const indexOfFirstSchool = indexOfLastSchool - itemsPerPage;
+        return filtered.slice(indexOfFirstSchool, indexOfLastSchool);
+    };
+
+    const handlePagination = (pageNumber) => {
+        setCurrentPage(pageNumber);
+    };
+
+    const totalPages = Math.ceil(filteredSchools.length / itemsPerPage);
 
     return (
         <div className="ssh-page">
             <section className="search-header">
                 <h1>Khám phá trường đại học</h1>
                 <p>
-                    Tìm hiểu và so sánh các trường đại học, cao đẳng trên toàn quốc
+                    Tìm hiểu và so sánh các trường đại học, cao đẳng trên toàn
+                    quốc
                 </p>
                 <form className="search-box" onSubmit={handleSearch}>
-                    <input 
-                        type="text" 
-                        placeholder="Tìm kiếm theo tên trường, ngành học..." 
+                    <input
+                        type="text"
+                        placeholder="Tìm kiếm theo tên trường, ngành học..."
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
                     />
@@ -40,9 +113,15 @@ const SearchSchoolsPage = () => {
                     </button>
                 </form>
                 <div className="search-stats">
-                    <span><strong>156</strong> trường</span>
-                    <span><strong>2,450</strong> ngành học</span>
-                    <span><strong>12,000+</strong> đánh giá</span>
+                    <span>
+                        <strong>{schools.length}</strong> trường
+                    </span>
+                    <span>
+                        <strong>2,450</strong> ngành học
+                    </span>
+                    <span>
+                        <strong>1,200+</strong> đánh giá
+                    </span>
                 </div>
             </section>
 
@@ -114,7 +193,8 @@ const SearchSchoolsPage = () => {
                     <div className="ssh-results-panel">
                         <div className="ssh-results-header">
                             <div className="ssh-found-count">
-                                Tìm thấy <strong>156</strong> trường
+                                Tìm thấy <strong>{schools.length}</strong>{' '}
+                                trường
                             </div>
                             <div className="ssh-sort-options">
                                 <label>Sắp xếp:</label>
@@ -127,84 +207,142 @@ const SearchSchoolsPage = () => {
                         </div>
 
                         <div className="ssh-schools-grid">
-                            {Array(6)
-                                .fill(0)
-                                .map((_, i) => (
-                                    <Link
-                                        to={`/school/${i + 1}`}
-                                        key={i}
-                                        className="ssh-school-card"
-                                    >
-                                        <div className="ssh-school-image">
-                                            <img
-                                                src={`/images/school-${i + 1}.jpg`}
-                                                alt="School"
-                                            />
-                                            <div className="ssh-school-type">
-                                                Công lập
-                                            </div>
-                                        </div>
-                                        <div className="ssh-school-content">
-                                            <div className="ssh-school-main">
-                                                <h3 className="ssh-school-name">
-                                                    Trường Đại học {i + 1}
-                                                </h3>
-                                                <div className="ssh-school-info">
-                                                    <div className="ssh-info-item">
-                                                        <i className="fas fa-map-marker-alt"></i>
-                                                        <span>Hà Nội</span>
-                                                    </div>
-                                                    <div className="ssh-info-item">
-                                                        <i className="fas fa-graduation-cap"></i>
-                                                        <span>
-                                                            12,000 sinh viên
-                                                        </span>
-                                                    </div>
+                            {loading ? (
+                                <div>Loading...</div>
+                            ) : error ? (
+                                <div className="error-message">{error}</div>
+                            ) : (
+                                paginateSchools(filteredSchools).map(
+                                    (school) => (
+                                        <Link
+                                            to={`/school/${school.id}`}
+                                            key={school.id}
+                                            className="ssh-school-card"
+                                        >
+                                            <div className="ssh-school-image">
+                                                <img
+                                                    src={`/images/school-${school.id}.jpg`}
+                                                    alt="School"
+                                                />
+                                                <div className="ssh-school-type">
+                                                    {school.ownership}
                                                 </div>
                                             </div>
-                                            <div className="ssh-school-details">
-                                                <div className="ssh-stat-item">
-                                                    <div className="ssh-stat-label">
-                                                        Điểm chuẩn
-                                                    </div>
-                                                    <div className="ssh-stat-value">
-                                                        23.5-27.5
-                                                    </div>
-                                                    <div className="ssh-stat-range">
-                                                        Năm 2023
+                                            <div className="ssh-school-content">
+                                                <div className="ssh-school-main">
+                                                    <h3 className="ssh-school-name">
+                                                        {school.name}
+                                                    </h3>
+                                                    <div className="ssh-school-info">
+                                                        <div className="ssh-info-item">
+                                                            <i className="fas fa-map-marker-alt"></i>
+                                                            <span>
+                                                                {
+                                                                    school.location
+                                                                }
+                                                            </span>
+                                                        </div>
+                                                        <div className="ssh-info-item">
+                                                            <i className="fas fa-graduation-cap"></i>
+                                                            <span>
+                                                                12,000 sinh viên
+                                                            </span>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                                <div className="ssh-stat-item">
-                                                    <div className="ssh-stat-label">
-                                                        Học phí/năm
+                                                <div className="ssh-school-details">
+                                                    <div className="ssh-stat-item">
+                                                        <div className="ssh-stat-label">
+                                                            Điểm chuẩn
+                                                        </div>
+                                                        <div className="ssh-stat-value">
+                                                            23.5-27.5
+                                                        </div>
+                                                        <div className="ssh-stat-range">
+                                                            Năm 2023
+                                                        </div>
                                                     </div>
-                                                    <div className="ssh-stat-value">
-                                                        15-20tr
+                                                    <div className="ssh-stat-item">
+                                                        <div className="ssh-stat-label">
+                                                            Học phí/năm
+                                                        </div>
+                                                        <div className="ssh-stat-value">
+                                                            15-20tr
+                                                        </div>
                                                     </div>
-                                                </div>
-                                                <div className="ssh-stat-item">
-                                                    <div className="ssh-stat-label">
-                                                        Tỷ lệ có việc làm
-                                                    </div>
-                                                    <div className="ssh-stat-value">
-                                                        92%
-                                                    </div>
-                                                    <div className="ssh-stat-note">
-                                                        Sau 12 tháng
+                                                    <div className="ssh-stat-item">
+                                                        <div className="ssh-stat-label">
+                                                            Tỷ lệ có việc làm
+                                                        </div>
+                                                        <div className="ssh-stat-value">
+                                                            92%
+                                                        </div>
+                                                        <div className="ssh-stat-note">
+                                                            Sau 12 tháng
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </Link>
-                                ))}
+                                        </Link>
+                                    ),
+                                )
+                            )}
                         </div>
 
                         <div className="ssh-pagination">
-                            <button>Trước</button>
-                            <button className="ssh-active">1</button>
-                            <button>2</button>
-                            <button>3</button>
-                            <button>Sau</button>
+                            <button
+                                onClick={() =>
+                                    handlePagination(currentPage - 1)
+                                }
+                                disabled={currentPage === 1}
+                                className="pagination-btn"
+                            >
+                                Trước
+                            </button>
+                            {[...Array(totalPages)].map((_, index) => {
+                                const pageNumber = index + 1;
+                                if (
+                                    pageNumber === 1 ||
+                                    pageNumber === totalPages ||
+                                    (pageNumber >= currentPage - 2 &&
+                                        pageNumber <= currentPage + 2)
+                                ) {
+                                    return (
+                                        <button
+                                            key={pageNumber}
+                                            className={`pagination-btn ${currentPage === pageNumber ? 'active' : ''}`}
+                                            onClick={() =>
+                                                handlePagination(pageNumber)
+                                            }
+                                        >
+                                            {pageNumber}
+                                        </button>
+                                    );
+                                }
+                                if (
+                                    pageNumber === currentPage - 3 ||
+                                    pageNumber === currentPage + 3
+                                ) {
+                                    return (
+                                        <span
+                                            key={pageNumber}
+                                            className="pagination-ellipsis"
+                                        >
+                                            ...
+                                        </span>
+                                    );
+                                }
+                                return null;
+                            })}
+                            <button
+                                onClick={() =>
+                                    handlePagination(currentPage + 1)
+                                }
+                                disabled={currentPage === totalPages}
+                                className="pagination-btn"
+                            >
+                                Sau
+                            </button>
                         </div>
                     </div>
                 </div>

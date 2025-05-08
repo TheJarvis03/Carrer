@@ -42,7 +42,8 @@ export const scoreService = {
 };
 
 export const newsService = {
-    getAll: (page = 1, limit = 10) => API.get(`/news?page=${page}&limit=${limit}`),
+    getAll: (page = 1, limit = 10) =>
+        API.get(`/news?page=${page}&limit=${limit}`),
     getById: (id) => API.get(`/news/${id}`),
     getByCategory: (category) => API.get(`/news/category/${category}`),
 };

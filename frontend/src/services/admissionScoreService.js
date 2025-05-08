@@ -11,48 +11,48 @@ export const admissionScoreService = {
             if (success && Array.isArray(data)) {
                 return {
                     success: true,
-                    data: data.map(score => ({
+                    data: data.map((score) => ({
                         _id: score._id,
                         major_name: score.major_name,
                         university: score.university,
                         major_code: score.major_code,
                         subject_group: score.subject_group,
                         score: score.score,
-                        note: score.note
+                        note: score.note,
                     })),
                     pagination: pagination || {
                         currentPage: 1,
                         totalPages: 1,
                         totalItems: 0,
-                        itemsPerPage: 10
-                    }
+                        itemsPerPage: 10,
+                    },
                 };
             }
 
-            return { 
-                success: false, 
+            return {
+                success: false,
                 error: 'Invalid data format',
                 data: [],
                 pagination: {
                     currentPage: 1,
                     totalPages: 1,
                     totalItems: 0,
-                    itemsPerPage: 10
-                }
+                    itemsPerPage: 10,
+                },
             };
         } catch (error) {
             console.error('Error fetching scores:', error);
-            return { 
-                success: false, 
+            return {
+                success: false,
                 error: error.message,
                 data: [],
                 pagination: {
                     currentPage: 1,
                     totalPages: 1,
                     totalItems: 0,
-                    itemsPerPage: 10
-                }
+                    itemsPerPage: 10,
+                },
             };
         }
-    }
+    },
 };

@@ -12,16 +12,16 @@ function App() {
                 <main className="main-wrapper">
                     <Routes>
                         {publicRoutes.map((route, index) => (
-                            <Route 
+                            <Route
                                 key={index}
-                                path={route.path} 
+                                path={route.path}
                                 element={route.element}
                             />
                         ))}
                         {privateRoutes.map((route, index) => (
-                            <Route 
+                            <Route
                                 key={`private-${index}`}
-                                path={route.path} 
+                                path={route.path}
                                 element={route.element}
                             />
                         ))}

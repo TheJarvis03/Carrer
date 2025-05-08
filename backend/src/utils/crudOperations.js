@@ -6,7 +6,7 @@ const createResponse = (success, message, data = null) => {
     return {
         success,
         message,
-        data
+        data,
     };
 };
 
@@ -14,7 +14,9 @@ const validateRequest = (schema) => {
     return (req, res, next) => {
         const { error } = schema.validate(req.body);
         if (error) {
-            return res.status(400).json(createResponse(false, error.details[0].message));
+            return res
+                .status(400)
+                .json(createResponse(false, error.details[0].message));
         }
         next();
     };
@@ -23,5 +25,5 @@ const validateRequest = (schema) => {
 module.exports = {
     handleAsync,
     createResponse,
-    validateRequest
+    validateRequest,
 };

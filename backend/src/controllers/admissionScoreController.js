@@ -6,15 +6,15 @@ exports.getAllScores = handleAsync(async (req, res) => {
         const { examGroup, scoreRange, region, year, page = 1 } = req.query;
         const limit = 10; // Changed from 20 to 10
         const skip = (page - 1) * limit;
-        
+
         let query = {};
-        
+
         if (examGroup && examGroup !== 'all') {
             query.subject_group = examGroup;
         }
-        
+
         if (scoreRange && scoreRange !== 'all') {
-            switch(scoreRange) {
+            switch (scoreRange) {
                 case 'above25':
                     query.score = { $gt: 25 };
                     break;
@@ -26,20 +26,18 @@ exports.getAllScores = handleAsync(async (req, res) => {
                     break;
             }
         }
-        
+
         if (region && region !== 'all') {
             query.region = region;
         }
-        
+
         if (year) {
             query.year = year;
         }
 
         const [totalScores, scores] = await Promise.all([
             AdmissionScore.countDocuments(query),
-            AdmissionScore.find(query)
-                .limit(limit)
-                .skip(skip)
+            AdmissionScore.find(query).limit(limit).skip(skip),
         ]);
 
         return res.json({
@@ -49,16 +47,21 @@ exports.getAllScores = handleAsync(async (req, res) => {
                 currentPage: parseInt(page),
                 totalPages: Math.max(1, Math.ceil(totalScores / limit)),
                 totalItems: totalScores,
-                itemsPerPage: limit
+                itemsPerPage: limit,
             },
-            message: scores.length ? 'Lấy dữ liệu thành công' : 'Không tìm thấy kết quả phù hợp'
+            message: scores.length
+                ? 'Lấy dữ liệu thành công'
+                : 'Không tìm thấy kết quả phù hợp',
         });
     } catch (error) {
         console.error('Database error:', error);
         res.status(500).json({
             success: false,
             message: 'Có lỗi xảy ra khi truy vấn dữ liệu',
-            error: process.env.NODE_ENV === 'development' ? error.message : undefined
+            error:
+                process.env.NODE_ENV === 'development'
+                    ? error.message
+                    : undefined,
         });
     }
 });
@@ -66,22 +69,26 @@ exports.getAllScores = handleAsync(async (req, res) => {
 exports.getScoresByUniversity = handleAsync(async (req, res) => {
     const { universityId } = req.params;
     const scores = await AdmissionScore.find({ university: universityId });
-    
+
     if (!scores.length) {
-        return res.status(404).json(createResponse(false, 'No scores found for this university'));
+        return res
+            .status(404)
+            .json(createResponse(false, 'No scores found for this university'));
     }
-    
+
     res.json(createResponse(true, 'Scores retrieved successfully', scores));
 });
 
 exports.getScoresByMajor = handleAsync(async (req, res) => {
     const { majorId } = req.params;
-    const scores = await AdmissionScore.find({ 
-        $or: [{ major: majorId }, { major_code: majorId }]
+    const scores = await AdmissionScore.find({
+        $or: [{ major: majorId }, { major_code: majorId }],
     });
 
     if (!scores.length) {
-        return res.status(404).json(createResponse(false, 'No scores found for this major'));
+        return res
+            .status(404)
+            .json(createResponse(false, 'No scores found for this major'));
     }
 
     res.json(createResponse(true, 'Scores retrieved successfully', scores));

@@ -7,22 +7,22 @@ export const majorService = {
         try {
             const res = await axios.get(API_URL);
             const { success, data } = res.data;
-            
+
             if (success && Array.isArray(data)) {
                 return {
                     success: true,
-                    data: data.map(major => ({
+                    data: data.map((major) => ({
                         code: major.code || major.major_code,
                         major_name: major.name || major.major_name,
                         group_id: major.group_id,
                         group_name: major.group_name,
                         exam_groups: major.exam_groups || [],
                         job_opportunity: major.job_opportunity || 'medium',
-                        description: major.description || ''
-                    }))
+                        description: major.description || '',
+                    })),
                 };
             }
-            
+
             return { success: false, error: 'Invalid data format' };
         } catch (error) {
             console.error('Error fetching majors:', error);
@@ -34,18 +34,18 @@ export const majorService = {
         try {
             const res = await axios.get(`${API_URL}/groups`);
             const { success, data } = res.data;
-            
+
             if (success && Array.isArray(data)) {
                 return {
                     success: true,
-                    data: data
+                    data: data,
                 };
             }
-            
+
             return { success: false, error: 'Invalid group data format' };
         } catch (error) {
             console.error('Error fetching major groups:', error);
             return { success: false, error: error.message };
         }
-    }
+    },
 };
