@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/pages/search-schools.css';
-import { schoolService } from '../services/schoolService';
+import '../../styles/pages/search-schools.css';
+import { schoolService } from '../../services/schoolService';
 
 const SearchSchoolsPage = () => {
     const [filters, setFilters] = useState({

@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { Link } from 'react-router-dom';
-import { admissionScoreService } from '../services/admissionScoreService';
-import '../styles/pages/search-scores.css';
+import { admissionScoreService } from '../../services/admissionScoreService';
+import '../../styles/pages/search-scores.css';
 
 const SearchScoresPage = () => {
     const [filters, setFilters] = useState({

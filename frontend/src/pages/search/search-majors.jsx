@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/pages/search-majors.css';
-import { majorService } from '../services/majorService';
+import '../../styles/pages/search-majors.css';
+import { majorService } from '../../services/majorService';
 
 const ITEMS_PER_PAGE = 6;
 

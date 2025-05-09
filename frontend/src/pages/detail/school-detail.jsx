@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/pages/school-detail.css';
+import '../../styles/pages/school-detail.css';
 
 const SchoolDetailPage = () => {
     return (

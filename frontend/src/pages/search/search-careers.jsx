@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/pages/search-careers.css';
+import '../../styles/pages/search-careers.css';
 
 const SearchCareersPage = () => {
     const [filters, setFilters] = useState({

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import '../styles/pages/major-detail.css';
+import '../../styles/pages/major-detail.css';
 
 const AcademicMajorPage = () => {
     // eslint-disable-next-line no-unused-vars
