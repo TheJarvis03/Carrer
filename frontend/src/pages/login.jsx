@@ -1,5 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import { authService } from '../services/authService';
+import { UserContext } from '../contexts/UserContext';
 import '../styles/pages/login.css';
 
 const LoginPage = () => {
@@ -7,13 +9,59 @@ const LoginPage = () => {
         username: '',
         password: '',
     });
+    const [error, setError] = useState('');
+    const [isLoading, setIsLoading] = useState(false);
     const navigate = useNavigate();
+    const { setUser } = useContext(UserContext);
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        // TODO: Add login logic here
-        console.log('Login attempt:', formData);
-        navigate('/');
+        setError('');
+        setIsLoading(true);
+
+        try {
+            // Client-side validation
+            if (!formData.username.trim()) {
+                setError('Vui lòng nhập tên đăng nhập');
+                setIsLoading(false);
+                return;
+            }
+
+            if (!formData.password) {
+                setError('Vui lòng nhập mật khẩu');
+                setIsLoading(false);
+                return;
+            }
+
+            const result = await authService.login(formData.username, formData.password);
+            
+            if (result.success) {
+                // Save token and user data
+                localStorage.setItem('token', result.data.token);
+                localStorage.setItem('user', JSON.stringify(result.data.user));
+                
+                // Update global user state
+                setUser(result.data.user);
+                
+                // Redirect based on user role
+                if (result.data.user.role === 'admin') {
+                    navigate('/admin/dashboard');
+                } else {
+                    navigate('/');
+                }
+            } else {
+                setError(result.message || 'Đăng nhập thất bại');
+                setFormData(prev => ({
+                    ...prev,
+                    password: ''
+                }));
+            }
+        } catch (error) {
+            setError('Có lỗi xảy ra. Vui lòng thử lại sau.');
+            console.error('Login error:', error);
+        } finally {
+            setIsLoading(false);
+        }
     };
 
     const handleChange = (e) => {
@@ -30,6 +78,8 @@ const LoginPage = () => {
                     <h2>Đăng nhập</h2>
                     <p>Chào mừng bạn trở lại</p>
                 </div>
+
+                {error && <div className="error-message">{error}</div>}
 
                 <form className="login-form" onSubmit={handleSubmit}>
                     <div className="form-group">
@@ -60,7 +110,9 @@ const LoginPage = () => {
                         <Link to="/forgot-password">Quên mật khẩu?</Link>
                     </div>
 
-                    <button type="submit">Đăng nhập</button>
+                    <button type="submit" disabled={isLoading}>
+                        {isLoading ? 'Đang đăng nhập...' : 'Đăng nhập'}
+                    </button>
                 </form>
 
                 <div className="login-divider">

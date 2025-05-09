@@ -20,6 +20,7 @@ const SearchScoresPage = () => {
     });
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(null);
+    const [searchText, setSearchText] = useState('');
 
     const fetchScores = useCallback(async () => {
         try {
@@ -56,6 +57,35 @@ const SearchScoresPage = () => {
             ...prev,
             page: newPage,
         }));
+    };
+
+    const handleSearch = async (e) => {
+        e.preventDefault();
+        try {
+            setLoading(true);
+            setError(null);
+
+            const query = searchText.trim();
+            const searchFilters = {
+                ...filters,
+                page: 1,
+                keyword: query
+            };
+
+            const response = await admissionScoreService.getScores(searchFilters);
+            if (response.success) {
+                setScores(response.data);
+                setPagination(response.pagination);
+            } else {
+                setError('Không tìm thấy kết quả phù hợp');
+                setScores([]);
+            }
+        } catch (err) {
+            setError('Đã xảy ra lỗi khi tìm kiếm');
+            setScores([]);
+        } finally {
+            setLoading(false);
+        }
     };
 
     const renderPaginationButtons = () => {
@@ -139,6 +169,18 @@ const SearchScoresPage = () => {
             <section className="search-header">
                 <h1>Tra cứu điểm chuẩn</h1>
                 <p>Thông tin điểm chuẩn các trường qua các năm</p>
+                <form className="search-bar" onSubmit={handleSearch}>
+                    <input
+                        type="text"
+                        placeholder="Nhập tên trường, mã trường hoặc mã ngành..."
+                        value={searchText}
+                        onChange={(e) => setSearchText(e.target.value)}
+                    />
+                    <button type="submit">
+                        <i className="fas fa-search"></i>
+                        Tìm kiếm
+                    </button>
+                </form>
             </section>
 
             <div className="ss-content">
@@ -215,7 +257,7 @@ const SearchScoresPage = () => {
                                 <p>{error}</p>
                                 <button
                                     className="retry-btn"
-                                    onClick={fetchScores}
+                                    onClick={handleSearch}
                                 >
                                     Thử lại
                                 </button>

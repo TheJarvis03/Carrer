@@ -17,6 +17,11 @@ const SearchSchoolsPage = () => {
     const [currentPage, setCurrentPage] = useState(1);
     const itemsPerPage = 10;
 
+    const isSchoolCode = (query) => {
+        const schoolCodePattern = /^[A-Z0-9]{1,3}$/;
+        return schoolCodePattern.test(query.toUpperCase());
+    };
+
     useEffect(() => {
         const fetchSchools = async () => {
             setLoading(true);
@@ -36,48 +41,54 @@ const SearchSchoolsPage = () => {
         setFilteredSchools(schools);
     }, [schools]);
 
-    const handleApplyFilters = () => {
+    const handleSearch = (e) => {
+        e.preventDefault();
+        setCurrentPage(1);
+
         try {
             let filtered = [...schools];
+            const query = searchQuery.trim();
 
-            // Filter by type
+            if (query) {
+                if (isSchoolCode(query)) {
+                    // Tìm chính xác mã trường
+                    filtered = filtered.filter(school => 
+                        school.code?.toString().toUpperCase() === query.toUpperCase()
+                    );
+                } else {
+                    // Tìm theo tên và địa điểm
+                    filtered = filtered.filter(school => 
+                        school.name.toLowerCase().includes(query.toLowerCase()) ||
+                        school.location.toLowerCase().includes(query.toLowerCase())
+                    );
+                }
+            }
+
+            // Apply filters
             if (filters.type !== 'all') {
-                filtered = filtered.filter(
-                    (school) => school.type === filters.type,
-                );
+                filtered = filtered.filter(school => school.type === filters.type);
             }
-
-            // Filter by region
             if (filters.region !== 'all') {
-                filtered = filtered.filter((school) =>
-                    school.location.toLowerCase().includes(filters.region),
-                );
-            }
-
-            // Filter by search query
-            if (searchQuery.trim()) {
-                filtered = filtered.filter(
-                    (school) =>
-                        school.name
-                            .toLowerCase()
-                            .includes(searchQuery.toLowerCase()) ||
-                        school.location
-                            .toLowerCase()
-                            .includes(searchQuery.toLowerCase()),
-                );
+                filtered = filtered.filter(school => {
+                    const region = filters.region;
+                    return (region === 'north' && school.location.includes('Bắc')) ||
+                           (region === 'central' && school.location.includes('Trung')) ||
+                           (region === 'south' && school.location.includes('Nam'));
+                });
             }
 
             setFilteredSchools(filtered);
             setError(null);
         } catch (err) {
-            setError('Lỗi khi lọc dữ liệu');
-            console.error('Filter error:', err);
+            setError('Lỗi khi tìm kiếm');
         }
     };
 
-    const handleSearch = (e) => {
-        e.preventDefault();
-        handleApplyFilters();
+    const handleSearchInputChange = (e) => {
+        setSearchQuery(e.target.value);
+        if (!e.target.value.trim()) {
+            setFilteredSchools(schools); // Reset to all schools if search is cleared
+        }
     };
 
     const paginateSchools = (filtered) => {
@@ -103,9 +114,9 @@ const SearchSchoolsPage = () => {
                 <form className="search-box" onSubmit={handleSearch}>
                     <input
                         type="text"
-                        placeholder="Tìm kiếm theo tên trường, ngành học..."
+                        placeholder="Tìm kiếm theo tên trường, mã trường..."
                         value={searchQuery}
-                        onChange={(e) => setSearchQuery(e.target.value)}
+                        onChange={handleSearchInputChange}
                     />
                     <button type="submit">
                         <i className="fas fa-search"></i>
@@ -114,10 +125,10 @@ const SearchSchoolsPage = () => {
                 </form>
                 <div className="search-stats">
                     <span>
-                        <strong>{schools.length}</strong> trường
+                        <strong>300+</strong> trường
                     </span>
                     <span>
-                        <strong>2,450</strong> ngành học
+                        <strong>400+</strong> ngành học
                     </span>
                     <span>
                         <strong>1,200+</strong> đánh giá
@@ -183,7 +194,7 @@ const SearchSchoolsPage = () => {
                         <div className="ssh-filter-actions">
                             <button
                                 className="ssh-filter-apply-btn"
-                                onClick={handleApplyFilters}
+                                onClick={handleSearch}
                             >
                                 Áp dụng bộ lọc
                             </button>
@@ -193,7 +204,7 @@ const SearchSchoolsPage = () => {
                     <div className="ssh-results-panel">
                         <div className="ssh-results-header">
                             <div className="ssh-found-count">
-                                Tìm thấy <strong>{schools.length}</strong>{' '}
+                                Tìm thấy <strong>{filteredSchools.length}</strong>{' '}
                                 trường
                             </div>
                             <div className="ssh-sort-options">

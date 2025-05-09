@@ -47,4 +47,17 @@ export const schoolService = {
             return { success: false, error: error.message };
         }
     },
+
+    searchSchools: async (query) => {
+        try {
+            const response = await axios.get(`${API_URL}/search?q=${encodeURIComponent(query)}`);
+            const { success, data } = response.data;
+            if (success) {
+                return { success: true, data };
+            }
+            return { success: false, error: 'Search failed' };
+        } catch (error) {
+            return { success: false, error: error.message };
+        }
+    },
 };
