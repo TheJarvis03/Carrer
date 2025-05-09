@@ -120,7 +120,10 @@ const SearchMajorsPage = () => {
 
             if (pagination.currentPage <= leftOffset) {
                 endPage = MAX_VISIBLE_PAGES;
-            } else if (pagination.currentPage >= pagination.totalPages - rightOffset) {
+            } else if (
+                pagination.currentPage >=
+                pagination.totalPages - rightOffset
+            ) {
                 startPage = pagination.totalPages - MAX_VISIBLE_PAGES + 1;
             } else {
                 startPage = pagination.currentPage - leftOffset;
@@ -131,11 +134,16 @@ const SearchMajorsPage = () => {
         // Add first page button if needed
         if (startPage > 1) {
             pages.push(
-                <button key={1} onClick={() => handlePageChange(1)} className="pagination-btn">
+                <button
+                    key={1}
+                    onClick={() => handlePageChange(1)}
+                    className="pagination-btn"
+                >
                     1
-                </button>
+                </button>,
             );
-            if (startPage > 2) pages.push(<span key="start-ellipsis">...</span>);
+            if (startPage > 2)
+                pages.push(<span key="start-ellipsis">...</span>);
         }
 
         // Add page numbers
@@ -147,13 +155,14 @@ const SearchMajorsPage = () => {
                     className={`pagination-btn ${pagination.currentPage === i ? 'active' : ''}`}
                 >
                     {i}
-                </button>
+                </button>,
             );
         }
 
         // Add last page button if needed
         if (endPage < pagination.totalPages) {
-            if (endPage < pagination.totalPages - 1) pages.push(<span key="end-ellipsis">...</span>);
+            if (endPage < pagination.totalPages - 1)
+                pages.push(<span key="end-ellipsis">...</span>);
             pages.push(
                 <button
                     key={pagination.totalPages}
@@ -161,7 +170,7 @@ const SearchMajorsPage = () => {
                     className="pagination-btn"
                 >
                     {pagination.totalPages}
-                </button>
+                </button>,
             );
         }
 
@@ -178,45 +187,54 @@ const SearchMajorsPage = () => {
 
     const handleSearch = (e) => {
         e.preventDefault();
-        
+
         try {
             let results = [...originalMajors];
             const query = searchQuery.trim();
 
             if (query) {
-                results = results.filter(major => 
-                    major.major_name.toLowerCase().includes(query.toLowerCase()) ||
-                    major.code?.toString().toLowerCase().includes(query.toLowerCase()) ||
-                    major.group_name?.toLowerCase().includes(query.toLowerCase()) ||
-                    major.exam_groups?.some(group => 
-                        group.toLowerCase().includes(query.toLowerCase())
-                    )
+                results = results.filter(
+                    (major) =>
+                        major.major_name
+                            .toLowerCase()
+                            .includes(query.toLowerCase()) ||
+                        major.code
+                            ?.toString()
+                            .toLowerCase()
+                            .includes(query.toLowerCase()) ||
+                        major.group_name
+                            ?.toLowerCase()
+                            .includes(query.toLowerCase()) ||
+                        major.exam_groups?.some((group) =>
+                            group.toLowerCase().includes(query.toLowerCase()),
+                        ),
                 );
             }
 
             // Combine with current filters
             if (filters.field !== 'all') {
-                results = results.filter(major => major.group_id === filters.field);
+                results = results.filter(
+                    (major) => major.group_id === filters.field,
+                );
             }
             if (filters.examGroup !== 'all') {
-                results = results.filter(major => 
-                    major.exam_groups?.includes(filters.examGroup)
+                results = results.filter((major) =>
+                    major.exam_groups?.includes(filters.examGroup),
                 );
             }
             if (filters.opportunity !== 'all') {
-                results = results.filter(major => 
-                    major.job_opportunity === filters.opportunity
+                results = results.filter(
+                    (major) => major.job_opportunity === filters.opportunity,
                 );
             }
 
             setMajors(results);
-            setPagination(prev => ({
+            setPagination((prev) => ({
                 ...prev,
                 currentPage: 1,
                 totalItems: results.length,
-                totalPages: Math.ceil(results.length / ITEMS_PER_PAGE)
+                totalPages: Math.ceil(results.length / ITEMS_PER_PAGE),
             }));
-
         } catch (error) {
             console.error('Search error:', error);
             setMajors([]);
@@ -411,9 +429,9 @@ const SearchMajorsPage = () => {
                                                         'high'
                                                             ? 'Cao'
                                                             : major.job_opportunity ===
-                                                              'medium'
-                                                            ? 'Trung bình'
-                                                            : 'Thấp'}
+                                                                'medium'
+                                                              ? 'Trung bình'
+                                                              : 'Thấp'}
                                                     </span>
                                                 </div>
                                             </div>

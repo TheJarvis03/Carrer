@@ -1,7 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
-const routes = require('./src/routes'); 
+const routes = require('./src/routes');
 
 const app = express();
 
@@ -18,12 +18,13 @@ app.get('/', (req, res) => {
 app.use('/api', routes);
 
 // MongoDB connection
-mongoose.connect('mongodb://localhost:27017/career', {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-})
-.then(() => console.log('Connected to MongoDB'))
-.catch(err => console.error('MongoDB connection error:', err));
+mongoose
+    .connect('mongodb://localhost:27017/career', {
+        useNewUrlParser: true,
+        useUnifiedTopology: true,
+    })
+    .then(() => console.log('Connected to MongoDB'))
+    .catch((err) => console.error('MongoDB connection error:', err));
 
 // Error handling middleware
 app.use((err, req, res, next) => {

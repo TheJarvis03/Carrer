@@ -52,28 +52,41 @@ const SearchSchoolsPage = () => {
             if (query) {
                 if (isSchoolCode(query)) {
                     // Tìm chính xác mã trường
-                    filtered = filtered.filter(school => 
-                        school.code?.toString().toUpperCase() === query.toUpperCase()
+                    filtered = filtered.filter(
+                        (school) =>
+                            school.code?.toString().toUpperCase() ===
+                            query.toUpperCase(),
                     );
                 } else {
                     // Tìm theo tên và địa điểm
-                    filtered = filtered.filter(school => 
-                        school.name.toLowerCase().includes(query.toLowerCase()) ||
-                        school.location.toLowerCase().includes(query.toLowerCase())
+                    filtered = filtered.filter(
+                        (school) =>
+                            school.name
+                                .toLowerCase()
+                                .includes(query.toLowerCase()) ||
+                            school.location
+                                .toLowerCase()
+                                .includes(query.toLowerCase()),
                     );
                 }
             }
 
             // Apply filters
             if (filters.type !== 'all') {
-                filtered = filtered.filter(school => school.type === filters.type);
+                filtered = filtered.filter(
+                    (school) => school.type === filters.type,
+                );
             }
             if (filters.region !== 'all') {
-                filtered = filtered.filter(school => {
+                filtered = filtered.filter((school) => {
                     const region = filters.region;
-                    return (region === 'north' && school.location.includes('Bắc')) ||
-                           (region === 'central' && school.location.includes('Trung')) ||
-                           (region === 'south' && school.location.includes('Nam'));
+                    return (
+                        (region === 'north' &&
+                            school.location.includes('Bắc')) ||
+                        (region === 'central' &&
+                            school.location.includes('Trung')) ||
+                        (region === 'south' && school.location.includes('Nam'))
+                    );
                 });
             }
 
@@ -204,8 +217,8 @@ const SearchSchoolsPage = () => {
                     <div className="ssh-results-panel">
                         <div className="ssh-results-header">
                             <div className="ssh-found-count">
-                                Tìm thấy <strong>{filteredSchools.length}</strong>{' '}
-                                trường
+                                Tìm thấy{' '}
+                                <strong>{filteredSchools.length}</strong> trường
                             </div>
                             <div className="ssh-sort-options">
                                 <label>Sắp xếp:</label>

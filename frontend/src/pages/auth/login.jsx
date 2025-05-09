@@ -33,16 +33,19 @@ const LoginPage = () => {
                 return;
             }
 
-            const result = await authService.login(formData.username, formData.password);
-            
+            const result = await authService.login(
+                formData.username,
+                formData.password,
+            );
+
             if (result.success) {
                 // Save token and user data
                 localStorage.setItem('token', result.data.token);
                 localStorage.setItem('user', JSON.stringify(result.data.user));
-                
+
                 // Update global user state
                 setUser(result.data.user);
-                
+
                 // Redirect based on user role
                 if (result.data.user.role === 'admin') {
                     navigate('/admin/dashboard');
@@ -51,9 +54,9 @@ const LoginPage = () => {
                 }
             } else {
                 setError(result.message || 'Đăng nhập thất bại');
-                setFormData(prev => ({
+                setFormData((prev) => ({
                     ...prev,
-                    password: ''
+                    password: '',
                 }));
             }
         } catch (error) {

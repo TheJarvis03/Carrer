@@ -69,10 +69,11 @@ const SearchScoresPage = () => {
             const searchFilters = {
                 ...filters,
                 page: 1,
-                keyword: query
+                keyword: query,
             };
 
-            const response = await admissionScoreService.getScores(searchFilters);
+            const response =
+                await admissionScoreService.getScores(searchFilters);
             if (response.success) {
                 setScores(response.data);
                 setPagination(response.pagination);

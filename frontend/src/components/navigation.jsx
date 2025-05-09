@@ -15,7 +15,7 @@ const Navigation = () => {
     const [showSuggestions, setShowSuggestions] = useState(false);
     const [suggestions, setSuggestions] = useState({
         schools: [],
-        majors: []
+        majors: [],
     });
     const dropdownRef = useRef(null);
     const searchRef = useRef(null);
@@ -29,73 +29,102 @@ const Navigation = () => {
 
     useEffect(() => {
         const handleClickOutside = (event) => {
-            if (searchRef.current && !searchRef.current.contains(event.target)) {
+            if (
+                searchRef.current &&
+                !searchRef.current.contains(event.target)
+            ) {
                 setShowSuggestions(false);
             }
-            if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+            if (
+                dropdownRef.current &&
+                !dropdownRef.current.contains(event.target)
+            ) {
                 setShowDropdown(false);
             }
-            if (userDropdownRef.current && !userDropdownRef.current.contains(event.target)) {
+            if (
+                userDropdownRef.current &&
+                !userDropdownRef.current.contains(event.target)
+            ) {
                 setShowUserDropdown(false);
             }
         };
 
         document.addEventListener('mousedown', handleClickOutside);
-        return () => document.removeEventListener('mousedown', handleClickOutside);
+        return () =>
+            document.removeEventListener('mousedown', handleClickOutside);
     }, []);
 
     const handleSearchChange = async (e) => {
         const query = e.target.value;
         setSearchQuery(query);
 
-        if (query.length >= 1) { // Changed from 2 to 1 to handle short codes
+        if (query.length >= 1) {
+            // Changed from 2 to 1 to handle short codes
             try {
                 const [schoolsResponse, majorsResponse] = await Promise.all([
                     schoolService.getAll(),
-                    majorService.getAll()
+                    majorService.getAll(),
                 ]);
 
-                const schoolResults = schoolsResponse.success 
+                const schoolResults = schoolsResponse.success
                     ? schoolsResponse.data
-                        .filter(school => {
-                            if (isSchoolCode(query)) {
-                                return school.code?.toString().toUpperCase() === query.toUpperCase();
-                            }
-                            return school.name?.toLowerCase().includes(query.toLowerCase()) ||
-                                   school.location?.toLowerCase().includes(query.toLowerCase());
-                        })
-                        .slice(0, 5)
-                        .map(school => ({
-                            id: school.code,
-                            code: school.code,
-                            name: school.name,
-                            location: school.location,
-                        }))
+                          .filter((school) => {
+                              if (isSchoolCode(query)) {
+                                  return (
+                                      school.code?.toString().toUpperCase() ===
+                                      query.toUpperCase()
+                                  );
+                              }
+                              return (
+                                  school.name
+                                      ?.toLowerCase()
+                                      .includes(query.toLowerCase()) ||
+                                  school.location
+                                      ?.toLowerCase()
+                                      .includes(query.toLowerCase())
+                              );
+                          })
+                          .slice(0, 5)
+                          .map((school) => ({
+                              id: school.code,
+                              code: school.code,
+                              name: school.name,
+                              location: school.location,
+                          }))
                     : [];
 
                 const majorResults = majorsResponse.success
                     ? majorsResponse.data
-                        .filter(major => 
-                            major.major_name.toLowerCase().includes(query.toLowerCase()) ||
-                            major.code?.toLowerCase().includes(query.toLowerCase()) ||
-                            major.group_name?.toLowerCase().includes(query.toLowerCase()) ||
-                            major.exam_groups?.some(group => 
-                                group.toLowerCase().includes(query.toLowerCase())
-                            )
-                        )
-                        .slice(0, 5)
-                        .map(major => ({
-                            id: major.code,
-                            code: major.code,
-                            name: major.major_name,
-                            group: major.group_name,
-                            examGroups: major.exam_groups
-                        }))
+                          .filter(
+                              (major) =>
+                                  major.major_name
+                                      .toLowerCase()
+                                      .includes(query.toLowerCase()) ||
+                                  major.code
+                                      ?.toLowerCase()
+                                      .includes(query.toLowerCase()) ||
+                                  major.group_name
+                                      ?.toLowerCase()
+                                      .includes(query.toLowerCase()) ||
+                                  major.exam_groups?.some((group) =>
+                                      group
+                                          .toLowerCase()
+                                          .includes(query.toLowerCase()),
+                                  ),
+                          )
+                          .slice(0, 5)
+                          .map((major) => ({
+                              id: major.code,
+                              code: major.code,
+                              name: major.major_name,
+                              group: major.group_name,
+                              examGroups: major.exam_groups,
+                          }))
                     : [];
 
                 setSuggestions({
                     schools: schoolResults,
-                    majors: majorResults
+                    majors: majorResults,
                 });
                 setShowSuggestions(true);
             } catch (error) {
@@ -110,7 +139,7 @@ const Navigation = () => {
     const handleSearch = (e) => {
         if (e.key === 'Enter' && searchQuery.trim()) {
             setShowSuggestions(false);
-            
+
             const { schools, majors } = suggestions;
             if (schools.length > majors.length) {
                 navigate(`/school?q=${encodeURIComponent(searchQuery.trim())}`);
@@ -159,9 +188,19 @@ const Navigation = () => {
                     value={searchQuery}
                     onChange={handleSearchChange}
                     onKeyPress={handleSearch}
-                    onFocus={() => searchQuery.length >= 2 && setShowSuggestions(true)}
+                    onFocus={() =>
+                        searchQuery.length >= 2 && setShowSuggestions(true)
+                    }
                 />
-                <button className="search-icon" onClick={() => searchQuery.trim() && navigate(`/search?q=${encodeURIComponent(searchQuery.trim())}`)}>
+                <button
+                    className="search-icon"
+                    onClick={() =>
+                        searchQuery.trim() &&
+                        navigate(
+                            `/search?q=${encodeURIComponent(searchQuery.trim())}`,
+                        )
+                    }
+                >
                     <i className="fas fa-search"></i>
                 </button>
 
@@ -170,17 +209,25 @@ const Navigation = () => {
                         {suggestions.schools.length > 0 && (
                             <div className="suggestion-section">
                                 <h4>Trường học</h4>
-                                {suggestions.schools.map(school => (
+                                {suggestions.schools.map((school) => (
                                     <div
                                         key={school.code}
                                         className="suggestion-item"
-                                        onClick={() => handleSuggestionClick('school', school)}
+                                        onClick={() =>
+                                            handleSuggestionClick(
+                                                'school',
+                                                school,
+                                            )
+                                        }
                                     >
                                         <i className="fas fa-university"></i>
                                         <div className="suggestion-content">
-                                            <span className="suggestion-name">{school.name}</span>
+                                            <span className="suggestion-name">
+                                                {school.name}
+                                            </span>
                                             <span className="suggestion-detail">
-                                                {school.location} • {school.type}
+                                                {school.location} •{' '}
+                                                {school.type}
                                             </span>
                                         </div>
                                     </div>
@@ -191,17 +238,25 @@ const Navigation = () => {
                         {suggestions.majors.length > 0 && (
                             <div className="suggestion-section">
                                 <h4>Ngành học</h4>
-                                {suggestions.majors.map(major => (
+                                {suggestions.majors.map((major) => (
                                     <div
                                         key={major.code}
                                         className="suggestion-item"
-                                        onClick={() => handleSuggestionClick('major', major)}
+                                        onClick={() =>
+                                            handleSuggestionClick(
+                                                'major',
+                                                major,
+                                            )
+                                        }
                                     >
                                         <i className="fas fa-graduation-cap"></i>
                                         <div className="suggestion-content">
-                                            <span className="suggestion-name">{major.name}</span>
+                                            <span className="suggestion-name">
+                                                {major.name}
+                                            </span>
                                             <span className="suggestion-detail">
-                                                {major.group} • {major.examGroups?.join(', ')}
+                                                {major.group} •{' '}
+                                                {major.examGroups?.join(', ')}
                                             </span>
                                         </div>
                                     </div>
@@ -260,7 +315,9 @@ const Navigation = () => {
                         <>
                             <span
                                 className="dropdown-trigger"
-                                onClick={() => setShowUserDropdown(!showUserDropdown)}
+                                onClick={() =>
+                                    setShowUserDropdown(!showUserDropdown)
+                                }
                             >
                                 Xin chào, {user.name}
                             </span>

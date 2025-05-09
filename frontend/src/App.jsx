@@ -27,7 +27,10 @@ function App() {
                                     element={route.element}
                                 />
                             ))}
-                            <Route path="*" element={<div>Page not found</div>} />
+                            <Route
+                                path="*"
+                                element={<div>Page not found</div>}
+                            />
                         </Routes>
                     </main>
                     <Footer />

@@ -62,7 +62,10 @@ const HomePage = () => {
                                     Tìm hiểu về các ngành học, chương trình đạo
                                     tạo và kĩ năng cần thiết
                                 </p>
-                                <Link to="/search/major" className="learn-more">
+                                <Link
+                                    to="/search/majors"
+                                    className="learn-more"
+                                >
                                     Khám phá ngay →
                                 </Link>
                             </div>
@@ -109,7 +112,10 @@ const HomePage = () => {
                                 <div className="trending-content">
                                     <h3>Trí tuệ nhân tạo</h3>
                                     <p>Nhu cầu tăng 45% trong năm 2024</p>
-                                    <Link to="/major/7480107" className="learn-more">
+                                    <Link
+                                        to="/major/7480107"
+                                        className="learn-more"
+                                    >
                                         Chi tiết →
                                     </Link>
                                 </div>

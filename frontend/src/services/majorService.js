@@ -51,7 +51,9 @@ export const majorService = {
 
     searchMajors: async (query) => {
         try {
-            const response = await axios.get(`${API_URL}/search?q=${encodeURIComponent(query)}`);
+            const response = await axios.get(
+                `${API_URL}/search?q=${encodeURIComponent(query)}`,
+            );
             const { success, data } = response.data;
             if (success) {
                 return { success: true, data };

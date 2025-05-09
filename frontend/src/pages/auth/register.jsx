@@ -35,7 +35,7 @@ const RegisterPage = () => {
 
         const { confirmPassword, ...userData } = formData;
         const result = await authService.register(userData);
-        
+
         if (result.success) {
             navigate('/login');
         } else {
