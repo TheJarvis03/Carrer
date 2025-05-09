@@ -30,44 +30,6 @@
     animation-delay: 0.2s;
 }
 
-.banner-buttons {
-    display: flex;
-    gap: 1.5rem;
-    justify-content: center;
-    animation: fadeIn var(--transition-speed) ease-out;
-    animation-delay: 0.4s;
-}
-
-.banner-buttons .button {
-    padding: 1rem 2rem;
-    border-radius: var(--radius-md);
-    font-weight: 600;
-    transition: all var(--transition-speed) ease;
-}
-
-.banner-buttons .primary {
-    background: var(--secondary-color);
-    color: var(--text-color);
-}
-
-.banner-buttons .secondary {
-    background: rgba(255, 255, 255, 0.1);
-    color: white;
-    border: 2px solid rgba(255, 255, 255, 0.2);
-}
-
-.banner-buttons .primary:hover {
-    background: var(--accent-color);
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-md);
-}
-
-.banner-buttons .secondary:hover {
-    background: rgba(255, 255, 255, 0.2);
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-md);
-}
-
 .home-container {
     max-width: 1400px;
     margin: -3rem auto 4rem;

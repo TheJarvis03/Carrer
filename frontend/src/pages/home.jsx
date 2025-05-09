@@ -14,11 +14,6 @@ const HomePage = () => {
                     Nền tảng tư vấn hướng nghiệp toàn diện giúp bạn tìm kiếm và
                     lựa chọn con đường sự nghiệp phù hợp nhất
                 </p>
-                <div className="banner-buttons">
-                    <Link to="/search" className="button primary">
-                        Bắt đầu tìm kiếm
-                    </Link>
-                </div>
             </section>
 
             <div className="home-container">
@@ -26,11 +21,11 @@ const HomePage = () => {
                     <section className="stats-section">
                         <div className="stats-grid">
                             <div className="stat-card">
-                                <h3>200+</h3>
+                                <h3>300+</h3>
                                 <p>Trường đại học</p>
                             </div>
                             <div className="stat-card">
-                                <h3>1000+</h3>
+                                <h3>400+</h3>
                                 <p>Ngành học</p>
                             </div>
                             <div className="stat-card">
@@ -114,7 +109,7 @@ const HomePage = () => {
                                 <div className="trending-content">
                                     <h3>Trí tuệ nhân tạo</h3>
                                     <p>Nhu cầu tăng 45% trong năm 2024</p>
-                                    <Link to="/major/ai" className="learn-more">
+                                    <Link to="/major/7480107" className="learn-more">
                                         Chi tiết →
                                     </Link>
                                 </div>
@@ -129,7 +124,7 @@ const HomePage = () => {
                                     <h3>Khoa học dữ liệu</h3>
                                     <p>Top 5 ngành có mức lương cao nhất</p>
                                     <Link
-                                        to="/major/data-science"
+                                        to="/major/7460108"
                                         className="learn-more"
                                     >
                                         Chi tiết →
@@ -146,7 +141,7 @@ const HomePage = () => {
                                     <h3>Digital Marketing</h3>
                                     <p>Cơ hội việc làm tăng 30% mỗi năm</p>
                                     <Link
-                                        to="/major/digital-marketing"
+                                        to="/major/7340122"
                                         className="learn-more"
                                     >
                                         Chi tiết →
