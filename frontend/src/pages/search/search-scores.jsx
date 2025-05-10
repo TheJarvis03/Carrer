@@ -170,7 +170,7 @@ const SearchScoresPage = () => {
             <section className="search-header">
                 <h1>Tra cứu điểm chuẩn</h1>
                 <p>Thông tin điểm chuẩn các trường qua các năm</p>
-                <form className="search-bar" onSubmit={handleSearch}>
+                <form className="search-box" onSubmit={handleSearch}>
                     <input
                         type="text"
                         placeholder="Nhập tên trường, mã trường hoặc mã ngành..."
@@ -182,6 +182,17 @@ const SearchScoresPage = () => {
                         Tìm kiếm
                     </button>
                 </form>
+                <div className="search-stats">
+                    <span>
+                        <strong>300+</strong> trường
+                    </span>
+                    <span>
+                        <strong>400+</strong> ngành
+                    </span>
+                    <span>
+                        <strong>5</strong> năm gần nhất
+                    </span>
+                </div>
             </section>
 
             <div className="ss-content">
@@ -244,6 +255,22 @@ const SearchScoresPage = () => {
                                 onClick={handleApplyFilters}
                             >
                                 Áp dụng bộ lọc
+                            </button>
+                            <button
+                                className="filter-reset-btn"
+                                onClick={() => {
+                                    setFilters({
+                                        examGroup: 'all',
+                                        scoreRange: 'all',
+                                        region: 'all',
+                                        year: '2024',
+                                        page: 1,
+                                    });
+                                    setSearchText('');
+                                    fetchScores();
+                                }}
+                            >
+                                Đặt lại
                             </button>
                         </div>
                     </aside>

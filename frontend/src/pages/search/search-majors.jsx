@@ -251,9 +251,9 @@ const SearchMajorsPage = () => {
     return (
         <div className="sma-page">
             <section className="search-header">
-                <h1>Tìm kiếm ngành học</h1>
-                <p>Khám phá các ngành học và cơ hội nghề nghiệp tương lai</p>
-                <form className="search-bar" onSubmit={handleSearch}>
+                <h1>Khám phá ngành học</h1>
+                <p>Tìm hiểu và so sánh các ngành học phù hợp với bạn</p>
+                <form className="search-box" onSubmit={handleSearch}>
                     <input
                         type="text"
                         placeholder="Tìm kiếm theo tên ngành, mã ngành, khối thi..."
@@ -265,6 +265,17 @@ const SearchMajorsPage = () => {
                         Tìm kiếm
                     </button>
                 </form>
+                <div className="search-stats">
+                    <span>
+                        <strong>{majorGroups.length}</strong> khối ngành
+                    </span>
+                    <span>
+                        <strong>{majors.length}</strong> ngành học
+                    </span>
+                    <span>
+                        <strong>92%</strong> tỉ lệ việc làm
+                    </span>
+                </div>
             </section>
 
             <div className="sma-content">
@@ -376,7 +387,7 @@ const SearchMajorsPage = () => {
                                 <div className="sma-majors-grid">
                                     {getCurrentItems().map((major) => (
                                         <Link
-                                            to={`/major/${major.code}`}
+                                            to={`/major/detail/${major.code}`}
                                             key={major.code}
                                             className="sma-major-card"
                                         >
@@ -397,25 +408,6 @@ const SearchMajorsPage = () => {
                                                         <span className="value">
                                                             {major.group_name}
                                                         </span>
-                                                    </p>
-                                                    <p>
-                                                        <span className="label">
-                                                            Khối thi
-                                                        </span>
-                                                        <div className="sma-exam-groups">
-                                                            {major.exam_groups?.map(
-                                                                (group) => (
-                                                                    <span
-                                                                        key={
-                                                                            group
-                                                                        }
-                                                                        className="sma-exam-group"
-                                                                    >
-                                                                        {group}
-                                                                    </span>
-                                                                ),
-                                                            )}
-                                                        </div>
                                                     </p>
                                                 </div>
                                                 <div

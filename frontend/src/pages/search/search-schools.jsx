@@ -211,6 +211,20 @@ const SearchSchoolsPage = () => {
                             >
                                 Áp dụng bộ lọc
                             </button>
+                            <button
+                                className="filter-reset-btn"
+                                onClick={() => {
+                                    setFilters({
+                                        type: 'all',
+                                        region: 'all',
+                                        tuition: 'all',
+                                    });
+                                    setSearchQuery('');
+                                    setFilteredSchools(schools);
+                                }}
+                            >
+                                Đặt lại
+                            </button>
                         </div>
                     </aside>
 

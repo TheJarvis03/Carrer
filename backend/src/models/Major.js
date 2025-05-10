@@ -7,7 +7,6 @@ const majorSchema = new mongoose.Schema(
         group_name: String,
         majors: [
             {
-                major_id: String,
                 major_code: String,
                 major_name: String,
                 description: String,

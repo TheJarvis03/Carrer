@@ -8,6 +8,7 @@ const SearchCareersPage = () => {
         salary: 'all',
         experience: 'all',
     });
+    const [searchQuery, setSearchQuery] = useState('');
 
     const handleFilterChange = (field, value) => {
         setFilters((prev) => ({
@@ -20,11 +21,39 @@ const SearchCareersPage = () => {
         console.log('Applying filters:', filters);
     };
 
+    const handleSearch = (e) => {
+        e.preventDefault();
+        console.log('Searching:', searchQuery);
+    };
+
     return (
         <div className="sc-page">
             <section className="search-header">
-                <h1>Tìm kiếm nghề nghiệp</h1>
-                <p>Khám phá cơ hội nghề nghiệp và định hướng tương lai</p>
+                <h1>Khám phá nghề nghiệp</h1>
+                <p>Tìm hiểu về các nghề nghiệp và cơ hội việc làm</p>
+                <form className="search-box" onSubmit={handleSearch}>
+                    <input
+                        type="text"
+                        placeholder="Tìm kiếm theo tên nghề, lĩnh vực..."
+                        value={searchQuery}
+                        onChange={(e) => setSearchQuery(e.target.value)}
+                    />
+                    <button type="submit">
+                        <i className="fas fa-search"></i>
+                        Tìm kiếm
+                    </button>
+                </form>
+                <div className="search-stats">
+                    <span>
+                        <strong>50+</strong> lĩnh vực
+                    </span>
+                    <span>
+                        <strong>200+</strong> nghề nghiệp
+                    </span>
+                    <span>
+                        <strong>15tr+</strong> mức lương TB
+                    </span>
+                </div>
             </section>
 
             <div className="sc-content">
@@ -86,6 +115,19 @@ const SearchCareersPage = () => {
                                 onClick={handleApplyFilters}
                             >
                                 Áp dụng bộ lọc
+                            </button>
+                            <button
+                                className="filter-reset-btn"
+                                onClick={() => {
+                                    setFilters({
+                                        field: 'all',
+                                        salary: 'all',
+                                        experience: 'all',
+                                    });
+                                    setSearchQuery('');
+                                }}
+                            >
+                                Đặt lại
                             </button>
                         </div>
                     </div>
