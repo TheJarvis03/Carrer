@@ -11,6 +11,13 @@ import CareerDetailPage from '../pages/detail/career-detail';
 import NewsPage from '../pages/news';
 import MajorDetailPage from '../pages/detail/major-detail';
 import ArticleDetailPage from '../pages/detail/article-detail';
+import AdminDashboardPage from '../pages/admin/dashboard';
+import AdminUserPage from '../pages/admin/user';
+import AdminSchoolPage from '../pages/admin/school';
+import AdminMajorPage from '../pages/admin/major';
+import AdminCareerPage from '../pages/admin/career';
+import AdminNewsPage from '../pages/admin/news';
+import ProtectedRoute from '../components/ProtectedRoute';
 
 // Define route groups
 const searchRoutes = [
@@ -47,6 +54,14 @@ const publicRoutes = [
 ];
 
 // Private routes that require authentication
-const privateRoutes = [{ path: '/account', element: <UserAccountPage /> }];
+const privateRoutes = [
+    { path: '/account', element: <ProtectedRoute element={<UserAccountPage />} requireAdmin={false} /> },
+    { path: '/admin/dashboard', element: <ProtectedRoute element={<AdminDashboardPage />} requireAdmin={true} /> },
+    { path: '/admin/user', element: <ProtectedRoute element={<AdminUserPage />} requireAdmin={true} /> },
+    { path: '/admin/school', element: <ProtectedRoute element={<AdminSchoolPage />} requireAdmin={true} /> },
+    { path: '/admin/major', element: <ProtectedRoute element={<AdminMajorPage />} requireAdmin={true} /> },
+    { path: '/admin/career', element: <ProtectedRoute element={<AdminCareerPage />} requireAdmin={true} /> },
+    { path: '/admin/news', element: <ProtectedRoute element={<AdminNewsPage />} requireAdmin={true} /> },
+];
 
 export { publicRoutes, privateRoutes };
