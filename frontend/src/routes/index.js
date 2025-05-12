@@ -14,11 +14,18 @@ import MajorDetailPage from '../pages/detail/major-detail';
 // News pages
 import NewsPage from '../pages/news';
 import ArticleDetailPage from '../pages/detail/article-detail';
+<<<<<<< HEAD
 // Admin pages
 import AdminDashboardPage from '../pages/admin/dashboard';
 import AdminUserPage from '../pages/admin/users';
 import AdminSchoolPage from '../pages/admin/schools';
 import AdminMajorPage from '../pages/admin/majors';
+=======
+import AdminDashboardPage from '../pages/admin/dashboard';
+import AdminUserPage from '../pages/admin/user';
+import AdminSchoolPage from '../pages/admin/school';
+import AdminMajorPage from '../pages/admin/major';
+>>>>>>> 07e0852aaf874876ab954c38cd7c635759e93c60
 import AdminCareerPage from '../pages/admin/career';
 import AdminNewsPage from '../pages/admin/news';
 import ProtectedRoute from '../components/ProtectedRoute';
@@ -59,6 +66,7 @@ const publicRoutes = [
 
 // Private routes that require authentication
 const privateRoutes = [
+<<<<<<< HEAD
     {
         path: '/account',
         element: (
@@ -107,6 +115,15 @@ const privateRoutes = [
             <ProtectedRoute element={<AdminNewsPage />} requireAdmin={true} />
         ),
     },
+=======
+    { path: '/account', element: <ProtectedRoute element={<UserAccountPage />} requireAdmin={false} /> },
+    { path: '/admin/dashboard', element: <ProtectedRoute element={<AdminDashboardPage />} requireAdmin={true} /> },
+    { path: '/admin/user', element: <ProtectedRoute element={<AdminUserPage />} requireAdmin={true} /> },
+    { path: '/admin/school', element: <ProtectedRoute element={<AdminSchoolPage />} requireAdmin={true} /> },
+    { path: '/admin/major', element: <ProtectedRoute element={<AdminMajorPage />} requireAdmin={true} /> },
+    { path: '/admin/career', element: <ProtectedRoute element={<AdminCareerPage />} requireAdmin={true} /> },
+    { path: '/admin/news', element: <ProtectedRoute element={<AdminNewsPage />} requireAdmin={true} /> },
+>>>>>>> 07e0852aaf874876ab954c38cd7c635759e93c60
 ];
 
 export { publicRoutes, privateRoutes };
