@@ -1,2346 +1,2346 @@
 [
-  {
-    "group_id": "71401",
-    "group_name": "Khoa học giáo dục",
-    "majors": [
-      {
-        "major_code": "7140101",
-        "major_name": "Giáo dục học"
-      },
-      {
-        "major_code": "7140114",
-        "major_name": "Quản lý giáo dục"
-      },
-      {
-        "major_code": "7140199",
-        "major_name": "Kinh tế Giáo dục"
-      }
-    ]
-  },
-  {
-    "group_id": "71402",
-    "group_name": "Đào tạo giáo viên sư phạm",
-    "majors": [
-      {
-        "major_code": "7140201",
-        "major_name": "Giáo dục Mầm non"
-      },
-      {
-        "major_code": "7140202",
-        "major_name": "Giáo dục Tiểu học"
-      },
-      {
-        "major_code": "7140203",
-        "major_name": "Giáo dục Đặc biệt"
-      },
-      {
-        "major_code": "7140204",
-        "major_name": "Giáo dục Công dân"
-      },
-      {
-        "major_code": "7140205",
-        "major_name": "Giáo dục Chính trị"
-      },
-      {
-        "major_code": "7140206",
-        "major_name": "Giáo dục Thể chất"
-      },
-      {
-        "major_code": "7140207",
-        "major_name": "Huấn luyện thể thao"
-      },
-      {
-        "major_code": "7140208",
-        "major_name": "Giáo dục Quốc phòng – An ninh"
-      },
-      {
-        "major_code": "7140209",
-        "major_name": "Sư phạm Toán học"
-      },
-      {
-        "major_code": "7140210",
-        "major_name": "Sư phạm Tin học"
-      },
-      {
-        "major_code": "7140211",
-        "major_name": "Sư phạm Vật lý"
-      },
-      {
-        "major_code": "7140212",
-        "major_name": "Sư phạm Hóa học"
-      },
-      {
-        "major_code": "7140213",
-        "major_name": "Sư phạm Sinh học"
-      },
-      {
-        "major_code": "7140214",
-        "major_name": "Sư phạm Kỹ thuật Công nghiệp"
-      },
-      {
-        "major_code": "7140215",
-        "major_name": "Sư phạm Kỹ thuật Nông nghiệp"
-      },
-      {
-        "major_code": "7140217",
-        "major_name": "Sư phạm Ngữ văn"
-      },
-      {
-        "major_code": "7140218",
-        "major_name": "Sư phạm Lịch sử"
-      },
-      {
-        "major_code": "7140219",
-        "major_name": "Sư phạm Địa lý"
-      },
-      {
-        "major_code": "7140221",
-        "major_name": "Sư phạm Âm nhạc"
-      },
-      {
-        "major_code": "7140222",
-        "major_name": "Sư phạm Mỹ thuật"
-      },
-      {
-        "major_code": "7140231",
-        "major_name": "Sư phạm Tiếng Anh"
-      },
-      {
-        "major_code": "7140232",
-        "major_name": "Sư phạm Tiếng Nga"
-      },
-      {
-        "major_code": "7140233",
-        "major_name": "Sư phạm Tiếng Pháp"
-      },
-      {
-        "major_code": "7140234",
-        "major_name": "Sư phạm Tiếng Trung Quốc"
-      },
-      {
-        "major_code": "7140235",
-        "major_name": "Sư phạm Tiếng Đức"
-      },
-      {
-        "major_code": "7140236",
-        "major_name": "Sư phạm Tiếng Nhật"
-      },
-      {
-        "major_code": "7140237",
-        "major_name": "Sư phạm Tiếng Hàn Quốc"
-      },
-      {
-        "major_code": "7140245",
-        "major_name": "Sư phạm Nghệ thuật"
-      },
-      {
-        "major_code": "7140246",
-        "major_name": "Sư phạm Công nghệ"
-      },
-      {
-        "major_code": "7140247",
-        "major_name": "Sư phạm Khoa học tự nhiên"
-      },
-      {
-        "major_code": "7140248",
-        "major_name": "Giáo dục Pháp luật"
-      },
-      {
-        "major_code": "7140249",
-        "major_name": "Sư phạm Lịch sử - Địa lý"
-      },
-      {
-        "major_code": "7140250",
-        "major_name": "Sư phạm Tin học - Công nghệ"
-      }
-    ]
-  },
-  {
-    "group_id": "72101",
-    "group_name": "Năng khiếu Mỹ thuật",
-    "majors": [
-      {
-        "major_code": "7210101",
-        "major_name": "Lý luận lịch sử và Phê bình mỹ thuật"
-      },
-      {
-        "major_code": "7210103",
-        "major_name": "Hội họa"
-      },
-      {
-        "major_code": "7210104",
-        "major_name": "Đồ họa"
-      },
-      {
-        "major_code": "7210105",
-        "major_name": "Điêu khắc"
-      },
-      {
-        "major_code": "7210107",
-        "major_name": "Gốm"
-      },
-      {
-        "major_code": "7210110",
-        "major_name": "Mỹ thuật đô thị"
-      }
-    ]
-  },
-  {
-    "group_id": "72102",
-    "group_name": "Mỹ thuật đô thị",
-    "majors": [
-      {
-        "major_code": "72102",
-        "major_name": "Năng khiếu Trình diễn"
-      },
-      {
-        "major_code": "7210201",
-        "major_name": "Âm nhạc học"
-      },
-      {
-        "major_code": "7210203",
-        "major_name": "Sáng tác Âm nhạc"
-      },
-      {
-        "major_code": "7210204",
-        "major_name": "Chỉ huy Âm nhạc"
-      },
-      {
-        "major_code": "7210205",
-        "major_name": "Thanh nhạc"
-      },
-      {
-        "major_code": "7210207",
-        "major_name": "Biểu diễn nhạc cụ phương Tây"
-      },
-      {
-        "major_code": "7210208",
-        "major_name": "Piano"
-      },
-      {
-        "major_code": "7210209",
-        "major_name": "Nhạc Jazz"
-      },
-      {
-        "major_code": "7210210",
-        "major_name": "Biểu diễn nhạc cụ truyền thống"
-      },
-      {
-        "major_code": "7210221",
-        "major_name": "Lý luận, Lịch sử và Phê bình sân khấu"
-      },
-      {
-        "major_code": "7210225",
-        "major_name": "Biên kịch sân khấu"
-      },
-      {
-        "major_code": "7210226",
-        "major_name": "Diễn viên sân khấu kịch hát"
-      },
-      {
-        "major_code": "7210227",
-        "major_name": "Đạo diễn sân khấu"
-      },
-      {
-        "major_code": "7210231",
-        "major_name": "Lý luận, Lịch sử và Phê bình điện ảnh, truyền hình"
-      },
-      {
-        "major_code": "7210233",
-        "major_name": "Biên kịch điện ảnh, truyền hình"
-      },
-      {
-        "major_code": "7210234",
-        "major_name": "Diễn viên kịch, điện ảnh - truyền hình"
-      },
-      {
-        "major_code": "7210235",
-        "major_name": "Đạo diễn điện ảnh, truyền hình"
-      },
-      {
-        "major_code": "7210236",
-        "major_name": "Quay phim"
-      },
-      {
-        "major_code": "7210241",
-        "major_name": "Lý luận, Lịch sử và Phê bình múa"
-      },
-      {
-        "major_code": "7210242",
-        "major_name": "Diễn viên múa"
-      },
-      {
-        "major_code": "7210243",
-        "major_name": "Biên đạo múa"
-      },
-      {
-        "major_code": "7210244",
-        "major_name": "Huấn luyện múa"
-      }
-    ]
-  },
-  {
-    "group_id": "72103",
-    "group_name": "Năng khiếu nghe nhìn",
-    "majors": [
-      {
-        "major_code": "7210301",
-        "major_name": "Nhiếp ảnh"
-      },
-      {
-        "major_code": "7210302",
-        "major_name": "Công nghệ điện ảnh, truyền hình"
-      },
-      {
-        "major_code": "7210303",
-        "major_name": "Thiết kế âm thanh, ánh sáng"
-      }
-    ]
-  },
-  {
-    "group_id": "72104",
-    "group_name": "Năng khiếu Mỹ thuật ứng dụng",
-    "majors": [
-      {
-        "major_code": "7210402",
-        "major_name": "Thiết kế công nghiệp"
-      },
-      {
-        "major_code": "7210403",
-        "major_name": "Thiết kế đồ họa"
-      },
-      {
-        "major_code": "7210404",
-        "major_name": "Thiết kế thời trang"
-      },
-      {
-        "major_code": "7210406",
-        "major_name": "Thiết kế mỹ thuật sân khấu, điện ảnh"
-      },
-      {
-        "major_code": "7210408",
-        "major_name": "Nghệ thuật số (Digital Art)"
-      }
-    ]
-  },
-  {
-    "group_id": "72201",
-    "group_name": "Ngôn ngữ, Văn học và Văn hóa Việt Nam",
-    "majors": [
-      {
-        "major_code": "7220101",
-        "major_name": "Tiếng Việt và Văn hóa Việt Nam"
-      },
-      {
-        "major_code": "7220104",
-        "major_name": "Hán Nôm"
-      },
-      {
-        "major_code": "7220105",
-        "major_name": "Ngôn ngữ Jrai"
-      },
-      {
-        "major_code": "7220106",
-        "major_name": "Ngôn ngữ Khmer"
-      },
-      {
-        "major_code": "7220107",
-        "major_name": "Ngôn ngữ H'mông"
-      },
-      {
-        "major_code": "7220108",
-        "major_name": "Ngôn ngữ Chăm"
-      },
-      {
-        "major_code": "7220110",
-        "major_name": "Sáng tác Văn học"
-      },
-      {
-        "major_code": "7220112",
-        "major_name": "Văn hóa các dân tộc thiểu số Việt Nam"
-      }
-    ]
-  },
-  {
-    "group_id": "72202",
-    "group_name": "Ngôn ngữ, Văn học và Văn hóa nước ngoài",
-    "majors": [
-      {
-        "major_code": "7220201",
-        "major_name": "Ngôn ngữ Anh"
-      },
-      {
-        "major_code": "7220202",
-        "major_name": "Ngôn ngữ Nga"
-      },
-      {
-        "major_code": "7220203",
-        "major_name": "Ngôn ngữ Pháp"
-      },
-      {
-        "major_code": "7220204",
-        "major_name": "Ngôn ngữ Trung Quốc"
-      },
-      {
-        "major_code": "7220205",
-        "major_name": "Ngôn ngữ Đức"
-      },
-      {
-        "major_code": "7220206",
-        "major_name": "Ngôn ngữ Tây Ban Nha"
-      },
-      {
-        "major_code": "7220207",
-        "major_name": "Ngôn ngữ Bồ Đào Nha"
-      },
-      {
-        "major_code": "7220208",
-        "major_name": "Ngôn ngữ Italia"
-      },
-      {
-        "major_code": "7220209",
-        "major_name": "Ngôn ngữ Nhật"
-      },
-      {
-        "major_code": "7220210",
-        "major_name": "Ngôn ngữ Hàn Quốc"
-      },
-      {
-        "major_code": "7220211",
-        "major_name": "Ngôn ngữ Ả Rập"
-      },
-      {
-        "major_code": "7220212",
-        "major_name": "Ngôn ngữ Thái Lan"
-      }
-    ]
-  },
-  {
-    "group_id": "72290",
-    "group_name": "Khác",
-    "majors": [
-      {
-        "major_code": "7229001",
-        "major_name": "Triết học"
-      },
-      {
-        "major_code": "7229008",
-        "major_name": "Chủ nghĩa xã hội khoa học"
-      },
-      {
-        "major_code": "7229009",
-        "major_name": "Tôn giáo học"
-      },
-      {
-        "major_code": "7229010",
-        "major_name": "Lịch sử"
-      },
-      {
-        "major_code": "7229020",
-        "major_name": "Ngôn ngữ học"
-      },
-      {
-        "major_code": "7229030",
-        "major_name": "Văn học"
-      },
-      {
-        "major_code": "7229040",
-        "major_name": "Văn hóa học"
-      },
-      {
-        "major_code": "7229042",
-        "major_name": "Quản lý văn hóa"
-      },
-      {
-        "major_code": "7229045",
-        "major_name": "Gia đình học"
-      }
-    ]
-  },
-  {
-    "group_id": "73101",
-    "group_name": "Kinh tế học",
-    "majors": [
-      {
-        "major_code": "7310101",
-        "major_name": "Kinh tế"
-      },
-      {
-        "major_code": "7310102",
-        "major_name": "Kinh tế chính trị"
-      },
-      {
-        "major_code": "7310104",
-        "major_name": "Kinh tế đầu tư"
-      },
-      {
-        "major_code": "7310105",
-        "major_name": "Kinh tế phát triển"
-      },
-      {
-        "major_code": "7310106",
-        "major_name": "Kinh tế quốc tế"
-      },
-      {
-        "major_code": "7310107",
-        "major_name": "Thống kê kinh tế"
-      },
-      {
-        "major_code": "7310108",
-        "major_name": "Toán kinh tế"
-      },
-      {
-        "major_code": "7310109",
-        "major_name": "Kinh tế số"
-      },
-      {
-        "major_code": "7310110",
-        "major_name": "Quản lý kinh tế"
-      },
-      {
-        "major_code": "7310111",
-        "major_name": "Nghiên cứu phát triển"
-      }
-    ]
-  },
-  {
-    "group_id": "73102",
-    "group_name": "Khoa học chính trị",
-    "majors": [
-      {
-        "major_code": "7310201",
-        "major_name": "Chính trị học"
-      },
-      {
-        "major_code": "7310202",
-        "major_name": "Xây dựng Đảng và Chính quyền Nhà nước"
-      },
-      {
-        "major_code": "7310203",
-        "major_name": "Chính trị Công an nhân dân"
-      },
-      {
-        "major_code": "7310205",
-        "major_name": "Quản lý nhà nước"
-      },
-      {
-        "major_code": "7310206",
-        "major_name": "Quan hệ quốc tế"
-      }
-    ]
-  },
-  {
-    "group_id": "73103",
-    "group_name": "Xã hội học và nhân học",
-    "majors": [
-      {
-        "major_code": "7310301",
-        "major_name": "Xã hội học"
-      },
-      {
-        "major_code": "7310302",
-        "major_name": "Nhân học"
-      },
-      {
-        "major_code": "7310399",
-        "major_name": "Giới và Phát triển"
-      }
-    ]
-  },
-  {
-    "group_id": "73104",
-    "group_name": "Tâm lý học",
-    "majors": [
-      {
-        "major_code": "7310401",
-        "major_name": "Tâm lý học"
-      },
-      {
-        "major_code": "7310403",
-        "major_name": "Tâm lý học giáo dục"
-      }
-    ]
-  },
-  {
-    "group_id": "73105",
-    "group_name": "Địa lý học",
-    "majors": [
-      {
-        "major_code": "7310501",
-        "major_name": "Địa lý học"
-      }
-    ]
-  },
-  {
-    "group_id": "73106",
-    "group_name": "Khu vực học",
-    "majors": [
-      {
-        "major_code": "7310601",
-        "major_name": "Quốc tế học"
-      },
-      {
-        "major_code": "7310602",
-        "major_name": "Châu Á học"
-      },
-      {
-        "major_code": "7310607",
-        "major_name": "Thái Bình Dương học"
-      },
-      {
-        "major_code": "7310608",
-        "major_name": "Đông phương học"
-      },
-      {
-        "major_code": "7310612",
-        "major_name": "Trung Quốc học"
-      },
-      {
-        "major_code": "7310613",
-        "major_name": "Nhật Bản học"
-      },
-      {
-        "major_code": "7310614",
-        "major_name": "Hàn Quốc học"
-      },
-      {
-        "major_code": "7310620",
-        "major_name": "Đông Nam Á học"
-      },
-      {
-        "major_code": "7310630",
-        "major_name": "Việt Nam học"
-      },
-      {
-        "major_code": "7310640",
-        "major_name": "Hoa Kỳ học"
-      }
-    ]
-  },
-  {
-    "group_id": "73201",
-    "group_name": "Báo chí và truyền thông",
-    "majors": [
-      {
-        "major_code": "7320101",
-        "major_name": "Báo chí"
-      },
-      {
-        "major_code": "7320104",
-        "major_name": "Truyền thông đa phương tiện"
-      },
-      {
-        "major_code": "7320105",
-        "major_name": "Truyền thông đại chúng"
-      },
-      {
-        "major_code": "7320106",
-        "major_name": "Công nghệ truyền thông"
-      },
-      {
-        "major_code": "7320107",
-        "major_name": "Truyền thông quốc tế"
-      },
-      {
-        "major_code": "7320108",
-        "major_name": "Quan hệ công chúng"
-      },
-      {
-        "major_code": "7320109",
-        "major_name": "Truyền thông doanh nghiệp"
-      },
-      {
-        "major_code": "7320110",
-        "major_name": "Quảng cáo"
-      }
-    ]
-  },
-  {
-    "group_id": "73202",
-    "group_name": "Thông tin – Thư viện",
-    "majors": [
-      {
-        "major_code": "7320201",
-        "major_name": "Thông tin – Thư viện"
-      },
-      {
-        "major_code": "7320202",
-        "major_name": "Khoa học thư viện"
-      },
-      {
-        "major_code": "7320205",
-        "major_name": "Quản lý thông tin"
-      }
-    ]
-  },
-  {
-    "group_id": "73203",
-    "group_name": "Văn thư, lưu trữ, bảo tàng",
-    "majors": [
-      {
-        "major_code": "7320303",
-        "major_name": "Lưu trữ học"
-      },
-      {
-        "major_code": "7320305",
-        "major_name": "Bảo tàng học"
-      }
-    ]
-  },
-  {
-    "group_id": "73204",
-    "group_name": "Xuất bản, phát hành",
-    "majors": [
-      {
-        "major_code": "7320401",
-        "major_name": "Xuất bản"
-      },
-      {
-        "major_code": "7320402",
-        "major_name": "Kinh doanh xuất bản phẩm"
-      }
-    ]
-  },
-  {
-    "group_id": "73401",
-    "group_name": "Kinh doanh",
-    "majors": [
-      {
-        "major_code": "7340101",
-        "major_name": "Quản trị kinh doanh"
-      },
-      {
-        "major_code": "7340102",
-        "major_name": "Quản trị – Luật"
-      },
-      {
-        "major_code": "7340114",
-        "major_name": "Digital Marketing"
-      },
-      {
-        "major_code": "7340115",
-        "major_name": "Marketing"
-      },
-      {
-        "major_code": "7340116",
-        "major_name": "Bất động sản"
-      },
-      {
-        "major_code": "7340120",
-        "major_name": "Kinh doanh quốc tế"
-      },
-      {
-        "major_code": "7340121",
-        "major_name": "Kinh doanh thương mại"
-      },
-      {
-        "major_code": "7340122",
-        "major_name": "Thương mại điện tử"
-      },
-      {
-        "major_code": "7340123",
-        "major_name": "Kinh doanh thời trang và dệt may"
-      },
-      {
-        "major_code": "7340124",
-        "major_name": "Quản trị và kinh doanh quốc tế"
-      }
-    ]
-  },
-  {
-    "group_id": "73402",
-    "group_name": "Tài chính – Ngân hàng – Bảo hiểm",
-    "majors": [
-      {
-        "major_code": "7340201",
-        "major_name": "Tài chính – Ngân hàng"
-      },
-      {
-        "major_code": "7340202",
-        "major_name": "Bảo hiểm – Tài chính"
-      },
-      {
-        "major_code": "7340204",
-        "major_name": "Bảo hiểm"
-      },
-      {
-        "major_code": "7340205",
-        "major_name": "Công nghệ tài chính"
-      },
-      {
-        "major_code": "7340206",
-        "major_name": "Tài chính quốc tế"
-      }
-    ]
-  },
-  {
-    "group_id": "73403",
-    "group_name": "Kế toán – Kiểm toán",
-    "majors": [
-      {
-        "major_code": "7340301",
-        "major_name": "Kế toán"
-      },
-      {
-        "major_code": "7340302",
-        "major_name": "Kiểm toán"
-      }
-    ]
-  },
-  {
-    "group_id": "73404",
-    "group_name": "Quản trị – Quản lý",
-    "majors": [
-      {
-        "major_code": "7340401",
-        "major_name": "Khoa học quản lý"
-      },
-      {
-        "major_code": "7340403",
-        "major_name": "Quản lý công"
-      },
-      {
-        "major_code": "7340404",
-        "major_name": "Quản trị nhân lực"
-      },
-      {
-        "major_code": "7340405",
-        "major_name": "Hệ thống thông tin quản lý"
-      },
-      {
-        "major_code": "7340406",
-        "major_name": "Quản trị văn phòng"
-      },
-      {
-        "major_code": "7340408",
-        "major_name": "Quan hệ lao động"
-      },
-      {
-        "major_code": "7340409",
-        "major_name": "Quản lý dự án"
-      },
-      {
-        "major_code": "7340410",
-        "major_name": "Quản trị công nghệ truyền thông"
-      },
-      {
-        "major_code": "7340411",
-        "major_name": "Quản lý và phát triển nguồn nhân lực"
-      },
-      {
-        "major_code": "7340412",
-        "major_name": "Quản trị sự kiện"
-      },
-      {
-        "major_code": "7340415",
-        "major_name": "Kinh doanh số"
-      },
-      {
-        "major_code": "7340420",
-        "major_name": "Khoa học dữ liệu và phân tích kinh doanh"
-      }
-    ]
-  },
-  {
-    "group_id": "73490",
-    "group_name": "Khác",
-    "majors": [
-      {
-        "major_code": "7349004",
-        "major_name": "Phân tích dữ liệu kinh doanh"
-      }
-    ]
-  },
-  {
-    "group_id": "73801",
-    "group_name": "Luật",
-    "majors": [
-      {
-        "major_code": "7380101",
-        "major_name": "Luật"
-      },
-      {
-        "major_code": "7380102",
-        "major_name": "Luật hiến pháp và luật hành chính"
-      },
-      {
-        "major_code": "7380103",
-        "major_name": "Luật tố tụng và tố tụng dân sự"
-      },
-      {
-        "major_code": "7380104",
-        "major_name": "Luật hình sự và tố tụng hình sự"
-      },
-      {
-        "major_code": "7380107",
-        "major_name": "Luật kinh tế"
-      },
-      {
-        "major_code": "7380108",
-        "major_name": "Luật quốc tế"
-      },
-      {
-        "major_code": "7380109",
-        "major_name": "Luật thương mại quốc tế"
-      },
-      {
-        "major_code": "7380110",
-        "major_name": "Luật kinh doanh"
-      }
-    ]
-  },
-  {
-    "group_id": "74201",
-    "group_name": "Sinh học",
-    "majors": [
-      {
-        "major_code": "7420101",
-        "major_name": "Sinh học"
-      }
-    ]
-  },
-  {
-    "group_id": "74202",
-    "group_name": "Sinh học ứng dụng",
-    "majors": [
-      {
-        "major_code": "7420201",
-        "major_name": "Công nghệ Sinh học"
-      },
-      {
-        "major_code": "7420202",
-        "major_name": "Kỹ thuật Sinh học"
-      },
-      {
-        "major_code": "7420203",
-        "major_name": "Sinh học ứng dụng"
-      },
-      {
-        "major_code": "7420204",
-        "major_name": "Khoa học Y sinh"
-      },
-      {
-        "major_code": "7420205",
-        "major_name": "Công nghệ Sinh học Y dược"
-      },
-      {
-        "major_code": "7420207",
-        "major_name": "Công nghệ thẩm mỹ"
-      }
-    ]
-  },
-  {
-    "group_id": "74290",
-    "group_name": "Khác",
-    "majors": [
-      {
-        "major_code": "7429001",
-        "major_name": "Quản trị Công nghệ Sinh học"
-      }
-    ]
-  },
-  {
-    "group_id": "74401",
-    "group_name": "Khoa học vật chất",
-    "majors": [
-      {
-        "major_code": "7440101",
-        "major_name": "Thiên văn học"
-      },
-      {
-        "major_code": "7440102",
-        "major_name": "Vật lý học"
-      },
-      {
-        "major_code": "7440106",
-        "major_name": "Vật lý nguyên tử hạt nhân"
-      },
-      {
-        "major_code": "7440110",
-        "major_name": "Cơ học"
-      },
-      {
-        "major_code": "7440112",
-        "major_name": "Hóa học"
-      },
-      {
-        "major_code": "7440122",
-        "major_name": "Khoa học vật liệu"
-      }
-    ]
-  },
-  {
-    "group_id": "74402",
-    "group_name": "Khoa học trái đất",
-    "majors": [
-      {
-        "major_code": "7440201",
-        "major_name": "Địa chất học"
-      },
-      {
-        "major_code": "7440212",
-        "major_name": "Bản đồ học"
-      },
-      {
-        "major_code": "7440217",
-        "major_name": "Địa lý tự nhiên"
-      },
-      {
-        "major_code": "7440221",
-        "major_name": "Khí tượng và Khí hậu học"
-      },
-      {
-        "major_code": "7440224",
-        "major_name": "Thủy văn học"
-      },
-      {
-        "major_code": "7440228",
-        "major_name": "Hải dương học"
-      },
-      {
-        "major_code": "7440298",
-        "major_name": "Biến đổi khí hậu và phát triển bền vững"
-      }
-    ]
-  },
-  {
-    "group_id": "74403",
-    "group_name": "Khoa học môi trường",
-    "majors": [
-      {
-        "major_code": "7440301",
-        "major_name": "Khoa học môi trường"
-      }
-    ]
-  },
-  {
-    "group_id": "74601",
-    "group_name": "Toán học",
-    "majors": [
-      {
-        "major_code": "7460101",
-        "major_name": "Toán học"
-      },
-      {
-        "major_code": "7460107",
-        "major_name": "Khoa học tính toán"
-      },
-      {
-        "major_code": "7460108",
-        "major_name": "Khoa học dữ liệu"
-      },
-      {
-        "major_code": "7460112",
-        "major_name": "Toán ứng dụng"
-      },
-      {
-        "major_code": "7460115",
-        "major_name": "Toán cơ"
-      },
-      {
-        "major_code": "7460117",
-        "major_name": "Toán tin"
-      }
-    ]
-  },
-  {
-    "group_id": "74602",
-    "group_name": "Nhóm Thống kê",
-    "majors": [
-      {
-        "major_code": "7460201",
-        "major_name": "Thống kê"
-      }
-    ]
-  },
-  {
-    "group_id": "74801",
-    "group_name": "Máy tính",
-    "majors": [
-      {
-        "major_code": "7480101",
-        "major_name": "Khoa học máy tính"
-      },
-      {
-        "major_code": "7480102",
-        "major_name": "Mạng máy tính và Truyền thông dữ liệu"
-      },
-      {
-        "major_code": "7480103",
-        "major_name": "Kỹ thuật phần mềm"
-      },
-      {
-        "major_code": "7480104",
-        "major_name": "Hệ thống thông tin"
-      },
-      {
-        "major_code": "7480105",
-        "major_name": "Máy tính và Khoa học thông tin"
-      },
-      {
-        "major_code": "7480106",
-        "major_name": "Kỹ thuật máy tính"
-      },
-      {
-        "major_code": "7480107",
-        "major_name": "Trí tuệ nhân tạo"
-      },
-      {
-        "major_code": "7480108",
-        "major_name": "Công nghệ Kỹ thuật máy tính"
-      },
-      {
-        "major_code": "7480111",
-        "major_name": "Tin học và Kỹ thuật máy tính"
-      },
-      {
-        "major_code": "7480112",
-        "major_name": "Khoa học dữ liệu và Trí tuệ nhân tạo"
-      }
-    ]
-  },
-  {
-    "group_id": "74802",
-    "group_name": "Công nghệ thông tin",
-    "majors": [
-      {
-        "major_code": "7480201",
-        "major_name": "Công nghệ thông tin"
-      },
-      {
-        "major_code": "7480202",
-        "major_name": "An toàn thông tin"
-      },
-      {
-        "major_code": "7480203",
-        "major_name": "Công nghệ đa phương tiện"
-      },
-      {
-        "major_code": "7480204",
-        "major_name": "Khoa học và Kỹ thuật máy tính"
-      },
-      {
-        "major_code": "7480205",
-        "major_name": "Khoa học dữ liệu theo cơ chế đặc thù"
-      },
-      {
-        "major_code": "7480206",
-        "major_name": "Địa tin học"
-      }
-    ]
-  },
-  {
-    "group_id": "74890",
-    "group_name": "Khác",
-    "majors": [
-      {
-        "major_code": "7489001",
-        "major_name": "Công nghệ đổi mới sáng tạo"
-      }
-    ]
-  },
-  {
-    "group_id": "75101",
-    "group_name": "Công nghệ kỹ thuật kiến trúc và công trình xây dựng",
-    "majors": [
-      {
-        "major_code": "7510101",
-        "major_name": "Công nghệ Kỹ thuật Kiến trúc"
-      },
-      {
-        "major_code": "7510102",
-        "major_name": "Công nghệ Kỹ thuật Công trình xây dựng"
-      },
-      {
-        "major_code": "7510103",
-        "major_name": "Công nghệ Kỹ thuật Xây dựng"
-      },
-      {
-        "major_code": "7510104",
-        "major_name": "Công nghệ Kỹ thuật Giao thông"
-      },
-      {
-        "major_code": "7510105",
-        "major_name": "Công nghệ Kỹ thuật Vật liệu xây dựng"
-      },
-      {
-        "major_code": "7510106",
-        "major_name": "Hệ thống Kỹ thuật Công trình xây dựng"
-      }
-    ]
-  },
-  {
-    "group_id": "75102",
-    "group_name": "Công nghệ Kỹ thuật cơ khí",
-    "majors": [
-      {
-        "major_code": "7510201",
-        "major_name": "Công nghệ Kỹ thuật Cơ khí"
-      },
-      {
-        "major_code": "7510202",
-        "major_name": "Công nghệ Chế tạo máy"
-      },
-      {
-        "major_code": "7510203",
-        "major_name": "Công nghệ Kỹ thuật Cơ điện tử"
-      },
-      {
-        "major_code": "7510205",
-        "major_name": "Công nghệ Kỹ thuật Ô tô"
-      },
-      {
-        "major_code": "7510206",
-        "major_name": "Công nghệ Kỹ thuật Nhiệt"
-      },
-      {
-        "major_code": "7510207",
-        "major_name": "Công nghệ Kỹ thuật Tàu thủy"
-      },
-      {
-        "major_code": "7510208",
-        "major_name": "Năng lượng tái tạo"
-      },
-      {
-        "major_code": "7510209",
-        "major_name": "Robot và Trí tuệ nhân tạo"
-      },
-      {
-        "major_code": "7510210",
-        "major_name": "Điện lạnh và Điều hòa không khí"
-      },
-      {
-        "major_code": "7510211",
-        "major_name": "Bảo dưỡng Công nghiệp"
-      },
-      {
-        "major_code": "7510212",
-        "major_name": "Công nghệ Ô tô"
-      }
-    ]
-  },
-  {
-    "group_id": "75103",
-    "group_name": "Công nghệ Kỹ thuật điện, điện tử và viễn thông",
-    "majors": [
-      {
-        "major_code": "7510300",
-        "major_name": "Điện tử – Tin học công nghiệp"
-      },
-      {
-        "major_code": "7510301",
-        "major_name": "Công nghệ Kỹ thuật điện, điện tử"
-      },
-      {
-        "major_code": "7510302",
-        "major_name": "Công nghệ Kỹ thuật điện tử – viễn thông"
-      },
-      {
-        "major_code": "7510303",
-        "major_name": "Công nghệ Kỹ thuật điều khiển và tự động hóa"
-      },
-      {
-        "major_code": "7510304",
-        "major_name": "IoT và Trí tuệ nhân tạo ứng dụng"
-      }
-    ]
-  },
-  {
-    "group_id": "75104",
-    "group_name": "Công nghệ hóa học, vật liệu, luyện kim và môi trường",
-    "majors": [
-      {
-        "major_code": "7510401",
-        "major_name": "Công nghệ Kỹ thuật Hóa học"
-      },
-      {
-        "major_code": "7510402",
-        "major_name": "Công nghệ Vật liệu"
-      },
-      {
-        "major_code": "7510403",
-        "major_name": "Công nghệ Kỹ thuật Năng lượng"
-      },
-      {
-        "major_code": "7510406",
-        "major_name": "Công nghệ Kỹ thuật Môi trường"
-      },
-      {
-        "major_code": "7510407",
-        "major_name": "Công nghệ Kỹ thuật Hạt nhân"
-      }
-    ]
-  },
-  {
-    "group_id": "75106",
-    "group_name": "Quản lý công nghiệp",
-    "majors": [
-      {
-        "major_code": "7510601",
-        "major_name": "Quản lý Công nghiệp"
-      },
-      {
-        "major_code": "7510602",
-        "major_name": "Quản lý Năng lượng"
-      },
-      {
-        "major_code": "7510604",
-        "major_name": "Kinh tế Công nghiệp"
-      },
-      {
-        "major_code": "7510605",
-        "major_name": "Logistics và Quản lý chuỗi cung ứng"
-      },
-      {
-        "major_code": "7510606",
-        "major_name": "Quản trị Môi trường doanh nghiệp"
-      }
-    ]
-  },
-  {
-    "group_id": "75107",
-    "group_name": "Công nghệ dầu khí và khai thác",
-    "majors": [
-      {
-        "major_code": "7510701",
-        "major_name": "Công nghệ Dầu khí và Khai thác dầu"
-      }
-    ]
-  },
-  {
-    "group_id": "75108",
-    "group_name": "Công nghệ kỹ thuật in",
-    "majors": [
-      {
-        "major_code": "7510801",
-        "major_name": "Công nghệ Kỹ thuật in"
-      }
-    ]
-  },
-  {
-    "group_id": "75190",
-    "group_name": "Khác",
-    "majors": [
-      {
-        "major_code": "7519002",
-        "major_name": "Công nghệ Kỹ thuật khuôn mẫu"
-      },
-      {
-        "major_code": "7519004",
-        "major_name": "Thiết kế cơ khí và Kiểu dáng công nghiệp"
-      },
-      {
-        "major_code": "7519005",
-        "major_name": "Công nghệ Kỹ thuật Cơ điện tử ô tô"
-      },
-      {
-        "major_code": "7519007",
-        "major_name": "Công nghệ Kỹ thuật Năng lượng tái tạo"
-      }
-    ]
-  },
-  {
-    "group_id": "75201",
-    "group_name": "Nhóm Kỹ thuật cơ khí và cơ kỹ thuật",
-    "majors": [
-      {
-        "major_code": "7520101",
-        "major_name": "Cơ kỹ thuật"
-      },
-      {
-        "major_code": "7520103",
-        "major_name": "Kỹ thuật Cơ khí"
-      },
-      {
-        "major_code": "7520114",
-        "major_name": "Kỹ thuật Cơ điện tử"
-      },
-      {
-        "major_code": "7520115",
-        "major_name": "Kỹ thuật Nhiệt"
-      },
-      {
-        "major_code": "7520116",
-        "major_name": "Kỹ thuật Cơ khí động lực"
-      },
-      {
-        "major_code": "7520117",
-        "major_name": "Kỹ thuật Công nghiệp"
-      },
-      {
-        "major_code": "7520118",
-        "major_name": "Kỹ thuật Hệ thống công nghiệp"
-      },
-      {
-        "major_code": "7520119",
-        "major_name": "Cơ điện tử"
-      },
-      {
-        "major_code": "7520120",
-        "major_name": "Kỹ thuật Hàng không"
-      },
-      {
-        "major_code": "7520121",
-        "major_name": "Kỹ thuật Không gian"
-      },
-      {
-        "major_code": "7520122",
-        "major_name": "Kỹ thuật tàu thủy"
-      },
-      {
-        "major_code": "7520130",
-        "major_name": "Kỹ thuật ô tô"
-      },
-      {
-        "major_code": "7520137",
-        "major_name": "Kỹ thuật in"
-      },
-      {
-        "major_code": "7520138",
-        "major_name": "Kỹ thuật hàng hải"
-      },
-      {
-        "major_code": "7520141",
-        "major_name": "Công nghệ Ô tô điện"
-      }
-    ]
-  },
-  {
-    "group_id": "75202",
-    "group_name": "Kỹ thuật điện, điện tử và viễn thông",
-    "majors": [
-      {
-        "major_code": "7520201",
-        "major_name": "Kỹ thuật điện"
-      },
-      {
-        "major_code": "7520204",
-        "major_name": "Kỹ thuật ra đa – dẫn đường"
-      },
-      {
-        "major_code": "7520205",
-        "major_name": "Kỹ thuật thủy âm"
-      },
-      {
-        "major_code": "7520206",
-        "major_name": "Kỹ thuật biển"
-      },
-      {
-        "major_code": "7520207",
-        "major_name": "Kỹ thuật điện tử – viễn thông"
-      },
-      {
-        "major_code": "7520208",
-        "major_name": "Công nghệ Internet và vạn vật"
-      },
-      {
-        "major_code": "7520212",
-        "major_name": "Kỹ thuật y sinh"
-      },
-      {
-        "major_code": "7520216",
-        "major_name": "Kỹ thuật điều khiển và tự động hóa"
-      },
-      {
-        "major_code": "7520218",
-        "major_name": "Kỹ thuật Robot và Trí tuệ nhân tạo"
-      },
-      {
-        "major_code": "7520219",
-        "major_name": "Hệ thống giao thông thông minh"
-      }
-    ]
-  },
-  {
-    "group_id": "75203",
-    "group_name": "Kỹ thuật hóa học, vật liệu, luyện kim và môi trường",
-    "majors": [
-      {
-        "major_code": "7520301",
-        "major_name": "Kỹ thuật Hóa học"
-      },
-      {
-        "major_code": "7520309",
-        "major_name": "Kỹ thuật Vật liệu"
-      },
-      {
-        "major_code": "7520310",
-        "major_name": "Kỹ thuật Vật liệu kim loại"
-      },
-      {
-        "major_code": "7520312",
-        "major_name": "Kỹ thuật Dệt"
-      },
-      {
-        "major_code": "7520320",
-        "major_name": "Kỹ thuật Môi trường"
-      }
-    ]
-  },
-  {
-    "group_id": "75204",
-    "group_name": "Vật lý kỹ thuật",
-    "majors": [
-      {
-        "major_code": "7520401",
-        "major_name": "Vật lý Kỹ thuật"
-      },
-      {
-        "major_code": "7520402",
-        "major_name": "Kỹ thuật Hạt nhân"
-      },
-      {
-        "major_code": "7520403",
-        "major_name": "Vật lý Y khoa"
-      }
-    ]
-  },
-  {
-    "group_id": "75205",
-    "group_name": "Kỹ thuật địa chất, địa vật lý và trắc địa",
-    "majors": [
-      {
-        "major_code": "7520501",
-        "major_name": "Kỹ thuật địa chất"
-      },
-      {
-        "major_code": "7520502",
-        "major_name": "Kỹ thuật địa vật lý"
-      },
-      {
-        "major_code": "7520503",
-        "major_name": "Kỹ thuật trắc địa – bản đồ"
-      }
-    ]
-  },
-  {
-    "group_id": "75206",
-    "group_name": "Kỹ thuật mỏ",
-    "majors": [
-      {
-        "major_code": "7520601",
-        "major_name": "Kỹ thuật mỏ"
-      },
-      {
-        "major_code": "7520602",
-        "major_name": "Kỹ thuật thăm dò và khảo sát"
-      },
-      {
-        "major_code": "7520604",
-        "major_name": "Kỹ thuật dầu khí"
-      },
-      {
-        "major_code": "7520605",
-        "major_name": "Kỹ thuật Khí thiên nhiên"
-      },
-      {
-        "major_code": "7520606",
-        "major_name": "Công nghệ số trong thăm dò và Khai thác tài nguyên thiên nhiên"
-      },
-      {
-        "major_code": "7520607",
-        "major_name": "Kỹ thuật Tuyển khoáng"
-      }
-    ]
-  },
-  {
-    "group_id": "75401",
-    "group_name": "Chế biến lương thực, thực phẩm và đồ uống",
-    "majors": [
-      {
-        "major_code": "7540101",
-        "major_name": "Công nghệ thực phẩm"
-      },
-      {
-        "major_code": "7540102",
-        "major_name": "Kỹ thuật thực phẩm"
-      },
-      {
-        "major_code": "7540103",
-        "major_name": "Công nghệ hóa thực phẩm"
-      },
-      {
-        "major_code": "7540104",
-        "major_name": "Công nghệ sau thu hoạch"
-      },
-      {
-        "major_code": "7540105",
-        "major_name": "Công nghệ chế biến thủy sản"
-      },
-      {
-        "major_code": "7540106",
-        "major_name": "Đảm bảo chất lượng và an toàn thực phẩm"
-      },
-      {
-        "major_code": "7540108",
-        "major_name": "Công nghệ và Kinh doanh thực phẩm"
-      }
-    ]
-  },
-  {
-    "group_id": "75402",
-    "group_name": "Sản xuất, chế biến sợi, vải, giày, da",
-    "majors": [
-      {
-        "major_code": "7540202",
-        "major_name": "Công nghệ sợi, dệt"
-      },
-      {
-        "major_code": "7540203",
-        "major_name": "Công nghệ vật liệu dệt, may"
-      },
-      {
-        "major_code": "7540204",
-        "major_name": "Công nghệ dệt, may"
-      },
-      {
-        "major_code": "7540205",
-        "major_name": "Công nghệ may"
-      },
-      {
-        "major_code": "7540206",
-        "major_name": "Công nghệ da giày"
-      }
-    ]
-  },
-  {
-    "group_id": "75490",
-    "group_name": "Khác",
-    "majors": [
-      {
-        "major_code": "7549001",
-        "major_name": "Công nghệ chế biến lâm sản"
-      }
-    ]
-  },
-  {
-    "group_id": "75801",
-    "group_name": "Kiến trúc và quy hoạch",
-    "majors": [
-      {
-        "major_code": "7580101",
-        "major_name": "Kiến trúc"
-      },
-      {
-        "major_code": "7580102",
-        "major_name": "Kiến trúc cảnh quan"
-      },
-      {
-        "major_code": "7580103",
-        "major_name": "Kiến trúc nội thất"
-      },
-      {
-        "major_code": "7580104",
-        "major_name": "Kiến trúc đô thị"
-      },
-      {
-        "major_code": "7580105",
-        "major_name": "Quy hoạch vùng và đô thị"
-      },
-      {
-        "major_code": "7580106",
-        "major_name": "Quản lý đô thị và Công trình"
-      },
-      {
-        "major_code": "7580108",
-        "major_name": "Thiết kế nội thất"
-      },
-      {
-        "major_code": "7580111",
-        "major_name": "Bảo tồn di sản kiến trúc – Đô thị"
-      },
-      {
-        "major_code": "7580112",
-        "major_name": "Đô thị học"
-      }
-    ]
-  },
-  {
-    "group_id": "75802",
-    "group_name": "Xây dựng",
-    "majors": [
-      {
-        "major_code": "7580201",
-        "major_name": "Kỹ thuật xây dựng"
-      },
-      {
-        "major_code": "7580202",
-        "major_name": "Kỹ thuật xây dựng công trình thủy"
-      },
-      {
-        "major_code": "7580203",
-        "major_name": "Kỹ thuật xây dựng công trình biển"
-      },
-      {
-        "major_code": "7580204",
-        "major_name": "Kỹ thuật công trình ngầm thành phố và Hệ thống tàu điện ngầm"
-      },
-      {
-        "major_code": "7580205",
-        "major_name": "Kỹ thuật xây dựng công trình giao thông"
-      },
-      {
-        "major_code": "7580210",
-        "major_name": "Kỹ thuật cơ sở hạ tầng"
-      },
-      {
-        "major_code": "7580211",
-        "major_name": "Địa kỹ thuật xây dựng"
-      },
-      {
-        "major_code": "7580212",
-        "major_name": "Kỹ thuật tài nguyên nước"
-      },
-      {
-        "major_code": "7580213",
-        "major_name": "Kỹ thuật cấp thoát nước"
-      }
-    ]
-  },
-  {
-    "group_id": "75803",
-    "group_name": "Quản lý xây dựng",
-    "majors": [
-      {
-        "major_code": "7580301",
-        "major_name": "Kinh tế Xây dựng"
-      },
-      {
-        "major_code": "7580302",
-        "major_name": "Quản lý Xây dựng"
-      }
-    ]
-  },
-  {
-    "group_id": "76201",
-    "group_name": "Nông nghiệp",
-    "majors": [
-      {
-        "major_code": "7620101",
-        "major_name": "Nông nghiệp"
-      },
-      {
-        "major_code": "7620102",
-        "major_name": "Khuyến nông"
-      },
-      {
-        "major_code": "7620103",
-        "major_name": "Khoa học đất"
-      },
-      {
-        "major_code": "7620105",
-        "major_name": "Chăn nuôi"
-      },
-      {
-        "major_code": "7620106",
-        "major_name": "Chăn nuôi – Thú y"
-      },
-      {
-        "major_code": "7620108",
-        "major_name": "Phân bón và Dinh dưỡng cây trồng"
-      },
-      {
-        "major_code": "7620109",
-        "major_name": "Nông học"
-      },
-      {
-        "major_code": "7620110",
-        "major_name": "Khoa học cây trồng"
-      },
-      {
-        "major_code": "7620112",
-        "major_name": "Bảo vệ thực vật"
-      },
-      {
-        "major_code": "7620113",
-        "major_name": "Công nghệ rau hoa quả và cảnh quan"
-      },
-      {
-        "major_code": "7620114",
-        "major_name": "Kinh doanh nông nghiệp"
-      },
-      {
-        "major_code": "7620115",
-        "major_name": "Kinh tế nông nghiệp"
-      },
-      {
-        "major_code": "7620116",
-        "major_name": "Phát triển nông thôn"
-      },
-      {
-        "major_code": "7620118",
-        "major_name": "Nông nghiệp công nghệ cao"
-      },
-      {
-        "major_code": "7620119",
-        "major_name": "Kinh doanh và Khởi nghiệp nông thôn"
-      },
-      {
-        "major_code": "7620122",
-        "major_name": "Nông nghiệp thông minh và bền vững"
-      }
-    ]
-  },
-  {
-    "group_id": "76202",
-    "group_name": "Lâm nghiệp",
-    "majors": [
-      {
-        "major_code": "7620201",
-        "major_name": "Lâm học"
-      },
-      {
-        "major_code": "7620202",
-        "major_name": "Lâm nghiệp đô thị"
-      },
-      {
-        "major_code": "7620205",
-        "major_name": "Lâm sinh"
-      },
-      {
-        "major_code": "7620211",
-        "major_name": "Quản lý tài nguyên rừng"
-      }
-    ]
-  },
-  {
-    "group_id": "76203",
-    "group_name": "Thủy sản",
-    "majors": [
-      {
-        "major_code": "7620301",
-        "major_name": "Nuôi trồng thủy sản"
-      },
-      {
-        "major_code": "7620302",
-        "major_name": "Bệnh học thủy sản"
-      },
-      {
-        "major_code": "7620303",
-        "major_name": "Khoa học thủy sản"
-      },
-      {
-        "major_code": "7620304",
-        "major_name": "Khai thác thủy sản"
-      },
-      {
-        "major_code": "7620305",
-        "major_name": "Quản lý thủy sản"
-      }
-    ]
-  },
-  {
-    "group_id": "76401",
-    "group_name": "Thú y",
-    "majors": [
-      {
-        "major_code": "7640101",
-        "major_name": "Thú y"
-      }
-    ]
-  },
-  {
-    "group_id": "77201",
-    "group_name": "Y học",
-    "majors": [
-      {
-        "major_code": "7720101",
-        "major_name": "Y khoa"
-      },
-      {
-        "major_code": "7720110",
-        "major_name": "Y học dự phòng"
-      },
-      {
-        "major_code": "7720115",
-        "major_name": "Y học cổ truyền"
-      }
-    ]
-  },
-  {
-    "group_id": "77202",
-    "group_name": "Dược học",
-    "majors": [
-      {
-        "major_code": "7720201",
-        "major_name": "Dược học"
-      },
-      {
-        "major_code": "7720203",
-        "major_name": "Hóa dược"
-      }
-    ]
-  },
-  {
-    "group_id": "77203",
-    "group_name": "Điều dưỡng – hộ sinh",
-    "majors": [
-      {
-        "major_code": "7720301",
-        "major_name": "Điều dưỡng"
-      },
-      {
-        "major_code": "7720302",
-        "major_name": "Hộ sinh"
-      },
-      {
-        "major_code": "7720399",
-        "major_name": "Dụng cụ chỉnh hình chân tay giả"
-      }
-    ]
-  },
-  {
-    "group_id": "77204",
-    "group_name": "Dinh dưỡng",
-    "majors": [
-      {
-        "major_code": "7720401",
-        "major_name": "Dinh dưỡng"
-      },
-      {
-        "major_code": "7720497",
-        "major_name": "Dinh dưỡng và Khoa học thực phẩm"
-      }
-    ]
-  },
-  {
-    "group_id": "77205",
-    "group_name": "Răng – Hàm – Mặt (Nha khoa)",
-    "majors": [
-      {
-        "major_code": "7720501",
-        "major_name": "Răng – Hàm – Mặt"
-      },
-      {
-        "major_code": "7720502",
-        "major_name": "Kỹ thuật phục hình răng"
-      }
-    ]
-  },
-  {
-    "group_id": "77206",
-    "group_name": "Kỹ thuật Y học",
-    "majors": [
-      {
-        "major_code": "7720601",
-        "major_name": "Kỹ thuật Xét nghiệm Y học"
-      },
-      {
-        "major_code": "7720602",
-        "major_name": "Kỹ thuật Hình ảnh Y học"
-      },
-      {
-        "major_code": "7720603",
-        "major_name": "Kỹ thuật Phục hồi chức năng"
-      },
-      {
-        "major_code": "7720604",
-        "major_name": "Khúc xạ nhãn khoa"
-      }
-    ]
-  },
-  {
-    "group_id": "77207",
-    "group_name": "Y tế công cộng",
-    "majors": [
-      {
-        "major_code": "7720701",
-        "major_name": "Y tế công cộng"
-      }
-    ]
-  },
-  {
-    "group_id": "77208",
-    "group_name": "Quản lý y tế",
-    "majors": [
-      {
-        "major_code": "7720801",
-        "major_name": "Tổ chức và Quản lý y tế"
-      },
-      {
-        "major_code": "7720802",
-        "major_name": "Quản lý bệnh viện"
-      }
-    ]
-  },
-  {
-    "group_id": "77290",
-    "group_name": "Khác",
-    "majors": [
-      {
-        "major_code": "7729001",
-        "major_name": "Y sinh học Thể dục thể thao"
-      }
-    ]
-  },
-  {
-    "group_id": "77601",
-    "group_name": "Công tác xã hội",
-    "majors": [
-      {
-        "major_code": "7760101",
-        "major_name": "Công tác xã hội"
-      },
-      {
-        "major_code": "7760102",
-        "major_name": "Công tác thanh thiếu niên"
-      },
-      {
-        "major_code": "7760103",
-        "major_name": "Hỗ trợ giáo dục người khuyết tật"
-      },
-      {
-        "major_code": "7760104",
-        "major_name": "Dân số và Phát triển"
-      }
-    ]
-  },
-  {
-    "group_id": "78101",
-    "group_name": "Du lịch",
-    "majors": [
-      {
-        "major_code": "7810101",
-        "major_name": "Du lịch"
-      },
-      {
-        "major_code": "7810102",
-        "major_name": "Du lịch Điện tử"
-      },
-      {
-        "major_code": "7810103",
-        "major_name": "Quản trị Dịch vụ du lịch và Lữ hành"
-      },
-      {
-        "major_code": "7810105",
-        "major_name": "Du lịch Địa chất"
-      },
-      {
-        "major_code": "7810106",
-        "major_name": "Văn hóa Du lịch"
-      }
-    ]
-  },
-  {
-    "group_id": "78102",
-    "group_name": "Khách sạn, nhà hàng",
-    "majors": [
-      {
-        "major_code": "7810201",
-        "major_name": "Quản trị Khách sạn"
-      },
-      {
-        "major_code": "7810202",
-        "major_name": "Quản trị Nhà hàng và Dịch vụ ăn uống"
-      },
-      {
-        "major_code": "7810203",
-        "major_name": "Quản trị Khách sạn – Nhà hàng"
-      }
-    ]
-  },
-  {
-    "group_id": "78103",
-    "group_name": "Thể dục, thể thao",
-    "majors": [
-      {
-        "major_code": "7810301",
-        "major_name": "Quản lý thể dục thể thao"
-      },
-      {
-        "major_code": "7810302",
-        "major_name": "Huấn luyện thể thao"
-      }
-    ]
-  },
-  {
-    "group_id": "78105",
-    "group_name": "Kinh tế gia đình",
-    "majors": [
-      {
-        "major_code": "7810501",
-        "major_name": "Kinh tế gia đình"
-      }
-    ]
-  },
-  {
-    "group_id": "78190",
-    "group_name": "Khác",
-    "majors": [
-      {
-        "major_code": "7819009",
-        "major_name": "Khoa học Dinh dưỡng và Ẩm thực"
-      },
-      {
-        "major_code": "7819010",
-        "major_name": "Khoa học Chế biến món ăn"
-      }
-    ]
-  },
-  {
-    "group_id": "78401",
-    "group_name": "Khai thác vận tải",
-    "majors": [
-      {
-        "major_code": "7840101",
-        "major_name": "Khai thác vận tải"
-      },
-      {
-        "major_code": "7840102",
-        "major_name": "Quản lý hoạt động bay"
-      },
-      {
-        "major_code": "7840104",
-        "major_name": "Kinh tế vận tải"
-      },
-      {
-        "major_code": "7840106",
-        "major_name": "Khoa học hàng hải"
-      }
-    ]
-  },
-  {
-    "group_id": "78501",
-    "group_name": "Quản lý tài nguyên và môi trường",
-    "majors": [
-      {
-        "major_code": "7850101",
-        "major_name": "Quản lý tài nguyên và môi trường"
-      },
-      {
-        "major_code": "7850102",
-        "major_name": "Kinh tế tài nguyên thiên nhiên"
-      },
-      {
-        "major_code": "7850103",
-        "major_name": "Quản lý đất đai"
-      },
-      {
-        "major_code": "7850104",
-        "major_name": "Du lịch sinh thái"
-      },
-      {
-        "major_code": "7850106",
-        "major_name": "Quản lý tài nguyên thiên nhiên"
-      },
-      {
-        "major_code": "7850195",
-        "major_name": "Quản lý tổng hợp tài nguyên nước"
-      },
-      {
-        "major_code": "7850196",
-        "major_name": "Quản lý tài nguyên khoáng sản"
-      },
-      {
-        "major_code": "7850197",
-        "major_name": "Quản lý tài nguyên và môi trường biển đảo"
-      },
-      {
-        "major_code": "7850198",
-        "major_name": "Quản lý tài nguyên nước"
-      },
-      {
-        "major_code": "7850199",
-        "major_name": "Quản lý biển"
-      }
-    ]
-  },
-  {
-    "group_id": "78502",
-    "group_name": "Dịch vụ an toàn lao động và vệ sinh công nghiệp",
-    "majors": [
-      {
-        "major_code": "7850201",
-        "major_name": "Bảo hộ lao động"
-      }
-    ]
-  },
-  {
-    "group_id": "78590",
-    "group_name": "Khác",
-    "majors": [
-      {
-        "major_code": "7859002",
-        "major_name": "Tài nguyên và Du lịch sinh thái"
-      },
-      {
-        "major_code": "7859007",
-        "major_name": "Cảnh quan và Kỹ thuật hoa viên"
-      }
-    ]
-  },
-  {
-    "group_id": "78601",
-    "group_name": "An ninh và trật tự xã hội",
-    "majors": [
-      {
-        "major_code": "7860100",
-        "major_name": "Nghiệp vụ an ninh"
-      },
-      {
-        "major_code": "7860101",
-        "major_name": "Trinh sát an ninh"
-      },
-      {
-        "major_code": "7860102",
-        "major_name": "Điều tra trinh sát"
-      },
-      {
-        "major_code": "7860103",
-        "major_name": "Trinh sát kỹ thuật"
-      },
-      {
-        "major_code": "7860104",
-        "major_name": "Điều tra hình sự"
-      },
-      {
-        "major_code": "7860105",
-        "major_name": "Nghiệp vụ cảnh sát"
-      },
-      {
-        "major_code": "7860107",
-        "major_name": "Kỹ thuật Công an nhân dân"
-      },
-      {
-        "major_code": "7860108",
-        "major_name": "Kỹ thuật hình sự"
-      },
-      {
-        "major_code": "7860109",
-        "major_name": "Quản lý nhà nước về trật tự an ninh"
-      },
-      {
-        "major_code": "7860110",
-        "major_name": "Quản lý trật tự an toàn giao thông"
-      },
-      {
-        "major_code": "7860111",
-        "major_name": "Thi hành án hình sự và hỗ trợ tư pháp"
-      },
-      {
-        "major_code": "7860112",
-        "major_name": "Tham mưu, chỉ huy vũ trang bảo vệ an ninh"
-      },
-      {
-        "major_code": "7860113",
-        "major_name": "Phòng cháy chữa cháy và cứu hộ cứu nạn"
-      },
-      {
-        "major_code": "7860116",
-        "major_name": "Hậu cần công an nhân dân"
-      },
-      {
-        "major_code": "7860117",
-        "major_name": "Tình báo an ninh"
-      }
-    ]
-  },
-  {
-    "group_id": "78602",
-    "group_name": "Quân sự",
-    "majors": [
-      {
-        "major_code": "7860201",
-        "major_name": "Chỉ huy tham mưu Lục quân"
-      },
-      {
-        "major_code": "7860202",
-        "major_name": "Chỉ huy tham mưu Hải quân"
-      },
-      {
-        "major_code": "7860203",
-        "major_name": "Chỉ huy tham mưu Không quân"
-      },
-      {
-        "major_code": "7860204",
-        "major_name": "Chỉ huy tham mưu Phòng không"
-      },
-      {
-        "major_code": "7860205",
-        "major_name": "Chỉ huy tham mưu Pháo binh"
-      },
-      {
-        "major_code": "7860206",
-        "major_name": "Chỉ huy tham mưu Tăng - thiết giáp"
-      },
-      {
-        "major_code": "7860207",
-        "major_name": "Chỉ huy tham mưu Đặc công"
-      },
-      {
-        "major_code": "7860214",
-        "major_name": "Biên phòng"
-      },
-      {
-        "major_code": "7860217",
-        "major_name": "Tình báo quân sự"
-      },
-      {
-        "major_code": "7860218",
-        "major_name": "Hậu cần quân sự"
-      },
-      {
-        "major_code": "7860219",
-        "major_name": "Chỉ huy, tham mưu thông tin"
-      },
-      {
-        "major_code": "7860220",
-        "major_name": "Chỉ huy, quản lý kỹ thuật"
-      },
-      {
-        "major_code": "7860222",
-        "major_name": "Quân sự cơ sở"
-      },
-      {
-        "major_code": "7860226",
-        "major_name": "Chỉ huy kỹ thuật Phòng không"
-      },
-      {
-        "major_code": "7860227",
-        "major_name": "Chỉ huy kỹ thuật Tăng - thiết giáp"
-      },
-      {
-        "major_code": "7860228",
-        "major_name": "Chỉ huy kỹ thuật công binh"
-      },
-      {
-        "major_code": "7860229",
-        "major_name": "Chỉ huy kỹ thuật hóa học"
-      },
-      {
-        "major_code": "7860231",
-        "major_name": "Trinh sát kỹ thuật"
-      },
-      {
-        "major_code": "7860232",
-        "major_name": "Chỉ huy kỹ thuật Hải quân"
-      },
-      {
-        "major_code": "7860233",
-        "major_name": "Chỉ huy kỹ thuật tác chiến điện tử"
-      }
-    ]
-  },
-  {
-    "group_id": "790",
-    "group_name": "Khác",
-    "majors": [
-      {
-        "major_code": "7900101",
-        "major_name": "Quản trị doanh nghiệp và Công nghệ"
-      },
-      {
-        "major_code": "7900102",
-        "major_name": "Marketing và Truyền thông"
-      },
-      {
-        "major_code": "7900103",
-        "major_name": "Quản trị nhân lực và nhân tài"
-      },
-      {
-        "major_code": "7900189",
-        "major_name": "Quản trị và An ninh"
-      }
-    ]
-  }
+    {
+        "group_id": "71401",
+        "group_name": "Khoa học giáo dục",
+        "majors": [
+            {
+                "major_code": "7140101",
+                "major_name": "Giáo dục học"
+            },
+            {
+                "major_code": "7140114",
+                "major_name": "Quản lý giáo dục"
+            },
+            {
+                "major_code": "7140199",
+                "major_name": "Kinh tế Giáo dục"
+            }
+        ]
+    },
+    {
+        "group_id": "71402",
+        "group_name": "Đào tạo giáo viên sư phạm",
+        "majors": [
+            {
+                "major_code": "7140201",
+                "major_name": "Giáo dục Mầm non"
+            },
+            {
+                "major_code": "7140202",
+                "major_name": "Giáo dục Tiểu học"
+            },
+            {
+                "major_code": "7140203",
+                "major_name": "Giáo dục Đặc biệt"
+            },
+            {
+                "major_code": "7140204",
+                "major_name": "Giáo dục Công dân"
+            },
+            {
+                "major_code": "7140205",
+                "major_name": "Giáo dục Chính trị"
+            },
+            {
+                "major_code": "7140206",
+                "major_name": "Giáo dục Thể chất"
+            },
+            {
+                "major_code": "7140207",
+                "major_name": "Huấn luyện thể thao"
+            },
+            {
+                "major_code": "7140208",
+                "major_name": "Giáo dục Quốc phòng – An ninh"
+            },
+            {
+                "major_code": "7140209",
+                "major_name": "Sư phạm Toán học"
+            },
+            {
+                "major_code": "7140210",
+                "major_name": "Sư phạm Tin học"
+            },
+            {
+                "major_code": "7140211",
+                "major_name": "Sư phạm Vật lý"
+            },
+            {
+                "major_code": "7140212",
+                "major_name": "Sư phạm Hóa học"
+            },
+            {
+                "major_code": "7140213",
+                "major_name": "Sư phạm Sinh học"
+            },
+            {
+                "major_code": "7140214",
+                "major_name": "Sư phạm Kỹ thuật Công nghiệp"
+            },
+            {
+                "major_code": "7140215",
+                "major_name": "Sư phạm Kỹ thuật Nông nghiệp"
+            },
+            {
+                "major_code": "7140217",
+                "major_name": "Sư phạm Ngữ văn"
+            },
+            {
+                "major_code": "7140218",
+                "major_name": "Sư phạm Lịch sử"
+            },
+            {
+                "major_code": "7140219",
+                "major_name": "Sư phạm Địa lý"
+            },
+            {
+                "major_code": "7140221",
+                "major_name": "Sư phạm Âm nhạc"
+            },
+            {
+                "major_code": "7140222",
+                "major_name": "Sư phạm Mỹ thuật"
+            },
+            {
+                "major_code": "7140231",
+                "major_name": "Sư phạm Tiếng Anh"
+            },
+            {
+                "major_code": "7140232",
+                "major_name": "Sư phạm Tiếng Nga"
+            },
+            {
+                "major_code": "7140233",
+                "major_name": "Sư phạm Tiếng Pháp"
+            },
+            {
+                "major_code": "7140234",
+                "major_name": "Sư phạm Tiếng Trung Quốc"
+            },
+            {
+                "major_code": "7140235",
+                "major_name": "Sư phạm Tiếng Đức"
+            },
+            {
+                "major_code": "7140236",
+                "major_name": "Sư phạm Tiếng Nhật"
+            },
+            {
+                "major_code": "7140237",
+                "major_name": "Sư phạm Tiếng Hàn Quốc"
+            },
+            {
+                "major_code": "7140245",
+                "major_name": "Sư phạm Nghệ thuật"
+            },
+            {
+                "major_code": "7140246",
+                "major_name": "Sư phạm Công nghệ"
+            },
+            {
+                "major_code": "7140247",
+                "major_name": "Sư phạm Khoa học tự nhiên"
+            },
+            {
+                "major_code": "7140248",
+                "major_name": "Giáo dục Pháp luật"
+            },
+            {
+                "major_code": "7140249",
+                "major_name": "Sư phạm Lịch sử - Địa lý"
+            },
+            {
+                "major_code": "7140250",
+                "major_name": "Sư phạm Tin học - Công nghệ"
+            }
+        ]
+    },
+    {
+        "group_id": "72101",
+        "group_name": "Năng khiếu Mỹ thuật",
+        "majors": [
+            {
+                "major_code": "7210101",
+                "major_name": "Lý luận lịch sử và Phê bình mỹ thuật"
+            },
+            {
+                "major_code": "7210103",
+                "major_name": "Hội họa"
+            },
+            {
+                "major_code": "7210104",
+                "major_name": "Đồ họa"
+            },
+            {
+                "major_code": "7210105",
+                "major_name": "Điêu khắc"
+            },
+            {
+                "major_code": "7210107",
+                "major_name": "Gốm"
+            },
+            {
+                "major_code": "7210110",
+                "major_name": "Mỹ thuật đô thị"
+            }
+        ]
+    },
+    {
+        "group_id": "72102",
+        "group_name": "Mỹ thuật đô thị",
+        "majors": [
+            {
+                "major_code": "72102",
+                "major_name": "Năng khiếu Trình diễn"
+            },
+            {
+                "major_code": "7210201",
+                "major_name": "Âm nhạc học"
+            },
+            {
+                "major_code": "7210203",
+                "major_name": "Sáng tác Âm nhạc"
+            },
+            {
+                "major_code": "7210204",
+                "major_name": "Chỉ huy Âm nhạc"
+            },
+            {
+                "major_code": "7210205",
+                "major_name": "Thanh nhạc"
+            },
+            {
+                "major_code": "7210207",
+                "major_name": "Biểu diễn nhạc cụ phương Tây"
+            },
+            {
+                "major_code": "7210208",
+                "major_name": "Piano"
+            },
+            {
+                "major_code": "7210209",
+                "major_name": "Nhạc Jazz"
+            },
+            {
+                "major_code": "7210210",
+                "major_name": "Biểu diễn nhạc cụ truyền thống"
+            },
+            {
+                "major_code": "7210221",
+                "major_name": "Lý luận, Lịch sử và Phê bình sân khấu"
+            },
+            {
+                "major_code": "7210225",
+                "major_name": "Biên kịch sân khấu"
+            },
+            {
+                "major_code": "7210226",
+                "major_name": "Diễn viên sân khấu kịch hát"
+            },
+            {
+                "major_code": "7210227",
+                "major_name": "Đạo diễn sân khấu"
+            },
+            {
+                "major_code": "7210231",
+                "major_name": "Lý luận, Lịch sử và Phê bình điện ảnh, truyền hình"
+            },
+            {
+                "major_code": "7210233",
+                "major_name": "Biên kịch điện ảnh, truyền hình"
+            },
+            {
+                "major_code": "7210234",
+                "major_name": "Diễn viên kịch, điện ảnh - truyền hình"
+            },
+            {
+                "major_code": "7210235",
+                "major_name": "Đạo diễn điện ảnh, truyền hình"
+            },
+            {
+                "major_code": "7210236",
+                "major_name": "Quay phim"
+            },
+            {
+                "major_code": "7210241",
+                "major_name": "Lý luận, Lịch sử và Phê bình múa"
+            },
+            {
+                "major_code": "7210242",
+                "major_name": "Diễn viên múa"
+            },
+            {
+                "major_code": "7210243",
+                "major_name": "Biên đạo múa"
+            },
+            {
+                "major_code": "7210244",
+                "major_name": "Huấn luyện múa"
+            }
+        ]
+    },
+    {
+        "group_id": "72103",
+        "group_name": "Năng khiếu nghe nhìn",
+        "majors": [
+            {
+                "major_code": "7210301",
+                "major_name": "Nhiếp ảnh"
+            },
+            {
+                "major_code": "7210302",
+                "major_name": "Công nghệ điện ảnh, truyền hình"
+            },
+            {
+                "major_code": "7210303",
+                "major_name": "Thiết kế âm thanh, ánh sáng"
+            }
+        ]
+    },
+    {
+        "group_id": "72104",
+        "group_name": "Năng khiếu Mỹ thuật ứng dụng",
+        "majors": [
+            {
+                "major_code": "7210402",
+                "major_name": "Thiết kế công nghiệp"
+            },
+            {
+                "major_code": "7210403",
+                "major_name": "Thiết kế đồ họa"
+            },
+            {
+                "major_code": "7210404",
+                "major_name": "Thiết kế thời trang"
+            },
+            {
+                "major_code": "7210406",
+                "major_name": "Thiết kế mỹ thuật sân khấu, điện ảnh"
+            },
+            {
+                "major_code": "7210408",
+                "major_name": "Nghệ thuật số (Digital Art)"
+            }
+        ]
+    },
+    {
+        "group_id": "72201",
+        "group_name": "Ngôn ngữ, Văn học và Văn hóa Việt Nam",
+        "majors": [
+            {
+                "major_code": "7220101",
+                "major_name": "Tiếng Việt và Văn hóa Việt Nam"
+            },
+            {
+                "major_code": "7220104",
+                "major_name": "Hán Nôm"
+            },
+            {
+                "major_code": "7220105",
+                "major_name": "Ngôn ngữ Jrai"
+            },
+            {
+                "major_code": "7220106",
+                "major_name": "Ngôn ngữ Khmer"
+            },
+            {
+                "major_code": "7220107",
+                "major_name": "Ngôn ngữ H'mông"
+            },
+            {
+                "major_code": "7220108",
+                "major_name": "Ngôn ngữ Chăm"
+            },
+            {
+                "major_code": "7220110",
+                "major_name": "Sáng tác Văn học"
+            },
+            {
+                "major_code": "7220112",
+                "major_name": "Văn hóa các dân tộc thiểu số Việt Nam"
+            }
+        ]
+    },
+    {
+        "group_id": "72202",
+        "group_name": "Ngôn ngữ, Văn học và Văn hóa nước ngoài",
+        "majors": [
+            {
+                "major_code": "7220201",
+                "major_name": "Ngôn ngữ Anh"
+            },
+            {
+                "major_code": "7220202",
+                "major_name": "Ngôn ngữ Nga"
+            },
+            {
+                "major_code": "7220203",
+                "major_name": "Ngôn ngữ Pháp"
+            },
+            {
+                "major_code": "7220204",
+                "major_name": "Ngôn ngữ Trung Quốc"
+            },
+            {
+                "major_code": "7220205",
+                "major_name": "Ngôn ngữ Đức"
+            },
+            {
+                "major_code": "7220206",
+                "major_name": "Ngôn ngữ Tây Ban Nha"
+            },
+            {
+                "major_code": "7220207",
+                "major_name": "Ngôn ngữ Bồ Đào Nha"
+            },
+            {
+                "major_code": "7220208",
+                "major_name": "Ngôn ngữ Italia"
+            },
+            {
+                "major_code": "7220209",
+                "major_name": "Ngôn ngữ Nhật"
+            },
+            {
+                "major_code": "7220210",
+                "major_name": "Ngôn ngữ Hàn Quốc"
+            },
+            {
+                "major_code": "7220211",
+                "major_name": "Ngôn ngữ Ả Rập"
+            },
+            {
+                "major_code": "7220212",
+                "major_name": "Ngôn ngữ Thái Lan"
+            }
+        ]
+    },
+    {
+        "group_id": "72290",
+        "group_name": "Khác",
+        "majors": [
+            {
+                "major_code": "7229001",
+                "major_name": "Triết học"
+            },
+            {
+                "major_code": "7229008",
+                "major_name": "Chủ nghĩa xã hội khoa học"
+            },
+            {
+                "major_code": "7229009",
+                "major_name": "Tôn giáo học"
+            },
+            {
+                "major_code": "7229010",
+                "major_name": "Lịch sử"
+            },
+            {
+                "major_code": "7229020",
+                "major_name": "Ngôn ngữ học"
+            },
+            {
+                "major_code": "7229030",
+                "major_name": "Văn học"
+            },
+            {
+                "major_code": "7229040",
+                "major_name": "Văn hóa học"
+            },
+            {
+                "major_code": "7229042",
+                "major_name": "Quản lý văn hóa"
+            },
+            {
+                "major_code": "7229045",
+                "major_name": "Gia đình học"
+            }
+        ]
+    },
+    {
+        "group_id": "73101",
+        "group_name": "Kinh tế học",
+        "majors": [
+            {
+                "major_code": "7310101",
+                "major_name": "Kinh tế"
+            },
+            {
+                "major_code": "7310102",
+                "major_name": "Kinh tế chính trị"
+            },
+            {
+                "major_code": "7310104",
+                "major_name": "Kinh tế đầu tư"
+            },
+            {
+                "major_code": "7310105",
+                "major_name": "Kinh tế phát triển"
+            },
+            {
+                "major_code": "7310106",
+                "major_name": "Kinh tế quốc tế"
+            },
+            {
+                "major_code": "7310107",
+                "major_name": "Thống kê kinh tế"
+            },
+            {
+                "major_code": "7310108",
+                "major_name": "Toán kinh tế"
+            },
+            {
+                "major_code": "7310109",
+                "major_name": "Kinh tế số"
+            },
+            {
+                "major_code": "7310110",
+                "major_name": "Quản lý kinh tế"
+            },
+            {
+                "major_code": "7310111",
+                "major_name": "Nghiên cứu phát triển"
+            }
+        ]
+    },
+    {
+        "group_id": "73102",
+        "group_name": "Khoa học chính trị",
+        "majors": [
+            {
+                "major_code": "7310201",
+                "major_name": "Chính trị học"
+            },
+            {
+                "major_code": "7310202",
+                "major_name": "Xây dựng Đảng và Chính quyền Nhà nước"
+            },
+            {
+                "major_code": "7310203",
+                "major_name": "Chính trị Công an nhân dân"
+            },
+            {
+                "major_code": "7310205",
+                "major_name": "Quản lý nhà nước"
+            },
+            {
+                "major_code": "7310206",
+                "major_name": "Quan hệ quốc tế"
+            }
+        ]
+    },
+    {
+        "group_id": "73103",
+        "group_name": "Xã hội học và nhân học",
+        "majors": [
+            {
+                "major_code": "7310301",
+                "major_name": "Xã hội học"
+            },
+            {
+                "major_code": "7310302",
+                "major_name": "Nhân học"
+            },
+            {
+                "major_code": "7310399",
+                "major_name": "Giới và Phát triển"
+            }
+        ]
+    },
+    {
+        "group_id": "73104",
+        "group_name": "Tâm lý học",
+        "majors": [
+            {
+                "major_code": "7310401",
+                "major_name": "Tâm lý học"
+            },
+            {
+                "major_code": "7310403",
+                "major_name": "Tâm lý học giáo dục"
+            }
+        ]
+    },
+    {
+        "group_id": "73105",
+        "group_name": "Địa lý học",
+        "majors": [
+            {
+                "major_code": "7310501",
+                "major_name": "Địa lý học"
+            }
+        ]
+    },
+    {
+        "group_id": "73106",
+        "group_name": "Khu vực học",
+        "majors": [
+            {
+                "major_code": "7310601",
+                "major_name": "Quốc tế học"
+            },
+            {
+                "major_code": "7310602",
+                "major_name": "Châu Á học"
+            },
+            {
+                "major_code": "7310607",
+                "major_name": "Thái Bình Dương học"
+            },
+            {
+                "major_code": "7310608",
+                "major_name": "Đông phương học"
+            },
+            {
+                "major_code": "7310612",
+                "major_name": "Trung Quốc học"
+            },
+            {
+                "major_code": "7310613",
+                "major_name": "Nhật Bản học"
+            },
+            {
+                "major_code": "7310614",
+                "major_name": "Hàn Quốc học"
+            },
+            {
+                "major_code": "7310620",
+                "major_name": "Đông Nam Á học"
+            },
+            {
+                "major_code": "7310630",
+                "major_name": "Việt Nam học"
+            },
+            {
+                "major_code": "7310640",
+                "major_name": "Hoa Kỳ học"
+            }
+        ]
+    },
+    {
+        "group_id": "73201",
+        "group_name": "Báo chí và truyền thông",
+        "majors": [
+            {
+                "major_code": "7320101",
+                "major_name": "Báo chí"
+            },
+            {
+                "major_code": "7320104",
+                "major_name": "Truyền thông đa phương tiện"
+            },
+            {
+                "major_code": "7320105",
+                "major_name": "Truyền thông đại chúng"
+            },
+            {
+                "major_code": "7320106",
+                "major_name": "Công nghệ truyền thông"
+            },
+            {
+                "major_code": "7320107",
+                "major_name": "Truyền thông quốc tế"
+            },
+            {
+                "major_code": "7320108",
+                "major_name": "Quan hệ công chúng"
+            },
+            {
+                "major_code": "7320109",
+                "major_name": "Truyền thông doanh nghiệp"
+            },
+            {
+                "major_code": "7320110",
+                "major_name": "Quảng cáo"
+            }
+        ]
+    },
+    {
+        "group_id": "73202",
+        "group_name": "Thông tin – Thư viện",
+        "majors": [
+            {
+                "major_code": "7320201",
+                "major_name": "Thông tin – Thư viện"
+            },
+            {
+                "major_code": "7320202",
+                "major_name": "Khoa học thư viện"
+            },
+            {
+                "major_code": "7320205",
+                "major_name": "Quản lý thông tin"
+            }
+        ]
+    },
+    {
+        "group_id": "73203",
+        "group_name": "Văn thư, lưu trữ, bảo tàng",
+        "majors": [
+            {
+                "major_code": "7320303",
+                "major_name": "Lưu trữ học"
+            },
+            {
+                "major_code": "7320305",
+                "major_name": "Bảo tàng học"
+            }
+        ]
+    },
+    {
+        "group_id": "73204",
+        "group_name": "Xuất bản, phát hành",
+        "majors": [
+            {
+                "major_code": "7320401",
+                "major_name": "Xuất bản"
+            },
+            {
+                "major_code": "7320402",
+                "major_name": "Kinh doanh xuất bản phẩm"
+            }
+        ]
+    },
+    {
+        "group_id": "73401",
+        "group_name": "Kinh doanh",
+        "majors": [
+            {
+                "major_code": "7340101",
+                "major_name": "Quản trị kinh doanh"
+            },
+            {
+                "major_code": "7340102",
+                "major_name": "Quản trị – Luật"
+            },
+            {
+                "major_code": "7340114",
+                "major_name": "Digital Marketing"
+            },
+            {
+                "major_code": "7340115",
+                "major_name": "Marketing"
+            },
+            {
+                "major_code": "7340116",
+                "major_name": "Bất động sản"
+            },
+            {
+                "major_code": "7340120",
+                "major_name": "Kinh doanh quốc tế"
+            },
+            {
+                "major_code": "7340121",
+                "major_name": "Kinh doanh thương mại"
+            },
+            {
+                "major_code": "7340122",
+                "major_name": "Thương mại điện tử"
+            },
+            {
+                "major_code": "7340123",
+                "major_name": "Kinh doanh thời trang và dệt may"
+            },
+            {
+                "major_code": "7340124",
+                "major_name": "Quản trị và kinh doanh quốc tế"
+            }
+        ]
+    },
+    {
+        "group_id": "73402",
+        "group_name": "Tài chính – Ngân hàng – Bảo hiểm",
+        "majors": [
+            {
+                "major_code": "7340201",
+                "major_name": "Tài chính – Ngân hàng"
+            },
+            {
+                "major_code": "7340202",
+                "major_name": "Bảo hiểm – Tài chính"
+            },
+            {
+                "major_code": "7340204",
+                "major_name": "Bảo hiểm"
+            },
+            {
+                "major_code": "7340205",
+                "major_name": "Công nghệ tài chính"
+            },
+            {
+                "major_code": "7340206",
+                "major_name": "Tài chính quốc tế"
+            }
+        ]
+    },
+    {
+        "group_id": "73403",
+        "group_name": "Kế toán – Kiểm toán",
+        "majors": [
+            {
+                "major_code": "7340301",
+                "major_name": "Kế toán"
+            },
+            {
+                "major_code": "7340302",
+                "major_name": "Kiểm toán"
+            }
+        ]
+    },
+    {
+        "group_id": "73404",
+        "group_name": "Quản trị – Quản lý",
+        "majors": [
+            {
+                "major_code": "7340401",
+                "major_name": "Khoa học quản lý"
+            },
+            {
+                "major_code": "7340403",
+                "major_name": "Quản lý công"
+            },
+            {
+                "major_code": "7340404",
+                "major_name": "Quản trị nhân lực"
+            },
+            {
+                "major_code": "7340405",
+                "major_name": "Hệ thống thông tin quản lý"
+            },
+            {
+                "major_code": "7340406",
+                "major_name": "Quản trị văn phòng"
+            },
+            {
+                "major_code": "7340408",
+                "major_name": "Quan hệ lao động"
+            },
+            {
+                "major_code": "7340409",
+                "major_name": "Quản lý dự án"
+            },
+            {
+                "major_code": "7340410",
+                "major_name": "Quản trị công nghệ truyền thông"
+            },
+            {
+                "major_code": "7340411",
+                "major_name": "Quản lý và phát triển nguồn nhân lực"
+            },
+            {
+                "major_code": "7340412",
+                "major_name": "Quản trị sự kiện"
+            },
+            {
+                "major_code": "7340415",
+                "major_name": "Kinh doanh số"
+            },
+            {
+                "major_code": "7340420",
+                "major_name": "Khoa học dữ liệu và phân tích kinh doanh"
+            }
+        ]
+    },
+    {
+        "group_id": "73490",
+        "group_name": "Khác",
+        "majors": [
+            {
+                "major_code": "7349004",
+                "major_name": "Phân tích dữ liệu kinh doanh"
+            }
+        ]
+    },
+    {
+        "group_id": "73801",
+        "group_name": "Luật",
+        "majors": [
+            {
+                "major_code": "7380101",
+                "major_name": "Luật"
+            },
+            {
+                "major_code": "7380102",
+                "major_name": "Luật hiến pháp và luật hành chính"
+            },
+            {
+                "major_code": "7380103",
+                "major_name": "Luật tố tụng và tố tụng dân sự"
+            },
+            {
+                "major_code": "7380104",
+                "major_name": "Luật hình sự và tố tụng hình sự"
+            },
+            {
+                "major_code": "7380107",
+                "major_name": "Luật kinh tế"
+            },
+            {
+                "major_code": "7380108",
+                "major_name": "Luật quốc tế"
+            },
+            {
+                "major_code": "7380109",
+                "major_name": "Luật thương mại quốc tế"
+            },
+            {
+                "major_code": "7380110",
+                "major_name": "Luật kinh doanh"
+            }
+        ]
+    },
+    {
+        "group_id": "74201",
+        "group_name": "Sinh học",
+        "majors": [
+            {
+                "major_code": "7420101",
+                "major_name": "Sinh học"
+            }
+        ]
+    },
+    {
+        "group_id": "74202",
+        "group_name": "Sinh học ứng dụng",
+        "majors": [
+            {
+                "major_code": "7420201",
+                "major_name": "Công nghệ Sinh học"
+            },
+            {
+                "major_code": "7420202",
+                "major_name": "Kỹ thuật Sinh học"
+            },
+            {
+                "major_code": "7420203",
+                "major_name": "Sinh học ứng dụng"
+            },
+            {
+                "major_code": "7420204",
+                "major_name": "Khoa học Y sinh"
+            },
+            {
+                "major_code": "7420205",
+                "major_name": "Công nghệ Sinh học Y dược"
+            },
+            {
+                "major_code": "7420207",
+                "major_name": "Công nghệ thẩm mỹ"
+            }
+        ]
+    },
+    {
+        "group_id": "74290",
+        "group_name": "Khác",
+        "majors": [
+            {
+                "major_code": "7429001",
+                "major_name": "Quản trị Công nghệ Sinh học"
+            }
+        ]
+    },
+    {
+        "group_id": "74401",
+        "group_name": "Khoa học vật chất",
+        "majors": [
+            {
+                "major_code": "7440101",
+                "major_name": "Thiên văn học"
+            },
+            {
+                "major_code": "7440102",
+                "major_name": "Vật lý học"
+            },
+            {
+                "major_code": "7440106",
+                "major_name": "Vật lý nguyên tử hạt nhân"
+            },
+            {
+                "major_code": "7440110",
+                "major_name": "Cơ học"
+            },
+            {
+                "major_code": "7440112",
+                "major_name": "Hóa học"
+            },
+            {
+                "major_code": "7440122",
+                "major_name": "Khoa học vật liệu"
+            }
+        ]
+    },
+    {
+        "group_id": "74402",
+        "group_name": "Khoa học trái đất",
+        "majors": [
+            {
+                "major_code": "7440201",
+                "major_name": "Địa chất học"
+            },
+            {
+                "major_code": "7440212",
+                "major_name": "Bản đồ học"
+            },
+            {
+                "major_code": "7440217",
+                "major_name": "Địa lý tự nhiên"
+            },
+            {
+                "major_code": "7440221",
+                "major_name": "Khí tượng và Khí hậu học"
+            },
+            {
+                "major_code": "7440224",
+                "major_name": "Thủy văn học"
+            },
+            {
+                "major_code": "7440228",
+                "major_name": "Hải dương học"
+            },
+            {
+                "major_code": "7440298",
+                "major_name": "Biến đổi khí hậu và phát triển bền vững"
+            }
+        ]
+    },
+    {
+        "group_id": "74403",
+        "group_name": "Khoa học môi trường",
+        "majors": [
+            {
+                "major_code": "7440301",
+                "major_name": "Khoa học môi trường"
+            }
+        ]
+    },
+    {
+        "group_id": "74601",
+        "group_name": "Toán học",
+        "majors": [
+            {
+                "major_code": "7460101",
+                "major_name": "Toán học"
+            },
+            {
+                "major_code": "7460107",
+                "major_name": "Khoa học tính toán"
+            },
+            {
+                "major_code": "7460108",
+                "major_name": "Khoa học dữ liệu"
+            },
+            {
+                "major_code": "7460112",
+                "major_name": "Toán ứng dụng"
+            },
+            {
+                "major_code": "7460115",
+                "major_name": "Toán cơ"
+            },
+            {
+                "major_code": "7460117",
+                "major_name": "Toán tin"
+            }
+        ]
+    },
+    {
+        "group_id": "74602",
+        "group_name": "Nhóm Thống kê",
+        "majors": [
+            {
+                "major_code": "7460201",
+                "major_name": "Thống kê"
+            }
+        ]
+    },
+    {
+        "group_id": "74801",
+        "group_name": "Máy tính",
+        "majors": [
+            {
+                "major_code": "7480101",
+                "major_name": "Khoa học máy tính"
+            },
+            {
+                "major_code": "7480102",
+                "major_name": "Mạng máy tính và Truyền thông dữ liệu"
+            },
+            {
+                "major_code": "7480103",
+                "major_name": "Kỹ thuật phần mềm"
+            },
+            {
+                "major_code": "7480104",
+                "major_name": "Hệ thống thông tin"
+            },
+            {
+                "major_code": "7480105",
+                "major_name": "Máy tính và Khoa học thông tin"
+            },
+            {
+                "major_code": "7480106",
+                "major_name": "Kỹ thuật máy tính"
+            },
+            {
+                "major_code": "7480107",
+                "major_name": "Trí tuệ nhân tạo"
+            },
+            {
+                "major_code": "7480108",
+                "major_name": "Công nghệ Kỹ thuật máy tính"
+            },
+            {
+                "major_code": "7480111",
+                "major_name": "Tin học và Kỹ thuật máy tính"
+            },
+            {
+                "major_code": "7480112",
+                "major_name": "Khoa học dữ liệu và Trí tuệ nhân tạo"
+            }
+        ]
+    },
+    {
+        "group_id": "74802",
+        "group_name": "Công nghệ thông tin",
+        "majors": [
+            {
+                "major_code": "7480201",
+                "major_name": "Công nghệ thông tin"
+            },
+            {
+                "major_code": "7480202",
+                "major_name": "An toàn thông tin"
+            },
+            {
+                "major_code": "7480203",
+                "major_name": "Công nghệ đa phương tiện"
+            },
+            {
+                "major_code": "7480204",
+                "major_name": "Khoa học và Kỹ thuật máy tính"
+            },
+            {
+                "major_code": "7480205",
+                "major_name": "Khoa học dữ liệu theo cơ chế đặc thù"
+            },
+            {
+                "major_code": "7480206",
+                "major_name": "Địa tin học"
+            }
+        ]
+    },
+    {
+        "group_id": "74890",
+        "group_name": "Khác",
+        "majors": [
+            {
+                "major_code": "7489001",
+                "major_name": "Công nghệ đổi mới sáng tạo"
+            }
+        ]
+    },
+    {
+        "group_id": "75101",
+        "group_name": "Công nghệ kỹ thuật kiến trúc và công trình xây dựng",
+        "majors": [
+            {
+                "major_code": "7510101",
+                "major_name": "Công nghệ Kỹ thuật Kiến trúc"
+            },
+            {
+                "major_code": "7510102",
+                "major_name": "Công nghệ Kỹ thuật Công trình xây dựng"
+            },
+            {
+                "major_code": "7510103",
+                "major_name": "Công nghệ Kỹ thuật Xây dựng"
+            },
+            {
+                "major_code": "7510104",
+                "major_name": "Công nghệ Kỹ thuật Giao thông"
+            },
+            {
+                "major_code": "7510105",
+                "major_name": "Công nghệ Kỹ thuật Vật liệu xây dựng"
+            },
+            {
+                "major_code": "7510106",
+                "major_name": "Hệ thống Kỹ thuật Công trình xây dựng"
+            }
+        ]
+    },
+    {
+        "group_id": "75102",
+        "group_name": "Công nghệ Kỹ thuật cơ khí",
+        "majors": [
+            {
+                "major_code": "7510201",
+                "major_name": "Công nghệ Kỹ thuật Cơ khí"
+            },
+            {
+                "major_code": "7510202",
+                "major_name": "Công nghệ Chế tạo máy"
+            },
+            {
+                "major_code": "7510203",
+                "major_name": "Công nghệ Kỹ thuật Cơ điện tử"
+            },
+            {
+                "major_code": "7510205",
+                "major_name": "Công nghệ Kỹ thuật Ô tô"
+            },
+            {
+                "major_code": "7510206",
+                "major_name": "Công nghệ Kỹ thuật Nhiệt"
+            },
+            {
+                "major_code": "7510207",
+                "major_name": "Công nghệ Kỹ thuật Tàu thủy"
+            },
+            {
+                "major_code": "7510208",
+                "major_name": "Năng lượng tái tạo"
+            },
+            {
+                "major_code": "7510209",
+                "major_name": "Robot và Trí tuệ nhân tạo"
+            },
+            {
+                "major_code": "7510210",
+                "major_name": "Điện lạnh và Điều hòa không khí"
+            },
+            {
+                "major_code": "7510211",
+                "major_name": "Bảo dưỡng Công nghiệp"
+            },
+            {
+                "major_code": "7510212",
+                "major_name": "Công nghệ Ô tô"
+            }
+        ]
+    },
+    {
+        "group_id": "75103",
+        "group_name": "Công nghệ Kỹ thuật điện, điện tử và viễn thông",
+        "majors": [
+            {
+                "major_code": "7510300",
+                "major_name": "Điện tử – Tin học công nghiệp"
+            },
+            {
+                "major_code": "7510301",
+                "major_name": "Công nghệ Kỹ thuật điện, điện tử"
+            },
+            {
+                "major_code": "7510302",
+                "major_name": "Công nghệ Kỹ thuật điện tử – viễn thông"
+            },
+            {
+                "major_code": "7510303",
+                "major_name": "Công nghệ Kỹ thuật điều khiển và tự động hóa"
+            },
+            {
+                "major_code": "7510304",
+                "major_name": "IoT và Trí tuệ nhân tạo ứng dụng"
+            }
+        ]
+    },
+    {
+        "group_id": "75104",
+        "group_name": "Công nghệ hóa học, vật liệu, luyện kim và môi trường",
+        "majors": [
+            {
+                "major_code": "7510401",
+                "major_name": "Công nghệ Kỹ thuật Hóa học"
+            },
+            {
+                "major_code": "7510402",
+                "major_name": "Công nghệ Vật liệu"
+            },
+            {
+                "major_code": "7510403",
+                "major_name": "Công nghệ Kỹ thuật Năng lượng"
+            },
+            {
+                "major_code": "7510406",
+                "major_name": "Công nghệ Kỹ thuật Môi trường"
+            },
+            {
+                "major_code": "7510407",
+                "major_name": "Công nghệ Kỹ thuật Hạt nhân"
+            }
+        ]
+    },
+    {
+        "group_id": "75106",
+        "group_name": "Quản lý công nghiệp",
+        "majors": [
+            {
+                "major_code": "7510601",
+                "major_name": "Quản lý Công nghiệp"
+            },
+            {
+                "major_code": "7510602",
+                "major_name": "Quản lý Năng lượng"
+            },
+            {
+                "major_code": "7510604",
+                "major_name": "Kinh tế Công nghiệp"
+            },
+            {
+                "major_code": "7510605",
+                "major_name": "Logistics và Quản lý chuỗi cung ứng"
+            },
+            {
+                "major_code": "7510606",
+                "major_name": "Quản trị Môi trường doanh nghiệp"
+            }
+        ]
+    },
+    {
+        "group_id": "75107",
+        "group_name": "Công nghệ dầu khí và khai thác",
+        "majors": [
+            {
+                "major_code": "7510701",
+                "major_name": "Công nghệ Dầu khí và Khai thác dầu"
+            }
+        ]
+    },
+    {
+        "group_id": "75108",
+        "group_name": "Công nghệ kỹ thuật in",
+        "majors": [
+            {
+                "major_code": "7510801",
+                "major_name": "Công nghệ Kỹ thuật in"
+            }
+        ]
+    },
+    {
+        "group_id": "75190",
+        "group_name": "Khác",
+        "majors": [
+            {
+                "major_code": "7519002",
+                "major_name": "Công nghệ Kỹ thuật khuôn mẫu"
+            },
+            {
+                "major_code": "7519004",
+                "major_name": "Thiết kế cơ khí và Kiểu dáng công nghiệp"
+            },
+            {
+                "major_code": "7519005",
+                "major_name": "Công nghệ Kỹ thuật Cơ điện tử ô tô"
+            },
+            {
+                "major_code": "7519007",
+                "major_name": "Công nghệ Kỹ thuật Năng lượng tái tạo"
+            }
+        ]
+    },
+    {
+        "group_id": "75201",
+        "group_name": "Nhóm Kỹ thuật cơ khí và cơ kỹ thuật",
+        "majors": [
+            {
+                "major_code": "7520101",
+                "major_name": "Cơ kỹ thuật"
+            },
+            {
+                "major_code": "7520103",
+                "major_name": "Kỹ thuật Cơ khí"
+            },
+            {
+                "major_code": "7520114",
+                "major_name": "Kỹ thuật Cơ điện tử"
+            },
+            {
+                "major_code": "7520115",
+                "major_name": "Kỹ thuật Nhiệt"
+            },
+            {
+                "major_code": "7520116",
+                "major_name": "Kỹ thuật Cơ khí động lực"
+            },
+            {
+                "major_code": "7520117",
+                "major_name": "Kỹ thuật Công nghiệp"
+            },
+            {
+                "major_code": "7520118",
+                "major_name": "Kỹ thuật Hệ thống công nghiệp"
+            },
+            {
+                "major_code": "7520119",
+                "major_name": "Cơ điện tử"
+            },
+            {
+                "major_code": "7520120",
+                "major_name": "Kỹ thuật Hàng không"
+            },
+            {
+                "major_code": "7520121",
+                "major_name": "Kỹ thuật Không gian"
+            },
+            {
+                "major_code": "7520122",
+                "major_name": "Kỹ thuật tàu thủy"
+            },
+            {
+                "major_code": "7520130",
+                "major_name": "Kỹ thuật ô tô"
+            },
+            {
+                "major_code": "7520137",
+                "major_name": "Kỹ thuật in"
+            },
+            {
+                "major_code": "7520138",
+                "major_name": "Kỹ thuật hàng hải"
+            },
+            {
+                "major_code": "7520141",
+                "major_name": "Công nghệ Ô tô điện"
+            }
+        ]
+    },
+    {
+        "group_id": "75202",
+        "group_name": "Kỹ thuật điện, điện tử và viễn thông",
+        "majors": [
+            {
+                "major_code": "7520201",
+                "major_name": "Kỹ thuật điện"
+            },
+            {
+                "major_code": "7520204",
+                "major_name": "Kỹ thuật ra đa – dẫn đường"
+            },
+            {
+                "major_code": "7520205",
+                "major_name": "Kỹ thuật thủy âm"
+            },
+            {
+                "major_code": "7520206",
+                "major_name": "Kỹ thuật biển"
+            },
+            {
+                "major_code": "7520207",
+                "major_name": "Kỹ thuật điện tử – viễn thông"
+            },
+            {
+                "major_code": "7520208",
+                "major_name": "Công nghệ Internet và vạn vật"
+            },
+            {
+                "major_code": "7520212",
+                "major_name": "Kỹ thuật y sinh"
+            },
+            {
+                "major_code": "7520216",
+                "major_name": "Kỹ thuật điều khiển và tự động hóa"
+            },
+            {
+                "major_code": "7520218",
+                "major_name": "Kỹ thuật Robot và Trí tuệ nhân tạo"
+            },
+            {
+                "major_code": "7520219",
+                "major_name": "Hệ thống giao thông thông minh"
+            }
+        ]
+    },
+    {
+        "group_id": "75203",
+        "group_name": "Kỹ thuật hóa học, vật liệu, luyện kim và môi trường",
+        "majors": [
+            {
+                "major_code": "7520301",
+                "major_name": "Kỹ thuật Hóa học"
+            },
+            {
+                "major_code": "7520309",
+                "major_name": "Kỹ thuật Vật liệu"
+            },
+            {
+                "major_code": "7520310",
+                "major_name": "Kỹ thuật Vật liệu kim loại"
+            },
+            {
+                "major_code": "7520312",
+                "major_name": "Kỹ thuật Dệt"
+            },
+            {
+                "major_code": "7520320",
+                "major_name": "Kỹ thuật Môi trường"
+            }
+        ]
+    },
+    {
+        "group_id": "75204",
+        "group_name": "Vật lý kỹ thuật",
+        "majors": [
+            {
+                "major_code": "7520401",
+                "major_name": "Vật lý Kỹ thuật"
+            },
+            {
+                "major_code": "7520402",
+                "major_name": "Kỹ thuật Hạt nhân"
+            },
+            {
+                "major_code": "7520403",
+                "major_name": "Vật lý Y khoa"
+            }
+        ]
+    },
+    {
+        "group_id": "75205",
+        "group_name": "Kỹ thuật địa chất, địa vật lý và trắc địa",
+        "majors": [
+            {
+                "major_code": "7520501",
+                "major_name": "Kỹ thuật địa chất"
+            },
+            {
+                "major_code": "7520502",
+                "major_name": "Kỹ thuật địa vật lý"
+            },
+            {
+                "major_code": "7520503",
+                "major_name": "Kỹ thuật trắc địa – bản đồ"
+            }
+        ]
+    },
+    {
+        "group_id": "75206",
+        "group_name": "Kỹ thuật mỏ",
+        "majors": [
+            {
+                "major_code": "7520601",
+                "major_name": "Kỹ thuật mỏ"
+            },
+            {
+                "major_code": "7520602",
+                "major_name": "Kỹ thuật thăm dò và khảo sát"
+            },
+            {
+                "major_code": "7520604",
+                "major_name": "Kỹ thuật dầu khí"
+            },
+            {
+                "major_code": "7520605",
+                "major_name": "Kỹ thuật Khí thiên nhiên"
+            },
+            {
+                "major_code": "7520606",
+                "major_name": "Công nghệ số trong thăm dò và Khai thác tài nguyên thiên nhiên"
+            },
+            {
+                "major_code": "7520607",
+                "major_name": "Kỹ thuật Tuyển khoáng"
+            }
+        ]
+    },
+    {
+        "group_id": "75401",
+        "group_name": "Chế biến lương thực, thực phẩm và đồ uống",
+        "majors": [
+            {
+                "major_code": "7540101",
+                "major_name": "Công nghệ thực phẩm"
+            },
+            {
+                "major_code": "7540102",
+                "major_name": "Kỹ thuật thực phẩm"
+            },
+            {
+                "major_code": "7540103",
+                "major_name": "Công nghệ hóa thực phẩm"
+            },
+            {
+                "major_code": "7540104",
+                "major_name": "Công nghệ sau thu hoạch"
+            },
+            {
+                "major_code": "7540105",
+                "major_name": "Công nghệ chế biến thủy sản"
+            },
+            {
+                "major_code": "7540106",
+                "major_name": "Đảm bảo chất lượng và an toàn thực phẩm"
+            },
+            {
+                "major_code": "7540108",
+                "major_name": "Công nghệ và Kinh doanh thực phẩm"
+            }
+        ]
+    },
+    {
+        "group_id": "75402",
+        "group_name": "Sản xuất, chế biến sợi, vải, giày, da",
+        "majors": [
+            {
+                "major_code": "7540202",
+                "major_name": "Công nghệ sợi, dệt"
+            },
+            {
+                "major_code": "7540203",
+                "major_name": "Công nghệ vật liệu dệt, may"
+            },
+            {
+                "major_code": "7540204",
+                "major_name": "Công nghệ dệt, may"
+            },
+            {
+                "major_code": "7540205",
+                "major_name": "Công nghệ may"
+            },
+            {
+                "major_code": "7540206",
+                "major_name": "Công nghệ da giày"
+            }
+        ]
+    },
+    {
+        "group_id": "75490",
+        "group_name": "Khác",
+        "majors": [
+            {
+                "major_code": "7549001",
+                "major_name": "Công nghệ chế biến lâm sản"
+            }
+        ]
+    },
+    {
+        "group_id": "75801",
+        "group_name": "Kiến trúc và quy hoạch",
+        "majors": [
+            {
+                "major_code": "7580101",
+                "major_name": "Kiến trúc"
+            },
+            {
+                "major_code": "7580102",
+                "major_name": "Kiến trúc cảnh quan"
+            },
+            {
+                "major_code": "7580103",
+                "major_name": "Kiến trúc nội thất"
+            },
+            {
+                "major_code": "7580104",
+                "major_name": "Kiến trúc đô thị"
+            },
+            {
+                "major_code": "7580105",
+                "major_name": "Quy hoạch vùng và đô thị"
+            },
+            {
+                "major_code": "7580106",
+                "major_name": "Quản lý đô thị và Công trình"
+            },
+            {
+                "major_code": "7580108",
+                "major_name": "Thiết kế nội thất"
+            },
+            {
+                "major_code": "7580111",
+                "major_name": "Bảo tồn di sản kiến trúc – Đô thị"
+            },
+            {
+                "major_code": "7580112",
+                "major_name": "Đô thị học"
+            }
+        ]
+    },
+    {
+        "group_id": "75802",
+        "group_name": "Xây dựng",
+        "majors": [
+            {
+                "major_code": "7580201",
+                "major_name": "Kỹ thuật xây dựng"
+            },
+            {
+                "major_code": "7580202",
+                "major_name": "Kỹ thuật xây dựng công trình thủy"
+            },
+            {
+                "major_code": "7580203",
+                "major_name": "Kỹ thuật xây dựng công trình biển"
+            },
+            {
+                "major_code": "7580204",
+                "major_name": "Kỹ thuật công trình ngầm thành phố và Hệ thống tàu điện ngầm"
+            },
+            {
+                "major_code": "7580205",
+                "major_name": "Kỹ thuật xây dựng công trình giao thông"
+            },
+            {
+                "major_code": "7580210",
+                "major_name": "Kỹ thuật cơ sở hạ tầng"
+            },
+            {
+                "major_code": "7580211",
+                "major_name": "Địa kỹ thuật xây dựng"
+            },
+            {
+                "major_code": "7580212",
+                "major_name": "Kỹ thuật tài nguyên nước"
+            },
+            {
+                "major_code": "7580213",
+                "major_name": "Kỹ thuật cấp thoát nước"
+            }
+        ]
+    },
+    {
+        "group_id": "75803",
+        "group_name": "Quản lý xây dựng",
+        "majors": [
+            {
+                "major_code": "7580301",
+                "major_name": "Kinh tế Xây dựng"
+            },
+            {
+                "major_code": "7580302",
+                "major_name": "Quản lý Xây dựng"
+            }
+        ]
+    },
+    {
+        "group_id": "76201",
+        "group_name": "Nông nghiệp",
+        "majors": [
+            {
+                "major_code": "7620101",
+                "major_name": "Nông nghiệp"
+            },
+            {
+                "major_code": "7620102",
+                "major_name": "Khuyến nông"
+            },
+            {
+                "major_code": "7620103",
+                "major_name": "Khoa học đất"
+            },
+            {
+                "major_code": "7620105",
+                "major_name": "Chăn nuôi"
+            },
+            {
+                "major_code": "7620106",
+                "major_name": "Chăn nuôi – Thú y"
+            },
+            {
+                "major_code": "7620108",
+                "major_name": "Phân bón và Dinh dưỡng cây trồng"
+            },
+            {
+                "major_code": "7620109",
+                "major_name": "Nông học"
+            },
+            {
+                "major_code": "7620110",
+                "major_name": "Khoa học cây trồng"
+            },
+            {
+                "major_code": "7620112",
+                "major_name": "Bảo vệ thực vật"
+            },
+            {
+                "major_code": "7620113",
+                "major_name": "Công nghệ rau hoa quả và cảnh quan"
+            },
+            {
+                "major_code": "7620114",
+                "major_name": "Kinh doanh nông nghiệp"
+            },
+            {
+                "major_code": "7620115",
+                "major_name": "Kinh tế nông nghiệp"
+            },
+            {
+                "major_code": "7620116",
+                "major_name": "Phát triển nông thôn"
+            },
+            {
+                "major_code": "7620118",
+                "major_name": "Nông nghiệp công nghệ cao"
+            },
+            {
+                "major_code": "7620119",
+                "major_name": "Kinh doanh và Khởi nghiệp nông thôn"
+            },
+            {
+                "major_code": "7620122",
+                "major_name": "Nông nghiệp thông minh và bền vững"
+            }
+        ]
+    },
+    {
+        "group_id": "76202",
+        "group_name": "Lâm nghiệp",
+        "majors": [
+            {
+                "major_code": "7620201",
+                "major_name": "Lâm học"
+            },
+            {
+                "major_code": "7620202",
+                "major_name": "Lâm nghiệp đô thị"
+            },
+            {
+                "major_code": "7620205",
+                "major_name": "Lâm sinh"
+            },
+            {
+                "major_code": "7620211",
+                "major_name": "Quản lý tài nguyên rừng"
+            }
+        ]
+    },
+    {
+        "group_id": "76203",
+        "group_name": "Thủy sản",
+        "majors": [
+            {
+                "major_code": "7620301",
+                "major_name": "Nuôi trồng thủy sản"
+            },
+            {
+                "major_code": "7620302",
+                "major_name": "Bệnh học thủy sản"
+            },
+            {
+                "major_code": "7620303",
+                "major_name": "Khoa học thủy sản"
+            },
+            {
+                "major_code": "7620304",
+                "major_name": "Khai thác thủy sản"
+            },
+            {
+                "major_code": "7620305",
+                "major_name": "Quản lý thủy sản"
+            }
+        ]
+    },
+    {
+        "group_id": "76401",
+        "group_name": "Thú y",
+        "majors": [
+            {
+                "major_code": "7640101",
+                "major_name": "Thú y"
+            }
+        ]
+    },
+    {
+        "group_id": "77201",
+        "group_name": "Y học",
+        "majors": [
+            {
+                "major_code": "7720101",
+                "major_name": "Y khoa"
+            },
+            {
+                "major_code": "7720110",
+                "major_name": "Y học dự phòng"
+            },
+            {
+                "major_code": "7720115",
+                "major_name": "Y học cổ truyền"
+            }
+        ]
+    },
+    {
+        "group_id": "77202",
+        "group_name": "Dược học",
+        "majors": [
+            {
+                "major_code": "7720201",
+                "major_name": "Dược học"
+            },
+            {
+                "major_code": "7720203",
+                "major_name": "Hóa dược"
+            }
+        ]
+    },
+    {
+        "group_id": "77203",
+        "group_name": "Điều dưỡng – hộ sinh",
+        "majors": [
+            {
+                "major_code": "7720301",
+                "major_name": "Điều dưỡng"
+            },
+            {
+                "major_code": "7720302",
+                "major_name": "Hộ sinh"
+            },
+            {
+                "major_code": "7720399",
+                "major_name": "Dụng cụ chỉnh hình chân tay giả"
+            }
+        ]
+    },
+    {
+        "group_id": "77204",
+        "group_name": "Dinh dưỡng",
+        "majors": [
+            {
+                "major_code": "7720401",
+                "major_name": "Dinh dưỡng"
+            },
+            {
+                "major_code": "7720497",
+                "major_name": "Dinh dưỡng và Khoa học thực phẩm"
+            }
+        ]
+    },
+    {
+        "group_id": "77205",
+        "group_name": "Răng – Hàm – Mặt (Nha khoa)",
+        "majors": [
+            {
+                "major_code": "7720501",
+                "major_name": "Răng – Hàm – Mặt"
+            },
+            {
+                "major_code": "7720502",
+                "major_name": "Kỹ thuật phục hình răng"
+            }
+        ]
+    },
+    {
+        "group_id": "77206",
+        "group_name": "Kỹ thuật Y học",
+        "majors": [
+            {
+                "major_code": "7720601",
+                "major_name": "Kỹ thuật Xét nghiệm Y học"
+            },
+            {
+                "major_code": "7720602",
+                "major_name": "Kỹ thuật Hình ảnh Y học"
+            },
+            {
+                "major_code": "7720603",
+                "major_name": "Kỹ thuật Phục hồi chức năng"
+            },
+            {
+                "major_code": "7720604",
+                "major_name": "Khúc xạ nhãn khoa"
+            }
+        ]
+    },
+    {
+        "group_id": "77207",
+        "group_name": "Y tế công cộng",
+        "majors": [
+            {
+                "major_code": "7720701",
+                "major_name": "Y tế công cộng"
+            }
+        ]
+    },
+    {
+        "group_id": "77208",
+        "group_name": "Quản lý y tế",
+        "majors": [
+            {
+                "major_code": "7720801",
+                "major_name": "Tổ chức và Quản lý y tế"
+            },
+            {
+                "major_code": "7720802",
+                "major_name": "Quản lý bệnh viện"
+            }
+        ]
+    },
+    {
+        "group_id": "77290",
+        "group_name": "Khác",
+        "majors": [
+            {
+                "major_code": "7729001",
+                "major_name": "Y sinh học Thể dục thể thao"
+            }
+        ]
+    },
+    {
+        "group_id": "77601",
+        "group_name": "Công tác xã hội",
+        "majors": [
+            {
+                "major_code": "7760101",
+                "major_name": "Công tác xã hội"
+            },
+            {
+                "major_code": "7760102",
+                "major_name": "Công tác thanh thiếu niên"
+            },
+            {
+                "major_code": "7760103",
+                "major_name": "Hỗ trợ giáo dục người khuyết tật"
+            },
+            {
+                "major_code": "7760104",
+                "major_name": "Dân số và Phát triển"
+            }
+        ]
+    },
+    {
+        "group_id": "78101",
+        "group_name": "Du lịch",
+        "majors": [
+            {
+                "major_code": "7810101",
+                "major_name": "Du lịch"
+            },
+            {
+                "major_code": "7810102",
+                "major_name": "Du lịch Điện tử"
+            },
+            {
+                "major_code": "7810103",
+                "major_name": "Quản trị Dịch vụ du lịch và Lữ hành"
+            },
+            {
+                "major_code": "7810105",
+                "major_name": "Du lịch Địa chất"
+            },
+            {
+                "major_code": "7810106",
+                "major_name": "Văn hóa Du lịch"
+            }
+        ]
+    },
+    {
+        "group_id": "78102",
+        "group_name": "Khách sạn, nhà hàng",
+        "majors": [
+            {
+                "major_code": "7810201",
+                "major_name": "Quản trị Khách sạn"
+            },
+            {
+                "major_code": "7810202",
+                "major_name": "Quản trị Nhà hàng và Dịch vụ ăn uống"
+            },
+            {
+                "major_code": "7810203",
+                "major_name": "Quản trị Khách sạn – Nhà hàng"
+            }
+        ]
+    },
+    {
+        "group_id": "78103",
+        "group_name": "Thể dục, thể thao",
+        "majors": [
+            {
+                "major_code": "7810301",
+                "major_name": "Quản lý thể dục thể thao"
+            },
+            {
+                "major_code": "7810302",
+                "major_name": "Huấn luyện thể thao"
+            }
+        ]
+    },
+    {
+        "group_id": "78105",
+        "group_name": "Kinh tế gia đình",
+        "majors": [
+            {
+                "major_code": "7810501",
+                "major_name": "Kinh tế gia đình"
+            }
+        ]
+    },
+    {
+        "group_id": "78190",
+        "group_name": "Khác",
+        "majors": [
+            {
+                "major_code": "7819009",
+                "major_name": "Khoa học Dinh dưỡng và Ẩm thực"
+            },
+            {
+                "major_code": "7819010",
+                "major_name": "Khoa học Chế biến món ăn"
+            }
+        ]
+    },
+    {
+        "group_id": "78401",
+        "group_name": "Khai thác vận tải",
+        "majors": [
+            {
+                "major_code": "7840101",
+                "major_name": "Khai thác vận tải"
+            },
+            {
+                "major_code": "7840102",
+                "major_name": "Quản lý hoạt động bay"
+            },
+            {
+                "major_code": "7840104",
+                "major_name": "Kinh tế vận tải"
+            },
+            {
+                "major_code": "7840106",
+                "major_name": "Khoa học hàng hải"
+            }
+        ]
+    },
+    {
+        "group_id": "78501",
+        "group_name": "Quản lý tài nguyên và môi trường",
+        "majors": [
+            {
+                "major_code": "7850101",
+                "major_name": "Quản lý tài nguyên và môi trường"
+            },
+            {
+                "major_code": "7850102",
+                "major_name": "Kinh tế tài nguyên thiên nhiên"
+            },
+            {
+                "major_code": "7850103",
+                "major_name": "Quản lý đất đai"
+            },
+            {
+                "major_code": "7850104",
+                "major_name": "Du lịch sinh thái"
+            },
+            {
+                "major_code": "7850106",
+                "major_name": "Quản lý tài nguyên thiên nhiên"
+            },
+            {
+                "major_code": "7850195",
+                "major_name": "Quản lý tổng hợp tài nguyên nước"
+            },
+            {
+                "major_code": "7850196",
+                "major_name": "Quản lý tài nguyên khoáng sản"
+            },
+            {
+                "major_code": "7850197",
+                "major_name": "Quản lý tài nguyên và môi trường biển đảo"
+            },
+            {
+                "major_code": "7850198",
+                "major_name": "Quản lý tài nguyên nước"
+            },
+            {
+                "major_code": "7850199",
+                "major_name": "Quản lý biển"
+            }
+        ]
+    },
+    {
+        "group_id": "78502",
+        "group_name": "Dịch vụ an toàn lao động và vệ sinh công nghiệp",
+        "majors": [
+            {
+                "major_code": "7850201",
+                "major_name": "Bảo hộ lao động"
+            }
+        ]
+    },
+    {
+        "group_id": "78590",
+        "group_name": "Khác",
+        "majors": [
+            {
+                "major_code": "7859002",
+                "major_name": "Tài nguyên và Du lịch sinh thái"
+            },
+            {
+                "major_code": "7859007",
+                "major_name": "Cảnh quan và Kỹ thuật hoa viên"
+            }
+        ]
+    },
+    {
+        "group_id": "78601",
+        "group_name": "An ninh và trật tự xã hội",
+        "majors": [
+            {
+                "major_code": "7860100",
+                "major_name": "Nghiệp vụ an ninh"
+            },
+            {
+                "major_code": "7860101",
+                "major_name": "Trinh sát an ninh"
+            },
+            {
+                "major_code": "7860102",
+                "major_name": "Điều tra trinh sát"
+            },
+            {
+                "major_code": "7860103",
+                "major_name": "Trinh sát kỹ thuật"
+            },
+            {
+                "major_code": "7860104",
+                "major_name": "Điều tra hình sự"
+            },
+            {
+                "major_code": "7860105",
+                "major_name": "Nghiệp vụ cảnh sát"
+            },
+            {
+                "major_code": "7860107",
+                "major_name": "Kỹ thuật Công an nhân dân"
+            },
+            {
+                "major_code": "7860108",
+                "major_name": "Kỹ thuật hình sự"
+            },
+            {
+                "major_code": "7860109",
+                "major_name": "Quản lý nhà nước về trật tự an ninh"
+            },
+            {
+                "major_code": "7860110",
+                "major_name": "Quản lý trật tự an toàn giao thông"
+            },
+            {
+                "major_code": "7860111",
+                "major_name": "Thi hành án hình sự và hỗ trợ tư pháp"
+            },
+            {
+                "major_code": "7860112",
+                "major_name": "Tham mưu, chỉ huy vũ trang bảo vệ an ninh"
+            },
+            {
+                "major_code": "7860113",
+                "major_name": "Phòng cháy chữa cháy và cứu hộ cứu nạn"
+            },
+            {
+                "major_code": "7860116",
+                "major_name": "Hậu cần công an nhân dân"
+            },
+            {
+                "major_code": "7860117",
+                "major_name": "Tình báo an ninh"
+            }
+        ]
+    },
+    {
+        "group_id": "78602",
+        "group_name": "Quân sự",
+        "majors": [
+            {
+                "major_code": "7860201",
+                "major_name": "Chỉ huy tham mưu Lục quân"
+            },
+            {
+                "major_code": "7860202",
+                "major_name": "Chỉ huy tham mưu Hải quân"
+            },
+            {
+                "major_code": "7860203",
+                "major_name": "Chỉ huy tham mưu Không quân"
+            },
+            {
+                "major_code": "7860204",
+                "major_name": "Chỉ huy tham mưu Phòng không"
+            },
+            {
+                "major_code": "7860205",
+                "major_name": "Chỉ huy tham mưu Pháo binh"
+            },
+            {
+                "major_code": "7860206",
+                "major_name": "Chỉ huy tham mưu Tăng - thiết giáp"
+            },
+            {
+                "major_code": "7860207",
+                "major_name": "Chỉ huy tham mưu Đặc công"
+            },
+            {
+                "major_code": "7860214",
+                "major_name": "Biên phòng"
+            },
+            {
+                "major_code": "7860217",
+                "major_name": "Tình báo quân sự"
+            },
+            {
+                "major_code": "7860218",
+                "major_name": "Hậu cần quân sự"
+            },
+            {
+                "major_code": "7860219",
+                "major_name": "Chỉ huy, tham mưu thông tin"
+            },
+            {
+                "major_code": "7860220",
+                "major_name": "Chỉ huy, quản lý kỹ thuật"
+            },
+            {
+                "major_code": "7860222",
+                "major_name": "Quân sự cơ sở"
+            },
+            {
+                "major_code": "7860226",
+                "major_name": "Chỉ huy kỹ thuật Phòng không"
+            },
+            {
+                "major_code": "7860227",
+                "major_name": "Chỉ huy kỹ thuật Tăng - thiết giáp"
+            },
+            {
+                "major_code": "7860228",
+                "major_name": "Chỉ huy kỹ thuật công binh"
+            },
+            {
+                "major_code": "7860229",
+                "major_name": "Chỉ huy kỹ thuật hóa học"
+            },
+            {
+                "major_code": "7860231",
+                "major_name": "Trinh sát kỹ thuật"
+            },
+            {
+                "major_code": "7860232",
+                "major_name": "Chỉ huy kỹ thuật Hải quân"
+            },
+            {
+                "major_code": "7860233",
+                "major_name": "Chỉ huy kỹ thuật tác chiến điện tử"
+            }
+        ]
+    },
+    {
+        "group_id": "790",
+        "group_name": "Khác",
+        "majors": [
+            {
+                "major_code": "7900101",
+                "major_name": "Quản trị doanh nghiệp và Công nghệ"
+            },
+            {
+                "major_code": "7900102",
+                "major_name": "Marketing và Truyền thông"
+            },
+            {
+                "major_code": "7900103",
+                "major_name": "Quản trị nhân lực và nhân tài"
+            },
+            {
+                "major_code": "7900189",
+                "major_name": "Quản trị và An ninh"
+            }
+        ]
+    }
 ]
