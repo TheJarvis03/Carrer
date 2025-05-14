@@ -1,11 +1,19 @@
 const mongoose = require('mongoose');
 
 const admissionScoreSchema = new mongoose.Schema({
-    university: {
+    major_name: {
         type: String,
         required: true,
     },
     major_code: {
+        type: String,
+        required: true,
+    },
+    school_name: {
+        type: String,
+        required: true,
+    },
+    school_code: {
         type: String,
         required: true,
     },

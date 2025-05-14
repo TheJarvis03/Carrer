@@ -142,9 +142,13 @@ const Navigation = () => {
 
             const { schools, majors } = suggestions;
             if (schools.length > majors.length) {
-                navigate(`/school?q=${encodeURIComponent(searchQuery.trim())}`);
+                navigate(
+                    `/search/schools?q=${encodeURIComponent(searchQuery.trim())}`,
+                );
             } else {
-                navigate(`/major?q=${encodeURIComponent(searchQuery.trim())}`);
+                navigate(
+                    `/search/majors?q=${encodeURIComponent(searchQuery.trim())}`,
+                );
             }
         }
     };
@@ -153,9 +157,9 @@ const Navigation = () => {
         setShowSuggestions(false);
         setSearchQuery('');
         if (type === 'school') {
-            navigate(`/school/${item.code}`);
+            navigate(`/school/detail/${item.code}`);
         } else {
-            navigate(`/major/${item.code}`);
+            navigate(`/major/detail/${item.code}`);
         }
     };
 

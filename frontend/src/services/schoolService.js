@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/search/schools';
+const API_URL = 'http://localhost:5000/api/schools';
 
 export const schoolService = {
     getAll: async () => {
@@ -8,39 +8,23 @@ export const schoolService = {
             const res = await axios.get(API_URL);
             console.log('API Response:', res.data);
 
-            // Trường hợp API trả về mảng trực tiếp
-            if (Array.isArray(res.data)) {
+            // Kiểm tra dữ liệu trả về
+            if (res.data && res.data.data) {
                 return {
                     success: true,
-                    data: res.data.map((school) => ({
-                        id: school.id || school.school_id,
-                        name: school.name || school.school_name,
-                        location: school.location || school.school_location,
-                        type: school.type || school.school_type,
-                        ownership: school.ownership || school.school_ownership,
-                    })),
-                };
-            }
-
-            // Trường hợp API bọc mảng trong object có success/data
-            const { success, data } = res.data;
-
-            if (success && Array.isArray(data)) {
-                return {
-                    success: true,
-                    data: data.map((school) => ({
-                        id: school.id || school.school_id,
-                        name: school.name || school.school_name,
-                        location: school.location || school.school_location,
-                        type: school.type || school.school_type,
-                        ownership: school.ownership || school.school_ownership,
+                    data: res.data.data.map((school) => ({
+                        id: school.school_id, // Thay đổi school_code thành school_id
+                        school_name: school.school_name,
+                        location: school.location,
+                        school_img: school.school_img, // Thay đổi img thành school_img
+                        ownership: school.ownership,
                     })),
                 };
             }
 
             return {
                 success: false,
-                error: 'No data received or invalid format',
+                error: 'Invalid data format',
             };
         } catch (error) {
             console.error('Error fetching schools:', error);

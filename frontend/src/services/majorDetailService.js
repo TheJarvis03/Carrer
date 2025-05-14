@@ -22,17 +22,11 @@ export const majorDetailService = {
     getMajorDetailByCode: async (code) => {
         try {
             const response = await axios.get(`${API_URL}/${code}`);
-            console.log('API Response:', response); // Debug log
-
-            // Kiểm tra và xử lý response
-            if (!response.data) {
-                throw new Error('Invalid response data');
-            }
-
-            return response.data; // Trả về trực tiếp dữ liệu nhận được
+            console.log('API response:', response);
+            return response.data;
         } catch (error) {
-            console.error('API Error:', error);
-            throw error;
+            console.error('Service error:', error);
+            return null;
         }
     },
 };

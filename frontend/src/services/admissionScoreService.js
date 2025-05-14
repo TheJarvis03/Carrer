@@ -14,8 +14,9 @@ export const admissionScoreService = {
                     data: data.map((score) => ({
                         _id: score._id,
                         major_name: score.major_name,
-                        university: score.university,
                         major_code: score.major_code,
+                        school_name: score.school_name,
+                        school_code: score.school_code,
                         subject_group: score.subject_group,
                         score: score.score,
                         note: score.note,

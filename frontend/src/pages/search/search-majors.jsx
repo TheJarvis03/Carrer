@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import '../../styles/pages/search-majors.css';
 import { majorService } from '../../services/majorService';
 
-const ITEMS_PER_PAGE = 6;
+const ITEMS_PER_PAGE = 10;
 
 const SearchMajorsPage = () => {
     const [searchQuery, setSearchQuery] = useState('');
@@ -22,6 +22,7 @@ const SearchMajorsPage = () => {
         totalItems: 0,
         itemsPerPage: ITEMS_PER_PAGE,
     });
+    const [error, setError] = useState('');
 
     const filterOptions = {
         examGroups: [
@@ -185,59 +186,44 @@ const SearchMajorsPage = () => {
         return majors.slice(startIndex, endIndex);
     };
 
-    const handleSearch = (e) => {
+    const handleSearch = async (e) => {
         e.preventDefault();
+        setLoading(true);
+        setError('');
 
         try {
-            let results = [...originalMajors];
-            const query = searchQuery.trim();
-
-            if (query) {
-                results = results.filter(
-                    (major) =>
-                        major.major_name
-                            .toLowerCase()
-                            .includes(query.toLowerCase()) ||
-                        major.code
-                            ?.toString()
-                            .toLowerCase()
-                            .includes(query.toLowerCase()) ||
-                        major.group_name
-                            ?.toLowerCase()
-                            .includes(query.toLowerCase()) ||
-                        major.exam_groups?.some((group) =>
-                            group.toLowerCase().includes(query.toLowerCase()),
+            if (searchQuery.trim()) {
+                const response = await majorService.searchMajors(searchQuery);
+                if (response.success) {
+                    setMajors(response.data);
+                    setPagination((prev) => ({
+                        ...prev,
+                        currentPage: 1,
+                        totalItems: response.data.length,
+                        totalPages: Math.ceil(
+                            response.data.length / ITEMS_PER_PAGE,
                         ),
-                );
+                    }));
+                } else {
+                    throw new Error(response.error || 'Lỗi tìm kiếm');
+                }
+            } else {
+                setMajors(originalMajors);
+                setPagination((prev) => ({
+                    ...prev,
+                    currentPage: 1,
+                    totalItems: originalMajors.length,
+                    totalPages: Math.ceil(
+                        originalMajors.length / ITEMS_PER_PAGE,
+                    ),
+                }));
             }
-
-            // Combine with current filters
-            if (filters.field !== 'all') {
-                results = results.filter(
-                    (major) => major.group_id === filters.field,
-                );
-            }
-            if (filters.examGroup !== 'all') {
-                results = results.filter((major) =>
-                    major.exam_groups?.includes(filters.examGroup),
-                );
-            }
-            if (filters.opportunity !== 'all') {
-                results = results.filter(
-                    (major) => major.job_opportunity === filters.opportunity,
-                );
-            }
-
-            setMajors(results);
-            setPagination((prev) => ({
-                ...prev,
-                currentPage: 1,
-                totalItems: results.length,
-                totalPages: Math.ceil(results.length / ITEMS_PER_PAGE),
-            }));
         } catch (error) {
             console.error('Search error:', error);
+            setError(error.message);
             setMajors([]);
+        } finally {
+            setLoading(false);
         }
     };
 
@@ -372,6 +358,12 @@ const SearchMajorsPage = () => {
                     </aside>
 
                     <div className="sma-results-panel">
+                        {error && (
+                            <div className="sma-error-message">
+                                <i className="fas fa-exclamation-circle"></i>
+                                {error}
+                            </div>
+                        )}
                         <div className="sma-results-header">
                             <div className="sma-results-count">
                                 Tìm thấy <strong>{majors.length}</strong> ngành
@@ -396,7 +388,7 @@ const SearchMajorsPage = () => {
                                                     {major.major_name}
                                                 </h4>
                                                 <span className="sma-major-code">
-                                                    Mã: {major.code}
+                                                    Mã ngành: {major.code}
                                                 </span>
                                             </div>
                                             <div className="sma-major-content">
@@ -409,22 +401,20 @@ const SearchMajorsPage = () => {
                                                             {major.group_name}
                                                         </span>
                                                     </p>
-                                                </div>
-                                                <div
-                                                    className={`sma-job-opportunity ${major.job_opportunity}`}
-                                                >
-                                                    <span className="label">
-                                                        Cơ hội việc làm
-                                                    </span>
-                                                    <span className="value">
-                                                        {major.job_opportunity ===
-                                                        'high'
-                                                            ? 'Cao'
-                                                            : major.job_opportunity ===
-                                                                'medium'
-                                                              ? 'Trung bình'
-                                                              : 'Thấp'}
-                                                    </span>
+                                                    {major.exam_groups &&
+                                                        major.exam_groups
+                                                            .length > 0 && (
+                                                            <p className="sma-major-row">
+                                                                <span className="label">
+                                                                    Khối thi:
+                                                                </span>
+                                                                <span className="value">
+                                                                    {major.exam_groups.join(
+                                                                        ', ',
+                                                                    )}
+                                                                </span>
+                                                            </p>
+                                                        )}
                                                 </div>
                                             </div>
                                         </Link>

@@ -338,13 +338,13 @@ const SearchScoresPage = () => {
                                             <tr key={score._id || index}>
                                                 <td
                                                     className="truncate"
-                                                    title={score.university}
+                                                    title={score.school_name}
                                                 >
                                                     <Link
-                                                        to={`/school/${score.major_code}`}
+                                                        to={`/school/detail/${score.school_code}`}
                                                         className="school-link"
                                                     >
-                                                        {score.university}
+                                                        {score.school_name}
                                                     </Link>
                                                 </td>
                                                 <td>{score.major_code}</td>

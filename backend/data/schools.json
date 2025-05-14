@@ -1,2291 +1,3081 @@
 [
     {
-        "school_name": "Đại Học Bách Khoa Hà Nội",
         "school_id": "BKA",
+        "school_name": "Đại Học Bách Khoa Hà Nội",
         "location": "Hà Nội",
         "school_type": "Đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FBKA.jpg&w=256&q=75"
     },
     {
-        "school_name": "Đại Học Đà Nẵng",
-        "school_id": "E",
-        "location": "Đà Nẵng",
-        "school_type": "Đại học",
-        "ownership": "Công lập"
-    },
-    {
-        "school_name": "Đại Học Huế",
-        "school_id": "D",
-        "location": "Thừa Thiên Huế",
-        "school_type": "Đại học",
-        "ownership": "Công lập"
-    },
-    {
-        "school_name": "Đại Học Kinh Tế Tp. Hồ Chí Minh",
         "school_id": "KSA",
+        "school_name": "Đại Học Kinh Tế Tp. Hồ Chí Minh",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FKSA.jpg&w=256&q=75"
     },
     {
-        "school_name": "Đại Học Quốc Gia Hà Nội",
-        "school_id": "A",
-        "location": "Hà Nội",
-        "school_type": "Đại học",
-        "ownership": "Công lập"
-    },
-    {
-        "school_name": "Đại Học Quốc Gia Tp. Hồ Chí Minh",
-        "school_id": "C",
-        "location": "TP. Hồ Chí Minh",
-        "school_type": "Đại học",
-        "ownership": "Công lập"
-    },
-    {
-        "school_name": "Đại Học Thái Nguyên",
-        "school_id": "B",
-        "location": "Thái Nguyên",
-        "school_type": "Đại học",
-        "ownership": "Công lập"
-    },
-    {
-        "school_name": "Đại Học Y Dược Tp. Hồ Chí Minh",
         "school_id": "YDS",
+        "school_name": "Đại Học Y Dược Tp. Hồ Chí Minh",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FYDS.jpg&w=256&q=75"
     },
     {
-        "school_name": "Học Viện Âm Nhạc Huế",
         "school_id": "HVA",
+        "school_name": "Học Viện Âm Nhạc Huế",
         "location": "Thừa Thiên Huế",
         "school_type": "Học viện",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FHVA.jpg&w=256&q=75"
     },
     {
-        "school_name": "Học Viện Âm Nhạc Quốc Gia Việt Nam",
         "school_id": "NVH",
+        "school_name": "Học Viện Âm Nhạc Quốc Gia Việt Nam",
         "location": "Hà Nội",
         "school_type": "Học viện",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FNVH.png&w=256&q=75"
     },
     {
-        "school_name": "Học Viện Báo Chí Và Tuyên Truyền",
         "school_id": "HBT",
+        "school_name": "Học Viện Báo Chí Và Tuyên Truyền",
         "location": "Hà Nội",
         "school_type": "Học viện",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FHBT.jpg&w=256&q=75"
     },
     {
-        "school_name": "Học Viện Cán Bộ Thành Phố Hồ Chí Minh",
         "school_id": "HVC",
+        "school_name": "Học Viện Cán Bộ Thành Phố Hồ Chí Minh",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đào tạo, bồi dưỡng",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FHVC.png&w=256&q=75"
     },
     {
-        "school_name": "Học Viện Công Nghệ Bưu Chính Viễn Thông",
         "school_id": "BVH",
+        "school_name": "Học Viện Công Nghệ Bưu Chính Viễn Thông",
         "location": "Hà Nội",
         "school_type": "Học viện",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FBVH.png&w=256&q=75"
     },
     {
-        "school_name": "Học Viện Chính Sách Và Phát Triển",
         "school_id": "HCP",
+        "school_name": "Học Viện Chính Sách Và Phát Triển",
         "location": "Hà Nội",
         "school_type": "Học viện",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FHCP.jpg&w=256&q=75"
     },
     {
-        "school_name": "Học Viện Chính Trị Khu Vực I",
         "school_id": "HCC",
+        "school_name": "Học Viện Chính Trị Khu Vực I",
         "location": "Hà Nội",
         "school_type": "Trường đào tạo, bồi dưỡng",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Học Viện Chính Trị Quốc Gia Hồ Chí Minh",
         "school_id": "HVH",
+        "school_name": "Học Viện Chính Trị Quốc Gia Hồ Chí Minh",
         "location": "Hà Nội",
         "school_type": "Trường đào tạo, bồi dưỡng",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Học Viện Dân Tộc",
         "school_id": "HVD",
+        "school_name": "Học Viện Dân Tộc",
         "location": "Hà Nội",
         "school_type": "Trường đào tạo, bồi dưỡng",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FHVD.jpg&w=256&q=75"
     },
     {
-        "school_name": "Học Viện Hàng Không Việt Nam",
         "school_id": "HHK",
+        "school_name": "Học Viện Hàng Không Việt Nam",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Học viện",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FHHK.png&w=256&q=75"
     },
     {
-        "school_name": "Học Viện Hành Chính Quốc Gia",
         "school_id": "HCH",
+        "school_name": "Học Viện Hành Chính Quốc Gia",
         "location": "Hà Nội",
         "school_type": "Trường đào tạo, bồi dưỡng",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FHCH.jpg&w=256&q=75"
     },
     {
-        "school_name": "Học Viện Khoa Học Và Công Nghệ",
         "school_id": "HKC",
+        "school_name": "Học Viện Khoa Học Và Công Nghệ",
         "location": "Hà Nội",
         "school_type": "Trường đào tạo, bồi dưỡng",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Học Viện Khoa Học Xã Hội",
         "school_id": "HXH",
+        "school_name": "Học Viện Khoa Học Xã Hội",
         "location": "Hà Nội",
         "school_type": "Trường đào tạo, bồi dưỡng",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Học Viện Khoa Học, Công Nghệ Và Đổi Mới Sáng Tạo",
         "school_id": "V24",
+        "school_name": "Học Viện Khoa Học, Công Nghệ Và Đổi Mới Sáng Tạo",
         "location": "Hà Nội",
         "school_type": "Trường đào tạo, bồi dưỡng",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Học Viện Múa Việt Nam",
         "school_id": "CMH",
+        "school_name": "Học Viện Múa Việt Nam",
         "location": "Hà Nội",
         "school_type": "Học viện",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Học Viện Nông Nghiệp Việt Nam",
         "school_id": "HVN",
+        "school_name": "Học Viện Nông Nghiệp Việt Nam",
         "location": "Hà Nội",
         "school_type": "Học viện",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FHVN.jpg&w=256&q=75"
     },
     {
-        "school_name": "Học Viện Ngân Hàng",
         "school_id": "NHH",
+        "school_name": "Học Viện Ngân Hàng",
         "location": "Hà Nội",
         "school_type": "Học viện",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FNHH.jpg&w=256&q=75"
     },
     {
-        "school_name": "Học Viện Ngoại Giao",
         "school_id": "HQT",
+        "school_name": "Học Viện Ngoại Giao",
         "location": "Hà Nội",
         "school_type": "Học viện",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FHQT.jpg&w=256&q=75"
     },
     {
-        "school_name": "Học Viện Phụ Nữ Việt Nam",
         "school_id": "HPN",
+        "school_name": "Học Viện Phụ Nữ Việt Nam",
         "location": "Hà Nội",
         "school_type": "Học viện",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FHPN.jpg&w=256&q=75"
     },
     {
-        "school_name": "Học Viện Quản Lý Giáo Dục",
         "school_id": "HVQ",
+        "school_name": "Học Viện Quản Lý Giáo Dục",
         "location": "Hà Nội",
         "school_type": "Học viện",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FHVQ.png&w=256&q=75"
     },
     {
-        "school_name": "Học Viện Tài Chính",
         "school_id": "HTC",
+        "school_name": "Học Viện Tài Chính",
         "location": "Hà Nội",
         "school_type": "Học viện",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FHTC.png&w=256&q=75"
     },
     {
-        "school_name": "Học Viện Toà Án",
         "school_id": "HTA",
+        "school_name": "Học Viện Toà Án",
         "location": "Hà Nội",
         "school_type": "Học viện",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FHTA.jpg&w=256&q=75"
     },
     {
-        "school_name": "Học Viện Thanh Thiếu Niên Việt Nam",
         "school_id": "HTN",
+        "school_name": "Học Viện Thanh Thiếu Niên Việt Nam",
         "location": "Hà Nội",
         "school_type": "Học viện",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FHTN.png&w=256&q=75"
     },
     {
-        "school_name": "Học Viện Y Dược Học Cổ Truyền Việt Nam",
         "school_id": "HYD",
+        "school_name": "Học Viện Y Dược Học Cổ Truyền Việt Nam",
         "location": "Hà Nội",
         "school_type": "Học viện",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FHYD.jpg&w=256&q=75"
     },
     {
-        "school_name": "Nhạc Viện Tp. Hồ Chí Minh",
         "school_id": "NVS",
+        "school_name": "Nhạc Viện Tp. Hồ Chí Minh",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Học viện",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FNVS.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Cao Đẳng Bắc Kạn",
         "school_id": "C11",
+        "school_name": "Trường Cao Đẳng Bắc Kạn",
         "location": "Bắc Kạn",
         "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Cao Đẳng Bến Tre",
         "school_id": "C56",
+        "school_name": "Trường Cao Đẳng Bến Tre",
         "location": "Bến Tre",
         "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Cao Đẳng Bình Định",
         "school_id": "C37",
+        "school_name": "Trường Cao Đẳng Bình Định",
         "location": "Bình Định",
         "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Cao Đẳng Bình Phước",
         "school_id": "C43",
+        "school_name": "Trường Cao Đẳng Bình Phước",
         "location": "Bình Phước",
         "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Cao Đẳng Cần Thơ",
         "school_id": "C55",
+        "school_name": "Trường Cao Đẳng Cần Thơ",
         "location": "Cần Thơ",
         "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Cao Đẳng Cộng Đồng Bình Thuận",
         "school_id": "C47",
+        "school_name": "Trường Cao Đẳng Cộng Đồng Bình Thuận",
         "location": "Bình Thuận",
         "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Cao Đẳng Cộng Đồng Cà Mau",
         "school_id": "D61",
+        "school_name": "Trường Cao Đẳng Cộng Đồng Cà Mau",
         "location": "Cà Mau",
         "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Cao Đẳng Cộng Đồng Hà Nội",
         "school_id": "CHN",
+        "school_name": "Trường Cao Đẳng Cộng Đồng Hà Nội",
         "location": "Hà Nội",
         "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Cao Đẳng Cộng Đồng Hậu Giang",
         "school_id": "D64",
+        "school_name": "Trường Cao Đẳng Cộng Đồng Hậu Giang",
         "location": "Hậu Giang",
         "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Cao Đẳng Cộng Đồng Hưng Yên",
         "school_id": "C22",
+        "school_name": "Trường Cao Đẳng Cộng Đồng Hưng Yên",
         "location": "Hưng Yên",
         "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Cao Đẳng Cộng Đồng Kon Tum",
         "school_id": "C36",
+        "school_name": "Trường Cao Đẳng Cộng Đồng Kon Tum",
         "location": "Kon Tum",
         "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Cao Đẳng Cộng Đồng Lai Châu",
         "school_id": "CLC",
+        "school_name": "Trường Cao Đẳng Cộng Đồng Lai Châu",
         "location": "Lai Châu",
         "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Cao Đẳng Cộng Đồng Sóc Trăng",
         "school_id": "CST",
+        "school_name": "Trường Cao Đẳng Cộng Đồng Sóc Trăng",
         "location": "Sóc Trăng",
         "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Cao Đẳng Cộng Đồng Vĩnh Long",
         "school_id": "D57",
+        "school_name": "Trường Cao Đẳng Cộng Đồng Vĩnh Long",
         "location": "Vĩnh Long",
         "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Cao Đẳng Đà Lạt",
         "school_id": "C42",
+        "school_name": "Trường Cao Đẳng Đà Lạt",
         "location": "Lâm Đồng",
         "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Cao Đẳng Đại Việt Sài Gòn",
         "school_id": 219,
+        "school_name": "Trường Cao Đẳng Đại Việt Sài Gòn",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Cao đẳng",
         "ownership": "Tư thục"
     },
     {
-        "school_name": "Trường Cao Đẳng Hải Dương",
         "school_id": "C21",
+        "school_name": "Trường Cao Đẳng Hải Dương",
         "location": "Hải Dương",
         "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Cao Đẳng Ngô Gia Tự Bắc Giang",
         "school_id": "C18",
+        "school_name": "Trường Cao Đẳng Ngô Gia Tự Bắc Giang",
         "location": "Bắc Giang",
         "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Cao Đẳng Sơn La",
         "school_id": "C14",
+        "school_name": "Trường Cao Đẳng Sơn La",
         "location": "Sơn La",
         "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Cao Đẳng Sư Phạm Bà Rịa-vũng Tàu",
         "school_id": "C52",
+        "school_name": "Trường Cao Đẳng Sư Phạm Bà Rịa-vũng Tàu",
         "location": "Bà Rịa - Vũng Tàu",
         "school_type": "Trường cao đẳng sư phạm",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Cao Đẳng Sư Phạm Bắc Ninh",
         "school_id": "C19",
+        "school_name": "Trường Cao Đẳng Sư Phạm Bắc Ninh",
         "location": "Bắc Ninh",
         "school_type": "Trường cao đẳng sư phạm",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Cao Đẳng Sư Phạm Cao Bằng",
         "school_id": "C06",
+        "school_name": "Trường Cao Đẳng Sư Phạm Cao Bằng",
         "location": "Cao Bằng",
         "school_type": "Trường cao đẳng sư phạm",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Cao Đẳng Sư Phạm Đắk Lắk",
         "school_id": "C40",
+        "school_name": "Trường Cao Đẳng Sư Phạm Đắk Lắk",
         "location": "Đắk Lắk",
         "school_type": "Trường cao đẳng sư phạm",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Cao Đẳng Sư Phạm Điện Biên",
         "school_id": "C62",
+        "school_name": "Trường Cao Đẳng Sư Phạm Điện Biên",
         "location": "Điện Biên",
         "school_type": "Trường cao đẳng sư phạm",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Cao Đẳng Sư Phạm Gia Lai",
         "school_id": "C38",
+        "school_name": "Trường Cao Đẳng Sư Phạm Gia Lai",
         "location": "Gia Lai",
         "school_type": "Trường cao đẳng sư phạm",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Cao Đẳng Sư Phạm Hà Giang",
         "school_id": "C05",
+        "school_name": "Trường Cao Đẳng Sư Phạm Hà Giang",
         "location": "Hà Giang",
         "school_type": "Trường cao đẳng sư phạm",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Cao Đẳng Sư Phạm Hà Tây",
         "school_id": "C20",
+        "school_name": "Trường Cao Đẳng Sư Phạm Hà Tây",
         "location": "Hà Nội",
         "school_type": "Trường cao đẳng sư phạm",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Cao Đẳng Sư Phạm Hoà Bình",
         "school_id": "C23",
+        "school_name": "Trường Cao Đẳng Sư Phạm Hoà Bình",
         "location": "Hoà Bình",
         "school_type": "Trường cao đẳng sư phạm",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Cao Đẳng Sư Phạm Kiên Giang",
         "school_id": "C54",
+        "school_name": "Trường Cao Đẳng Sư Phạm Kiên Giang",
         "location": "Kiên Giang",
         "school_type": "Trường cao đẳng sư phạm",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Cao Đẳng Sư Phạm Lạng Sơn",
         "school_id": "C10",
+        "school_name": "Trường Cao Đẳng Sư Phạm Lạng Sơn",
         "location": "Lạng Sơn",
         "school_type": "Trường cao đẳng sư phạm",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Cao Đẳng Sư Phạm Long An",
         "school_id": "C49",
+        "school_name": "Trường Cao Đẳng Sư Phạm Long An",
         "location": "Long An",
         "school_type": "Trường cao đẳng sư phạm",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Cao Đẳng Sư Phạm Nam Định",
         "school_id": "C25",
+        "school_name": "Trường Cao Đẳng Sư Phạm Nam Định",
         "location": "Nam Định",
         "school_type": "Trường cao đẳng sư phạm",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Cao Đẳng Sư Phạm Nghệ An",
         "school_id": "C29",
+        "school_name": "Trường Cao Đẳng Sư Phạm Nghệ An",
         "location": "Nghệ An",
         "school_type": "Trường cao đẳng sư phạm",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Cao Đẳng Sư Phạm Quảng Trị",
         "school_id": "C32",
+        "school_name": "Trường Cao Đẳng Sư Phạm Quảng Trị",
         "location": "Quảng Trị",
         "school_type": "Trường cao đẳng sư phạm",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Cao Đẳng Sư Phạm Tây Ninh",
         "school_id": "C46",
+        "school_name": "Trường Cao Đẳng Sư Phạm Tây Ninh",
         "location": "Tây Ninh",
         "school_type": "Trường cao đẳng sư phạm",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Cao Đẳng Sư Phạm Thái Bình",
         "school_id": "C26",
+        "school_name": "Trường Cao Đẳng Sư Phạm Thái Bình",
         "location": "Thái Bình",
         "school_type": "Trường cao đẳng sư phạm",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Cao Đẳng Sư Phạm Thừa Thiên Huế",
         "school_id": "C33",
+        "school_name": "Trường Cao Đẳng Sư Phạm Thừa Thiên Huế",
         "location": "Thừa Thiên Huế",
         "school_type": "Trường cao đẳng sư phạm",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Cao Đẳng Sư Phạm Trung Ương",
         "school_id": "CM1",
+        "school_name": "Trường Cao Đẳng Sư Phạm Trung Ương",
         "location": "Hà Nội",
         "school_type": "Trường cao đẳng sư phạm",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Cao Đẳng Sư Phạm Trung Ương Nha Trang",
         "school_id": "CM2",
+        "school_name": "Trường Cao Đẳng Sư Phạm Trung Ương Nha Trang",
         "location": "Khánh Hoà",
         "school_type": "Trường cao đẳng sư phạm",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Cao Đẳng Sư Phạm Trung Ương Tp.hồ Chí Minh",
         "school_id": "CM3",
+        "school_name": "Trường Cao Đẳng Sư Phạm Trung Ương Tp.hồ Chí Minh",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường cao đẳng sư phạm",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Cao Đẳng Sư Phạm Yên Bái",
         "school_id": "C13",
+        "school_name": "Trường Cao Đẳng Sư Phạm Yên Bái",
         "location": "Yên Bái",
         "school_type": "Trường cao đẳng sư phạm",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Cao Đẳng Vĩnh Long",
         "school_id": "C57",
+        "school_name": "Trường Cao Đẳng Vĩnh Long",
         "location": "Vĩnh Long",
         "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Cao Đẳng Vĩnh Phúc",
         "school_id": "C16",
+        "school_name": "Trường Cao Đẳng Vĩnh Phúc",
         "location": "Vĩnh Phúc",
         "school_type": "Trường cao đẳng đào tạo ngành Giáo dục mầm non",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Đại Học An Giang - Đại Học Quốc Gia Tp. Hồ Chí Minh",
         "school_id": "TAG",
+        "school_name": "Trường Đại Học An Giang - Đại Học Quốc Gia Tp. Hồ Chí Minh",
         "location": "An Giang",
         "school_type": "Trường đại học",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Đại Học Anh Quốc - Việt Nam",
         "school_id": "BUV",
+        "school_name": "Trường Đại Học Anh Quốc - Việt Nam",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Nước ngoài"
+        "ownership": "Nước ngoài",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FBUV.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Bà Rịa - Vũng Tàu",
         "school_id": "BVU",
+        "school_name": "Trường Đại Học Bà Rịa - Vũng Tàu",
         "location": "Bà Rịa - Vũng Tàu",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FBVU.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Bạc Liêu",
         "school_id": "DBL",
+        "school_name": "Trường Đại Học Bạc Liêu",
         "location": "Bạc Liêu",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDBL.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Bách Khoa - Đại Học Quốc Gia Tp. Hồ Chí Minh",
         "school_id": "QSB",
+        "school_name": "Trường Đại Học Bách Khoa - Đại Học Quốc Gia Tp. Hồ Chí Minh",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FQSB.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Bách Khoa, Đại Học Đà Nẵng",
         "school_id": "DDK",
+        "school_name": "Trường Đại Học Bách Khoa, Đại Học Đà Nẵng",
         "location": "Đà Nẵng",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDDK.jpeg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Bình Dương",
         "school_id": "DBD",
+        "school_name": "Trường Đại Học Bình Dương",
         "location": "Bình Dương",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDBD.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Cần Thơ",
         "school_id": "TCT",
+        "school_name": "Trường Đại Học Cần Thơ",
         "location": "Cần Thơ",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FTCT.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Cmc",
         "school_id": "MCA",
+        "school_name": "Trường Đại Học Cmc",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
         "ownership": "Tư thục"
     },
     {
-        "school_name": "Trường Đại Học Công Đoàn",
         "school_id": "LDA",
+        "school_name": "Trường Đại Học Công Đoàn",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FLDA.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Công Nghệ - Đại Học Quốc Gia Hà Nội",
         "school_id": "QHI",
+        "school_name": "Trường Đại Học Công Nghệ - Đại Học Quốc Gia Hà Nội",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FQHI.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Công Nghệ Đồng Nai",
         "school_id": "DCD",
+        "school_name": "Trường Đại Học Công Nghệ Đồng Nai",
         "location": "Đồng Nai",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDCD.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Công Nghệ Đông Á",
         "school_id": "DDA",
+        "school_name": "Trường Đại Học Công Nghệ Đông Á",
         "location": "Bắc Ninh",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDDA.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Công Nghệ Giao Thông Vận Tải",
         "school_id": "GTA",
+        "school_name": "Trường Đại Học Công Nghệ Giao Thông Vận Tải",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FGTA.bmp&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Công Nghệ Miền Đông",
         "school_id": "DMD",
+        "school_name": "Trường Đại Học Công Nghệ Miền Đông",
         "location": "Đồng Nai",
         "school_type": "Trường đại học",
         "ownership": "Tư thục"
     },
     {
-        "school_name": "Trường Đại Học Công Nghệ Sài Gòn",
         "school_id": "DSG",
+        "school_name": "Trường Đại Học Công Nghệ Sài Gòn",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đại học",
-        "ownership": "Dân lập"
+        "ownership": "Dân lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDSG.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Công Nghệ Tp. Hồ Chí Minh",
         "school_id": "DKC",
+        "school_name": "Trường Đại Học Công Nghệ Tp. Hồ Chí Minh",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDKC.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Công Nghệ Thông Tin - Đại Học Quốc Gia Tp. Hồ Chí Minh",
         "school_id": "QSC",
+        "school_name": "Trường Đại Học Công Nghệ Thông Tin - Đại Học Quốc Gia Tp. Hồ Chí Minh",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FQSC.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Công Nghệ Thông Tin Và Truyền Thông Việt Hàn, Đại Học Đà Nẵng",
         "school_id": "VKU",
+        "school_name": "Trường Đại Học Công Nghệ Thông Tin Và Truyền Thông Việt Hàn, Đại Học Đà Nẵng",
         "location": "Đà Nẵng",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=https%3A%2F%2Fimages.tuyensinh247.com%2Fpicture%2Fdiemthi%2Fts247%2Fimages%2Fvku.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Công Nghệ Thông Tin Và Truyền Thông, Đại Học Thái Nguyên",
         "school_id": "DTC",
+        "school_name": "Trường Đại Học Công Nghệ Thông Tin Và Truyền Thông, Đại Học Thái Nguyên",
         "location": "Thái Nguyên",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDTC.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Công Nghệ Và Quản Lý Hữu Nghị",
         "school_id": "DCQ",
+        "school_name": "Trường Đại Học Công Nghệ Và Quản Lý Hữu Nghị",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDCQ.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Công Nghệ Vạn Xuân",
         "school_id": "DVX",
+        "school_name": "Trường Đại Học Công Nghệ Vạn Xuân",
         "location": "Nghệ An",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDVX.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Công Nghiệp Dệt May Hà Nội",
         "school_id": "CCM",
+        "school_name": "Trường Đại Học Công Nghiệp Dệt May Hà Nội",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FCCM.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Công Nghiệp Hà Nội",
         "school_id": "DCN",
+        "school_name": "Trường Đại Học Công Nghiệp Hà Nội",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDCN.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Công Nghiệp Quảng Ninh",
         "school_id": "DDM",
+        "school_name": "Trường Đại Học Công Nghiệp Quảng Ninh",
         "location": "Quảng Ninh",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDDM.bmp&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Công Nghiệp Tp. Hồ Chí Minh",
         "school_id": "HUI",
+        "school_name": "Trường Đại Học Công Nghiệp Tp. Hồ Chí Minh",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đại học",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Đại Học Công Nghiệp Việt - Hung",
         "school_id": "VHD",
+        "school_name": "Trường Đại Học Công Nghiệp Việt - Hung",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FVHD.bmp&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Công Nghiệp Việt Trì",
         "school_id": "VUI",
+        "school_name": "Trường Đại Học Công Nghiệp Việt Trì",
         "location": "Phú Thọ",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FVUI.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Công Nghiệp Vinh",
         "school_id": "DCV",
+        "school_name": "Trường Đại Học Công Nghiệp Vinh",
         "location": "Nghệ An",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDCV.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Công Thương Tp. Hồ Chí Minh",
         "school_id": "DCT",
+        "school_name": "Trường Đại Học Công Thương Tp. Hồ Chí Minh",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDCT.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Cửu Long",
         "school_id": "DCL",
+        "school_name": "Trường Đại Học Cửu Long",
         "location": "Vĩnh Long",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDCL.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Chu Văn An",
         "school_id": "DCA",
+        "school_name": "Trường Đại Học Chu Văn An",
         "location": "Hưng Yên",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDCA.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Dầu Khí Việt Nam",
         "school_id": "PVU",
+        "school_name": "Trường Đại Học Dầu Khí Việt Nam",
         "location": "Bà Rịa - Vũng Tàu",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FPVU.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Dân Lập Phương Đông",
         "school_id": "DPD",
+        "school_name": "Trường Đại Học Dân Lập Phương Đông",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Dân lập"
+        "ownership": "Dân lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDPD.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Duy Tân",
         "school_id": "DDT",
+        "school_name": "Trường Đại Học Duy Tân",
         "location": "Đà Nẵng",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDDT.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Dược Hà Nội",
         "school_id": "DKH",
+        "school_name": "Trường Đại Học Dược Hà Nội",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDKH.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Đà Lạt",
         "school_id": "TDL",
+        "school_name": "Trường Đại Học Đà Lạt",
         "location": "Lâm Đồng",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FTDL.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Đại Nam",
         "school_id": "DDN",
+        "school_name": "Trường Đại Học Đại Nam",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDDN.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Điện Lực",
         "school_id": "DDL",
+        "school_name": "Trường Đại Học Điện Lực",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDDL.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Điều Dưỡng Nam Định",
         "school_id": "YDD",
+        "school_name": "Trường Đại Học Điều Dưỡng Nam Định",
         "location": "Nam Định",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FYDD.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Đồng Nai",
         "school_id": "DNU",
+        "school_name": "Trường Đại Học Đồng Nai",
         "location": "Đồng Nai",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDNU.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Đồng Tháp",
         "school_id": "SPD",
+        "school_name": "Trường Đại Học Đồng Tháp",
         "location": "Đồng Tháp",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FSPD.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Đông Á",
         "school_id": "DAD",
+        "school_name": "Trường Đại Học Đông Á",
         "location": "Đà Nẵng",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDAD.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Đông Đô",
-        "school_id": "DDD",
-        "location": "Hà Nội",
-        "school_type": "Trường đại học",
-        "ownership": "Tư thục"
-    },
-    {
-        "school_name": "Trường Đại Học Fpt",
         "school_id": "FPT",
+        "school_name": "Trường Đại Học Fpt",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FFPT.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Fulbright Việt Nam",
         "school_id": "FUV",
+        "school_name": "Trường Đại Học Fulbright Việt Nam",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đại học",
         "ownership": "Nước ngoài"
     },
     {
-        "school_name": "Trường Đại Học Gia Định",
-        "school_id": "DCG",
-        "location": "TP. Hồ Chí Minh",
-        "school_type": "Trường đại học",
-        "ownership": "Tư thục"
-    },
-    {
-        "school_name": "Trường Đại Học Giáo Dục - Đại Học Quốc Gia Hà Nội",
         "school_id": "QHS",
+        "school_name": "Trường Đại Học Giáo Dục - Đại Học Quốc Gia Hà Nội",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FQHS.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Giao Thông Vận Tải",
         "school_id": "GHA",
+        "school_name": "Trường Đại Học Giao Thông Vận Tải",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FGHA.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Giao Thông Vận Tải Tp. Hồ Chí Minh",
         "school_id": "GTS",
+        "school_name": "Trường Đại Học Giao Thông Vận Tải Tp. Hồ Chí Minh",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=https%3A%2F%2Fimages.tuyensinh247.com%2Fpicture%2Fdiemthi%2Fts247%2Fimages%2Fgts.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Hà Hoa Tiên",
         "school_id": "DHH",
+        "school_name": "Trường Đại Học Hà Hoa Tiên",
         "location": "Hà Nam",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=https%3A%2F%2Fimages.tuyensinh247.com%2Fpicture%2Fdiemthi%2Fts247%2Fimages%2Fdhh.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Hạ Long",
         "school_id": "HLU",
+        "school_name": "Trường Đại Học Hạ Long",
         "location": "Quảng Ninh",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FHLU.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Hà Nội",
         "school_id": "NHF",
+        "school_name": "Trường Đại Học Hà Nội",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FNHF.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Hà Tĩnh",
         "school_id": "HHT",
+        "school_name": "Trường Đại Học Hà Tĩnh",
         "location": "Hà Tĩnh",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FHHT.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Hải Dương",
         "school_id": "DKT",
+        "school_name": "Trường Đại Học Hải Dương",
         "location": "Hải Dương",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDKT.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Hải Phòng",
         "school_id": "THP",
+        "school_name": "Trường Đại Học Hải Phòng",
         "location": "Hải Phòng",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FTHP.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Hàng Hải Việt Nam",
         "school_id": "HHA",
+        "school_name": "Trường Đại Học Hàng Hải Việt Nam",
         "location": "Hải Phòng",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FHHA.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Hoà Bình",
         "school_id": "ETU",
+        "school_name": "Trường Đại Học Hoà Bình",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FETU.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Hoa Lư",
         "school_id": "DNB",
+        "school_name": "Trường Đại Học Hoa Lư",
         "location": "Ninh Bình",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDNB.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Hoa Sen",
         "school_id": "HSU",
+        "school_name": "Trường Đại Học Hoa Sen",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FHSU.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Hồng Đức",
         "school_id": "HDT",
+        "school_name": "Trường Đại Học Hồng Đức",
         "location": "Thanh Hóa",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=https%3A%2F%2Fimages.tuyensinh247.com%2Fpicture%2Fdiemthi%2Fts247%2Fimages%2Fhdt.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Hùng Vương",
         "school_id": "THV",
+        "school_name": "Trường Đại Học Hùng Vương",
         "location": "Phú Thọ",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FTHV.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Hùng Vương - Tp. Hồ Chí Minh",
         "school_id": "DHV",
+        "school_name": "Trường Đại Học Hùng Vương - Tp. Hồ Chí Minh",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDHV.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Kiểm Sát Hà Nội",
         "school_id": "DKS",
+        "school_name": "Trường Đại Học Kiểm Sát Hà Nội",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDKS.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Kiến Trúc Đà Nẵng",
         "school_id": "KTD",
+        "school_name": "Trường Đại Học Kiến Trúc Đà Nẵng",
         "location": "Đà Nẵng",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FKTD.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Kiến Trúc Hà Nội",
         "school_id": "KTA",
+        "school_name": "Trường Đại Học Kiến Trúc Hà Nội",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FKTA.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Kiến Trúc Tp. Hồ Chí Minh",
         "school_id": "KTS",
+        "school_name": "Trường Đại Học Kiến Trúc Tp. Hồ Chí Minh",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FKTS.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Kiên Giang",
         "school_id": "TKG",
+        "school_name": "Trường Đại Học Kiên Giang",
         "location": "Kiên Giang",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FTKG.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Kinh Bắc",
         "school_id": "UKB",
+        "school_name": "Trường Đại Học Kinh Bắc",
         "location": "Bắc Ninh",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FUKB.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Kinh Doanh Và Công Nghệ Hà Nội",
         "school_id": "DQK",
+        "school_name": "Trường Đại Học Kinh Doanh Và Công Nghệ Hà Nội",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDQK.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Kinh Tế - Công Nghệ Thái Nguyên",
         "school_id": "DVB",
+        "school_name": "Trường Đại Học Kinh Tế - Công Nghệ Thái Nguyên",
         "location": "Thái Nguyên",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDVB.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Kinh Tế - Đại Học Quốc Gia Hà Nội",
         "school_id": "QHE",
+        "school_name": "Trường Đại Học Kinh Tế - Đại Học Quốc Gia Hà Nội",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FQHE.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Kinh Tế - Kỹ Thuật Bình Dương",
         "school_id": "DKB",
+        "school_name": "Trường Đại Học Kinh Tế - Kỹ Thuật Bình Dương",
         "location": "Bình Dương",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDKB.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Kinh Tế - Luật - Đại Học Quốc Gia Tp. Hồ Chí Minh",
         "school_id": "QSK",
+        "school_name": "Trường Đại Học Kinh Tế - Luật - Đại Học Quốc Gia Tp. Hồ Chí Minh",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FQSK.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Kinh Tế - Tài Chính Tp. Hồ Chí Minh",
         "school_id": "UEF",
+        "school_name": "Trường Đại Học Kinh Tế - Tài Chính Tp. Hồ Chí Minh",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FUEF.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Kinh Tế Công Nghiệp Long An",
         "school_id": "DLA",
+        "school_name": "Trường Đại Học Kinh Tế Công Nghiệp Long An",
         "location": "Long An",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDLA.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Kinh Tế Kỹ Thuật Công Nghiệp",
         "school_id": "DKK",
+        "school_name": "Trường Đại Học Kinh Tế Kỹ Thuật Công Nghiệp",
         "location": "Nam Định",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDKK.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Kinh Tế Nghệ An",
         "school_id": "CEA",
+        "school_name": "Trường Đại Học Kinh Tế Nghệ An",
         "location": "Nghệ An",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FCEA.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Kinh Tế Quốc Dân",
         "school_id": "KHA",
+        "school_name": "Trường Đại Học Kinh Tế Quốc Dân",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FKHA.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Kinh Tế Và Quản Trị Kinh Doanh, Đại Học Thái Nguyên",
         "school_id": "DTE",
+        "school_name": "Trường Đại Học Kinh Tế Và Quản Trị Kinh Doanh, Đại Học Thái Nguyên",
         "location": "Thái Nguyên",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDTE.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Kinh Tế, Đại Học Huế",
         "school_id": "DHK",
+        "school_name": "Trường Đại Học Kinh Tế, Đại Học Huế",
         "location": "Thừa Thiên Huế",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDHK.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Kỹ Thuật - Công Nghệ Cần Thơ",
         "school_id": "KCC",
+        "school_name": "Trường Đại Học Kỹ Thuật - Công Nghệ Cần Thơ",
         "location": "Cần Thơ",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FKCC.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Kỹ Thuật Công Nghiệp, Đại Học Thái Nguyên",
         "school_id": "DTK",
+        "school_name": "Trường Đại Học Kỹ Thuật Công Nghiệp, Đại Học Thái Nguyên",
         "location": "Thái Nguyên",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDTK.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Kỹ Thuật Y - Dược Đà Nẵng",
         "school_id": "YDN",
+        "school_name": "Trường Đại Học Kỹ Thuật Y - Dược Đà Nẵng",
         "location": "Đà Nẵng",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FYDN.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Kỹ Thuật Y Tế Hải Dương",
         "school_id": "DKY",
+        "school_name": "Trường Đại Học Kỹ Thuật Y Tế Hải Dương",
         "location": "Hải Dương",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDKY.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Khánh Hoà",
         "school_id": "UKH",
+        "school_name": "Trường Đại Học Khánh Hoà",
         "location": "Khánh Hoà",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=https%3A%2F%2Fimages.tuyensinh247.com%2Fpicture%2Fdiemthi%2Fts247%2Fimages%2Fukh.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Khoa Học Tự Nhiên - Đại Học Quốc Gia Hà Nội",
         "school_id": "QHT",
+        "school_name": "Trường Đại Học Khoa Học Tự Nhiên - Đại Học Quốc Gia Hà Nội",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FQHT.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Khoa Học Tự Nhiên - Đại Học Quốc Gia Tp. Hồ Chí Minh",
         "school_id": "QST",
+        "school_name": "Trường Đại Học Khoa Học Tự Nhiên - Đại Học Quốc Gia Tp. Hồ Chí Minh",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FQST.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Khoa Học Và Công Nghệ Hà Nội",
         "school_id": "KCN",
+        "school_name": "Trường Đại Học Khoa Học Và Công Nghệ Hà Nội",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FKCN.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Khoa Học Xã Hội Và Nhân Văn - Đại Học Quốc Gia Hà Nội",
         "school_id": "QHX",
+        "school_name": "Trường Đại Học Khoa Học Xã Hội Và Nhân Văn - Đại Học Quốc Gia Hà Nội",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FQHX.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Khoa Học Xã Hội Và Nhân Văn - Đại Học Quốc Gia Tp. Hồ Chí Minh",
         "school_id": "QSX",
+        "school_name": "Trường Đại Học Khoa Học Xã Hội Và Nhân Văn - Đại Học Quốc Gia Tp. Hồ Chí Minh",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FQSX.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Khoa Học, Đại Học Huế",
         "school_id": "DHT",
+        "school_name": "Trường Đại Học Khoa Học, Đại Học Huế",
         "location": "Thừa Thiên Huế",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDHT.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Khoa Học, Đại Học Thái Nguyên",
         "school_id": "DTZ",
+        "school_name": "Trường Đại Học Khoa Học, Đại Học Thái Nguyên",
         "location": "Thái Nguyên",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDTZ.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Lạc Hồng",
         "school_id": "DLH",
+        "school_name": "Trường Đại Học Lạc Hồng",
         "location": "Đồng Nai",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDLH.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Lao Động - Xã Hội",
         "school_id": "DLX",
+        "school_name": "Trường Đại Học Lao Động - Xã Hội",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDLX.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Lâm Nghiệp",
         "school_id": "LNH",
+        "school_name": "Trường Đại Học Lâm Nghiệp",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FLNH.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Luật - Đại Học Quốc Gia Hà Nội",
         "school_id": "QHL",
+        "school_name": "Trường Đại Học Luật - Đại Học Quốc Gia Hà Nội",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FQHL.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Luật Hà Nội",
         "school_id": "LPH",
+        "school_name": "Trường Đại Học Luật Hà Nội",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FLPH.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Luật Tp. Hồ Chí Minh",
         "school_id": "LPS",
+        "school_name": "Trường Đại Học Luật Tp. Hồ Chí Minh",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FLPS.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Luật, Đại Học Huế",
         "school_id": "DHA",
+        "school_name": "Trường Đại Học Luật, Đại Học Huế",
         "location": "Thừa Thiên Huế",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDHA.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Lương Thế Vinh",
         "school_id": "DTV",
+        "school_name": "Trường Đại Học Lương Thế Vinh",
         "location": "Nam Định",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDTV.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Mỏ - Địa Chất",
         "school_id": "MDA",
+        "school_name": "Trường Đại Học Mỏ - Địa Chất",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FMDA.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Mở Hà Nội",
         "school_id": "MHN",
+        "school_name": "Trường Đại Học Mở Hà Nội",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FMHN.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Mở Tp. Hồ Chí Minh",
         "school_id": "MBS",
+        "school_name": "Trường Đại Học Mở Tp. Hồ Chí Minh",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FMBS.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Mỹ Tại Việt Nam",
         "school_id": "AUV",
+        "school_name": "Trường Đại Học Mỹ Tại Việt Nam",
         "location": "Đà Nẵng",
         "school_type": "Trường đại học",
         "ownership": "Nước ngoài"
     },
     {
-        "school_name": "Trường Đại Học Mỹ Thuật Công Nghiệp",
         "school_id": "MTC",
+        "school_name": "Trường Đại Học Mỹ Thuật Công Nghiệp",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FMTC.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Mỹ Thuật Tp. Hồ Chí Minh",
         "school_id": "MTS",
+        "school_name": "Trường Đại Học Mỹ Thuật Tp. Hồ Chí Minh",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FMTS.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Mỹ Thuật Việt Nam",
         "school_id": "MTH",
+        "school_name": "Trường Đại Học Mỹ Thuật Việt Nam",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FMTH.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Nam Cần Thơ",
         "school_id": "DNC",
+        "school_name": "Trường Đại Học Nam Cần Thơ",
         "location": "Cần Thơ",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDNC.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Nội Vụ Hà Nội",
         "school_id": "DNV",
+        "school_name": "Trường Đại Học Nội Vụ Hà Nội",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=https%3A%2F%2Fimages.tuyensinh247.com%2Fpicture%2Fdiemthi%2Fts247%2Fimages%2Fdnv.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Nông Lâm Bắc Giang",
         "school_id": "DBG",
+        "school_name": "Trường Đại Học Nông Lâm Bắc Giang",
         "location": "Bắc Giang",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDBG.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Nông Lâm Tp. Hồ Chí Minh",
         "school_id": "NLS",
+        "school_name": "Trường Đại Học Nông Lâm Tp. Hồ Chí Minh",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FNLS.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Nông Lâm, Đại Học Huế",
         "school_id": "DHL",
+        "school_name": "Trường Đại Học Nông Lâm, Đại Học Huế",
         "location": "Thừa Thiên Huế",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDHL.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Nông Lâm, Đại Học Thái Nguyên",
         "school_id": "DTN",
+        "school_name": "Trường Đại Học Nông Lâm, Đại Học Thái Nguyên",
         "location": "Thái Nguyên",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDTN.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Ngân Hàng Tp. Hồ Chí Minh",
         "school_id": "NHS",
+        "school_name": "Trường Đại Học Ngân Hàng Tp. Hồ Chí Minh",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FNHS.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Nghệ Thuật, Đại Học Huế",
         "school_id": "DHN",
+        "school_name": "Trường Đại Học Nghệ Thuật, Đại Học Huế",
         "location": "Thừa Thiên Huế",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDHN.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Ngoại Ngữ - Đại Học Quốc Gia Hà Nội",
         "school_id": "QHF",
+        "school_name": "Trường Đại Học Ngoại Ngữ - Đại Học Quốc Gia Hà Nội",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FQHF.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Ngoại Ngữ - Tin Học Tp. Hồ Chí Minh",
         "school_id": "DNT",
+        "school_name": "Trường Đại Học Ngoại Ngữ - Tin Học Tp. Hồ Chí Minh",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDNT.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Ngoại Ngữ, Đại Học Huế",
         "school_id": "DHF",
+        "school_name": "Trường Đại Học Ngoại Ngữ, Đại Học Huế",
         "location": "Thừa Thiên Huế",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDHF.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Ngoại Thương",
         "school_id": "NTH",
+        "school_name": "Trường Đại Học Ngoại Thương",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FNTH.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Nguyễn Tất Thành",
         "school_id": "NTT",
+        "school_name": "Trường Đại Học Nguyễn Tất Thành",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FNTT.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Nguyễn Trãi",
         "school_id": "NTU",
+        "school_name": "Trường Đại Học Nguyễn Trãi",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FNTU.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Nha Trang",
         "school_id": "TSN",
+        "school_name": "Trường Đại Học Nha Trang",
         "location": "Khánh Hoà",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FTSN.jpeg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Phạm Văn Đồng",
         "school_id": "DPQ",
+        "school_name": "Trường Đại Học Phạm Văn Đồng",
         "location": "Quảng Ngãi",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDPQ.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Phan Châu Trinh",
         "school_id": "DPC",
+        "school_name": "Trường Đại Học Phan Châu Trinh",
         "location": "Quảng Nam",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDPC.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Phan Thiết",
         "school_id": "DPT",
+        "school_name": "Trường Đại Học Phan Thiết",
         "location": "Bình Thuận",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDPT.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Phenikaa",
-        "school_id": "DTA",
-        "location": "Hà Nội",
-        "school_type": "Trường đại học",
-        "ownership": "Tư thục"
-    },
-    {
-        "school_name": "Trường Đại Học Phú Xuân",
         "school_id": "DPX",
+        "school_name": "Trường Đại Học Phú Xuân",
         "location": "Thừa Thiên Huế",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDPX.jpeg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Phú Yên",
         "school_id": "DPY",
+        "school_name": "Trường Đại Học Phú Yên",
         "location": "Phú Yên",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDPY.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Quản Lý Và Công Nghệ Hải Phòng",
         "school_id": "DHP",
+        "school_name": "Trường Đại Học Quản Lý Và Công Nghệ Hải Phòng",
         "location": "Hải Phòng",
         "school_type": "Trường đại học",
         "ownership": "Tư thục"
     },
     {
-        "school_name": "Trường Đại Học Quản Lý Và Công Nghệ Tp. Hồ Chí Minh",
         "school_id": "UMT",
+        "school_name": "Trường Đại Học Quản Lý Và Công Nghệ Tp. Hồ Chí Minh",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FUMT.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Quảng Bình",
         "school_id": "DQB",
+        "school_name": "Trường Đại Học Quảng Bình",
         "location": "Quảng Bình",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDQB.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Quảng Nam",
         "school_id": "DQU",
+        "school_name": "Trường Đại Học Quảng Nam",
         "location": "Quảng Nam",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDQU.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Quang Trung",
         "school_id": "DQT",
+        "school_name": "Trường Đại Học Quang Trung",
         "location": "Bình Định",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDQT.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Quốc Tế - Đại Học Quốc Gia Tp. Hồ Chí Minh",
         "school_id": "QSQ",
+        "school_name": "Trường Đại Học Quốc Tế - Đại Học Quốc Gia Tp. Hồ Chí Minh",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FQSQ.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Quốc Tế Bắc Hà",
         "school_id": "DBH",
+        "school_name": "Trường Đại Học Quốc Tế Bắc Hà",
         "location": "Bắc Ninh",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDBH.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Quốc Tế Hồng Bàng",
         "school_id": "HIU",
+        "school_name": "Trường Đại Học Quốc Tế Hồng Bàng",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FHIU.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Quốc Tế Miền Đông",
         "school_id": "EIU",
+        "school_name": "Trường Đại Học Quốc Tế Miền Đông",
         "location": "Bình Dương",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FEIU.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Quốc Tế Rmit Việt Nam",
         "school_id": "RMU",
+        "school_name": "Trường Đại Học Quốc Tế Rmit Việt Nam",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đại học",
-        "ownership": "Nước ngoài"
+        "ownership": "Nước ngoài",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=https%3A%2F%2Fimages.tuyensinh247.com%2Fpicture%2Fdiemthi%2Fts247%2Fimages%2Frmu.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Quy Nhơn",
         "school_id": "DQN",
+        "school_name": "Trường Đại Học Quy Nhơn",
         "location": "Bình Định",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDQN.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Sài Gòn",
         "school_id": "SGD",
+        "school_name": "Trường Đại Học Sài Gòn",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FSGD.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Sao Đỏ",
         "school_id": "SDU",
+        "school_name": "Trường Đại Học Sao Đỏ",
         "location": "Hải Dương",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FSDU.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Sân Khấu Điện Ảnh Hà Nội",
         "school_id": "SKD",
+        "school_name": "Trường Đại Học Sân Khấu Điện Ảnh Hà Nội",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FSKD.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Sân Khấu, Điện Ảnh Tp. Hồ Chí Minh",
         "school_id": "DSD",
+        "school_name": "Trường Đại Học Sân Khấu, Điện Ảnh Tp. Hồ Chí Minh",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=https%3A%2F%2Fimages.tuyensinh247.com%2Fpicture%2Fdiemthi%2Fts247%2Fimages%2Fdsd.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Sư Phạm Hà Nội",
         "school_id": "SPH",
+        "school_name": "Trường Đại Học Sư Phạm Hà Nội",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FSPH.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Sư Phạm Hà Nội 2",
         "school_id": "SP2",
+        "school_name": "Trường Đại Học Sư Phạm Hà Nội 2",
         "location": "Vĩnh Phúc",
         "school_type": "Trường đại học",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Đại Học Sư Phạm Kỹ Thuật Hưng Yên",
         "school_id": "SKH",
+        "school_name": "Trường Đại Học Sư Phạm Kỹ Thuật Hưng Yên",
         "location": "Hưng Yên",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FSKH.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Sư Phạm Kỹ Thuật Nam Định",
         "school_id": "SKN",
+        "school_name": "Trường Đại Học Sư Phạm Kỹ Thuật Nam Định",
         "location": "Nam Định",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FSKN.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Sư Phạm Kỹ Thuật Tp. Hồ Chí Minh",
         "school_id": "SPK",
+        "school_name": "Trường Đại Học Sư Phạm Kỹ Thuật Tp. Hồ Chí Minh",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FSPK.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Sư Phạm Kỹ Thuật Vinh",
         "school_id": "SKV",
+        "school_name": "Trường Đại Học Sư Phạm Kỹ Thuật Vinh",
         "location": "Nghệ An",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FSKV.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Sư Phạm Kỹ Thuật Vĩnh Long",
         "school_id": "VLU",
+        "school_name": "Trường Đại Học Sư Phạm Kỹ Thuật Vĩnh Long",
         "location": "Vĩnh Long",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FVLU.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Sư Phạm Nghệ Thuật Trung Ương",
         "school_id": "GNT",
+        "school_name": "Trường Đại Học Sư Phạm Nghệ Thuật Trung Ương",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FGNT.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Sư Phạm Tp. Hồ Chí Minh",
         "school_id": "SPS",
+        "school_name": "Trường Đại Học Sư Phạm Tp. Hồ Chí Minh",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FSPS.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Sư Phạm Thể Dục Thể Thao Hà Nội",
         "school_id": "TDH",
+        "school_name": "Trường Đại Học Sư Phạm Thể Dục Thể Thao Hà Nội",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FTDH.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Sư Phạm Thể Dục Thể Thao Tp. Hồ Chí Minh",
         "school_id": "STS",
+        "school_name": "Trường Đại Học Sư Phạm Thể Dục Thể Thao Tp. Hồ Chí Minh",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FSTS.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Sư Phạm, Đại Học Đà Nẵng",
         "school_id": "DDS",
+        "school_name": "Trường Đại Học Sư Phạm, Đại Học Đà Nẵng",
         "location": "Đà Nẵng",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDDS.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Sư Phạm, Đại Học Huế",
         "school_id": "DHS",
+        "school_name": "Trường Đại Học Sư Phạm, Đại Học Huế",
         "location": "Thừa Thiên Huế",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDHS.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Sư Phạm, Đại Học Thái Nguyên",
         "school_id": "DTS",
+        "school_name": "Trường Đại Học Sư Phạm, Đại Học Thái Nguyên",
         "location": "Thái Nguyên",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDTS.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Tài Chính - Kế Toán",
         "school_id": "DKQ",
+        "school_name": "Trường Đại Học Tài Chính - Kế Toán",
         "location": "Quảng Ngãi",
         "school_type": "Trường đại học",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Trường Đại Học Tài Chính - Marketing",
         "school_id": "DMS",
+        "school_name": "Trường Đại Học Tài Chính - Marketing",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDMS.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Tài Chính - Ngân Hàng Hà Nội",
         "school_id": "FBU",
+        "school_name": "Trường Đại Học Tài Chính - Ngân Hàng Hà Nội",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FFBU.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Tài Chính - Quản Trị Kinh Doanh",
         "school_id": "DFA",
+        "school_name": "Trường Đại Học Tài Chính - Quản Trị Kinh Doanh",
         "location": "Hưng Yên",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDFA.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Tài Nguyên Và Môi Trường Hà Nội",
         "school_id": "DMT",
+        "school_name": "Trường Đại Học Tài Nguyên Và Môi Trường Hà Nội",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDMT.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Tài Nguyên Và Môi Trường Tp. Hồ Chí Minh",
         "school_id": "DTM",
+        "school_name": "Trường Đại Học Tài Nguyên Và Môi Trường Tp. Hồ Chí Minh",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDTM.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Tân Tạo",
         "school_id": "TTU",
+        "school_name": "Trường Đại Học Tân Tạo",
         "location": "Long An",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FTTU.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Tân Trào",
         "school_id": "TQU",
+        "school_name": "Trường Đại Học Tân Trào",
         "location": "Tuyên Quang",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FTQU.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Tây Bắc",
         "school_id": "TTB",
+        "school_name": "Trường Đại Học Tây Bắc",
         "location": "Sơn La",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FTTB.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Tây Đô",
         "school_id": "DTD",
+        "school_name": "Trường Đại Học Tây Đô",
         "location": "Cần Thơ",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDTD.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Tây Nguyên",
         "school_id": "TTN",
+        "school_name": "Trường Đại Học Tây Nguyên",
         "location": "Đắk Lắk",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FTTN.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Tiền Giang",
         "school_id": "TTG",
+        "school_name": "Trường Đại Học Tiền Giang",
         "location": "Tiền Giang",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FTTG.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Tôn Đức Thắng",
         "school_id": "DTT",
+        "school_name": "Trường Đại Học Tôn Đức Thắng",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDTT.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Tư Thục Quốc Tế Sài Gòn",
         "school_id": "TTQ",
+        "school_name": "Trường Đại Học Tư Thục Quốc Tế Sài Gòn",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đại học",
         "ownership": "Tư thục"
     },
     {
-        "school_name": "Trường Đại Học Thái Bình",
         "school_id": "DTB",
+        "school_name": "Trường Đại Học Thái Bình",
         "location": "Thái Bình",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDTB.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Thái Bình Dương",
         "school_id": "TBD",
+        "school_name": "Trường Đại Học Thái Bình Dương",
         "location": "Khánh Hoà",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FTBD.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Thành Đô",
         "school_id": "TDD",
+        "school_name": "Trường Đại Học Thành Đô",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FTDD.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Thành Đông",
         "school_id": "DDB",
+        "school_name": "Trường Đại Học Thành Đông",
         "location": "Hải Dương",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDDB.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Thăng Long",
         "school_id": "DTL",
+        "school_name": "Trường Đại Học Thăng Long",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDTL.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Thể Dục Thể Thao Bắc Ninh",
         "school_id": "TDB",
+        "school_name": "Trường Đại Học Thể Dục Thể Thao Bắc Ninh",
         "location": "Bắc Ninh",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FTDB.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Thể Dục Thể Thao Đà Nẵng",
         "school_id": "TTD",
+        "school_name": "Trường Đại Học Thể Dục Thể Thao Đà Nẵng",
         "location": "Đà Nẵng",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FTTD.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Thể Dục Thể Thao Tp. Hồ Chí Minh",
         "school_id": "TDS",
+        "school_name": "Trường Đại Học Thể Dục Thể Thao Tp. Hồ Chí Minh",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=https%3A%2F%2Fimages.tuyensinh247.com%2Fpicture%2Fdiemthi%2Fts247%2Fimages%2Ftds.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Thủ Dầu Một",
         "school_id": "TDM",
+        "school_name": "Trường Đại Học Thủ Dầu Một",
         "location": "Bình Dương",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FTDM.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Thủ Đô Hà Nội",
         "school_id": "HNM",
+        "school_name": "Trường Đại Học Thủ Đô Hà Nội",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FHNM.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Thuỷ Lợi",
         "school_id": "TLA",
+        "school_name": "Trường Đại Học Thuỷ Lợi",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FTLA.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Thương Mại",
-        "school_id": "TMA",
-        "location": "Hà Nội",
-        "school_type": "Trường đại học",
-        "ownership": "Công lập"
-    },
-    {
-        "school_name": "Trường Đại Học Trà Vinh",
         "school_id": "DVT",
+        "school_name": "Trường Đại Học Trà Vinh",
         "location": "Trà Vinh",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDVT.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Trưng Vương",
         "school_id": "DVP",
+        "school_name": "Trường Đại Học Trưng Vương",
         "location": "Vĩnh Phúc",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDVP.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Văn Hiến",
         "school_id": "DVH",
+        "school_name": "Trường Đại Học Văn Hiến",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDVH.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Văn Hoá Hà Nội",
         "school_id": "VHH",
+        "school_name": "Trường Đại Học Văn Hoá Hà Nội",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FVHH.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Văn Hoá Tp. Hồ Chí Minh",
         "school_id": "VHS",
+        "school_name": "Trường Đại Học Văn Hoá Tp. Hồ Chí Minh",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FVHS.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Văn Hoá, Thể Thao Và Du Lịch Thanh Hoá",
         "school_id": "DVD",
+        "school_name": "Trường Đại Học Văn Hoá, Thể Thao Và Du Lịch Thanh Hoá",
         "location": "Thanh Hóa",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDVD.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Văn Lang",
         "school_id": "DVL",
+        "school_name": "Trường Đại Học Văn Lang",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDVL.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Việt Đức",
         "school_id": "VGU",
+        "school_name": "Trường Đại Học Việt Đức",
         "location": "Bình Dương",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FVGU.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Việt Nhật - Đại Học Quốc Gia Hà Nội",
         "school_id": "VJU",
+        "school_name": "Trường Đại Học Việt Nhật - Đại Học Quốc Gia Hà Nội",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=https%3A%2F%2Fimages.tuyensinh247.com%2Fpicture%2Fdiemthi%2Fts247%2Fimages%2Fvju.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Vinuni",
         "school_id": "VIN",
+        "school_name": "Trường Đại Học Vinuni",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
         "ownership": "Tư thục"
     },
     {
-        "school_name": "Trường Đại Học Vinh",
         "school_id": "TDV",
+        "school_name": "Trường Đại Học Vinh",
         "location": "Nghệ An",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FTDV.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Võ Trường Toản",
         "school_id": "VTT",
+        "school_name": "Trường Đại Học Võ Trường Toản",
         "location": "Hậu Giang",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FVTT.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Xây Dựng Hà Nội",
         "school_id": "XDA",
+        "school_name": "Trường Đại Học Xây Dựng Hà Nội",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FXDA.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Xây Dựng Miền Tây",
         "school_id": "MTU",
+        "school_name": "Trường Đại Học Xây Dựng Miền Tây",
         "location": "Vĩnh Long",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FMTU.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Xây Dựng Miền Trung",
         "school_id": "XDT",
+        "school_name": "Trường Đại Học Xây Dựng Miền Trung",
         "location": "Phú Yên",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FXDT.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Y Dược - Đại Học Quốc Gia Hà Nội",
         "school_id": "QHY",
+        "school_name": "Trường Đại Học Y Dược - Đại Học Quốc Gia Hà Nội",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=https%3A%2F%2Fimages.tuyensinh247.com%2Fpicture%2Fdiemthi%2Fts247%2Fimages%2Fqhy.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Y Dược Buôn Ma Thuột",
         "school_id": "BMU",
+        "school_name": "Trường Đại Học Y Dược Buôn Ma Thuột",
         "location": "Đắk Lắk",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FBMU.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Y Dược Cần Thơ",
         "school_id": "YCT",
+        "school_name": "Trường Đại Học Y Dược Cần Thơ",
         "location": "Cần Thơ",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FYCT.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Y Dược Hải Phòng",
         "school_id": "YPB",
+        "school_name": "Trường Đại Học Y Dược Hải Phòng",
         "location": "Hải Phòng",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FYPB.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Y Dược Thái Bình",
         "school_id": "YTB",
+        "school_name": "Trường Đại Học Y Dược Thái Bình",
         "location": "Thái Bình",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FYTB.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Y Dược, Đại Học Huế",
         "school_id": "DHY",
+        "school_name": "Trường Đại Học Y Dược, Đại Học Huế",
         "location": "Thừa Thiên Huế",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDHY.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Y Dược, Đại Học Thái Nguyên",
         "school_id": "DTY",
+        "school_name": "Trường Đại Học Y Dược, Đại Học Thái Nguyên",
         "location": "Thái Nguyên",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDTY.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Y Hà Nội",
         "school_id": "YHB",
+        "school_name": "Trường Đại Học Y Hà Nội",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FYHB.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Y Khoa Phạm Ngọc Thạch",
         "school_id": "TYS",
+        "school_name": "Trường Đại Học Y Khoa Phạm Ngọc Thạch",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FTYS.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Y Khoa Tokyo Việt Nam",
         "school_id": "THU",
+        "school_name": "Trường Đại Học Y Khoa Tokyo Việt Nam",
         "location": "Hưng Yên",
         "school_type": "Trường đại học",
-        "ownership": "Nước ngoài"
+        "ownership": "Nước ngoài",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FTHU.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Y Khoa Vinh",
         "school_id": "YKV",
+        "school_name": "Trường Đại Học Y Khoa Vinh",
         "location": "Nghệ An",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FYKV.jpeg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Y Tế Công Cộng",
         "school_id": "YTC",
+        "school_name": "Trường Đại Học Y Tế Công Cộng",
         "location": "Hà Nội",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FYTC.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Yersin Đà Lạt",
         "school_id": "DYD",
+        "school_name": "Trường Đại Học Yersin Đà Lạt",
         "location": "Lâm Đồng",
         "school_type": "Trường đại học",
-        "ownership": "Tư thục"
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDYD.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Kinh Tế, Đại Học Đà Nẵng",
         "school_id": "DDQ",
+        "school_name": "Trường Đại Học Kinh Tế, Đại Học Đà Nẵng",
         "location": "Đà Nẵng",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDDQ.png&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Ngoại Ngữ, Đại Học Đà Nẵng",
         "school_id": "DDF",
+        "school_name": "Trường Đại Học Ngoại Ngữ, Đại Học Đà Nẵng",
         "location": "Đà Nẵng",
         "school_type": "Trường đại học",
-        "ownership": "Công lập"
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDDF.jpg&w=256&q=75"
     },
     {
-        "school_name": "Trường Đại Học Sư Phạm Kỹ Thuật, Đại Học Đà Nẵng",
         "school_id": "DDC",
+        "school_name": "Trường Đại Học Sư Phạm Kỹ Thuật, Đại Học Đà Nẵng",
         "location": "Đà Nẵng",
         "school_type": "Trường đại học",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Viện Công Nghiệp Thực Phẩm",
         "school_id": "V08",
+        "school_name": "Viện Công Nghiệp Thực Phẩm",
         "location": "Hà Nội",
         "school_type": "Viện nghiên cứu",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Viện Cơ Điện Nông Nghiệp Và Công Nghệ Sau Thu Hoạch",
         "school_id": "VCD",
+        "school_name": "Viện Cơ Điện Nông Nghiệp Và Công Nghệ Sau Thu Hoạch",
         "location": "Hà Nội",
         "school_type": "Viện nghiên cứu",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Viện Chăn Nuôi",
         "school_id": "VCN",
+        "school_name": "Viện Chăn Nuôi",
         "location": "Hà Nội",
         "school_type": "Viện nghiên cứu",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Viện Chiến Lược Phát Triển",
         "school_id": "V19",
+        "school_name": "Viện Chiến Lược Phát Triển",
         "location": "Hà Nội",
         "school_type": "Viện nghiên cứu",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Viện Dầu Khí Việt Nam",
         "school_id": "VDK",
+        "school_name": "Viện Dầu Khí Việt Nam",
         "location": "Hà Nội",
         "school_type": "Viện nghiên cứu",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Viện Dinh Dưỡng",
         "school_id": "V66",
+        "school_name": "Viện Dinh Dưỡng",
         "location": "Hà Nội",
         "school_type": "Viện nghiên cứu",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Viện Dược Liệu",
         "school_id": "V22",
+        "school_name": "Viện Dược Liệu",
         "location": "Hà Nội",
         "school_type": "Viện nghiên cứu",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Viện Hoá Học Công Nghiệp",
         "school_id": "V11",
+        "school_name": "Viện Hoá Học Công Nghiệp",
         "location": "Hà Nội",
         "school_type": "Viện nghiên cứu",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Viện Kiểm Nghiệm Thuốc Trung Ương",
         "school_id": "NQC",
+        "school_name": "Viện Kiểm Nghiệm Thuốc Trung Ương",
         "location": "Hà Nội",
         "school_type": "Viện nghiên cứu",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Viện Kiến Trúc Quốc Gia",
         "school_id": "V12",
+        "school_name": "Viện Kiến Trúc Quốc Gia",
         "location": "Hà Nội",
         "school_type": "Viện nghiên cứu",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Viện Khoa Học Công Nghệ Xây Dựng",
         "school_id": "V14",
+        "school_name": "Viện Khoa Học Công Nghệ Xây Dựng",
         "location": "Hà Nội",
         "school_type": "Viện nghiên cứu",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Viện Khoa Học Địa Chất Và Khoáng Sản",
         "school_id": "V47",
+        "school_name": "Viện Khoa Học Địa Chất Và Khoáng Sản",
         "location": "Hà Nội",
         "school_type": "Viện nghiên cứu",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Viện Khoa Học Đo Đạc Và Bản Đồ",
         "school_id": "KBD",
+        "school_name": "Viện Khoa Học Đo Đạc Và Bản Đồ",
         "location": "Hà Nội",
         "school_type": "Viện nghiên cứu",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Viện Khoa Học Giáo Dục Việt Nam",
         "school_id": "V46",
+        "school_name": "Viện Khoa Học Giáo Dục Việt Nam",
         "location": "Hà Nội",
         "school_type": "Viện nghiên cứu",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Viện Khoa Học Khí Tượng Thủy Văn Và Biến Đổi Khí Hậu",
         "school_id": "V50",
+        "school_name": "Viện Khoa Học Khí Tượng Thủy Văn Và Biến Đổi Khí Hậu",
         "location": "Hà Nội",
         "school_type": "Viện nghiên cứu",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Viện Khoa Học Lâm Nghiệp Việt Nam",
         "school_id": "VLN",
+        "school_name": "Viện Khoa Học Lâm Nghiệp Việt Nam",
         "location": "Hà Nội",
         "school_type": "Viện nghiên cứu",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Viện Khoa Học Nông Nghiệp Việt Nam",
         "school_id": "VKN",
+        "school_name": "Viện Khoa Học Nông Nghiệp Việt Nam",
         "location": "Hà Nội",
         "school_type": "Viện nghiên cứu",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Viện Khoa Học Thể Dục Thể Thao",
         "school_id": "VKT",
+        "school_name": "Viện Khoa Học Thể Dục Thể Thao",
         "location": "Hà Nội",
         "school_type": "Viện nghiên cứu",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Viện Khoa Học Thuỷ Lợi Việt Nam",
         "school_id": "VTL",
+        "school_name": "Viện Khoa Học Thuỷ Lợi Việt Nam",
         "location": "Hà Nội",
         "school_type": "Viện nghiên cứu",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Viện Khoa Học Và Công Nghệ Giao Thông Vận Tải",
         "school_id": "V13",
+        "school_name": "Viện Khoa Học Và Công Nghệ Giao Thông Vận Tải",
         "location": "Hà Nội",
         "school_type": "Viện nghiên cứu",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Viện Máy Và Dụng Cụ Công Nghiệp",
         "school_id": "V48",
+        "school_name": "Viện Máy Và Dụng Cụ Công Nghiệp",
         "location": "Hà Nội",
         "school_type": "Viện nghiên cứu",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Viện Năng Lượng Nguyên Tử Việt Nam",
         "school_id": "V04",
+        "school_name": "Viện Năng Lượng Nguyên Tử Việt Nam",
         "location": "Hà Nội",
         "school_type": "Viện nghiên cứu",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Viện Nghiên Cứu Cơ Khí",
         "school_id": "V49",
+        "school_name": "Viện Nghiên Cứu Cơ Khí",
         "location": "Hà Nội",
         "school_type": "Viện nghiên cứu",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Viện Nghiên Cứu Chiến Lược, Chính Sách Công Thương",
         "school_id": "V17",
+        "school_name": "Viện Nghiên Cứu Chiến Lược, Chính Sách Công Thương",
         "location": "Hà Nội",
         "school_type": "Viện nghiên cứu",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Viện Nghiên Cứu Điện Tử, Tin Học, Tự Động Hoá",
         "school_id": "V02",
+        "school_name": "Viện Nghiên Cứu Điện Tử, Tin Học, Tự Động Hoá",
         "location": "Hà Nội",
         "school_type": "Viện nghiên cứu",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Viện Nghiên Cứu Hải Sản",
         "school_id": "V62",
+        "school_name": "Viện Nghiên Cứu Hải Sản",
         "location": "Hải Phòng",
         "school_type": "Viện nghiên cứu",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Viện Nghiên Cứu Nuôi Trồng Thuỷ Sản I",
         "school_id": "VTS",
+        "school_name": "Viện Nghiên Cứu Nuôi Trồng Thuỷ Sản I",
         "location": "Bắc Ninh",
         "school_type": "Viện nghiên cứu",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Viện Nghiên Cứu Quản Lý Kinh Tế Trung Ương",
         "school_id": "V18",
+        "school_name": "Viện Nghiên Cứu Quản Lý Kinh Tế Trung Ương",
         "location": "Hà Nội",
         "school_type": "Viện nghiên cứu",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Viện Pasteur Thành Phố Hồ Chí Minh",
         "school_id": "V26",
+        "school_name": "Viện Pasteur Thành Phố Hồ Chí Minh",
         "location": "TP. Hồ Chí Minh",
         "school_type": "Viện nghiên cứu",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Viện Sốt Rét - Ký Sinh Trùng - Côn Trùng Trung Ương",
         "school_id": "V25",
+        "school_name": "Viện Sốt Rét - Ký Sinh Trùng - Côn Trùng Trung Ương",
         "location": "Hà Nội",
         "school_type": "Viện nghiên cứu",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Viện Sức Khoẻ Nghề Nghiệp Và Môi Trường",
         "school_id": "VYL",
+        "school_name": "Viện Sức Khoẻ Nghề Nghiệp Và Môi Trường",
         "location": "Hà Nội",
         "school_type": "Viện nghiên cứu",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Viện Toán Học",
         "school_id": "V59",
+        "school_name": "Viện Toán Học",
         "location": "Hà Nội",
         "school_type": "Viện nghiên cứu",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Viện Thú Y",
         "school_id": "VTY",
+        "school_name": "Viện Thú Y",
         "location": "Hà Nội",
         "school_type": "Viện nghiên cứu",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Viện Ứng Dụng Công Nghệ",
         "school_id": "VUD",
+        "school_name": "Viện Ứng Dụng Công Nghệ",
         "location": "Hà Nội",
         "school_type": "Viện nghiên cứu",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Viện Văn Hoá Nghệ Thuật Quốc Gia Việt Nam",
         "school_id": "V45",
+        "school_name": "Viện Văn Hoá Nghệ Thuật Quốc Gia Việt Nam",
         "location": "Hà Nội",
         "school_type": "Viện nghiên cứu",
         "ownership": "Công lập"
     },
     {
-        "school_name": "Viện Vệ Sinh Dịch Tễ Trung Ương",
         "school_id": "V27",
+        "school_name": "Viện Vệ Sinh Dịch Tễ Trung Ương",
         "location": "Hà Nội",
         "school_type": "Viện nghiên cứu",
         "ownership": "Công lập"
+    },
+    {
+        "school_id": "ANH",
+        "school_name": "Học Viện An Ninh Nhân Dân",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FANH.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "CSH",
+        "school_name": "Học Viện Cảnh Sát Nhân Dân",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FCSH.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "LAH",
+        "school_name": "Trường Sĩ Quan Lục Quân 1 - Đại học Trần Quốc Tuấn",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FLAH.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "HQH",
+        "school_name": "Học Viện Hải Quân",
+        "location": "Khánh Hòa",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FHQH.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "PKA",
+        "school_name": "Trường Đại Học Phenikaa",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FPKA.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "PKH",
+        "school_name": "Học Viện Phòng Không – Không Quân",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FPKH.png&w=256&q=75"
+    },
+    {
+        "school_id": "CSS",
+        "school_name": "Trường Đại Học Cảnh Sát Nhân Dân",
+        "location": "Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FCSS.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "TTH",
+        "school_name": "Trường Sĩ Quan Thông Tin - Hệ Quân sự - Đại Học Thông Tin Liên Lạc",
+        "location": "Khánh Hòa",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FTTH.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "KQH",
+        "school_name": "Học Viện Kỹ Thuật Quân Sự - Hệ Quân sự",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=https%3A%2F%2Fimages.tuyensinh247.com%2Fpicture%2Fdiemthi%2Fts247%2Fimages%2Fkqh.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "TMU",
+        "school_name": "Trường Đại Học Thương Mại",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FTMU.png&w=256&q=75"
+    },
+    {
+        "school_id": "KMA",
+        "school_name": "Học Viện Kỹ Thuật Mật Mã",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FKMA.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "IUH",
+        "school_name": "Trường Đại Học Công Nghiệp TPHCM",
+        "location": "Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FIUH.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "YHT",
+        "school_name": "Phân hiệu Đại học Y Hà Nội tại Thanh Hóa",
+        "location": "Thanh Hóa",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=https%3A%2F%2Fimages.tuyensinh247.com%2Fpicture%2Fdiemthi%2Fts247%2Fimages%2Fyht.png&w=256&q=75"
+    },
+    {
+        "school_id": "RHM",
+        "school_name": "Trường Đại Học Răng – Hàm – Mặt",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=https%3A%2F%2Fimages.tuyensinh247.com%2Fpicture%2Fdiemthi%2Fts247%2Fimages%2Frhm.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "CIV",
+        "school_name": "Học viện Công giáo Việt Nam",
+        "location": "Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=https%3A%2F%2Fimages.tuyensinh247.com%2Fpicture%2Fdiemthi%2Fts247%2Fimages%2Fciv.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "ZNH",
+        "school_name": "Trường Đại học Văn hóa Nghệ thuật Quân đội",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=https%3A%2F%2Fimages.tuyensinh247.com%2Fpicture%2Fdiemthi%2Fts247%2Fimages%2Fznh_1.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "LCDF",
+        "school_name": "Học viện Thiết kế và Thời trang London Hà Nội",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=https%3A%2F%2Fimages.tuyensinh247.com%2Fpicture%2Fdiemthi%2Fts247%2Fimages%2Flcdf_1.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "VPH",
+        "school_name": "Trường Sĩ Quan Kĩ Thuật Quân Sự -  Hệ Quân sự - Đại Học Trần Đại Nghĩa",
+        "location": "Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=https%3A%2F%2Fimages.tuyensinh247.com%2Fpicture%2Fdiemthi%2Fts247%2Fimages%2Fvph.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "DDG",
+        "school_name": "Khoa Giáo dục thể chất Đà Nẵng",
+        "location": "Đà Nẵng",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=https%3A%2F%2Fimages.tuyensinh247.com%2Fpicture%2Fdiemthi%2Fts247%2Fimages%2Fddg.png&w=256&q=75"
+    },
+    {
+        "school_id": "LNA",
+        "school_name": "Phân hiệu Đại học Lâm nghiệp tỉnh Gia Lai",
+        "location": "Gia Lai, Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FLNA.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "NHP",
+        "school_name": "Học Viện Ngân Hàng (Phân Viện Phú Yên)",
+        "location": "Phú Yên",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FNHP.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "UFA",
+        "school_name": "Trường Đại học Tài Chính Kế Toán",
+        "location": "Quảng Ngãi",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FUFA.png&w=256&q=75"
+    },
+    {
+        "school_id": "GDU",
+        "school_name": "Trường Đại Học Gia Định",
+        "location": "TP. Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FGDU.png&w=256&q=75"
+    },
+    {
+        "school_id": "XDN",
+        "school_name": "Phân hiệu Đại học Xây dựng miền Trung tại Đà Nẵng",
+        "location": "Đà Nẵng",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=https%3A%2F%2Fimages.tuyensinh247.com%2Fpicture%2Fdiemthi%2Fts247%2Fimages%2Fxdn.png&w=256&q=75"
+    },
+    {
+        "school_id": "DTP",
+        "school_name": "Phân Hiệu Đại Học Thái Nguyên Tại Lào Cai",
+        "location": "",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDTP.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "DTG",
+        "school_name": "Phân hiệu Đại học Thái Nguyên tại Hà Giang",
+        "location": "",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDTG.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "LBS",
+        "school_name": "Trường Đại học Nguyễn Huệ",
+        "location": "",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=https%3A%2F%2Fimages.tuyensinh247.com%2Fpicture%2Fdiemthi%2Fts247%2Fimages%2Flbs.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "QSP",
+        "school_name": "Phân hiệu Đại học Quốc gia TPHCM tại Bến Tre",
+        "location": "",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FQSP.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "DTQ",
+        "school_name": "Khoa Quốc Tế - Đại Học Thái Nguyên",
+        "location": "Thái Nguyên",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDTQ.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "SIU",
+        "school_name": "Trường Đại Học Quốc Tế Sài Gòn",
+        "location": "Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FSIU.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "NLG",
+        "school_name": "Phân hiệu Đại học Nông Lâm TPHCM tại Gia Lai",
+        "location": "Gia Lai",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=https%3A%2F%2Fimages.tuyensinh247.com%2Fpicture%2Fdiemthi%2Fts247%2Fimages%2Fnlg.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "DHQ",
+        "school_name": "Phân Hiệu Đại Học Huế tại Quảng Trị",
+        "location": "Huế",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDHQ.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "HPU",
+        "school_name": "Trường Đại học Quản lý và Công nghệ Hải Phòng",
+        "location": "Hải Phòng",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FHPU.png&w=256&q=75"
+    },
+    {
+        "school_id": "DDV",
+        "school_name": "Viện nghiên cứu và đào tạo Việt Anh - Đại học Đà Nẵng",
+        "location": "Đà Nẵng",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDDV.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "DHE",
+        "school_name": "Khoa Kỹ thuật và Công nghệ - Đại học Huế",
+        "location": "Huế",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=https%3A%2F%2Fimages.tuyensinh247.com%2Fpicture%2Fdiemthi%2Fts247%2Fimages%2Fdhe.png&w=256&q=75"
+    },
+    {
+        "school_id": "LNS",
+        "school_name": "Phân hiệu Đại Học Lâm nghiệp tại Đồng Nai",
+        "location": "Đồng Nai",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FLNS.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "MIT",
+        "school_name": "Trường Đại học Công nghệ Miền Đông",
+        "location": "Đồng Nai",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FMIT.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "DCH",
+        "school_name": "Trường Sĩ Quan Đặc Công",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDCH.jpeg&w=256&q=75"
+    },
+    {
+        "school_id": "HCB",
+        "school_name": "Trường Đại Học Kỹ Thuật - Hậu Cần Công An Nhân Dân (Phía Bắc)",
+        "location": "Bắc Ninh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FHCB.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "HCN",
+        "school_name": "Trường Đại Học Kỹ Thuật - Hậu Cần Công An Nhân Dân (Phía Nam)",
+        "location": "Bắc Ninh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=https%3A%2F%2Fimages.tuyensinh247.com%2Fpicture%2Fdiemthi%2Fts247%2Fimages%2Fhcn.png&w=256&q=75"
+    },
+    {
+        "school_id": "PBH",
+        "school_name": "Trường Sĩ Quan Pháo Binh",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FPBH.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "KSV",
+        "school_name": "Đại học Kinh Tế TPHCM - Phân hiệu Vĩnh Long",
+        "location": "Vĩnh Long",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=https%3A%2F%2Fimages.tuyensinh247.com%2Fpicture%2Fdiemthi%2Fts247%2Fimages%2Fksv_1.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "QHD",
+        "school_name": "Trường Quản Trị và Kinh Doanh - ĐHQG Hà Nội",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FQHD.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "TLS",
+        "school_name": "Trường Đại Học Thủy Lợi (Cơ sở 2)",
+        "location": "Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FTLS.png&w=256&q=75"
+    },
+    {
+        "school_id": "PCS",
+        "school_name": "Trường Đại Học Phòng Cháy Chữa Cháy (phía Nam)",
+        "location": "Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=https%3A%2F%2Fimages.tuyensinh247.com%2Fpicture%2Fdiemthi%2Fts247%2Fimages%2Fpcs.png&w=256&q=75"
+    },
+    {
+        "school_id": "PCH",
+        "school_name": "Trường Đại Học Phòng Cháy Chữa Cháy (Phía Bắc)",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FPCH.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "NLN",
+        "school_name": "Phân hiệu Đại học Nông Lâm TPHCM tại Ninh Thuận",
+        "location": "Ninh Thuận",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=https%3A%2F%2Fimages.tuyensinh247.com%2Fpicture%2Fdiemthi%2Fts247%2Fimages%2Fnln.png&w=256&q=75"
+    },
+    {
+        "school_id": "DDU",
+        "school_name": "Trường Đại Học Đông Đô",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Tư thục",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDDU.png&w=256&q=75"
+    },
+    {
+        "school_id": "DHD",
+        "school_name": "Trường Du Lịch - Đại Học Huế",
+        "location": "Huế",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDHD.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "KGH",
+        "school_name": "Trường Sĩ Quan Không Quân - Hệ Đại học",
+        "location": "Khánh Hòa",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FKGH.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "HGH",
+        "school_name": "Trường Sĩ Quan Phòng Hóa",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FHGH.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "TGH",
+        "school_name": "Trường Sĩ Quan Tăng - Thiết Giáp",
+        "location": "Vĩnh Phúc",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FTGH.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "SNH",
+        "school_name": "Trường Sĩ Quan Công Binh - Hệ Quân sự - Đại học Ngô Quyền",
+        "location": "Bình Dương",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FSNH.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "DSK",
+        "school_name": "Trường Đại học Sư phạm Kỹ thuật - Đại học Đà Nẵng",
+        "location": "Đà Nẵng",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDSK.png&w=256&q=75"
+    },
+    {
+        "school_id": "NHB",
+        "school_name": "Học Viện Ngân Hàng (Phân Viện Bắc Ninh)",
+        "location": "Bắc Ninh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FNHB.png&w=256&q=75"
+    },
+    {
+        "school_id": "DHI",
+        "school_name": "Khoa Quốc tế - Đại học Huế",
+        "location": "Huế",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=https%3A%2F%2Fimages.tuyensinh247.com%2Fpicture%2Fdiemthi%2Fts247%2Fimages%2Fdhi.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "CMC",
+        "school_name": "Trường Đại Học CMC",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FCMC.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "HCS",
+        "school_name": "Học Viện Hành Chính Quốc Gia (phía Nam)",
+        "location": "Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=https%3A%2F%2Fimages.tuyensinh247.com%2Fpicture%2Fdiemthi%2Fts247%2Fimages%2Fhcs.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "DLS",
+        "school_name": "Trường Đại Học Lao Động – Xã Hội (Cơ sở II)",
+        "location": "Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDLS.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "DDP",
+        "school_name": "Phân Hiệu Đại Học Đà Nẵng tại Kon Tum",
+        "location": "Kon Tum",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDDP.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "QHQ",
+        "school_name": "Trường Quốc Tế  - ĐHQG Hà Nội",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=https%3A%2F%2Fimages.tuyensinh247.com%2Fpicture%2Fdiemthi%2Fts247%2Fimages%2Fqhq.png&w=256&q=75"
+    },
+    {
+        "school_id": "QSA",
+        "school_name": "Trường Đại Học An Giang",
+        "location": "An Giang",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=https%3A%2F%2Fimages.tuyensinh247.com%2Fpicture%2Fdiemthi%2Fts247%2Fimages%2Fqsa.png&w=256&q=75"
+    },
+    {
+        "school_id": "QHK",
+        "school_name": "Trường Khoa học liên ngành và Nghệ thuật Hà Nội",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=https%3A%2F%2Fimages.tuyensinh247.com%2Fpicture%2Fdiemthi%2Fts247%2Fimages%2Fqhk.jpeg&w=256&q=75"
+    },
+    {
+        "school_id": "DHC",
+        "school_name": "Khoa Giáo Dục Thể Chất Huế",
+        "location": "Huế",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=https%3A%2F%2Fimages.tuyensinh247.com%2Fpicture%2Fdiemthi%2Fts247%2Fimages%2Fdhc.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "DTF",
+        "school_name": "Trường Ngoại Ngữ Thái Nguyên",
+        "location": "Thái Nguyên",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDTF.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "GSA",
+        "school_name": "Trường Đại Học Giao Thông Vận Tải (Cơ sở 2)",
+        "location": "Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FGSA.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "LBH",
+        "school_name": "Trường Sĩ Quan Lục Quân 2 - Đại học Nguyễn Huệ",
+        "location": "Đồng Nai",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FLBH.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "BVS",
+        "school_name": "Học Viện Công Nghệ Bưu Chính Viễn Thông (Cơ sở TP.HCM)",
+        "location": "Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=https%3A%2F%2Fimages.tuyensinh247.com%2Fpicture%2Fdiemthi%2Fts247%2Fimages%2Fbvs.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "DDY",
+        "school_name": "Trường Y Dược Đà Nẵng",
+        "location": "Đà Nẵng",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FDDY.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "HCA",
+        "school_name": "Học Viện Chính Trị Công An Nhân Dân",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FHCA.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "QSY",
+        "school_name": "Trường Đại học Khoa học sức khỏe TPHCM",
+        "location": "Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FQSY.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "BPH",
+        "school_name": "Học Viện Biên Phòng",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FBPH.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "NQH",
+        "school_name": "Học Viện Khoa Học Quân Sự - Hệ Quân sự",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FNQH.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "NTS",
+        "school_name": "Trường Đại học Ngoại thương (Cơ sở II)",
+        "location": "Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FNTS.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "",
+        "school_name": "SP2 - Trường Đại Học Sư Phạm Hà Nội 2",
+        "location": "Vĩnh Phúc",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FSP2.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "YQH",
+        "school_name": "Học Viện Quân Y - Hệ Quân sự",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=https%3A%2F%2Fimages.tuyensinh247.com%2Fpicture%2Fdiemthi%2Fts247%2Fimages%2Fyqh.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "HEH",
+        "school_name": "Học Viện Hậu Cần - Hệ Quân sự",
+        "location": "Hà Nội",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=https%3A%2F%2Fimages.tuyensinh247.com%2Fpicture%2Fdiemthi%2Fts247%2Fimages%2Fheh.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "ANS",
+        "school_name": "Trường Đại Học An Ninh Nhân Dân",
+        "location": "Hồ Chí Minh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FANS.jpg&w=256&q=75"
+    },
+    {
+        "school_id": "LCH",
+        "school_name": "Trường Sĩ Quan Chính Trị - Đại Học Chính Trị",
+        "location": "Bắc Ninh",
+        "school_type": "Trường đại học",
+        "ownership": "Công lập",
+        "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FLCH.jpg&w=256&q=75"
     }
 ]

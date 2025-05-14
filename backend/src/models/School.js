@@ -4,29 +4,42 @@ const schoolSchema = new mongoose.Schema(
     {
         school_id: {
             type: String,
-            required: [true, 'School ID is required'],
+            required: [true, 'Mã trường là bắt buộc'],
             unique: true,
             trim: true,
         },
         school_name: {
             type: String,
-            required: [true, 'School name is required'],
+            required: [true, 'Tên trường là bắt buộc'],
             trim: true,
         },
         location: {
             type: String,
-            required: [true, 'Location is required'],
+            required: [true, 'Địa điểm là bắt buộc'],
             trim: true,
         },
         school_type: {
             type: String,
-            required: [true, 'School type is required'],
-            enum: ['public', 'private', 'international'],
+            required: [true, 'Loại trường là bắt buộc'],
+            enum: [
+                'Đại học',
+                'Học viện',
+                'Trường đại học',
+                'Viện nghiên cứu',
+                'Cao đẳng',
+            ],
+            default: 'Trường đại học',
         },
         ownership: {
             type: String,
-            required: [true, 'Ownership is required'],
-            trim: true,
+            required: [true, 'Loại hình là bắt buộc'],
+            enum: ['Công lập', 'Tư thục', 'Dân lập', 'Nước ngoài'],
+            default: 'Công lập',
+        },
+        school_img: {
+            type: String,
+            required: false,
+            default: '',
         },
     },
     {

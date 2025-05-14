@@ -67,8 +67,8 @@ exports.getAllScores = handleAsync(async (req, res) => {
 });
 
 exports.getScoresByUniversity = handleAsync(async (req, res) => {
-    const { universityId } = req.params;
-    const scores = await AdmissionScore.find({ university: universityId });
+    const { schoolCode } = req.params;
+    const scores = await AdmissionScore.find({ school_code: schoolCode });
 
     if (!scores.length) {
         return res
@@ -80,9 +80,9 @@ exports.getScoresByUniversity = handleAsync(async (req, res) => {
 });
 
 exports.getScoresByMajor = handleAsync(async (req, res) => {
-    const { majorId } = req.params;
+    const { majorCode } = req.params;
     const scores = await AdmissionScore.find({
-        $or: [{ major: majorId }, { major_code: majorId }],
+        $or: [{ major: majorCode }, { major_code: majorCode }],
     });
 
     if (!scores.length) {

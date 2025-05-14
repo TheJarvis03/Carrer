@@ -15,21 +15,19 @@ const AcademicMajorPage = () => {
             try {
                 setLoading(true);
                 setError(null);
-
                 const data =
                     await majorDetailService.getMajorDetailByCode(code);
-                console.log('Component received data:', data);
+                console.log('Fetched data:', data);
 
-                // Kiểm tra dữ liệu
-                if (!data || !data.major_name) {
-                    throw new Error('Invalid major data');
+                if (!data) {
+                    throw new Error(
+                        `Không tìm thấy thông tin ngành học với mã: ${code}`,
+                    );
                 }
-
-                // Set trực tiếp dữ liệu từ API mà không cần xử lý
                 setMajorDetail(data);
             } catch (err) {
-                console.error('Error in component:', err);
-                setError('Không thể tải thông tin ngành học');
+                console.error('Error:', err);
+                setError(err.message);
             } finally {
                 setLoading(false);
             }

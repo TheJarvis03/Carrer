@@ -17,11 +17,6 @@ const SearchSchoolsPage = () => {
     const [currentPage, setCurrentPage] = useState(1);
     const itemsPerPage = 10;
 
-    const isSchoolCode = (query) => {
-        const schoolCodePattern = /^[A-Z0-9]{1,3}$/;
-        return schoolCodePattern.test(query.toUpperCase());
-    };
-
     useEffect(() => {
         const fetchSchools = async () => {
             setLoading(true);
@@ -44,56 +39,86 @@ const SearchSchoolsPage = () => {
     const handleSearch = (e) => {
         e.preventDefault();
         setCurrentPage(1);
+        setError(null);
 
         try {
+            if (!schools || !Array.isArray(schools)) {
+                throw new Error('Dữ liệu trường không hợp lệ');
+            }
+
             let filtered = [...schools];
-            const query = searchQuery.trim();
+            const query = searchQuery.trim().toLowerCase();
 
+            // Filter by search query
             if (query) {
-                if (isSchoolCode(query)) {
-                    // Tìm chính xác mã trường
-                    filtered = filtered.filter(
-                        (school) =>
-                            school.code?.toString().toUpperCase() ===
-                            query.toUpperCase(),
-                    );
-                } else {
-                    // Tìm theo tên và địa điểm
-                    filtered = filtered.filter(
-                        (school) =>
-                            school.name
-                                .toLowerCase()
-                                .includes(query.toLowerCase()) ||
-                            school.location
-                                .toLowerCase()
-                                .includes(query.toLowerCase()),
-                    );
-                }
+                filtered = filtered.filter((school) => {
+                    try {
+                        return (
+                            (school.school_name &&
+                                school.school_name
+                                    .toLowerCase()
+                                    .includes(query)) ||
+                            (school.location &&
+                                school.location
+                                    .toLowerCase()
+                                    .includes(query)) ||
+                            (school.id &&
+                                school.id.toLowerCase().includes(query))
+                        );
+                    } catch (err) {
+                        console.error('Lỗi khi lọc trường:', err);
+                        return false;
+                    }
+                });
             }
 
-            // Apply filters
+            // Apply type filter
             if (filters.type !== 'all') {
-                filtered = filtered.filter(
-                    (school) => school.type === filters.type,
-                );
-            }
-            if (filters.region !== 'all') {
                 filtered = filtered.filter((school) => {
-                    const region = filters.region;
-                    return (
-                        (region === 'north' &&
-                            school.location.includes('Bắc')) ||
-                        (region === 'central' &&
-                            school.location.includes('Trung')) ||
-                        (region === 'south' && school.location.includes('Nam'))
+                    if (filters.type === 'public') {
+                        return school.ownership === 'Công lập';
+                    } else if (filters.type === 'private') {
+                        return ['Tư thục', 'Dân lập'].includes(
+                            school.ownership,
+                        );
+                    }
+                    return true;
+                });
+            }
+
+            // Apply region filter
+            if (filters.region !== 'all') {
+                const regionMapping = {
+                    north: [
+                        'hà nội',
+                        'bắc',
+                        'thái nguyên',
+                        'hải phòng',
+                        'quảng ninh',
+                    ],
+                    central: [
+                        'đà nẵng',
+                        'huế',
+                        'nghệ an',
+                        'khánh hòa',
+                        'thừa thiên',
+                    ],
+                    south: ['hồ chí minh', 'cần thơ', 'đồng nai', 'bình dương'],
+                };
+
+                filtered = filtered.filter((school) => {
+                    const location = school.location?.toLowerCase() || '';
+                    return regionMapping[filters.region].some((keyword) =>
+                        location.includes(keyword),
                     );
                 });
             }
 
             setFilteredSchools(filtered);
-            setError(null);
         } catch (err) {
-            setError('Lỗi khi tìm kiếm');
+            console.error('Search error:', err);
+            setError(err.message || 'Có lỗi xảy ra khi tìm kiếm');
+            setFilteredSchools([]);
         }
     };
 
@@ -229,6 +254,12 @@ const SearchSchoolsPage = () => {
                     </aside>
 
                     <div className="ssh-results-panel">
+                        {error && (
+                            <div className="ssh-error-message">
+                                <i className="fas fa-exclamation-circle"></i>
+                                {error}
+                            </div>
+                        )}
                         <div className="ssh-results-header">
                             <div className="ssh-found-count">
                                 Tìm thấy{' '}
@@ -253,31 +284,35 @@ const SearchSchoolsPage = () => {
                                 paginateSchools(filteredSchools).map(
                                     (school) => (
                                         <Link
-                                            to={`/school/${school.id}`}
+                                            to={`/school/detail/${school.id}`}
                                             key={school.id}
                                             className="ssh-school-card"
                                         >
                                             <div className="ssh-school-image">
                                                 <img
-                                                    src={`/images/school-${school.id}.jpg`}
-                                                    alt="School"
+                                                    src={
+                                                        school.school_img ||
+                                                        `/images/school-default.jpg`
+                                                    }
+                                                    alt={school.school_name}
                                                 />
-                                                <div className="ssh-school-type">
-                                                    {school.ownership}
-                                                </div>
                                             </div>
                                             <div className="ssh-school-content">
                                                 <div className="ssh-school-main">
-                                                    <h3 className="ssh-school-name">
-                                                        {school.name}
-                                                    </h3>
+                                                    <div className="ssh-school-header">
+                                                        <h3 className="ssh-school-name">
+                                                            {school.school_name}
+                                                        </h3>
+                                                        <span className="ssh-school-code">
+                                                            {school.id}
+                                                        </span>
+                                                    </div>
                                                     <div className="ssh-school-info">
                                                         <div className="ssh-info-item">
                                                             <i className="fas fa-map-marker-alt"></i>
                                                             <span>
-                                                                {
-                                                                    school.location
-                                                                }
+                                                                {school.location ||
+                                                                    'Chưa cập nhật'}
                                                             </span>
                                                         </div>
                                                         <div className="ssh-info-item">
