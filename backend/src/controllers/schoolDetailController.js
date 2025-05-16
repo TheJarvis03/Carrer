@@ -125,6 +125,49 @@ const schoolDetailController = {
             });
         }
     },
+
+    // Lấy danh sách trường theo mã ngành đào tạo
+    getByMajorCode: async (req, res) => {
+        try {
+            let majorCode = String(req.params.majorCode).trim();
+            console.log('majorCode:', majorCode);
+
+            // Lấy tất cả trường
+            const schools = await SchoolDetail.find();
+            // Lọc các trường có ngành phù hợp
+            const result = [];
+
+            schools.forEach((school) => {
+                if (Array.isArray(school.majors)) {
+                    school.majors.forEach((major) => {
+                        if (major.major_code === majorCode) {
+                            result.push({
+                                school_name: school.school_name,
+                                school_code: school.school_code,
+                                admission_methods: major.admission_methods,
+                                subject: major.subject,
+                            });
+                        }
+                    });
+                }
+            });
+
+            return res.status(200).json({
+                success: true,
+                message: result.length
+                    ? 'Lấy danh sách trường theo ngành thành công'
+                    : 'Không tìm thấy trường đào tạo ngành này',
+                data: result,
+            });
+        } catch (error) {
+            console.error('Lỗi khi lấy trường theo mã ngành:', error);
+            return res.status(500).json({
+                success: false,
+                message: 'Lỗi server: ' + error.message,
+                data: [],
+            });
+        }
+    },
 };
 
 module.exports = schoolDetailController;

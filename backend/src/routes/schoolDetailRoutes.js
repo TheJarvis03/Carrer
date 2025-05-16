@@ -3,6 +3,7 @@ const router = express.Router();
 const schoolDetailController = require('../controllers/schoolDetailController');
 
 router.get('/', schoolDetailController.getAll);
+router.get('/major/:majorCode', schoolDetailController.getByMajorCode);
 router.get('/:code', schoolDetailController.getByCode);
 router.post('/', schoolDetailController.create);
 router.put('/:code', schoolDetailController.update);

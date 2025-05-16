@@ -22,7 +22,7 @@ export const majorDetailService = {
                         job_opportunities: d.job_opportunities,
                         salary_range: d.salary_range,
                         exam_groups: d.exam_groups,
-                    }
+                    },
                 };
             }
 
@@ -38,7 +38,7 @@ export const majorDetailService = {
                         job_opportunities: response.data.job_opportunities,
                         salary_range: response.data.salary_range,
                         exam_groups: response.data.exam_groups,
-                    }
+                    },
                 };
             }
 
@@ -63,8 +63,62 @@ export const majorDetailService = {
 
     getMajorSchools: async (code) => {
         try {
-            const response = await axios.get(`${API_URL}/${code}/schools`);
-            return response.data;
+            const response = await axios.get(
+                `http://localhost:5000/api/school/detail/major/${code}`,
+            );
+            if (
+                !response.data ||
+                !response.data.success ||
+                !Array.isArray(response.data.data)
+            ) {
+                return {
+                    success: false,
+                    error: 'Không tìm thấy trường đào tạo ngành này',
+                };
+            }
+
+            // Gộp các trường trùng tên/mã trường
+            const schoolMap = {};
+            response.data.data.forEach((item) => {
+                const key = `${item.school_code}_${item.school_name}`;
+                if (!schoolMap[key]) {
+                    schoolMap[key] = {
+                        school_name: item.school_name,
+                        school_code: item.school_code,
+                        admission_methods: [],
+                        subject: [],
+                    };
+                }
+                // Đảm bảo luôn là mảng
+                const methods = Array.isArray(item.admission_methods)
+                    ? item.admission_methods
+                    : item.admission_methods
+                      ? [item.admission_methods]
+                      : [];
+                const subjects = Array.isArray(item.subject)
+                    ? item.subject
+                    : item.subject
+                      ? [item.subject]
+                      : [];
+
+                methods.forEach((method) => {
+                    if (!schoolMap[key].admission_methods.includes(method)) {
+                        schoolMap[key].admission_methods.push(method);
+                    }
+                });
+                subjects.forEach((sub) => {
+                    if (!schoolMap[key].subject.includes(sub)) {
+                        schoolMap[key].subject.push(sub);
+                    }
+                });
+            });
+
+            const result = Object.values(schoolMap);
+
+            return {
+                success: true,
+                data: result,
+            };
         } catch (error) {
             return { success: false, error: error.message };
         }

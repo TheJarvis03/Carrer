@@ -41,8 +41,8 @@ const majorDetailController = {
                 $or: [
                     { majorCode: majorCode },
                     { major_code: majorCode },
-                    { code: majorCode }
-                ]
+                    { code: majorCode },
+                ],
             }).lean();
 
             if (!majorDetail) {
@@ -57,12 +57,28 @@ const majorDetailController = {
                 success: true,
                 data: {
                     major_id: majorDetail._id,
-                    major_code: majorDetail.majorCode || majorDetail.major_code || majorDetail.code || '',
-                    major_name: majorDetail.majorName || majorDetail.major_name || majorDetail.name || '',
+                    major_code:
+                        majorDetail.majorCode ||
+                        majorDetail.major_code ||
+                        majorDetail.code ||
+                        '',
+                    major_name:
+                        majorDetail.majorName ||
+                        majorDetail.major_name ||
+                        majorDetail.name ||
+                        '',
                     description: majorDetail.description || '',
-                    job_opportunities: majorDetail.jobOpportunities || majorDetail.job_opportunities || '',
-                    salary_range: majorDetail.salaryRange || majorDetail.salary_range || majorDetail.salary || '',
-                    exam_groups: majorDetail.examGroups || majorDetail.exam_groups || [],
+                    job_opportunities:
+                        majorDetail.jobOpportunities ||
+                        majorDetail.job_opportunities ||
+                        '',
+                    salary_range:
+                        majorDetail.salaryRange ||
+                        majorDetail.salary_range ||
+                        majorDetail.salary ||
+                        '',
+                    exam_groups:
+                        majorDetail.examGroups || majorDetail.exam_groups || [],
                     // Thêm các trường khác nếu cần
                 },
             });

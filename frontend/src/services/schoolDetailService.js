@@ -126,7 +126,7 @@ const schoolDetailService = {
     getSchoolScores: async (code) => {
         try {
             const response = await axios.get(
-                `http://localhost:5000/api/admissionScores/university/${code}`,
+                `http://localhost:5000/api/admissionScores/school/${code}`,
             );
 
             if (response?.data?.success) {

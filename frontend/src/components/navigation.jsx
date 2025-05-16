@@ -71,10 +71,13 @@ const Navigation = () => {
             const res = await schoolService.getAll();
             if (res.success) {
                 const q = query.trim().toLowerCase();
-                const filtered = res.data.filter((school) =>
-                    (school.school_name && school.school_name.toLowerCase().includes(q)) ||
-                    (school.location && school.location.toLowerCase().includes(q)) ||
-                    (school.id && school.id.toLowerCase().includes(q))
+                const filtered = res.data.filter(
+                    (school) =>
+                        (school.school_name &&
+                            school.school_name.toLowerCase().includes(q)) ||
+                        (school.location &&
+                            school.location.toLowerCase().includes(q)) ||
+                        (school.id && school.id.toLowerCase().includes(q)),
                 );
                 return filtered.slice(0, 5).map((school) => ({
                     id: school.id || school.code,
@@ -90,9 +93,24 @@ const Navigation = () => {
 
     const fetchMajorSuggestions = async (query) => {
         try {
-            const res = await majorService.searchMajors(query);
-            if (res.success) {
-                return res.data.slice(0, 5).map((major) => ({
+            // Ưu tiên lọc client nếu đã có majors trong redux/store, nếu không thì gọi API
+            const q = query.trim().toLowerCase();
+            const res = await majorService.getAll();
+            if (res.success && Array.isArray(res.data)) {
+                // Lọc theo tên ngành, mã ngành, hoặc khối thi
+                const filtered = res.data.filter((major) => {
+                    const nameMatch = major.major_name
+                        ?.toLowerCase()
+                        .includes(q);
+                    const codeMatch = major.code?.toLowerCase().includes(q);
+                    const examGroupMatch = Array.isArray(major.exam_groups)
+                        ? major.exam_groups.some((g) =>
+                              g.toLowerCase().includes(q),
+                          )
+                        : false;
+                    return nameMatch || codeMatch || examGroupMatch;
+                });
+                return filtered.slice(0, 5).map((major) => ({
                     id: major.code,
                     code: major.code,
                     name: major.major_name,
@@ -204,10 +222,7 @@ const Navigation = () => {
                         searchQuery.length >= 1 && setShowSuggestions(true)
                     }
                 />
-                <button
-                    className="search-icon"
-                    onClick={handleSearchIconClick}
-                >
+                <button className="search-icon" onClick={handleSearchIconClick}>
                     <i className="fas fa-search"></i>
                 </button>
 

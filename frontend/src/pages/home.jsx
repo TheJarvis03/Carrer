@@ -113,7 +113,7 @@ const HomePage = () => {
                                     <h3>Trí tuệ nhân tạo</h3>
                                     <p>Nhu cầu tăng 45% trong năm 2024</p>
                                     <Link
-                                        to="/major/7480107"
+                                        to="/major/detail/7480107"
                                         className="learn-more"
                                     >
                                         Chi tiết →
@@ -130,7 +130,7 @@ const HomePage = () => {
                                     <h3>Khoa học dữ liệu</h3>
                                     <p>Top 5 ngành có mức lương cao nhất</p>
                                     <Link
-                                        to="/major/7460108"
+                                        to="/major/detail/7460108"
                                         className="learn-more"
                                     >
                                         Chi tiết →
@@ -144,10 +144,10 @@ const HomePage = () => {
                                     className="trending-image"
                                 />
                                 <div className="trending-content">
-                                    <h3>Digital Marketing</h3>
+                                    <h3>Thương mại điện tử</h3>
                                     <p>Cơ hội việc làm tăng 30% mỗi năm</p>
                                     <Link
-                                        to="/major/7340122"
+                                        to="/major/detail/7340122"
                                         className="learn-more"
                                     >
                                         Chi tiết →

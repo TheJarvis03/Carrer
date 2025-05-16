@@ -195,20 +195,27 @@ const SearchMajorsPage = () => {
 
         try {
             if (searchQuery.trim()) {
-                const response = await majorService.searchMajors(searchQuery);
-                if (response.success) {
-                    setMajors(response.data);
-                    setPagination((prev) => ({
-                        ...prev,
-                        currentPage: 1,
-                        totalItems: response.data.length,
-                        totalPages: Math.ceil(
-                            response.data.length / ITEMS_PER_PAGE,
-                        ),
-                    }));
-                } else {
-                    throw new Error(response.error || 'Lỗi tìm kiếm');
-                }
+                const query = searchQuery.trim().toLowerCase();
+                // Lọc theo tên ngành hoặc mã ngành hoặc khối thi
+                const filtered = originalMajors.filter((major) => {
+                    const nameMatch = major.major_name
+                        ?.toLowerCase()
+                        .includes(query);
+                    const codeMatch = major.code?.toLowerCase().includes(query);
+                    const examGroupMatch = Array.isArray(major.exam_groups)
+                        ? major.exam_groups.some((g) =>
+                              g.toLowerCase().includes(query),
+                          )
+                        : false;
+                    return nameMatch || codeMatch || examGroupMatch;
+                });
+                setMajors(filtered);
+                setPagination((prev) => ({
+                    ...prev,
+                    currentPage: 1,
+                    totalItems: filtered.length,
+                    totalPages: Math.ceil(filtered.length / ITEMS_PER_PAGE),
+                }));
             } else {
                 setMajors(originalMajors);
                 setPagination((prev) => ({
@@ -391,14 +398,16 @@ const SearchMajorsPage = () => {
                                         <div
                                             key={major.code}
                                             className="sma-major-card"
-                                            onClick={() => handleMajorClick(major.code)} // Đảm bảo sử dụng đúng thuộc tính code
+                                            onClick={() =>
+                                                handleMajorClick(major.code)
+                                            }
                                         >
-                                            <div className="sma-major-header">
-                                                <h4 className="sma-major-name">
+                                            <div className="sma-major-card-header">
+                                                <span className="sma-major-name">
                                                     {major.major_name}
-                                                </h4>
+                                                </span>
                                                 <span className="sma-major-code">
-                                                    Mã ngành: {major.code}
+                                                    {major.code}
                                                 </span>
                                             </div>
                                             <div className="sma-major-content">

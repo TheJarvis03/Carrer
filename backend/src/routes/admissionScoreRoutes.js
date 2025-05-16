@@ -7,7 +7,7 @@ const {
 } = require('../controllers/admissionScoreController');
 
 router.get('/', getAllScores);
-router.get('/university/:schoolCode', getScoresByUniversity);
+router.get('/school/:schoolCode', getScoresByUniversity);
 router.get('/major/:majorCode', getScoresByMajor);
 
 module.exports = router;

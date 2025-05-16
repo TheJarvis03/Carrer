@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import schoolDetailService from '../../services/schoolDetailService';
 import '../../styles/pages/school-detail.css';
 
@@ -223,7 +223,14 @@ const renderContent = (tab, school, majors, scores) => {
                                                             {major.major_code}
                                                         </td>
                                                         <td rowSpan={rowSpan}>
-                                                            {major.major_name}
+                                                            <Link
+                                                                to={`/major/detail/${major.major_code}`}
+                                                                className="school-link"
+                                                            >
+                                                                {
+                                                                    major.major_name
+                                                                }
+                                                            </Link>
                                                         </td>
                                                         <td rowSpan={rowSpan}>
                                                             {major.quota}
@@ -277,9 +284,14 @@ const renderContent = (tab, school, majors, scores) => {
                                                                 }
                                                             </td>
                                                             <td>
-                                                                {
-                                                                    score.majorName
-                                                                }
+                                                                <Link
+                                                                    to={`/major/detail/${score.majorCode}`}
+                                                                    className="school-link"
+                                                                >
+                                                                    {
+                                                                        score.majorName
+                                                                    }
+                                                                </Link>
                                                             </td>
                                                             <td>
                                                                 {renderSubjectGroups(
