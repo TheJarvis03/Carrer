@@ -1,7 +1,24 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import '../../styles/pages/search-schools.css';
 import { schoolService } from '../../services/schoolService';
+
+// Move sorting functions outside component
+const getInstitutionTypePriority = (schoolName) => {
+    schoolName = schoolName.toLowerCase();
+    if (schoolName.includes('đại học')) return 1;
+    if (schoolName.includes('học viện')) return 2;
+    if (schoolName.includes('cao đẳng')) return 3;
+    return 4;
+};
+
+const sortSchoolsByType = (schools) => {
+    return [...schools].sort((a, b) => {
+        const priorityA = getInstitutionTypePriority(a.school_name);
+        const priorityB = getInstitutionTypePriority(b.school_name);
+        return priorityA - priorityB;
+    });
+};
 
 const SearchSchoolsPage = () => {
     const [filters, setFilters] = useState({
@@ -17,11 +34,13 @@ const SearchSchoolsPage = () => {
     const [currentPage, setCurrentPage] = useState(1);
     const itemsPerPage = 10;
 
+    // Use memoized sorted schools
+    const sortedSchools = useMemo(() => sortSchoolsByType(schools), [schools]);
+
     useEffect(() => {
         const fetchSchools = async () => {
             setLoading(true);
             const result = await schoolService.getAll();
-            console.log('Kết quả trả về:', result);
             if (result.success) {
                 setSchools(result.data);
             } else {
@@ -33,94 +52,102 @@ const SearchSchoolsPage = () => {
     }, []);
 
     useEffect(() => {
-        setFilteredSchools(schools);
-    }, [schools]);
+        setFilteredSchools(sortedSchools);
+    }, [sortedSchools]);
 
-    const handleSearch = (e) => {
-        e.preventDefault();
-        setCurrentPage(1);
-        setError(null);
+    const handleSearch = useCallback(
+        (e) => {
+            e.preventDefault();
+            setCurrentPage(1);
+            setError(null);
 
-        try {
-            if (!schools || !Array.isArray(schools)) {
-                throw new Error('Dữ liệu trường không hợp lệ');
-            }
+            try {
+                if (!schools || !Array.isArray(schools)) {
+                    throw new Error('Dữ liệu trường không hợp lệ');
+                }
 
-            let filtered = [...schools];
-            const query = searchQuery.trim().toLowerCase();
+                let filtered = [...schools];
+                const query = searchQuery.trim().toLowerCase();
 
-            // Filter by search query
-            if (query) {
-                filtered = filtered.filter((school) => {
-                    try {
-                        return (
-                            (school.school_name &&
-                                school.school_name
-                                    .toLowerCase()
-                                    .includes(query)) ||
-                            (school.location &&
-                                school.location
-                                    .toLowerCase()
-                                    .includes(query)) ||
-                            (school.id &&
-                                school.id.toLowerCase().includes(query))
+                // Filter by search query
+                if (query) {
+                    filtered = filtered.filter((school) => {
+                        try {
+                            return (
+                                (school.school_name &&
+                                    school.school_name
+                                        .toLowerCase()
+                                        .includes(query)) ||
+                                (school.location &&
+                                    school.location
+                                        .toLowerCase()
+                                        .includes(query)) ||
+                                (school.id &&
+                                    school.id.toLowerCase().includes(query))
+                            );
+                        } catch (err) {
+                            console.error('Lỗi khi lọc trường:', err);
+                            return false;
+                        }
+                    });
+                }
+
+                // Apply type filter
+                if (filters.type !== 'all') {
+                    filtered = filtered.filter((school) => {
+                        if (filters.type === 'public') {
+                            return school.ownership === 'Công lập';
+                        } else if (filters.type === 'private') {
+                            return ['Tư thục', 'Dân lập'].includes(
+                                school.ownership,
+                            );
+                        }
+                        return true;
+                    });
+                }
+
+                // Apply region filter
+                if (filters.region !== 'all') {
+                    const regionMapping = {
+                        north: [
+                            'hà nội',
+                            'bắc',
+                            'thái nguyên',
+                            'hải phòng',
+                            'quảng ninh',
+                        ],
+                        central: [
+                            'đà nẵng',
+                            'huế',
+                            'nghệ an',
+                            'khánh hòa',
+                            'thừa thiên',
+                        ],
+                        south: [
+                            'hồ chí minh',
+                            'cần thơ',
+                            'đồng nai',
+                            'bình dương',
+                        ],
+                    };
+
+                    filtered = filtered.filter((school) => {
+                        const location = school.location?.toLowerCase() || '';
+                        return regionMapping[filters.region].some((keyword) =>
+                            location.includes(keyword),
                         );
-                    } catch (err) {
-                        console.error('Lỗi khi lọc trường:', err);
-                        return false;
-                    }
-                });
+                    });
+                }
+
+                setFilteredSchools(sortSchoolsByType(filtered));
+            } catch (err) {
+                console.error('Search error:', err);
+                setError(err.message || 'Có lỗi xảy ra khi tìm kiếm');
+                setFilteredSchools([]);
             }
-
-            // Apply type filter
-            if (filters.type !== 'all') {
-                filtered = filtered.filter((school) => {
-                    if (filters.type === 'public') {
-                        return school.ownership === 'Công lập';
-                    } else if (filters.type === 'private') {
-                        return ['Tư thục', 'Dân lập'].includes(
-                            school.ownership,
-                        );
-                    }
-                    return true;
-                });
-            }
-
-            // Apply region filter
-            if (filters.region !== 'all') {
-                const regionMapping = {
-                    north: [
-                        'hà nội',
-                        'bắc',
-                        'thái nguyên',
-                        'hải phòng',
-                        'quảng ninh',
-                    ],
-                    central: [
-                        'đà nẵng',
-                        'huế',
-                        'nghệ an',
-                        'khánh hòa',
-                        'thừa thiên',
-                    ],
-                    south: ['hồ chí minh', 'cần thơ', 'đồng nai', 'bình dương'],
-                };
-
-                filtered = filtered.filter((school) => {
-                    const location = school.location?.toLowerCase() || '';
-                    return regionMapping[filters.region].some((keyword) =>
-                        location.includes(keyword),
-                    );
-                });
-            }
-
-            setFilteredSchools(filtered);
-        } catch (err) {
-            console.error('Search error:', err);
-            setError(err.message || 'Có lỗi xảy ra khi tìm kiếm');
-            setFilteredSchools([]);
-        }
-    };
+        },
+        [schools, searchQuery, filters],
+    );
 
     const handleSearchInputChange = (e) => {
         setSearchQuery(e.target.value);

@@ -27,11 +27,26 @@ const SchoolDetailSchema = new mongoose.Schema(
         },
         majors: [
             {
-                subjects: [
+                index: {
+                    type: String,
+                },
+                major_code: {
+                    type: String,
+                },
+                major_name: {
+                    type: String,
+                },
+                quota: {
+                    type: String,
+                },
+                admission_methods: [
                     {
                         type: String,
                     },
                 ],
+                subject: {
+                    type: String,
+                },
             },
         ],
     },

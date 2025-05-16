@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
-import { majorDetailService } from '../../services/majorDetailService';
+import { useParams, Link } from 'react-router-dom';
+import { majorService } from '../../services/majorService';
 import '../../styles/pages/major-detail.css';
 
-const AcademicMajorPage = () => {
-    const { code } = useParams();
-    const navigate = useNavigate();
-    const [majorDetail, setMajorDetail] = useState(null);
+const MajorDetailPage = () => {
+    const { majorCode } = useParams();
+    const [major, setMajor] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
 
@@ -14,121 +13,77 @@ const AcademicMajorPage = () => {
         const fetchMajorDetail = async () => {
             try {
                 setLoading(true);
-                setError(null);
-                const data =
-                    await majorDetailService.getMajorDetailByCode(code);
-                console.log('Fetched data:', data);
-
-                if (!data) {
-                    throw new Error(
-                        `Không tìm thấy thông tin ngành học với mã: ${code}`,
-                    );
+                const result =
+                    await majorService.getMajorDetailByCode(majorCode);
+                if (result.success) {
+                    setMajor(result.data);
+                } else {
+                    setError('Không thể tải thông tin ngành học');
                 }
-                setMajorDetail(data);
             } catch (err) {
-                console.error('Error:', err);
-                setError(err.message);
+                console.error('Error fetching major details:', err);
+                setError('Có lỗi xảy ra khi tải thông tin ngành học');
             } finally {
                 setLoading(false);
             }
         };
 
-        if (code) {
+        if (majorCode) {
             fetchMajorDetail();
         }
-    }, [code]);
+    }, [majorCode]);
 
-    if (loading) {
-        return (
-            <div className="loading-container">
-                <div className="loading">Đang tải thông tin ngành học...</div>
-            </div>
-        );
-    }
-
-    if (error) {
-        return (
-            <div className="error-container">
-                <div className="error">
-                    <h2>Có lỗi xảy ra</h2>
-                    <p>{error}</p>
-                    <button onClick={() => navigate('/search/majors')}>
-                        Quay lại trang tìm kiếm
-                    </button>
-                </div>
-            </div>
-        );
-    }
-
-    if (!majorDetail)
-        return <div className="error">Không tìm thấy thông tin ngành học</div>;
+    if (loading)
+        return <div className="loading">Đang tải thông tin ngành...</div>;
+    if (error) return <div className="error">{error}</div>;
+    if (!major)
+        return <div className="not-found">Không tìm thấy thông tin ngành</div>;
 
     return (
-        <div className="academic-major-page">
-            <section className="academic-major-header">
-                <h1>{majorDetail.major_name}</h1>
-                <div className="academic-major-meta">
-                    <span>🔢 Mã ngành: {majorDetail.major_code}</span>
-                </div>
-            </section>
+        <div className="major-detail-page">
+            <div className="major-detail-header">
+                <Link to="/search/majors" className="back-link">
+                    <i className="fas fa-arrow-left"></i> Quay lại
+                </Link>
+                <h1>{major.major_name}</h1>
+                <div className="major-code">Mã ngành: {major.major_code}</div>
+            </div>
 
-            <div className="academic-major-content">
-                <aside className="academic-major-sidebar">
-                    {majorDetail.salary_range &&
-                        majorDetail.salary_range !== 'Không có nội dung' && (
-                            <div className="major-info-card">
-                                <h3>Thu nhập</h3>
-                                <div
-                                    dangerouslySetInnerHTML={{
-                                        __html: majorDetail.salary_range.replace(
-                                            /\n/g,
-                                            '<br/>',
-                                        ),
-                                    }}
-                                />
-                            </div>
-                        )}
-                </aside>
+            <div className="major-detail-content">
+                <section className="major-section">
+                    <h2>Mô tả ngành học</h2>
+                    <div className="section-content">
+                        {major.description || 'Chưa có thông tin'}
+                    </div>
+                </section>
 
-                <main className="major-main">
-                    {majorDetail.description &&
-                        majorDetail.description !== 'Không có nội dung' && (
-                            <section className="major-description">
-                                <h2 className="section-title">
-                                    Giới thiệu ngành
-                                </h2>
-                                <div
-                                    dangerouslySetInnerHTML={{
-                                        __html: majorDetail.description.replace(
-                                            /\n/g,
-                                            '<br/>',
-                                        ),
-                                    }}
-                                />
-                            </section>
-                        )}
+                <section className="major-section">
+                    <h2>Cơ hội việc làm</h2>
+                    <div className="section-content">
+                        {major.job_opportunities || 'Chưa có thông tin'}
+                    </div>
+                </section>
 
-                    {majorDetail.job_opportunities &&
-                        majorDetail.job_opportunities !==
-                            'Không có nội dung' && (
-                            <section className="career-prospects">
-                                <h2 className="section-title">
-                                    Cơ hội nghề nghiệp
-                                </h2>
-                                <div
-                                    dangerouslySetInnerHTML={{
-                                        __html: majorDetail.job_opportunities.replace(
-                                            /\n/g,
-                                            '<br/>',
-                                        ),
-                                    }}
-                                />
-                            </section>
-                        )}
-                </main>
+                <section className="major-section">
+                    <h2>Mức lương tham khảo</h2>
+                    <div className="section-content">
+                        {major.salary_range || 'Chưa có thông tin'}
+                    </div>
+                </section>
+
+                <section className="major-section">
+                    <h2>Khối thi</h2>
+                    <div className="section-content exam-groups">
+                        {major.exam_groups?.map((group) => (
+                            <span key={group} className="exam-group-tag">
+                                {group}
+                            </span>
+                        )) || 'Chưa có thông tin'}
+                    </div>
+                </section>
             </div>
         </div>
     );
 };
 
-export default AcademicMajorPage;
+export default MajorDetailPage;

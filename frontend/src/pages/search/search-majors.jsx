@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import '../../styles/pages/search-majors.css';
 import { majorService } from '../../services/majorService';
 
 const ITEMS_PER_PAGE = 10;
 
 const SearchMajorsPage = () => {
+    const navigate = useNavigate();
     const [searchQuery, setSearchQuery] = useState('');
     const [majors, setMajors] = useState([]);
     const [originalMajors, setOriginalMajors] = useState([]);
@@ -23,6 +24,7 @@ const SearchMajorsPage = () => {
         itemsPerPage: ITEMS_PER_PAGE,
     });
     const [error, setError] = useState('');
+    const [selectedMajor, setSelectedMajor] = useState(null);
 
     const filterOptions = {
         examGroups: [
@@ -234,6 +236,10 @@ const SearchMajorsPage = () => {
         }
     };
 
+    const handleMajorClick = (majorCode) => {
+        navigate(`/major/detail/${majorCode}`);
+    };
+
     return (
         <div className="sma-page">
             <section className="search-header">
@@ -378,10 +384,12 @@ const SearchMajorsPage = () => {
                             <>
                                 <div className="sma-majors-grid">
                                     {getCurrentItems().map((major) => (
-                                        <Link
-                                            to={`/major/detail/${major.code}`}
+                                        <div
                                             key={major.code}
                                             className="sma-major-card"
+                                            onClick={() =>
+                                                handleMajorClick(major.code)
+                                            }
                                         >
                                             <div className="sma-major-header">
                                                 <h4 className="sma-major-name">
@@ -417,7 +425,7 @@ const SearchMajorsPage = () => {
                                                         )}
                                                 </div>
                                             </div>
-                                        </Link>
+                                        </div>
                                     ))}
                                 </div>
 
@@ -455,6 +463,48 @@ const SearchMajorsPage = () => {
                         )}
                     </div>
                 </div>
+            </div>
+
+            <div className="major-detail-container">
+                {selectedMajor ? (
+                    <div className="major-detail">
+                        <h2>{selectedMajor.major_name}</h2>
+                        <div className="major-code">
+                            Mã ngành: {selectedMajor.major_code}
+                        </div>
+
+                        <div className="major-section">
+                            <h3>Mô tả</h3>
+                            <p>
+                                {selectedMajor.description ||
+                                    'Chưa có thông tin'}
+                            </p>
+                        </div>
+
+                        <div className="major-section">
+                            <h3>Cơ hội việc làm</h3>
+                            <p>
+                                {selectedMajor.job_opportunities ||
+                                    'Chưa có thông tin'}
+                            </p>
+                        </div>
+
+                        <div className="major-section">
+                            <h3>Mức lương</h3>
+                            <p>
+                                {selectedMajor.salary_range ||
+                                    'Chưa có thông tin'}
+                            </p>
+                        </div>
+
+                        <button
+                            className="back-button"
+                            onClick={() => setSelectedMajor(null)}
+                        >
+                            Quay lại danh sách
+                        </button>
+                    </div>
+                ) : null}
             </div>
         </div>
     );

@@ -1,41 +1,59 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
+import { schoolDetailService } from '../../services/schoolDetailService';
 import '../../styles/pages/school-detail.css';
 
 const SchoolDetailPage = () => {
+    const { code } = useParams();
+    const [school, setSchool] = useState(null);
+    const [majors, setMajors] = useState([]);
+    const [scores, setScores] = useState([]);
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(null);
+    const [activeTab, setActiveTab] = useState('overview');
+
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                setLoading(true);
+                const [schoolRes, majorsRes, scoresRes] = await Promise.all([
+                    schoolDetailService.getSchoolByCode(code),
+                    schoolDetailService.getMajorsBySchool(code),
+                    schoolDetailService.getSchoolScores(code),
+                ]);
+
+                if (schoolRes.success) setSchool(schoolRes.data);
+                if (majorsRes.success) setMajors(majorsRes.data);
+                if (scoresRes.success) setScores(scoresRes.data);
+            } catch (err) {
+                setError('Không thể tải thông tin trường');
+            } finally {
+                setLoading(false);
+            }
+        };
+
+        if (code) {
+            fetchData();
+        }
+    }, [code]);
+
+    if (loading) return <div>Đang tải thông tin...</div>;
+    if (error) return <div className="error-message">{error}</div>;
+    if (!school) return <div>Không tìm thấy thông tin trường</div>;
+
     return (
         <div className="sd-school-detail-page">
             <section className="sd-school-banner">
                 <div className="sd-banner-content">
-                    <div className="sd-school-logo">
-                        <img
-                            src="/school-logo.png"
-                            alt="Logo trường"
-                            style={{
-                                width: '100%',
-                                height: '100%',
-                                objectFit: 'contain',
-                            }}
-                        />
-                    </div>
-                    <div className="sd-school-info">
-                        <h1>Đại học Bách Khoa Hà Nội</h1>
-                    </div>
-                    <div className="sd-school-stats">
-                        <div className="sd-stat-item">
-                            <span className="sd-stat-label">Thành lập</span>
-                            <span className="sd-stat-value">1956</span>
+                    <div className="sd-school-header">
+                        <div className="sd-school-info">
+                            <h1>{school.school_name}</h1>
                         </div>
-                        <div className="sd-stat-item">
-                            <span className="sd-stat-label">Loại trường</span>
-                            <span className="sd-stat-value">Công lập</span>
-                        </div>
-                        <div className="sd-stat-item">
-                            <span className="sd-stat-label">Xếp hạng</span>
-                            <span className="sd-stat-value">#1</span>
-                        </div>
-                        <div className="sd-stat-item">
-                            <span className="sd-stat-label">Quy mô</span>
-                            <span className="sd-stat-value">35K+</span>
+                        <div className="sd-school-logo">
+                            <img
+                                src={`/images/schools/${school.code?.toLowerCase()}.png`}
+                                alt={school.school_name}
+                            />
                         </div>
                     </div>
                 </div>
@@ -44,287 +62,243 @@ const SchoolDetailPage = () => {
             <nav className="sd-school-nav">
                 <div className="sd-nav-container">
                     <ul>
-                        <li>
-                            <a href="#overview" className="active">
-                                Tổng quan
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#majors">Ngành đào tạo</a>
-                        </li>
-                        <li>
-                            <a href="#scores">Điểm chuẩn</a>
-                        </li>
-                        <li>
-                            <a href="#quota">Chỉ tiêu tuyển sinh</a>
-                        </li>
-                        <li>
-                            <a href="#facilities">Cơ sở vật chất</a>
-                        </li>
+                        {['overview', 'majors', 'scores', 'facilities'].map(
+                            (tab) => (
+                                <li key={tab}>
+                                    <button
+                                        className={
+                                            activeTab === tab ? 'active' : ''
+                                        }
+                                        onClick={() => setActiveTab(tab)}
+                                    >
+                                        {getTabLabel(tab)}
+                                    </button>
+                                </li>
+                            ),
+                        )}
                     </ul>
                 </div>
             </nav>
 
             <main className="sd-main-content">
                 <div className="sd-content-container">
-                    <section id="overview" className="sd-content-section">
-                        <h2 className="sd-section-title">
-                            Tổng quan về trường
-                        </h2>
-                        <div className="sd-section-content">
-                            <div className="sd-overview-stats">
-                                <div className="sd-stat-box">
-                                    <span className="sd-stat-number">40+</span>
-                                    <span className="sd-stat-label">
-                                        Ngành đào tạo
-                                    </span>
-                                </div>
-                                <div className="sd-stat-box">
-                                    <span className="sd-stat-number">35k+</span>
-                                    <span className="sd-stat-label">
-                                        Sinh viên
-                                    </span>
-                                </div>
-                                <div className="sd-stat-box">
-                                    <span className="sd-stat-number">95%</span>
-                                    <span className="sd-stat-label">
-                                        Tỷ lệ việc làm
-                                    </span>
-                                </div>
-                            </div>
-                            <div className="sd-overview-description">
-                                <p>
-                                    Trường Đại học Bách khoa Hà Nội (tên tiếng
-                                    Anh: Hanoi University of Science and
-                                    Technology - HUST) là trường đại học đầu
-                                    ngành về kỹ thuật và công nghệ tại Việt Nam.
-                                    Với hơn 65 năm xây dựng và phát triển,
-                                    Trường ĐHBK Hà Nội đã trở thành một địa chỉ
-                                    đào tạo uy tín, cung cấp nguồn nhân lực chất
-                                    lượng cao cho xã hội.
-                                </p>
-                                <a
-                                    href="https://hust.edu.vn"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="sd-website-button"
-                                >
-                                    <span>Truy cập website chính thức</span>
-                                    <span className="external-link-icon">
-                                        ↗
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                    </section>
-
-                    <section id="majors" className="sd-content-section">
-                        <h2 className="sd-section-title">Ngành đào tạo</h2>
-                        <div className="sd-section-content">
-                            <div className="sd-major-groups">
-                                <div className="sd-major-group">
-                                    <h3>Khối ngành Công nghệ thông tin</h3>
-                                    <ul>
-                                        <li>Khoa học máy tính</li>
-                                        <li>Kỹ thuật phần mềm</li>
-                                        <li>Hệ thống thông tin</li>
-                                        <li>An toàn thông tin</li>
-                                    </ul>
-                                </div>
-                                <div className="sd-major-group">
-                                    <h3>Khối ngành Điện - Điện tử</h3>
-                                    <ul>
-                                        <li>Kỹ thuật điện</li>
-                                        <li>Kỹ thuật điện tử</li>
-                                        <li>
-                                            Kỹ thuật điều khiển và tự động hóa
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-                    <section id="scores" className="sd-content-section">
-                        <h2 className="sd-section-title">Điểm chuẩn</h2>
-                        <div className="sd-section-content">
-                            <div className="sd-section-description">
-                                <p>
-                                    Điểm chuẩn xét tuyển đại học năm 2023 theo
-                                    phương thức xét điểm thi THPT Quốc gia:
-                                </p>
-                            </div>
-                            <table className="sd-score-table">
-                                <thead>
-                                    <tr>
-                                        <th>Ngành</th>
-                                        <th>Điểm chuẩn</th>
-                                        <th>Tổ hợp môn</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td data-label="Ngành">
-                                            Khoa học máy tính
-                                        </td>
-                                        <td data-label="Điểm chuẩn">27.50</td>
-                                        <td data-label="Tổ hợp môn">
-                                            A00, A01
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td data-label="Ngành">
-                                            Kỹ thuật phần mềm
-                                        </td>
-                                        <td data-label="Điểm chuẩn">28.75</td>
-                                        <td data-label="Tổ hợp môn">
-                                            A00, A01, D01
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td data-label="Ngành">
-                                            Hệ thống thông tin
-                                        </td>
-                                        <td data-label="Điểm chuẩn">27.80</td>
-                                        <td data-label="Tổ hợp môn">
-                                            A00, A01, D01
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td data-label="Ngành">
-                                            An toàn thông tin
-                                        </td>
-                                        <td data-label="Điểm chuẩn">27.90</td>
-                                        <td data-label="Tổ hợp môn">
-                                            A00, A01
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td data-label="Ngành">
-                                            Kỹ thuật điện
-                                        </td>
-                                        <td data-label="Điểm chuẩn">26.50</td>
-                                        <td data-label="Tổ hợp môn">
-                                            A00, A01
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td data-label="Ngành">
-                                            Kỹ thuật điện tử
-                                        </td>
-                                        <td data-label="Điểm chuẩn">26.75</td>
-                                        <td data-label="Tổ hợp môn">
-                                            A00, A01
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td data-label="Ngành">
-                                            Kỹ thuật điều khiển và tự động hóa
-                                        </td>
-                                        <td data-label="Điểm chuẩn">27.15</td>
-                                        <td data-label="Tổ hợp môn">
-                                            A00, A01
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td data-label="Ngành">
-                                            Kỹ thuật cơ khí
-                                        </td>
-                                        <td data-label="Điểm chuẩn">26.25</td>
-                                        <td data-label="Tổ hợp môn">
-                                            A00, A01
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </section>
-
-                    <section id="quota" className="sd-content-section">
-                        <h2 className="sd-section-title">
-                            Chỉ tiêu tuyển sinh
-                        </h2>
-                        <div className="sd-section-content">
-                            <div className="sd-section-description">
-                                <p>
-                                    Thông tin chi tiết chỉ tiêu tuyển sinh năm
-                                    2024 và phương thức xét tuyển:
-                                </p>
-                                <ul className="sd-admission-methods">
-                                    <li>
-                                        Xét tuyển thẳng và ưu tiên xét tuyển
-                                    </li>
-                                    <li>Xét tuyển dựa trên kết quả thi THPT</li>
-                                    <li>
-                                        Xét tuyển dựa trên kết quả học bạ THPT
-                                    </li>
-                                </ul>
-                            </div>
-                            <table className="sd-score-table">
-                                <thead>
-                                    <tr>
-                                        <th>Ngành</th>
-                                        <th>Chỉ tiêu</th>
-                                        <th>Tỷ lệ các phương thức</th>
-                                        <th>Mã ngành</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td data-label="Ngành">
-                                            Khoa học máy tính
-                                        </td>
-                                        <td data-label="Chỉ tiêu">480</td>
-                                        <td data-label="Tỷ lệ">
-                                            70% THPT, 20% Học bạ, 10% Xét tuyển
-                                            thẳng
-                                        </td>
-                                        <td data-label="Mã ngành">7480101</td>
-                                    </tr>
-                                    <tr>
-                                        <td data-label="Ngành">
-                                            Kỹ thuật phần mềm
-                                        </td>
-                                        <td data-label="Chỉ tiêu">460</td>
-                                        <td data-label="Tỷ lệ">
-                                            70% THPT, 20% Học bạ, 10% Xét tuyển
-                                            thẳng
-                                        </td>
-                                        <td data-label="Mã ngành">7480103</td>
-                                    </tr>
-                                    {/* ...existing rows... */}
-                                </tbody>
-                            </table>
-                        </div>
-                    </section>
-
-                    <section id="facilities" className="sd-content-section">
-                        <h2 className="sd-section-title">Cơ sở vật chất</h2>
-                        <div className="sd-section-content">
-                            <div className="sd-facilities-grid">
-                                <div className="sd-facility-item">
-                                    <h3>Thư viện Tạ Quang Bửu</h3>
-                                    <p>
-                                        Thư viện với hơn 200,000 đầu sách, tài
-                                        liệu điện tử và không gian học tập hiện
-                                        đại.
-                                    </p>
-                                </div>
-                                <div className="sd-facility-item">
-                                    <h3>Khu Ký túc xá</h3>
-                                    <p>
-                                        Hệ thống ký túc xá hiện đại có sức chứa
-                                        hơn 10,000 sinh viên với đầy đủ tiện
-                                        nghi.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+                    {renderContent(activeTab, school, majors, scores)}
                 </div>
             </main>
         </div>
     );
+};
+
+const getTabLabel = (tab) => {
+    const labels = {
+        overview: 'Tổng quan',
+        majors: 'Ngành đào tạo',
+        scores: 'Điểm chuẩn',
+        facilities: 'Cơ sở vật chất',
+    };
+    return labels[tab];
+};
+
+const getMethodClass = (method) => {
+    const methodMap = {
+        ĐGNL: 'dgnl',
+        KCH: 'kch',
+        CCQT: 'ccqt',
+        'Ưu Tiên': 'uu-tien',
+        'ĐT THPT': 'dt-thpt',
+        'ĐGTD BK': 'dgtd-bk',
+        'ĐGNL HN': 'dgnl-hn',
+    };
+    return methodMap[method] || '';
+};
+
+const renderMethods = (methods) => {
+    if (!methods || !methods.length) return '';
+    return methods.map((method, idx) => (
+        <span
+            key={idx}
+            className={`admission-method ${getMethodClass(method)}`}
+        >
+            {method}
+        </span>
+    ));
+};
+
+const renderContent = (tab, school, majors, scores) => {
+    switch (tab) {
+        case 'overview':
+            return (
+                <section className="sd-content-section">
+                    <h2 className="sd-section-title">Tổng quan về trường</h2>
+                    <div className="sd-overview-description">
+                        <p>{school?.description}</p>
+
+                        <div className="sd-contact-info">
+                            <h3>Thông tin liên hệ</h3>
+                            <div className="sd-contact-list">
+                                {school?.location && (
+                                    <div className="sd-contact-item">
+                                        <i className="fas fa-map-marker-alt"></i>
+                                        <span>{school.location}</span>
+                                    </div>
+                                )}
+                                {school?.website && (
+                                    <div className="sd-contact-item">
+                                        <i className="fas fa-globe"></i>
+                                        <a
+                                            href={school.website}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            {school.website}
+                                        </a>
+                                    </div>
+                                )}
+                                {school?.phones && school.phones.length > 0 && (
+                                    <div className="sd-contact-item">
+                                        <i className="fas fa-phone"></i>
+                                        <span>{school.phones.join(' - ')}</span>
+                                    </div>
+                                )}
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            );
+
+        case 'majors':
+            return (
+                <section className="sd-content-section">
+                    <h2 className="sd-section-title">
+                        Danh sách ngành đào tạo
+                        {school?.method_link && (
+                            <a
+                                href={school.method_link}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="sd-quota-button"
+                            >
+                                <i className="fas fa-file-alt"></i>
+                                Đề án tuyển sinh {new Date().getFullYear()}
+                            </a>
+                        )}
+                    </h2>
+
+                    <div className="sd-majors-table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>STT</th>
+                                    <th>Mã ngành</th>
+                                    <th>Tên ngành</th>
+                                    <th>Chỉ tiêu</th>
+                                    <th>Phương thức xét tuyển</th>
+                                    <th>Tổ hợp môn</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {majors?.map((major) => {
+                                    const rowSpan = major.combinations.length;
+
+                                    return major.combinations.map(
+                                        (combo, idx) => (
+                                            <tr
+                                                key={`${major.major_code}-${idx}`}
+                                            >
+                                                {idx === 0 && (
+                                                    <>
+                                                        <td rowSpan={rowSpan}>
+                                                            {major.index}
+                                                        </td>
+                                                        <td rowSpan={rowSpan}>
+                                                            {major.major_code}
+                                                        </td>
+                                                        <td rowSpan={rowSpan}>
+                                                            {major.major_name}
+                                                        </td>
+                                                        <td rowSpan={rowSpan}>
+                                                            {major.quota}
+                                                        </td>
+                                                    </>
+                                                )}
+                                                <td className="methods-cell">
+                                                    {renderMethods(
+                                                        combo.admission_methods,
+                                                    )}
+                                                </td>
+                                                <td>
+                                                    {combo.subject || 'N/A'}
+                                                </td>
+                                            </tr>
+                                        ),
+                                    );
+                                })}
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            );
+
+        case 'scores':
+            const renderScores = () => {
+                if (!scores || Object.keys(scores).length === 0) {
+                    return (
+                        <div className="sd-no-data">
+                            <i className="fas fa-info-circle"></i>
+                            Chưa có thông tin điểm chuẩn
+                        </div>
+                    );
+                }
+
+                return Object.entries(scores)
+                    .sort(([yearA], [yearB]) => yearB - yearA)
+                    .map(([year, yearScores]) => (
+                        <div key={year} className="sd-scores-year">
+                            <h3>Điểm chuẩn năm {year}</h3>
+                            <div className="sd-scores-table">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>Tên ngành</th>
+                                            <th>Mã ngành</th>
+                                            <th>Tổ hợp môn</th>
+                                            <th>Điểm chuẩn</th>
+                                            <th>Ghi chú</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {yearScores.map((score, index) => (
+                                            <tr key={index}>
+                                                <td>{score.majorName}</td>
+                                                <td>{score.majorCode}</td>
+                                                <td>
+                                                    {score.subjects?.join(
+                                                        ', ',
+                                                    ) || ''}
+                                                </td>
+                                                <td className="score-value">
+                                                    {score.score}
+                                                </td>
+                                                <td>{score.note || ''}</td>
+                                            </tr>
+                                        ))}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    ));
+            };
+
+            return (
+                <section className="sd-content-section">
+                    <h2 className="sd-section-title">Điểm chuẩn đại học</h2>
+                    <div className="sd-scores-content">{renderScores()}</div>
+                </section>
+            );
+
+        default:
+            return null;
+    }
 };
 
 export default SchoolDetailPage;
