@@ -160,12 +160,12 @@
 }
 
 .major-detail-page {
-    max-width: 800px;
+    max-width: 1200px; /* Increased from 800px */
     margin: 32px auto;
     background: #fff;
     border-radius: 12px;
     box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
-    padding: 32px 24px 24px 24px;
+    padding: 32px 32px 32px 32px; /* Increased horizontal padding */
     font-family: 'Segoe UI', Arial, sans-serif;
 }
 
@@ -209,23 +209,37 @@
 }
 
 .major-section {
-    margin-bottom: 28px;
+    margin-bottom: 32px;
+    background: white;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
 }
 
 .major-section h2 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: #1976d2;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
     font-weight: 600;
+    padding-left: 2px;
 }
 
 .section-content {
     background: #f8fafc;
     border-radius: 8px;
-    padding: 16px;
-    font-size: 1rem;
-    color: #222;
+    padding: 24px 28px;
+    font-size: 1.05rem;
+    color: #2c3e50;
     min-height: 32px;
+    max-width: 100%;
+    line-height: 1.8;
+    letter-spacing: 0.2px;
+    text-align: justify;
+    white-space: pre-line;
+}
+
+.section-content:not(:last-child) {
+    margin-bottom: 16px;
 }
 
 .exam-groups {
@@ -326,6 +340,67 @@
     margin-bottom: 4px;
 }
 
+.school-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 16px;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    font-size: 1.05rem;
+    max-width: 1200px;
+}
+
+.school-table th {
+    background: #f1f5f9;
+    color: #334155;
+    font-weight: 600;
+    padding: 16px 20px;
+    text-align: left;
+    border-bottom: 2px solid #e2e8f0;
+}
+
+.school-table td {
+    padding: 16px 20px;
+    border-bottom: 1px solid #e2e8f0;
+    color: #1e293b;
+    vertical-align: middle;
+    line-height: 1.5;
+}
+
+.school-link {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.school-link:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+}
+
+.admission-method {
+    display: inline-block;
+    background: #e0f2fe;
+    color: #0369a1;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    margin: 2px 0;
+}
+
+.subject-item {
+    display: inline-block;
+    background: #f0fdf4;
+    color: #166534;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    margin: 2px 0;
+}
+
 @media (max-width: 992px) {
     .academic-major-content {
         grid-template-columns: 1fr;
@@ -333,5 +408,28 @@
 
     .academic-major-sidebar {
         position: static;
+    }
+}
+
+@media (max-width: 768px) {
+    .school-table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+        font-size: 0.95rem;
+    }
+
+    .school-table th,
+    .school-table td {
+        padding: 12px 16px;
+    }
+}
+
+@media (max-width: 1250px) {
+    /* New breakpoint for larger screens */
+    .major-detail-page {
+        max-width: 95%;
+        margin: 24px auto;
+        padding: 24px 20px;
     }
 }

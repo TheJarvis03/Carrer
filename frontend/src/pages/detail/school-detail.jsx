@@ -43,46 +43,46 @@ const SchoolDetailPage = () => {
 
     return (
         <div className="sd-school-detail-page">
-            <section className="sd-school-banner">
-                <div className="sd-banner-content">
-                    <div className="sd-school-header">
-                        <div className="sd-school-info">
-                            <h1>{school.school_name}</h1>
-                        </div>
-                        <div className="sd-school-logo">
-                            <img
-                                src={`/images/schools/${school.code?.toLowerCase()}.png`}
-                                alt={school.school_name}
-                            />
+            <div className="sd-page-wrapper">
+                <section className="sd-school-banner">
+                    <div className="sd-banner-content">
+                        <div className="sd-school-header">
+                            <div className="sd-school-info">
+                                <h1>{school.school_name}</h1>
+                            </div>
+                            <div className="sd-school-logo">
+                                <img
+                                    src={`/images/schools/${school.code?.toLowerCase()}.png`}
+                                    alt={school.school_name}
+                                />
+                            </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
 
-            <nav className="sd-school-nav">
-                <div className="sd-nav-container">
-                    <ul>
-                        {['overview', 'majors', 'scores'].map((tab) => (
-                            <li key={tab}>
-                                <button
-                                    className={
-                                        activeTab === tab ? 'active' : ''
-                                    }
-                                    onClick={() => setActiveTab(tab)}
-                                >
-                                    {getTabLabel(tab)}
-                                </button>
-                            </li>
-                        ))}
-                    </ul>
-                </div>
-            </nav>
+                <nav className="sd-school-nav">
+                    <div className="sd-nav-container">
+                        <ul>
+                            {['overview', 'majors', 'scores'].map((tab) => (
+                                <li key={tab}>
+                                    <button
+                                        className={
+                                            activeTab === tab ? 'active' : ''
+                                        }
+                                        onClick={() => setActiveTab(tab)}
+                                    >
+                                        {getTabLabel(tab)}
+                                    </button>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                </nav>
 
-            <main className="sd-main-content">
-                <div className="sd-content-container">
+                <div className="sd-fixed-width-container">
                     {renderContent(activeTab, school, majors, scores)}
                 </div>
-            </main>
+            </div>
         </div>
     );
 };
@@ -134,12 +134,14 @@ const renderSubjectGroups = (subjectGroup) => {
 };
 
 const renderContent = (tab, school, majors, scores) => {
-    switch (tab) {
-        case 'overview':
-            return (
-                <section className="sd-content-section">
-                    <h2 className="sd-section-title">Tổng quan về trường</h2>
+    return (
+        <div className="sd-unified-container">
+            <section className="sd-content-section">
+                {tab === 'overview' && (
                     <div className="sd-overview-description">
+                        <h2 className="sd-section-title">
+                            Tổng quan về trường
+                        </h2>
                         <p>{school?.description}</p>
 
                         <div className="sd-contact-info">
@@ -172,28 +174,24 @@ const renderContent = (tab, school, majors, scores) => {
                             </div>
                         </div>
                     </div>
-                </section>
-            );
+                )}
 
-        case 'majors':
-            return (
-                <section className="sd-content-section">
-                    <h2 className="sd-section-title">
-                        Danh sách ngành đào tạo
-                        {school?.method_link && (
-                            <a
-                                href={school.method_link}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="sd-quota-button"
-                            >
-                                <i className="fas fa-file-alt"></i>
-                                Đề án tuyển sinh {new Date().getFullYear()}
-                            </a>
-                        )}
-                    </h2>
-
+                {tab === 'majors' && (
                     <div className="sd-majors-table">
+                        <h2 className="sd-section-title">
+                            Danh sách ngành đào tạo
+                            {school?.method_link && (
+                                <a
+                                    href={school.method_link}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="sd-quota-button"
+                                >
+                                    <i className="fas fa-file-alt"></i>
+                                    Đề án tuyển sinh {new Date().getFullYear()}
+                                </a>
+                            )}
+                        </h2>
                         <table>
                             <thead>
                                 <tr>
@@ -250,14 +248,11 @@ const renderContent = (tab, school, majors, scores) => {
                             </tbody>
                         </table>
                     </div>
-                </section>
-            );
+                )}
 
-        case 'scores':
-            return (
-                <section className="sd-content-section">
-                    <h2 className="sd-section-title">Điểm chuẩn đại học</h2>
+                {tab === 'scores' && (
                     <div className="sd-scores-content">
+                        <h2 className="sd-section-title">Điểm chuẩn đại học</h2>
                         {Object.entries(scores)
                             .sort(([yearA], [yearB]) => yearB - yearA)
                             .map(([year, yearScores]) => (
@@ -313,12 +308,10 @@ const renderContent = (tab, school, majors, scores) => {
                                 </div>
                             ))}
                     </div>
-                </section>
-            );
-
-        default:
-            return null;
-    }
+                )}
+            </section>
+        </div>
+    );
 };
 
 export default SchoolDetailPage;

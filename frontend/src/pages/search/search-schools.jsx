@@ -2,6 +2,7 @@ import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import '../../styles/pages/search-schools.css';
 import { schoolService } from '../../services/schoolService';
+import schoolDetailService from '../../services/schoolDetailService';
 
 // Move sorting functions outside component
 const getInstitutionTypePriority = (schoolName) => {
@@ -33,6 +34,7 @@ const SearchSchoolsPage = () => {
     const [error, setError] = useState(null);
     const [currentPage, setCurrentPage] = useState(1);
     const itemsPerPage = 10;
+    const [admissionScores, setAdmissionScores] = useState({}); // Add this state
 
     // Use memoized sorted schools
     const sortedSchools = useMemo(() => sortSchoolsByType(schools), [schools]);
@@ -54,6 +56,39 @@ const SearchSchoolsPage = () => {
     useEffect(() => {
         setFilteredSchools(sortedSchools);
     }, [sortedSchools]);
+
+    useEffect(() => {
+        const fetchAdmissionScores = async () => {
+            const scorePromises = schools.map((school) =>
+                schoolDetailService.getSchoolScores(school.id),
+            );
+
+            const results = await Promise.all(scorePromises);
+
+            const scoreMap = results.reduce((acc, result, index) => {
+                if (result.success) {
+                    const schoolId = schools[index].id;
+                    const scores = Object.values(result.data)
+                        .flat()
+                        .map((s) => s.score);
+
+                    if (scores.length > 0) {
+                        acc[schoolId] = {
+                            min: Math.min(...scores),
+                            max: Math.max(...scores),
+                        };
+                    }
+                }
+                return acc;
+            }, {});
+
+            setAdmissionScores(scoreMap);
+        };
+
+        if (schools.length > 0) {
+            fetchAdmissionScores();
+        }
+    }, [schools]);
 
     const handleSearch = useCallback(
         (e) => {
@@ -342,12 +377,6 @@ const SearchSchoolsPage = () => {
                                                                     'Chưa cập nhật'}
                                                             </span>
                                                         </div>
-                                                        <div className="ssh-info-item">
-                                                            <i className="fas fa-graduation-cap"></i>
-                                                            <span>
-                                                                12,000 sinh viên
-                                                            </span>
-                                                        </div>
                                                     </div>
                                                 </div>
                                                 <div className="ssh-school-details">
@@ -356,10 +385,22 @@ const SearchSchoolsPage = () => {
                                                             Điểm chuẩn
                                                         </div>
                                                         <div className="ssh-stat-value">
-                                                            23.5-27.5
+                                                            {admissionScores[
+                                                                school.id
+                                                            ]
+                                                                ? `${admissionScores[
+                                                                      school.id
+                                                                  ].min.toFixed(
+                                                                      1,
+                                                                  )}-${admissionScores[
+                                                                      school.id
+                                                                  ].max.toFixed(
+                                                                      1,
+                                                                  )}`
+                                                                : 'Chưa cập nhật'}
                                                         </div>
                                                         <div className="ssh-stat-range">
-                                                            Năm 2023
+                                                            Năm 2024
                                                         </div>
                                                     </div>
                                                     <div className="ssh-stat-item">

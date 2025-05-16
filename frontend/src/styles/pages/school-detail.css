@@ -4,18 +4,28 @@
     max-width: 100%;
     margin: 0 auto;
     background-color: #f5f5f5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.sd-page-wrapper {
+    width: 95%;
+    max-width: 1920px;
+    margin: 0 auto;
+    flex: 1;
 }
 
 .sd-school-banner {
     background: #fff;
     padding: 2rem 0;
     border-bottom: 1px solid #eee;
+    width: 100%;
 }
 
 .sd-banner-content {
-    max-width: 1920px; /* Tăng độ rộng tối đa của container */
-    margin: 0 auto;
-    padding: 0 4rem; /* Tăng padding để cân bằng bố cục */
+    width: 100%;
+    padding: 0 2rem;
 }
 
 .sd-school-header {
@@ -121,8 +131,10 @@
 }
 
 .sd-nav-container {
-    max-width: 1920px; /* Khớp với container chính */
-    padding: 0 4rem;
+    width: 95%;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 2rem;
 }
 
 .sd-nav-container ul {
@@ -159,20 +171,40 @@
 
 /* Content */
 .sd-content-container {
-    max-width: 1920px; /* Khớp với container chính */
-    width: 95%;
-    margin: 3rem auto;
-    padding: 0 2rem;
+    width: 100%;
+    padding: 0;
+}
+
+.sd-unified-container {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0;
+    min-height: 600px;
 }
 
 .sd-content-section {
+    width: 100%;
     background: #fff;
     border-radius: 12px;
     padding: 2.5rem;
-    margin-bottom: 2rem;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
-    min-height: 600px; /* Fixed height for consistent sections */
+}
+
+.sd-overview-description,
+.sd-majors-table,
+.sd-scores-content {
     width: 100%;
+    max-width: 100%;
+    margin: 0;
+}
+
+.sd-tab-content {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0;
+    padding: 0;
+    min-height: 600px;
 }
 
 .sd-majors-grid {
@@ -475,28 +507,13 @@
 
 /* Media Queries */
 @media (max-width: 1920px) {
-    .sd-banner-content,
-    .sd-nav-container,
-    .sd-content-container {
-        max-width: 1600px;
-        padding: 0 3rem;
+    .sd-page-wrapper {
+        max-width: 95%;
     }
 }
 
 @media (max-width: 1440px) {
-    .sd-banner-content,
-    .sd-nav-container,
-    .sd-content-container {
+    .sd-page-wrapper {
         max-width: 1200px;
-        padding: 0 2rem;
-    }
-
-    .sd-school-header {
-        grid-template-columns: 180px 1fr;
-    }
-
-    .sd-school-logo {
-        width: 180px;
-        height: 180px;
     }
 }
