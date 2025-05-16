@@ -237,7 +237,11 @@ const SearchMajorsPage = () => {
     };
 
     const handleMajorClick = (majorCode) => {
-        navigate(`/major/detail/${majorCode}`);
+        // Sửa lại hàm xử lý click
+        console.log('Clicked major code:', majorCode);
+        if (majorCode) {
+            navigate(`/major/detail/${majorCode}`);
+        }
     };
 
     return (
@@ -387,9 +391,7 @@ const SearchMajorsPage = () => {
                                         <div
                                             key={major.code}
                                             className="sma-major-card"
-                                            onClick={() =>
-                                                handleMajorClick(major.code)
-                                            }
+                                            onClick={() => handleMajorClick(major.code)} // Đảm bảo sử dụng đúng thuộc tính code
                                         >
                                             <div className="sma-major-header">
                                                 <h4 className="sma-major-name">

@@ -22,11 +22,6 @@ const Navigation = () => {
     const userDropdownRef = useRef(null);
     const navigate = useNavigate();
 
-    const isSchoolCode = (query) => {
-        const schoolCodePattern = /^[A-Z0-9]{1,3}$/;
-        return schoolCodePattern.test(query.toUpperCase());
-    };
-
     useEffect(() => {
         const handleClickOutside = (event) => {
             if (
@@ -54,81 +49,78 @@ const Navigation = () => {
             document.removeEventListener('mousedown', handleClickOutside);
     }, []);
 
+    // Sử dụng API search chuyên biệt cho từng loại
+    const fetchSchoolSuggestions = async (query) => {
+        // Ưu tiên dùng API searchSchools, nếu không có thì fallback sang filter client
+        if (schoolService.searchSchools) {
+            try {
+                const res = await schoolService.searchSchools(query);
+                if (res.success) {
+                    return res.data.slice(0, 5).map((school) => ({
+                        id: school.id || school.code,
+                        code: school.id || school.code,
+                        name: school.school_name || school.name,
+                        location: school.location,
+                        type: school.ownership || school.type,
+                    }));
+                }
+            } catch (e) {}
+        }
+        // Fallback: lấy toàn bộ và filter client-side (giống trang search-schools.jsx)
+        try {
+            const res = await schoolService.getAll();
+            if (res.success) {
+                const q = query.trim().toLowerCase();
+                const filtered = res.data.filter((school) =>
+                    (school.school_name && school.school_name.toLowerCase().includes(q)) ||
+                    (school.location && school.location.toLowerCase().includes(q)) ||
+                    (school.id && school.id.toLowerCase().includes(q))
+                );
+                return filtered.slice(0, 5).map((school) => ({
+                    id: school.id || school.code,
+                    code: school.id || school.code,
+                    name: school.school_name || school.name,
+                    location: school.location,
+                    type: school.ownership || school.type,
+                }));
+            }
+        } catch (e) {}
+        return [];
+    };
+
+    const fetchMajorSuggestions = async (query) => {
+        try {
+            const res = await majorService.searchMajors(query);
+            if (res.success) {
+                return res.data.slice(0, 5).map((major) => ({
+                    id: major.code,
+                    code: major.code,
+                    name: major.major_name,
+                    group: major.group_name,
+                    examGroups: major.exam_groups,
+                }));
+            }
+        } catch (e) {}
+        return [];
+    };
+
     const handleSearchChange = async (e) => {
         const query = e.target.value;
         setSearchQuery(query);
 
         if (query.length >= 1) {
-            // Changed from 2 to 1 to handle short codes
             try {
-                const [schoolsResponse, majorsResponse] = await Promise.all([
-                    schoolService.getAll(),
-                    majorService.getAll(),
+                // Gọi API search cho từng loại
+                const [schoolResults, majorResults] = await Promise.all([
+                    fetchSchoolSuggestions(query),
+                    fetchMajorSuggestions(query),
                 ]);
-
-                const schoolResults = schoolsResponse.success
-                    ? schoolsResponse.data
-                          .filter((school) => {
-                              if (isSchoolCode(query)) {
-                                  return (
-                                      school.code?.toString().toUpperCase() ===
-                                      query.toUpperCase()
-                                  );
-                              }
-                              return (
-                                  school.name
-                                      ?.toLowerCase()
-                                      .includes(query.toLowerCase()) ||
-                                  school.location
-                                      ?.toLowerCase()
-                                      .includes(query.toLowerCase())
-                              );
-                          })
-                          .slice(0, 5)
-                          .map((school) => ({
-                              id: school.code,
-                              code: school.code,
-                              name: school.name,
-                              location: school.location,
-                          }))
-                    : [];
-
-                const majorResults = majorsResponse.success
-                    ? majorsResponse.data
-                          .filter(
-                              (major) =>
-                                  major.major_name
-                                      .toLowerCase()
-                                      .includes(query.toLowerCase()) ||
-                                  major.code
-                                      ?.toLowerCase()
-                                      .includes(query.toLowerCase()) ||
-                                  major.group_name
-                                      ?.toLowerCase()
-                                      .includes(query.toLowerCase()) ||
-                                  major.exam_groups?.some((group) =>
-                                      group
-                                          .toLowerCase()
-                                          .includes(query.toLowerCase()),
-                                  ),
-                          )
-                          .slice(0, 5)
-                          .map((major) => ({
-                              id: major.code,
-                              code: major.code,
-                              name: major.major_name,
-                              group: major.group_name,
-                              examGroups: major.exam_groups,
-                          }))
-                    : [];
-
                 setSuggestions({
                     schools: schoolResults,
                     majors: majorResults,
                 });
                 setShowSuggestions(true);
             } catch (error) {
-                console.error('Search error:', error);
                 setSuggestions({ schools: [], majors: [] });
             }
         } else {
@@ -136,12 +128,28 @@ const Navigation = () => {
         }
     };
 
+    // Khi nhấn Enter, điều hướng đến đúng trang tìm kiếm
     const handleSearch = (e) => {
         if (e.key === 'Enter' && searchQuery.trim()) {
             setShowSuggestions(false);
+            // Ưu tiên trường nếu có kết quả, ngược lại là ngành
+            if (suggestions.schools.length > 0) {
+                navigate(
+                    `/search/schools?q=${encodeURIComponent(searchQuery.trim())}`,
+                );
+            } else {
+                navigate(
+                    `/search/majors?q=${encodeURIComponent(searchQuery.trim())}`,
+                );
+            }
+        }
+    };
 
-            const { schools, majors } = suggestions;
-            if (schools.length > majors.length) {
+    // Khi click icon search
+    const handleSearchIconClick = () => {
+        if (searchQuery.trim()) {
+            setShowSuggestions(false);
+            if (suggestions.schools.length > 0) {
                 navigate(
                     `/search/schools?q=${encodeURIComponent(searchQuery.trim())}`,
                 );
@@ -193,17 +201,12 @@ const Navigation = () => {
                     onChange={handleSearchChange}
                     onKeyPress={handleSearch}
                     onFocus={() =>
-                        searchQuery.length >= 2 && setShowSuggestions(true)
+                        searchQuery.length >= 1 && setShowSuggestions(true)
                     }
                 />
                 <button
                     className="search-icon"
-                    onClick={() =>
-                        searchQuery.trim() &&
-                        navigate(
-                            `/search?q=${encodeURIComponent(searchQuery.trim())}`,
-                        )
-                    }
+                    onClick={handleSearchIconClick}
                 >
                     <i className="fas fa-search"></i>
                 </button>

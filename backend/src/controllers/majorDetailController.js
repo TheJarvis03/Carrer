@@ -36,7 +36,14 @@ const majorDetailController = {
     getByCode: async (req, res) => {
         try {
             const majorCode = req.params.code;
-            const majorDetail = await MajorDetail.findOne({ majorCode });
+            // Tìm theo cả majorCode và major_code để đảm bảo lấy đúng dữ liệu
+            const majorDetail = await MajorDetail.findOne({
+                $or: [
+                    { majorCode: majorCode },
+                    { major_code: majorCode },
+                    { code: majorCode }
+                ]
+            }).lean();
 
             if (!majorDetail) {
                 return res.status(404).json({
@@ -45,9 +52,19 @@ const majorDetailController = {
                 });
             }
 
+            // Chuẩn hóa dữ liệu trả về cho frontend
             return res.status(200).json({
                 success: true,
-                data: majorDetail,
+                data: {
+                    major_id: majorDetail._id,
+                    major_code: majorDetail.majorCode || majorDetail.major_code || majorDetail.code || '',
+                    major_name: majorDetail.majorName || majorDetail.major_name || majorDetail.name || '',
+                    description: majorDetail.description || '',
+                    job_opportunities: majorDetail.jobOpportunities || majorDetail.job_opportunities || '',
+                    salary_range: majorDetail.salaryRange || majorDetail.salary_range || majorDetail.salary || '',
+                    exam_groups: majorDetail.examGroups || majorDetail.exam_groups || [],
+                    // Thêm các trường khác nếu cần
+                },
             });
         } catch (error) {
             return res.status(500).json({
