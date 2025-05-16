@@ -286,7 +286,7 @@
     margin-bottom: 30px;
     background: #fff;
     border-radius: 8px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     border: 1px solid #e5e7eb;
 }
@@ -330,14 +330,16 @@
     line-height: 1.5;
 }
 
-.sd-scores-table td:nth-child(1) { /* Mã ngành */
+.sd-scores-table td:nth-child(1) {
+    /* Mã ngành */
     font-family: 'Roboto Mono', monospace;
     font-size: 0.9em;
     color: #2563eb;
     font-weight: 500;
 }
 
-.sd-scores-table td:nth-child(2) { /* Tên ngành */
+.sd-scores-table td:nth-child(2) {
+    /* Tên ngành */
     font-weight: 500;
     color: #1f2937;
     min-width: 250px;
@@ -373,7 +375,7 @@
 .sd-majors-table {
     background: #fff;
     border-radius: 8px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     margin-top: 20px;
     border: 1px solid #e5e7eb;

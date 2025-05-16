@@ -62,20 +62,18 @@ const SchoolDetailPage = () => {
             <nav className="sd-school-nav">
                 <div className="sd-nav-container">
                     <ul>
-                        {['overview', 'majors', 'scores'].map(
-                            (tab) => (
-                                <li key={tab}>
-                                    <button
-                                        className={
-                                            activeTab === tab ? 'active' : ''
-                                        }
-                                        onClick={() => setActiveTab(tab)}
-                                    >
-                                        {getTabLabel(tab)}
-                                    </button>
-                                </li>
-                            ),
-                        )}
+                        {['overview', 'majors', 'scores'].map((tab) => (
+                            <li key={tab}>
+                                <button
+                                    className={
+                                        activeTab === tab ? 'active' : ''
+                                    }
+                                    onClick={() => setActiveTab(tab)}
+                                >
+                                    {getTabLabel(tab)}
+                                </button>
+                            </li>
+                        ))}
                     </ul>
                 </div>
             </nav>
@@ -101,12 +99,12 @@ const getTabLabel = (tab) => {
 const getMethodClass = (method) => {
     const methodMap = {
         'ĐT THPT': 'dt-thpt',
-        'ĐGNL': 'dgnl',
-        'CCQT': 'ccqt',
+        ĐGNL: 'dgnl',
+        CCQT: 'ccqt',
         'Ưu Tiên': 'uu-tien',
-        'KCH': 'kch',
+        KCH: 'kch',
         'ĐGTD BK': 'dgtd-bk',
-        'ĐGNL HN': 'dgnl-hn'
+        'ĐGNL HN': 'dgnl-hn',
     };
     return methodMap[method] || '';
 };
@@ -125,7 +123,7 @@ const renderMethods = (methods) => {
 
 const renderSubjectGroups = (subjectGroup) => {
     if (!subjectGroup) return '';
-    const groups = subjectGroup.split(';').map(group => group.trim());
+    const groups = subjectGroup.split(';').map((group) => group.trim());
     return (
         <div className="subject-group">
             {groups.map((group, index) => (
@@ -237,9 +235,7 @@ const renderContent = (tab, school, majors, scores) => {
                                                         combo.admission_methods,
                                                     )}
                                                 </td>
-                                                <td>
-                                                    {combo.subject}
-                                                </td>
+                                                <td>{combo.subject}</td>
                                             </tr>
                                         ),
                                     );
@@ -272,15 +268,33 @@ const renderContent = (tab, school, majors, scores) => {
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                {yearScores.map((score, index) => (
-                                                    <tr key={index}>
-                                                        <td>{score.majorCode}</td>
-                                                        <td>{score.majorName}</td>
-                                                        <td>{renderSubjectGroups(score.subjectGroup)}</td>
-                                                        <td className="score-value">{score.score}</td>
-                                                        <td>{score.note}</td>
-                                                    </tr>
-                                                ))}
+                                                {yearScores.map(
+                                                    (score, index) => (
+                                                        <tr key={index}>
+                                                            <td>
+                                                                {
+                                                                    score.majorCode
+                                                                }
+                                                            </td>
+                                                            <td>
+                                                                {
+                                                                    score.majorName
+                                                                }
+                                                            </td>
+                                                            <td>
+                                                                {renderSubjectGroups(
+                                                                    score.subjectGroup,
+                                                                )}
+                                                            </td>
+                                                            <td className="score-value">
+                                                                {score.score}
+                                                            </td>
+                                                            <td>
+                                                                {score.note}
+                                                            </td>
+                                                        </tr>
+                                                    ),
+                                                )}
                                             </tbody>
                                         </table>
                                     </div>

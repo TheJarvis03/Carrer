@@ -67,7 +67,6 @@ const schoolDetailService = {
         }
     },
 
-
     getMajorsBySchool: async (code) => {
         try {
             const response = await axios.get(`${API_URL}/${code}`);
@@ -126,46 +125,58 @@ const schoolDetailService = {
 
     getSchoolScores: async (code) => {
         try {
-            const response = await axios.get(`http://localhost:5000/api/admissionScores/university/${code}`);
-            
+            const response = await axios.get(
+                `http://localhost:5000/api/admissionScores/university/${code}`,
+            );
+
             if (response?.data?.success) {
                 const scores = response.data.data;
-                
+
                 // Group scores by year
                 const groupedScores = scores.reduce((acc, score) => {
                     const year = score.year || new Date().getFullYear();
-                    
+
                     if (!acc[year]) {
                         acc[year] = [];
                     }
-                    
+
                     acc[year].push({
                         majorCode: score.major_code || '',
                         majorName: score.major_name || '',
-                        subjectGroup: score.subject_group || '',  // Sử dụng trực tiếp subject_group
+                        subjectGroup: score.subject_group || '', // Sử dụng trực tiếp subject_group
                         score: score.score || 0,
-                        note: score.note || ''
+                        note: score.note || '',
                     });
-                    
+
                     return acc;
                 }, {});
 
                 // Sort scores within each year by majorCode
-                Object.keys(groupedScores).forEach(year => {
-                    groupedScores[year].sort((a, b) => a.majorCode.localeCompare(b.majorCode));
+                Object.keys(groupedScores).forEach((year) => {
+                    groupedScores[year].sort((a, b) =>
+                        a.majorCode.localeCompare(b.majorCode),
+                    );
                 });
 
                 return {
                     success: true,
-                    data: groupedScores
+                    data: groupedScores,
                 };
             }
-            return { success: false, data: {}, error: 'Không tìm thấy điểm chuẩn' };
+            return {
+                success: false,
+                data: {},
+                error: 'Không tìm thấy điểm chuẩn',
+            };
         } catch (error) {
             console.error('Error fetching scores:', error);
-            return { success: false, data: {}, error: 'Lỗi khi tải điểm chuẩn' };
+            return {
+                success: false,
+                data: {},
+                error: 'Lỗi khi tải điểm chuẩn',
+            };
         }
-    }
+    },
 };
 
 export default schoolDetailService;
