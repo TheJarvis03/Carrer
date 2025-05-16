@@ -1,0 +1,1111 @@
+📌 Có 111 trường có school_code là null:
+
+Tên trường: Đại Học Kinh Tế Quốc Dân
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Đại Học Kinh Tế Quốc Dân",
+  "school_code": null,
+  "subject_group": "A00; A01; D01; D07",
+  "score": 27.29
+}
+--------------------------------------------------
+Tên trường: Học Viện Tài chính
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Học Viện Tài chính",
+  "school_code": null,
+  "subject_group": "A00; A01; D01; D07",
+  "score": 26.45
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Công Thương TPHCM
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Trường Đại Học Công Thương TPHCM",
+  "school_code": null,
+  "subject_group": "A00; A01; D01; D10",
+  "score": 22.5
+}
+--------------------------------------------------
+Tên trường: Trường Đại học Thủ Dầu Một
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Trường Đại học Thủ Dầu Một",
+  "school_code": null,
+  "subject_group": "A00; A01; D01; A16",
+  "score": 22
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Thủy Lợi
+{
+  "major_name": "Kế toán",
+  "major_code": "TLA403",
+  "school_name": "Trường Đại Học Thủy Lợi",
+  "school_code": null,
+  "subject_group": "A00; A01; D01; D07",
+  "score": 25.02
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Kinh Tế – Đại Học Quốc Gia Hà Nội
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Trường Đại Học Kinh Tế – Đại Học Quốc Gia Hà Nội",
+  "school_code": null,
+  "subject_group": "A01; D01; D09; D10",
+  "score": 33.1
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Sư Phạm Kỹ Thuật TPHCM
+{
+  "major_name": "Kế toán (đào tạo bằng tiếng Việt)",
+  "major_code": "7340301V",
+  "school_name": "Trường Đại Học Sư Phạm Kỹ Thuật TPHCM",
+  "school_code": null,
+  "subject_group": "A00; A01; D01; D90",
+  "score": 22.75
+}
+--------------------------------------------------
+Tên trường: Trường Đại học Kinh Tế Luật – Đại Học Quốc Gia TPHCM
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301_405",
+  "school_name": "Trường Đại học Kinh Tế Luật – Đại Học Quốc Gia TPHCM",
+  "school_code": null,
+  "subject_group": "A00; A01; D01; D07",
+  "score": 26.17
+}
+--------------------------------------------------
+Tên trường: Đại Học Kinh Tế TPHCM
+{
+  "major_name": "Chương trình Kế toán tích hợp chứng chỉ nghề nghiệp quốc tế (của tố chức nghề nghiệp ICAEW và ACCA)",
+  "major_code": "7340301_01",
+  "school_name": "Đại Học Kinh Tế TPHCM",
+  "school_code": null,
+  "subject_group": "A00; A01; D01; D07",
+  "score": 25.2
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Tài Chính Marketing
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Trường Đại Học Tài Chính Marketing",
+  "school_code": null,
+  "subject_group": "A00; A01; D01; D96",
+  "score": 25
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Quốc Tế – Đại Học Quốc Gia TPHCM
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Trường Đại Học Quốc Tế – Đại Học Quốc Gia TPHCM",
+  "school_code": null,
+  "subject_group": "A00; A01; D01; D07",
+  "score": 22.5
+}
+--------------------------------------------------
+Tên trường: Học Viện Chính Sách và Phát Triển
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Học Viện Chính Sách và Phát Triển",
+  "school_code": null,
+  "subject_group": "A00; A01; D01; D07",
+  "score": 25.84
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học An Giang - Đại học Quốc gia TPHCM
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Trường Đại Học An Giang - Đại học Quốc gia TPHCM",
+  "school_code": null,
+  "subject_group": "A00; A01; C15; D01",
+  "score": 23.02
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Kinh Tế – Đại Học Đà Nẵng
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Trường Đại Học Kinh Tế – Đại Học Đà Nẵng",
+  "school_code": null,
+  "subject_group": "A00; A01; D01; D90",
+  "score": 24.25
+}
+--------------------------------------------------
+Tên trường: Trường Đại học Tài Nguyên và Môi Trường Hà Nội
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Trường Đại học Tài Nguyên và Môi Trường Hà Nội",
+  "school_code": null,
+  "subject_group": "A00; A01; A07; D01",
+  "score": 24.25
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Ngân Hàng TPHCM
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Trường Đại Học Ngân Hàng TPHCM",
+  "school_code": null,
+  "subject_group": "A00; A01; D01; D07",
+  "score": 25.29
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Lao Động – Xã Hội
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Trường Đại Học Lao Động – Xã Hội",
+  "school_code": null,
+  "subject_group": "A00; A01; D01",
+  "score": 22.65
+}
+--------------------------------------------------
+Tên trường: Trường Đại học Kỹ Thuật Công Nghệ Cần Thơ
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Trường Đại học Kỹ Thuật Công Nghệ Cần Thơ",
+  "school_code": null,
+  "subject_group": "A00; C01; C02; D01",
+  "score": 23.19
+}
+--------------------------------------------------
+Tên trường: Trường Quốc Tế – Đại Học Quốc Gia Hà Nội
+{
+  "major_name": "Kế toán, Phân tích và Kiểm toán",
+  "major_code": "QHQ02",
+  "school_name": "Trường Quốc Tế – Đại Học Quốc Gia Hà Nội",
+  "school_code": null,
+  "subject_group": "A00; A01; D01; D03; D06; D96; D97; DD0",
+  "score": 22.75
+}
+--------------------------------------------------
+Tên trường: Trường Đại học Công nghiệp Vinh
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Trường Đại học Công nghiệp Vinh",
+  "school_code": null,
+  "subject_group": "A00; A01; D01; D07",
+  "score": 20
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Nông Lâm TPHCM
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Trường Đại Học Nông Lâm TPHCM",
+  "school_code": null,
+  "subject_group": "A00; A01; D01",
+  "score": 23
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Mở TPHCM
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Trường Đại Học Mở TPHCM",
+  "school_code": null,
+  "subject_group": "A00; A01; D01; D07",
+  "score": 21
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Tài Chính Ngân Hàng Hà Nội
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Trường Đại Học Tài Chính Ngân Hàng Hà Nội",
+  "school_code": null,
+  "subject_group": "A00; A01; D01; C04",
+  "score": 23.75
+}
+--------------------------------------------------
+Tên trường: Trường Đại học Công nghệ Giao thông vận tải
+{
+  "major_name": "Kế toán doanh nghiệp",
+  "major_code": "GTADCKTI",
+  "school_name": "Trường Đại học Công nghệ Giao thông vận tải",
+  "school_code": null,
+  "subject_group": "A00; A01; D01; D07",
+  "score": 16
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Mỏ Địa Chất
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Trường Đại Học Mỏ Địa Chất",
+  "school_code": null,
+  "subject_group": "A00; A01; D01; D07",
+  "score": 23.75
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Phương Đông
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Trường Đại Học Phương Đông",
+  "school_code": null,
+  "subject_group": "A00; A01; D01",
+  "score": 16
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Kinh Doanh và Công Nghệ Hà Nội
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Trường Đại Học Kinh Doanh và Công Nghệ Hà Nội",
+  "school_code": null,
+  "subject_group": "A00; A08; C03; D01",
+  "score": 21.5
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Kinh Tế – Đại Học Huế
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Trường Đại Học Kinh Tế – Đại Học Huế",
+  "school_code": null,
+  "subject_group": "A00; A01; C15; D01",
+  "score": 19
+}
+--------------------------------------------------
+Tên trường: Đại Học Duy Tân
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Đại Học Duy Tân",
+  "school_code": null,
+  "subject_group": "A00; A16; C01; D01",
+  "score": 16
+}
+--------------------------------------------------
+Tên trường: Trường Đại học Nam Cần Thơ
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Trường Đại học Nam Cần Thơ",
+  "school_code": null,
+  "subject_group": "A00; A01; C04; D01",
+  "score": 16
+}
+--------------------------------------------------
+Tên trường: Trường Đại học Tân Tạo
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Trường Đại học Tân Tạo",
+  "school_code": null,
+  "subject_group": "A00; A01; D01; D07",
+  "score": 15
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Hòa Bình
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Trường Đại Học Hòa Bình",
+  "school_code": null,
+  "subject_group": "A00; A01; D01; D96",
+  "score": 17
+}
+--------------------------------------------------
+Tên trường: Trường Đại học Sao Đỏ
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Trường Đại học Sao Đỏ",
+  "school_code": null,
+  "subject_group": "A00; A09; C04; D01",
+  "score": 16
+}
+--------------------------------------------------
+Tên trường: Trường Đại học Công Nghệ TPHCM
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Trường Đại học Công Nghệ TPHCM",
+  "school_code": null,
+  "subject_group": "A00; A01; C01; D01",
+  "score": 18
+}
+--------------------------------------------------
+Tên trường: Trường Đại học Thành Đô
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Trường Đại học Thành Đô",
+  "school_code": null,
+  "subject_group": "A00; A01; B00; D01",
+  "score": 17
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Bà Rịa – Vũng Tàu
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Trường Đại Học Bà Rịa – Vũng Tàu",
+  "school_code": null,
+  "subject_group": "A00; A01; C00; D01",
+  "score": 15
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Kinh Tế Kỹ Thuật Bình Dương
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Trường Đại Học Kinh Tế Kỹ Thuật Bình Dương",
+  "school_code": null,
+  "subject_group": "A00; A01; D01; D10",
+  "score": 14
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Kinh Tế Tài Chính TPHCM
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Trường Đại Học Kinh Tế Tài Chính TPHCM",
+  "school_code": null,
+  "subject_group": "A00; A01; D01; C01",
+  "score": 16
+}
+--------------------------------------------------
+Tên trường: Trường Đại học Tài chính Quản trị kinh doanh
+{
+  "major_name": "Kế toán (Chuyên ngành: Kế toán công, Kế toán doanh nghiệp, Kế toán tin)",
+  "major_code": "7340301",
+  "school_name": "Trường Đại học Tài chính Quản trị kinh doanh",
+  "school_code": null,
+  "subject_group": "A00; A01; D01; C03",
+  "score": 15
+}
+--------------------------------------------------
+Tên trường: Trường Đại học Kinh tế Quản trị kinh doanh - Đại học Thái Nguyên
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Trường Đại học Kinh tế Quản trị kinh doanh - Đại học Thái Nguyên",
+  "school_code": null,
+  "subject_group": "A00; A01; D01; D07",
+  "score": 18
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Ngoại Ngữ Tin Học TPHCM
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Trường Đại Học Ngoại Ngữ Tin Học TPHCM",
+  "school_code": null,
+  "subject_group": "A01; D01; D07; D11",
+  "score": 15
+}
+--------------------------------------------------
+Tên trường: Trường Đại học Kinh Tế Nghệ An
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Trường Đại học Kinh Tế Nghệ An",
+  "school_code": null,
+  "subject_group": "A00; A01; B00; D01",
+  "score": 17
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Lâm nghiệp
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Trường Đại Học Lâm nghiệp",
+  "school_code": null,
+  "subject_group": "A00; A16; C15; D01",
+  "score": 16.1
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Nông Lâm – Đại Học Thái Nguyên
+{
+  "major_name": "Tài chính - Kế toán",
+  "major_code": "7340301",
+  "school_name": "Trường Đại Học Nông Lâm – Đại Học Thái Nguyên",
+  "school_code": null,
+  "subject_group": "A00; B00; C02",
+  "score": 15
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Công Nghệ và Quản Lý Hữu Nghị
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Trường Đại Học Công Nghệ và Quản Lý Hữu Nghị",
+  "school_code": null,
+  "subject_group": "A00; A01; D01; D07",
+  "score": 16
+}
+--------------------------------------------------
+Tên trường: Trường Đại học Hùng Vương TPHCM
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Trường Đại học Hùng Vương TPHCM",
+  "school_code": null,
+  "subject_group": "A00; C03; C14; D01",
+  "score": 15
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Kinh tế công nghệ Thái Nguyên
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Trường Đại Học Kinh tế công nghệ Thái Nguyên",
+  "school_code": null,
+  "subject_group": "A00; A01; D01",
+  "score": 15
+}
+--------------------------------------------------
+Tên trường: Trường Đại học Nông Lâm Bắc Giang
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Trường Đại học Nông Lâm Bắc Giang",
+  "school_code": null,
+  "subject_group": "A00; A01; D01; C20",
+  "score": 15
+}
+--------------------------------------------------
+Tên trường: Trường Đại học Tân Trào
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Trường Đại học Tân Trào",
+  "school_code": null,
+  "subject_group": "A00; A01; D01",
+  "score": 15
+}
+--------------------------------------------------
+Tên trường: Trường Đại học Kiên Giang
+{
+  "major_name": "Kế toán",
+  "major_code": "7340301",
+  "school_name": "Trường Đại học Kiên Giang",
+  "school_code": null,
+  "subject_group": "A00; A01; D01; D07",
+  "score": 16.05
+}
+--------------------------------------------------
+Tên trường: Trường Đại học Thủ Đô Hà Nội
+{
+  "major_name": "Tài chính - Ngân hàng",
+  "major_code": "7340201",
+  "school_name": "Trường Đại học Thủ Đô Hà Nội",
+  "school_code": null,
+  "subject_group": "A00; A01; D01; D96",
+  "score": 24.49
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Công Nghiệp Việt Hưng
+{
+  "major_name": "Tài chính - Ngân hàng",
+  "major_code": "7340201",
+  "school_name": "Trường Đại Học Công Nghiệp Việt Hưng",
+  "school_code": null,
+  "subject_group": "C00; C19; C20; D01",
+  "score": 15
+}
+--------------------------------------------------
+Tên trường: Trường Đại học Tài Nguyên và Môi Trường TPHCM
+{
+  "major_name": "Bất động sản",
+  "major_code": "7340116",
+  "school_name": "Trường Đại học Tài Nguyên và Môi Trường TPHCM",
+  "school_code": null,
+  "subject_group": "A00; A01; B00; D01",
+  "score": 16
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Nông Lâm – Đại Học Huế
+{
+  "major_name": "Bất động sản",
+  "major_code": "7340116",
+  "school_name": "Trường Đại Học Nông Lâm – Đại Học Huế",
+  "school_code": null,
+  "subject_group": "A00; B00; C00; C04",
+  "score": 15
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Khoa Học Xã Hội và Nhân Văn – Đại Học Quốc Gia TPHCM
+{
+  "major_name": "Kinh doanh thương mại Hàn Quốc",
+  "major_code": "73106a1",
+  "school_name": "Trường Đại Học Khoa Học Xã Hội và Nhân Văn – Đại Học Quốc Gia TPHCM",
+  "school_code": null,
+  "subject_group": "D01",
+  "score": 26.36
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Ngoại Ngữ – Đại Học Quốc Gia Hà Nội
+{
+  "major_name": "Kinh tế - Tài chính",
+  "major_code": "7903124",
+  "school_name": "Trường Đại Học Ngoại Ngữ – Đại Học Quốc Gia Hà Nội",
+  "school_code": null,
+  "subject_group": "D01; A01; D78; D14",
+  "score": 26.75
+}
+--------------------------------------------------
+Tên trường: Học viện Báo chí và Tuyên truyền
+{
+  "major_name": "Kinh tế chính trị",
+  "major_code": "7310102",
+  "school_name": "Học viện Báo chí và Tuyên truyền",
+  "school_code": null,
+  "subject_group": "D01",
+  "score": 25.89
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Kỹ Thuật Công Nghiệp – Đại Học Thái Nguyên
+{
+  "major_name": "Kinh tế công nghiệp",
+  "major_code": "7510604",
+  "school_name": "Trường Đại Học Kỹ Thuật Công Nghiệp – Đại Học Thái Nguyên",
+  "school_code": null,
+  "subject_group": "A00; A01; D01; D07",
+  "score": 16
+}
+--------------------------------------------------
+Tên trường: Học Viện Hàng không Việt Nam
+{
+  "major_name": "Quản trị kinh doanh",
+  "major_code": "7340101",
+  "school_name": "Học Viện Hàng không Việt Nam",
+  "school_code": null,
+  "subject_group": "A01; D01; D14; D15",
+  "score": 19.5
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Luật TPHCM
+{
+  "major_name": "Quản trị kinh doanh",
+  "major_code": "7340101",
+  "school_name": "Trường Đại Học Luật TPHCM",
+  "school_code": null,
+  "subject_group": "A00; A01; D01; D84",
+  "score": 22.56
+}
+--------------------------------------------------
+Tên trường: Trường Đại học Công nghệ Thông tin và Truyền thông Việt Hàn - Đại học Đà Nẵng
+{
+  "major_name": "Quản trị kinh doanh",
+  "major_code": "7340101",
+  "school_name": "Trường Đại học Công nghệ Thông tin và Truyền thông Việt Hàn - Đại học Đà Nẵng",
+  "school_code": null,
+  "subject_group": "A00; A01; D01; D90",
+  "score": 23.28
+}
+--------------------------------------------------
+Tên trường: Trường Đại học Khánh Hòa
+{
+  "major_name": "Quản trị kinh doanh",
+  "major_code": "7340101",
+  "school_name": "Trường Đại học Khánh Hòa",
+  "school_code": null,
+  "subject_group": "D01; A01; D14; D15",
+  "score": 16.2
+}
+--------------------------------------------------
+Tên trường: Trường Du Lịch – Đại Học Huế
+{
+  "major_name": "Quản trị kinh doanh",
+  "major_code": "7340101",
+  "school_name": "Trường Du Lịch – Đại Học Huế",
+  "school_code": null,
+  "subject_group": "A00; C00; D01; D10",
+  "score": 17
+}
+--------------------------------------------------
+Tên trường: Trường Quản Trị và Kinh Doanh - ĐH Quốc gia Hà Nội
+{
+  "major_name": "Quản trị và An ninh",
+  "major_code": "7900189",
+  "school_name": "Trường Quản Trị và Kinh Doanh - ĐH Quốc gia Hà Nội",
+  "school_code": null,
+  "subject_group": "D01; A01; D07; D08",
+  "score": 22
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học FPT
+{
+  "major_name": "Quản trị kinh doanh",
+  "major_code": "7340101",
+  "school_name": "Trường Đại Học FPT",
+  "school_code": null,
+  "subject_group": "A; B; C01; C02; C03; C04",
+  "score": 21
+}
+--------------------------------------------------
+Tên trường: Trường Đại học Quản lý và công nghệ TPHCM
+{
+  "major_name": "Quản trị kinh doanh",
+  "major_code": "7340101",
+  "school_name": "Trường Đại học Quản lý và công nghệ TPHCM",
+  "school_code": null,
+  "subject_group": "A00; A01; D01; D03; C00",
+  "score": 15
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Giao Thông Vận Tải TPHCM
+{
+  "major_name": "Logistics và quản lý chuỗi cung ứng – chương trình tiên tiến",
+  "major_code": "7510605A",
+  "school_name": "Trường Đại Học Giao Thông Vận Tải TPHCM",
+  "school_code": null,
+  "subject_group": "A00; A01; D01; D07",
+  "score": 24
+}
+--------------------------------------------------
+Tên trường: Trường Đại học Công Nghệ Thông Tin và Truyền Thông – Đại Học Thái Nguyên
+{
+  "major_name": "Quản trị kinh doanh số",
+  "major_code": "7310109",
+  "school_name": "Trường Đại học Công Nghệ Thông Tin và Truyền Thông – Đại Học Thái Nguyên",
+  "school_code": null,
+  "subject_group": "A00; C01; C14; D01",
+  "score": 20.9
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Sư Phạm – Đại Học Huế
+{
+  "major_name": "Hệ thống thông tin",
+  "major_code": "7480104",
+  "school_name": "Trường Đại Học Sư Phạm – Đại Học Huế",
+  "school_code": null,
+  "subject_group": "A00; A01; D01; D90",
+  "score": 15
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Công Nghệ Thông Tin – Đại Học Quốc Gia TPHCM
+{
+  "major_name": "Hệ thống thông tin",
+  "major_code": "7480104",
+  "school_name": "Trường Đại Học Công Nghệ Thông Tin – Đại Học Quốc Gia TPHCM",
+  "school_code": null,
+  "subject_group": "A00; A01; D01; D07",
+  "score": 26.25
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Bách Khoa – Đại Học Quốc Gia TPHCM
+{
+  "major_name": "Quản lý Công nghiệp",
+  "major_code": "123",
+  "school_name": "Trường Đại Học Bách Khoa – Đại Học Quốc Gia TPHCM",
+  "school_code": null,
+  "subject_group": "A00; A01; D01; D07",
+  "score": 77.28
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Bách Khoa – Đại Học Đà Nẵng
+{
+  "major_name": "Quản lý công nghiệp",
+  "major_code": "7510601",
+  "school_name": "Trường Đại Học Bách Khoa – Đại Học Đà Nẵng",
+  "school_code": null,
+  "subject_group": "A00; A01",
+  "score": 23.25
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Khoa Học Xã Hội và Nhân Văn – Đại Học Quốc Gia Hà Nội
+{
+  "major_name": "Khoa học quản lý",
+  "major_code": "QHX07",
+  "school_name": "Trường Đại Học Khoa Học Xã Hội và Nhân Văn – Đại Học Quốc Gia Hà Nội",
+  "school_code": null,
+  "subject_group": "D78",
+  "score": 26.26
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Khoa Học – Đại Học Thái Nguyên
+{
+  "major_name": "Khoa học quản lý (Quản lý nhân lực)",
+  "major_code": "7340401",
+  "school_name": "Trường Đại Học Khoa Học – Đại Học Thái Nguyên",
+  "school_code": null,
+  "subject_group": "C00; C14; D01; D84",
+  "score": 16
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Khoa Học Tự Nhiên – Đại Học Quốc Gia TPHCM
+{
+  "major_name": "Trí tuệ nhân tạo",
+  "major_code": "7480107",
+  "school_name": "Trường Đại Học Khoa Học Tự Nhiên – Đại Học Quốc Gia TPHCM",
+  "school_code": null,
+  "subject_group": "A00; A01; B08; D07",
+  "score": 27.7
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Khoa Học – Đại Học Huế
+{
+  "major_name": "Quản trị và phân tích dữ liệu (thí điểm)",
+  "major_code": "7480107D",
+  "school_name": "Trường Đại Học Khoa Học – Đại Học Huế",
+  "school_code": null,
+  "subject_group": "A00; A01; D01",
+  "score": 16.5
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Sư Phạm TPHCM
+{
+  "major_name": "Công nghệ thông tin",
+  "major_code": "7480201",
+  "school_name": "Trường Đại Học Sư Phạm TPHCM",
+  "school_code": null,
+  "subject_group": "A00; A01; B08",
+  "score": 23.05
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Công Nghệ – Đại Học Quốc Gia Hà Nội
+{
+  "major_name": "Công nghệ thông tin",
+  "major_code": "CN1",
+  "school_name": "Trường Đại Học Công Nghệ – Đại Học Quốc Gia Hà Nội",
+  "school_code": null,
+  "subject_group": "A00; A01; D01",
+  "score": 27.8
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Sư Phạm – Đại Học Đà Nẵng
+{
+  "major_name": "Công nghệ thông tin",
+  "major_code": "7480201",
+  "school_name": "Trường Đại Học Sư Phạm – Đại Học Đà Nẵng",
+  "school_code": null,
+  "subject_group": "A00; A01",
+  "score": 21.35
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Khoa Học Tự Nhiên – Đại Học Quốc Gia Hà Nội
+{
+  "major_name": "Khoa học máy tính và thông tin",
+  "major_code": "QHT98",
+  "school_name": "Trường Đại Học Khoa Học Tự Nhiên – Đại Học Quốc Gia Hà Nội",
+  "school_code": null,
+  "subject_group": "A00; A01; D07; D08",
+  "score": 34
+}
+--------------------------------------------------
+Tên trường: Trường Đại học Việt Nhật - Đại học Quốc gia Hà Nội
+{
+  "major_name": "Khoa học và Kỹ thuật máy tính",
+  "major_code": "7480204",
+  "school_name": "Trường Đại học Việt Nhật - Đại học Quốc gia Hà Nội",
+  "school_code": null,
+  "subject_group": "A00; A01; D28; D07; D23; D08; D33",
+  "score": 20.75
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Văn Hóa Hà Nội
+{
+  "major_name": "Quản lý thông tin",
+  "major_code": "7320205",
+  "school_name": "Trường Đại Học Văn Hóa Hà Nội",
+  "school_code": null,
+  "subject_group": "C00",
+  "score": 27.1
+}
+--------------------------------------------------
+Tên trường: Trường Đại học Kiểm Sát Hà Nội
+{
+  "major_name": "Luật kinh tế",
+  "major_code": "7380107",
+  "school_name": "Trường Đại học Kiểm Sát Hà Nội",
+  "school_code": null,
+  "subject_group": "A00; A01; C00; D01",
+  "score": 26.86
+}
+--------------------------------------------------
+Tên trường: Trường Đại học Luật - Đại Học Huế
+{
+  "major_name": "Luật kinh tế",
+  "major_code": "7380107",
+  "school_name": "Trường Đại học Luật - Đại Học Huế",
+  "school_code": null,
+  "subject_group": "A00; C00; C20; D01",
+  "score": 21
+}
+--------------------------------------------------
+Tên trường: Trường Khoa học liên ngành và Nghệ thuật - Đại học Quốc gia Hà Nội
+{
+  "major_name": "Quản lí giải trí và sự kiện",
+  "major_code": "7349002",
+  "school_name": "Trường Khoa học liên ngành và Nghệ thuật - Đại học Quốc gia Hà Nội",
+  "school_code": null,
+  "subject_group": "A00",
+  "score": 25.1
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Văn Hóa, Thể Thao Và Du Lịch Thanh Hóa
+{
+  "major_name": "Công nghệ truyền thông",
+  "major_code": "7320106",
+  "school_name": "Trường Đại Học Văn Hóa, Thể Thao Và Du Lịch Thanh Hóa",
+  "school_code": null,
+  "subject_group": "C00; C15; A16; D66",
+  "score": 15
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Văn Hóa TPHCM
+{
+  "major_name": "Ngành Kinh doanh xuất bản phẩm",
+  "major_code": "7320402",
+  "school_name": "Trường Đại Học Văn Hóa TPHCM",
+  "school_code": null,
+  "subject_group": "C00; D01; D10; D15",
+  "score": 25.3
+}
+--------------------------------------------------
+Tên trường: Đại Học Sư Phạm - Đại Học Thái Nguyên
+{
+  "major_name": "Sư phạm Toán học",
+  "major_code": "7140209",
+  "school_name": "Đại Học Sư Phạm - Đại Học Thái Nguyên",
+  "school_code": null,
+  "subject_group": "A00; A01; D01",
+  "score": 26.37
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Giáo Dục - Đại học Quốc Gia Hà Nội
+{
+  "major_name": "Sư phạm Toán và Khoa học tự nhiên, gồm 5 ngành: Sư phạm Toán học; Sư phạm Vật lí; Sư phạm Hoá học; Sư phạm Sinh học; Sư phạm Khoa học tự nhiên.",
+  "major_code": "GD1",
+  "school_name": "Trường Đại Học Giáo Dục - Đại học Quốc Gia Hà Nội",
+  "school_code": null,
+  "subject_group": "A00; A01; B00; D01",
+  "score": 26.58
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Ngoại Ngữ – Đại Học Đà Nẵng
+{
+  "major_name": "Sư phạm tiếng Anh",
+  "major_code": "7140231",
+  "school_name": "Trường Đại Học Ngoại Ngữ – Đại Học Đà Nẵng",
+  "school_code": null,
+  "subject_group": "D01",
+  "score": 27.24
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Ngoại Ngữ – Đại Học Huế
+{
+  "major_name": "Sư phạm Tiếng Anh",
+  "major_code": "7140231",
+  "school_name": "Trường Đại Học Ngoại Ngữ – Đại Học Huế",
+  "school_code": null,
+  "subject_group": "D01; D14; D15",
+  "score": 27.1
+}
+--------------------------------------------------
+Tên trường: Trường Ngoại Ngữ – Đại Học Thái Nguyên
+{
+  "major_name": "Sư phạm Tiếng Anh",
+  "major_code": "7140231",
+  "school_name": "Trường Ngoại Ngữ – Đại Học Thái Nguyên",
+  "school_code": null,
+  "subject_group": "A01; D01; D15; D66",
+  "score": 26.95
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Nghệ Thuật – Đại Học Huế
+{
+  "major_name": "Sư phạm Mỹ thuật",
+  "major_code": "7140222",
+  "school_name": "Trường Đại Học Nghệ Thuật – Đại Học Huế",
+  "school_code": null,
+  "subject_group": "H00",
+  "score": 21
+}
+--------------------------------------------------
+Tên trường: Khoa Giáo Dục Thể Chất – Đại Học Huế
+{
+  "major_name": "Giáo dục thể chất",
+  "major_code": "7140206",
+  "school_name": "Khoa Giáo Dục Thể Chất – Đại Học Huế",
+  "school_code": null,
+  "subject_group": "T00; T02; T05; T07",
+  "score": 27.1
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Sư Phạm Thể Dục Thể Thao TPHCM
+{
+  "major_name": "Giáo dục thể chất",
+  "major_code": "7140206",
+  "school_name": "Trường Đại Học Sư Phạm Thể Dục Thể Thao TPHCM",
+  "school_code": null,
+  "subject_group": "T00; T02; T05; T08",
+  "score": 23.75
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Y Dược TPHCM
+{
+  "major_name": "Y khoa",
+  "major_code": "7720101",
+  "school_name": "Trường Đại Học Y Dược TPHCM",
+  "school_code": null,
+  "subject_group": "B00",
+  "score": 27.8
+}
+--------------------------------------------------
+Tên trường: Trường Đại học Y Dược - Đại học Quốc Gia Hà Nội
+{
+  "major_name": "Y khoa",
+  "major_code": "7720101",
+  "school_name": "Trường Đại học Y Dược - Đại học Quốc Gia Hà Nội",
+  "school_code": null,
+  "subject_group": "B00",
+  "score": 27.15
+}
+--------------------------------------------------
+Tên trường: Trường Đại học Kỹ thuật Y Dược Đà Nẵng
+{
+  "major_name": "Y khoa",
+  "major_code": "7720101",
+  "school_name": "Trường Đại học Kỹ thuật Y Dược Đà Nẵng",
+  "school_code": null,
+  "subject_group": "B00; B08; A00; D07",
+  "score": 25.47
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Y Dược – Đại Học Thái Nguyên
+{
+  "major_name": "Y khoa",
+  "major_code": "7720101",
+  "school_name": "Trường Đại Học Y Dược – Đại Học Thái Nguyên",
+  "school_code": null,
+  "subject_group": "B00; D07; D08",
+  "score": 26.25
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Y Dược – Đại Học Huế
+{
+  "major_name": "Y khoa",
+  "major_code": "7720101",
+  "school_name": "Trường Đại Học Y Dược – Đại Học Huế",
+  "school_code": null,
+  "subject_group": "B00",
+  "score": 26.3
+}
+--------------------------------------------------
+Tên trường: Trường Y Dược – Đại Học Đà Nẵng
+{
+  "major_name": "Y khoa",
+  "major_code": "7720101",
+  "school_name": "Trường Y Dược – Đại Học Đà Nẵng",
+  "school_code": null,
+  "subject_group": "B00; B08",
+  "score": 25.55
+}
+--------------------------------------------------
+Tên trường: Trường Đại học Khoa học sức khỏe - Đại học Quốc Gia TPHCM
+{
+  "major_name": "Y khoa",
+  "major_code": "7720101",
+  "school_name": "Trường Đại học Khoa học sức khỏe - Đại học Quốc Gia TPHCM",
+  "school_code": null,
+  "subject_group": "B00",
+  "score": 26.4
+}
+--------------------------------------------------
+Tên trường: Trường Đại học Y Dược Buôn Ma Thuột
+{
+  "major_name": "Y khoa",
+  "major_code": "7720101",
+  "school_name": "Trường Đại học Y Dược Buôn Ma Thuột",
+  "school_code": null,
+  "subject_group": "A00; A02; B00; B08",
+  "score": 24
+}
+--------------------------------------------------
+Tên trường: Trường Đại học Y khoa Tokyo Việt Nam
+{
+  "major_name": "Điều dưỡng",
+  "major_code": "7720301",
+  "school_name": "Trường Đại học Y khoa Tokyo Việt Nam",
+  "school_code": null,
+  "subject_group": "A00; A01; B00; B08",
+  "score": 19
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Thể Dục Thể Thao TPHCM
+{
+  "major_name": "Y sinh học thể dục thể thao",
+  "major_code": "7729001",
+  "school_name": "Trường Đại Học Thể Dục Thể Thao TPHCM",
+  "school_code": null,
+  "subject_group": "T00; T04; T05; T06",
+  "score": 24
+}
+--------------------------------------------------
+Tên trường: Trường Sĩ Quan Tăng - Thiết Giáp
+{
+  "major_name": "Chỉ huy tham mưu Tăng Thiết giáp",
+  "major_code": "7860206",
+  "school_name": "Trường Sĩ Quan Tăng - Thiết Giáp",
+  "school_code": null,
+  "subject_group": "A00; A01",
+  "score": 22.55
+}
+--------------------------------------------------
+Tên trường: Trường Đại Học Kiến Trúc TPHCM
+{
+  "major_name": "Thiết kế đồ họa",
+  "major_code": "7210403",
+  "school_name": "Trường Đại Học Kiến Trúc TPHCM",
+  "school_code": null,
+  "subject_group": "H01; H06",
+  "score": 25.54
+}
+--------------------------------------------------
+Tên trường: Trường Đại học Ngoại thương
+{
+  "major_name": "Chương trình tiêu chuẩn Thương mại quốc tế",
+  "major_code": "KTEH1.2",
+  "school_name": "Trường Đại học Ngoại thương",
+  "school_code": null,
+  "subject_group": "",
+  "score": 28
+}
+--------------------------------------------------
+Tên trường: Trường Đại học Luật – Đại Học Quốc Gia Hà Nội
+{
+  "major_name": "Luật",
+  "major_code": "7380101",
+  "school_name": "Trường Đại học Luật – Đại Học Quốc Gia Hà Nội",
+  "school_code": null,
+  "subject_group": "C00",
+  "score": 28.36
+}
+--------------------------------------------------
+Tên trường: Học viện Tòa án
+{
+  "major_name": "Luật",
+  "major_code": "7380101",
+  "school_name": "Học viện Tòa án",
+  "school_code": null,
+  "subject_group": "A00",
+  "score": 23.42
+}
+--------------------------------------------------
+Tên trường: Học viện cán bộ TPHCM
+{
+  "major_name": "Luật",
+  "major_code": "7380101",
+  "school_name": "Học viện cán bộ TPHCM",
+  "school_code": null,
+  "subject_group": "A00; A01; C00; D01",
+  "score": 25
+}

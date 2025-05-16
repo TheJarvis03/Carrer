@@ -3,7 +3,7 @@ const { handleAsync, createResponse } = require('../utils/crudOperations');
 
 exports.getAllScores = handleAsync(async (req, res) => {
     try {
-        const { examGroup, scoreRange, region, year, page = 1 } = req.query;
+        const { examGroup, scoreRange, region, year, page = 1, school_code } = req.query;
         const limit = 10; // Changed from 20 to 10
         const skip = (page - 1) * limit;
 
@@ -33,6 +33,10 @@ exports.getAllScores = handleAsync(async (req, res) => {
 
         if (year) {
             query.year = year;
+        }
+
+        if (school_code && school_code !== 'all') {
+            query.school_code = school_code;
         }
 
         const [totalScores, scores] = await Promise.all([

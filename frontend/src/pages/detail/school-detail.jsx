@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { schoolDetailService } from '../../services/schoolDetailService';
+import schoolDetailService from '../../services/schoolDetailService';
 import '../../styles/pages/school-detail.css';
 
 const SchoolDetailPage = () => {
@@ -62,7 +62,7 @@ const SchoolDetailPage = () => {
             <nav className="sd-school-nav">
                 <div className="sd-nav-container">
                     <ul>
-                        {['overview', 'majors', 'scores', 'facilities'].map(
+                        {['overview', 'majors', 'scores'].map(
                             (tab) => (
                                 <li key={tab}>
                                     <button
@@ -94,20 +94,19 @@ const getTabLabel = (tab) => {
         overview: 'Tổng quan',
         majors: 'Ngành đào tạo',
         scores: 'Điểm chuẩn',
-        facilities: 'Cơ sở vật chất',
     };
     return labels[tab];
 };
 
 const getMethodClass = (method) => {
     const methodMap = {
-        ĐGNL: 'dgnl',
-        KCH: 'kch',
-        CCQT: 'ccqt',
-        'Ưu Tiên': 'uu-tien',
         'ĐT THPT': 'dt-thpt',
+        'ĐGNL': 'dgnl',
+        'CCQT': 'ccqt',
+        'Ưu Tiên': 'uu-tien',
+        'KCH': 'kch',
         'ĐGTD BK': 'dgtd-bk',
-        'ĐGNL HN': 'dgnl-hn',
+        'ĐGNL HN': 'dgnl-hn'
     };
     return methodMap[method] || '';
 };
@@ -122,6 +121,18 @@ const renderMethods = (methods) => {
             {method}
         </span>
     ));
+};
+
+const renderSubjectGroups = (subjectGroup) => {
+    if (!subjectGroup) return '';
+    const groups = subjectGroup.split(';').map(group => group.trim());
+    return (
+        <div className="subject-group">
+            {groups.map((group, index) => (
+                <span key={index}>{group}</span>
+            ))}
+        </div>
+    );
 };
 
 const renderContent = (tab, school, majors, scores) => {
@@ -227,7 +238,7 @@ const renderContent = (tab, school, majors, scores) => {
                                                     )}
                                                 </td>
                                                 <td>
-                                                    {combo.subject || 'N/A'}
+                                                    {combo.subject}
                                                 </td>
                                             </tr>
                                         ),
@@ -240,59 +251,42 @@ const renderContent = (tab, school, majors, scores) => {
             );
 
         case 'scores':
-            const renderScores = () => {
-                if (!scores || Object.keys(scores).length === 0) {
-                    return (
-                        <div className="sd-no-data">
-                            <i className="fas fa-info-circle"></i>
-                            Chưa có thông tin điểm chuẩn
-                        </div>
-                    );
-                }
-
-                return Object.entries(scores)
-                    .sort(([yearA], [yearB]) => yearB - yearA)
-                    .map(([year, yearScores]) => (
-                        <div key={year} className="sd-scores-year">
-                            <h3>Điểm chuẩn năm {year}</h3>
-                            <div className="sd-scores-table">
-                                <table>
-                                    <thead>
-                                        <tr>
-                                            <th>Tên ngành</th>
-                                            <th>Mã ngành</th>
-                                            <th>Tổ hợp môn</th>
-                                            <th>Điểm chuẩn</th>
-                                            <th>Ghi chú</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        {yearScores.map((score, index) => (
-                                            <tr key={index}>
-                                                <td>{score.majorName}</td>
-                                                <td>{score.majorCode}</td>
-                                                <td>
-                                                    {score.subjects?.join(
-                                                        ', ',
-                                                    ) || ''}
-                                                </td>
-                                                <td className="score-value">
-                                                    {score.score}
-                                                </td>
-                                                <td>{score.note || ''}</td>
-                                            </tr>
-                                        ))}
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    ));
-            };
-
             return (
                 <section className="sd-content-section">
                     <h2 className="sd-section-title">Điểm chuẩn đại học</h2>
-                    <div className="sd-scores-content">{renderScores()}</div>
+                    <div className="sd-scores-content">
+                        {Object.entries(scores)
+                            .sort(([yearA], [yearB]) => yearB - yearA)
+                            .map(([year, yearScores]) => (
+                                <div key={year} className="sd-scores-year">
+                                    <h3>Điểm chuẩn năm 2024</h3>
+                                    <div className="sd-scores-table">
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th>Mã ngành</th>
+                                                    <th>Tên ngành</th>
+                                                    <th>Tổ hợp môn</th>
+                                                    <th>Điểm chuẩn</th>
+                                                    <th>Ghi chú</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                {yearScores.map((score, index) => (
+                                                    <tr key={index}>
+                                                        <td>{score.majorCode}</td>
+                                                        <td>{score.majorName}</td>
+                                                        <td>{renderSubjectGroups(score.subjectGroup)}</td>
+                                                        <td className="score-value">{score.score}</td>
+                                                        <td>{score.note}</td>
+                                                    </tr>
+                                                ))}
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            ))}
+                    </div>
                 </section>
             );
 

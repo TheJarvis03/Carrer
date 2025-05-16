@@ -1,12 +1,8 @@
 import axios from 'axios';
 
 const API_URL = 'http://localhost:5000/api/school/detail';
-const updateEndpoints = {
-    MAJORS_URL: 'http://localhost:5000/api/majors',
-    SCORES_URL: 'http://localhost:5000/api/admissionScores',
-};
 
-export const schoolDetailService = {
+const schoolDetailService = {
     getSchoolByCode: async (code) => {
         try {
             const response = await axios.get(`${API_URL}/${code}`);
@@ -71,24 +67,6 @@ export const schoolDetailService = {
         }
     },
 
-    getSchoolFacilities: async (schoolId) => {
-        try {
-            const response = await axios.get(
-                `${API_URL}/${schoolId}/facilities`,
-            );
-            const { success, data } = response.data;
-
-            if (success && Array.isArray(data)) {
-                return { success: true, data };
-            }
-            return {
-                success: false,
-                error: 'Không tìm thấy thông tin cơ sở vật chất',
-            };
-        } catch (error) {
-            return { success: false, error: error.message };
-        }
-    },
 
     getMajorsBySchool: async (code) => {
         try {
@@ -148,46 +126,46 @@ export const schoolDetailService = {
 
     getSchoolScores: async (code) => {
         try {
-            const response = await axios.get(
-                `${updateEndpoints.SCORES_URL}/school/${code}`,
-            );
+            const response = await axios.get(`http://localhost:5000/api/admissionScores/university/${code}`);
+            
             if (response?.data?.success) {
-                // Transform scores data
-                const scores = response.data.data.map((score) => ({
-                    year: score.year || new Date().getFullYear(),
-                    majorName: score.major_name || '',
-                    majorCode: score.major_code || '',
-                    score: score.score || '',
-                    subjects: score.subjects || [],
-                    note: score.note || '',
-                }));
-
-                // Sort scores by year descending and group them
+                const scores = response.data.data;
+                
+                // Group scores by year
                 const groupedScores = scores.reduce((acc, score) => {
-                    if (!acc[score.year]) {
-                        acc[score.year] = [];
+                    const year = score.year || new Date().getFullYear();
+                    
+                    if (!acc[year]) {
+                        acc[year] = [];
                     }
-                    acc[score.year].push(score);
+                    
+                    acc[year].push({
+                        majorCode: score.major_code || '',
+                        majorName: score.major_name || '',
+                        subjectGroup: score.subject_group || '',  // Sử dụng trực tiếp subject_group
+                        score: score.score || 0,
+                        note: score.note || ''
+                    });
+                    
                     return acc;
                 }, {});
 
+                // Sort scores within each year by majorCode
+                Object.keys(groupedScores).forEach(year => {
+                    groupedScores[year].sort((a, b) => a.majorCode.localeCompare(b.majorCode));
+                });
+
                 return {
                     success: true,
-                    data: groupedScores,
+                    data: groupedScores
                 };
             }
-            return {
-                success: false,
-                data: [],
-                error: 'Không tìm thấy điểm chuẩn',
-            };
+            return { success: false, data: {}, error: 'Không tìm thấy điểm chuẩn' };
         } catch (error) {
             console.error('Error fetching scores:', error);
-            return {
-                success: false,
-                data: [],
-                error: 'Lỗi khi tải điểm chuẩn',
-            };
+            return { success: false, data: {}, error: 'Lỗi khi tải điểm chuẩn' };
         }
-    },
+    }
 };
+
+export default schoolDetailService;
