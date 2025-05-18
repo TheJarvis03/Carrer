@@ -14,15 +14,10 @@ const SchoolDetailSchema = new mongoose.Schema(
         method_link: {
             type: String,
         },
-        address: {
+        introduction: {
             type: String,
         },
-        phones: [
-            {
-                type: String,
-            },
-        ],
-        website: {
+        tuition: {
             type: String,
         },
         majors: [

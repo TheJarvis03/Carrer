@@ -15,16 +15,10 @@ const schoolDetailService = {
                         id: data.school_id,
                         code: data.school_code, // Thêm mã trường
                         school_name: data.school_name,
-                        location: data.address, // Đổi tên field
                         school_img: data.school_img,
-                        description: data.description,
-                        ownership: data.ownership,
-                        founded_year: data.founded_year,
-                        ranking: data.ranking,
-                        website: data.website,
-                        phones: data.phones || [], // Thêm số điện thoại
-                        method_link: data.method_link, // Thêm link phương thức TS
-                        student_count: data.student_count,
+                        introduction: data.introduction,
+                        tuition: data.tuition,
+                        method_link: data.method_link,
                         majors: data.majors || [],
                     },
                 };

@@ -139,45 +139,38 @@ const renderContent = (tab, school, majors, scores) => {
             <section className="sd-content-section">
                 {tab === 'overview' && (
                     <div className="sd-overview-description">
-                        <h2 className="sd-section-title">
-                            Tổng quan về trường
-                        </h2>
-                        <p>{school?.description}</p>
-
-                        <div className="sd-contact-info">
-                            <h3>Thông tin liên hệ</h3>
-                            <div className="sd-contact-list">
-                                {school?.location && (
-                                    <div className="sd-contact-item">
-                                        <i className="fas fa-map-marker-alt"></i>
-                                        <span>{school.location}</span>
-                                    </div>
-                                )}
-                                {school?.website && (
-                                    <div className="sd-contact-item">
-                                        <i className="fas fa-globe"></i>
-                                        <a
-                                            href={school.website}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                        >
-                                            {school.website}
-                                        </a>
-                                    </div>
-                                )}
-                                {school?.phones && school.phones.length > 0 && (
-                                    <div className="sd-contact-item">
-                                        <i className="fas fa-phone"></i>
-                                        <span>{school.phones.join(' - ')}</span>
-                                    </div>
-                                )}
+                        <h2 className="sd-section-title">Tổng quan về trường</h2>
+                        {school?.introduction && (
+                            <div className="sd-text-section">
+                                {school.introduction.split('\n').map((paragraph, index) => (
+                                    paragraph.trim() && (
+                                        <p key={index} className="sd-paragraph">
+                                            {paragraph}
+                                        </p>
+                                    )
+                                ))}
                             </div>
-                        </div>
+                        )}
+
+                        {school?.tuition && (
+                            <div className="sd-text-section">
+                                <h2>Học phí</h2>
+                                {school.tuition.split('\n').map((line, index) => (
+                                    line.trim() && (
+                                        <p key={index} className="sd-paragraph">
+                                            {line}
+                                        </p>
+                                    )
+                                ))}
+                            </div>
+                        )}
                     </div>
                 )}
 
                 {tab === 'majors' && (
                     <div className="sd-majors-table">
+                        <h1>Phương thức xét tuyển</h1>
+                        <h1>Công thức quy đổi</h1>
                         <h2 className="sd-section-title">
                             Danh sách ngành đào tạo
                             {school?.method_link && (
