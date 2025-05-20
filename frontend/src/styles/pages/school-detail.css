@@ -468,6 +468,23 @@
     border: 1px solid #e5e7eb;
     background: #fff;
     vertical-align: middle;
+    text-align: justify;
+}
+
+/* Column width controls */
+.sd-majors-table th:nth-child(1) { width: 60px; }  /* STT */
+.sd-majors-table th:nth-child(2) { width: 100px; } /* Mã ngành */
+.sd-majors-table th:nth-child(3) { width: 300px; } /* Tên ngành */
+.sd-majors-table th:nth-child(4) { width: 80px; }  /* Chỉ tiêu */
+.sd-majors-table th:nth-child(5) { width: 300px; } /* Phương thức xét tuyển */
+.sd-majors-table th:nth-child(6) { width: 300px; }  /* Tổ hợp môn */
+
+.methods-cell {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    min-width: 250px;
+    justify-content: flex-start;
 }
 
 /* Admission Methods Styling */
@@ -535,8 +552,15 @@
     font-family: 'Roboto Mono', monospace;
     font-size: 0.9em;
     color: #374151;
-    white-space: nowrap;
+    white-space: normal; /* Changed from nowrap to normal */
     background: #f9fafb;
+    padding: 8px 12px;
+    line-height: 1.6;
+}
+
+.sd-majors-table td:last-child span {
+    display: inline-block;
+    margin: 2px 4px;
 }
 
 /* Media Queries */
@@ -553,21 +577,20 @@
 }
 
 .sd-text-section {
-    margin: 24px 0;
-}
-
-.sd-paragraph {
-    margin: 16px 0;
-    line-height: 1.8;
-    color: #374151;
+    margin: 20px 0;
     text-align: justify;
-    white-space: pre-line;
-    font-size: 1.05rem;
 }
 
 .sd-text-section h2 {
-    color: #1976d2;
-    font-size: 1.3rem;
-    margin: 32px 0 16px;
-    font-weight: 600;
+    margin-bottom: 16px;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.sd-paragraph {
+    margin-bottom: 12px;
+    line-height: 1.6;
+    white-space: pre-line;
+    text-align: justify;
+    text-justify: inter-word;
 }

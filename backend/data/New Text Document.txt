@@ -5,7 +5,7 @@ Tên trường: Đại Học Kinh Tế Quốc Dân
   "major_name": "Kế toán",
   "major_code": "7340301",
   "school_name": "Đại Học Kinh Tế Quốc Dân",
-  "school_code": null,
+  "school_code": "KHA",
   "subject_group": "A00; A01; D01; D07",
   "score": 27.29
 }
@@ -45,7 +45,7 @@ Tên trường: Trường Đại Học Thủy Lợi
   "major_name": "Kế toán",
   "major_code": "TLA403",
   "school_name": "Trường Đại Học Thủy Lợi",
-  "school_code": null,
+  "school_code": "TLA",
   "subject_group": "A00; A01; D01; D07",
   "score": 25.02
 }
