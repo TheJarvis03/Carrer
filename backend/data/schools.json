@@ -187,7 +187,7 @@
   },
   {
     "school_id": "HTA",
-    "school_name": "Học Viện Toà Án",
+    "school_name": "Học Viện Tòa Án",
     "location": "Hà Nội",
     "school_type": "Học viện",
     "ownership": "Công lập",
@@ -955,7 +955,7 @@
   },
   {
     "school_id": "ETU",
-    "school_name": "Trường Đại Học Hoà Bình",
+    "school_name": "Trường Đại Học Hòa Bình",
     "location": "Hà Nội",
     "school_type": "Trường đại học",
     "ownership": "Tư thục",
@@ -1179,8 +1179,8 @@
   },
   {
     "school_id": "UKH",
-    "school_name": "Trường Đại Học Khánh Hoà",
-    "location": "Khánh Hoà",
+    "school_name": "Trường Đại học Khánh Hòa",
+    "location": "Khánh Hòa",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
     "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=https%3A%2F%2Fimages.tuyensinh247.com%2Fpicture%2Fdiemthi%2Fts247%2Fimages%2Fukh.jpg&w=256&q=75"
@@ -2173,7 +2173,7 @@
   },
   {
     "school_id": "DDQ",
-    "school_name": "Trường Đại Học Kinh Tế – Đại Học Đà Nẵng",
+    "school_name": "Trường Đại Học Kinh Tế – Đại Học Đà Nẵng",
     "location": "Đà Nẵng",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -3008,7 +3008,7 @@
   },
   {
     "school_id": "QSY",
-    "school_name": "Trường Đại học Khoa học sức khỏe Thành Phố Hồ Chí Minh",
+    "school_name": "Trường Đại học Khoa học sức khỏe – Đại học Quốc Gia Thành Phố Hồ Chí Minh",
     "location": "Hồ Chí Minh",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
