@@ -21,6 +21,15 @@ const sortSchoolsByType = (schools) => {
     });
 };
 
+const getOwnershipLabel = (ownership) => {
+    const labels = {
+        'Công lập': 'Công lập',
+        'Tư thục': 'Tư thục',
+        'Dân lập': 'Dân lập',
+    };
+    return labels[ownership] || 'Chưa cập nhật';
+};
+
 const SearchSchoolsPage = () => {
     const [filters, setFilters] = useState({
         type: 'all',
@@ -274,23 +283,6 @@ const SearchSchoolsPage = () => {
                                 <option value="south">Miền Nam</option>
                             </select>
                         </div>
-                        <div className="ssh-filter-group">
-                            <label>Học phí</label>
-                            <select
-                                value={filters.tuition}
-                                onChange={(e) =>
-                                    setFilters({
-                                        ...filters,
-                                        tuition: e.target.value,
-                                    })
-                                }
-                            >
-                                <option value="all">Tất cả mức</option>
-                                <option value="low">Dưới 15 triệu/năm</option>
-                                <option value="medium">15-25 triệu/năm</option>
-                                <option value="high">Trên 25 triệu/năm</option>
-                            </select>
-                        </div>
                         <div className="ssh-filter-actions">
                             <button
                                 className="ssh-filter-apply-btn"
@@ -405,21 +397,12 @@ const SearchSchoolsPage = () => {
                                                     </div>
                                                     <div className="ssh-stat-item">
                                                         <div className="ssh-stat-label">
-                                                            Học phí/năm
+                                                            Loại trường
                                                         </div>
                                                         <div className="ssh-stat-value">
-                                                            15-20tr
-                                                        </div>
-                                                    </div>
-                                                    <div className="ssh-stat-item">
-                                                        <div className="ssh-stat-label">
-                                                            Tỷ lệ có việc làm
-                                                        </div>
-                                                        <div className="ssh-stat-value">
-                                                            92%
-                                                        </div>
-                                                        <div className="ssh-stat-note">
-                                                            Sau 12 tháng
+                                                            {getOwnershipLabel(
+                                                                school.ownership,
+                                                            )}
                                                         </div>
                                                     </div>
                                                 </div>

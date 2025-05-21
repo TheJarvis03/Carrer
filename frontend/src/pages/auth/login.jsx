@@ -20,48 +20,38 @@ const LoginPage = () => {
         setIsLoading(true);
 
         try {
-            // Client-side validation
-            if (!formData.username.trim()) {
-                setError('Vui lòng nhập tên đăng nhập');
-                setIsLoading(false);
+            // Validation
+            if (!formData.username.trim() || !formData.password) {
+                setError('Vui lòng nhập đầy đủ thông tin đăng nhập');
                 return;
             }
 
-            if (!formData.password) {
-                setError('Vui lòng nhập mật khẩu');
-                setIsLoading(false);
-                return;
-            }
+            const response = await authService.login(formData.username, formData.password);
 
-            const result = await authService.login(
-                formData.username,
-                formData.password,
-            );
+            if (response.success) {
+                const { token, user } = response.data;
+                
+                // Save auth data
+                localStorage.setItem('token', token);
+                localStorage.setItem('user', JSON.stringify(user));
+                
+                // Update context
+                setUser(user);
 
-            if (result.success) {
-                // Save token and user data
-                localStorage.setItem('token', result.data.token);
-                localStorage.setItem('user', JSON.stringify(result.data.user));
-
-                // Update global user state
-                setUser(result.data.user);
-
-                // Redirect based on user role
-                if (result.data.user.role === 'admin') {
+                // Redirect based on role
+                if (user.role === 'admin') {
                     navigate('/admin/dashboard');
                 } else {
                     navigate('/');
                 }
             } else {
-                setError(result.message || 'Đăng nhập thất bại');
-                setFormData((prev) => ({
-                    ...prev,
-                    password: '',
-                }));
+                setError(response.message || 'Tên đăng nhập hoặc mật khẩu không chính xác');
+                setFormData(prev => ({ ...prev, password: '' }));
             }
-        } catch (error) {
-            setError('Có lỗi xảy ra. Vui lòng thử lại sau.');
-            console.error('Login error:', error);
+        } catch (err) {
+            console.error('Login error:', err);
+            setError('Đã xảy ra lỗi khi đăng nhập. Vui lòng thử lại.');
+            setFormData(prev => ({ ...prev, password: '' }));
         } finally {
             setIsLoading(false);
         }

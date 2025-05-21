@@ -1,28 +1,14 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/users';
+const API_URL = 'http://localhost:5000/api/users'; // Fix API URL
 
-// Add request interceptor for debugging
-axios.interceptors.request.use((request) => {
-    console.log('Starting Request:', request);
-    return request;
-});
-
-// Add response interceptor for debugging
-axios.interceptors.response.use(
-    (response) => {
-        console.log('Response:', response);
-        return response;
-    },
-    (error) => {
-        console.error('API Error:', error.response || error);
-        return Promise.reject(error);
-    },
-);
-
-// Add axios interceptor for auth headers
+// Remove duplicate interceptors and keep only one set
 axios.interceptors.request.use(
     (config) => {
+        // Add request logging
+        console.log('Request:', config.url, config.data);
+
+        // Add auth token if exists
         const token = localStorage.getItem('token');
         if (token) {
             config.headers.Authorization = `Bearer ${token}`;
@@ -30,6 +16,18 @@ axios.interceptors.request.use(
         return config;
     },
     (error) => {
+        console.error('Request Error:', error);
+        return Promise.reject(error);
+    },
+);
+
+axios.interceptors.response.use(
+    (response) => {
+        console.log('Response:', response.data);
+        return response;
+    },
+    (error) => {
+        console.error('Response Error:', error.response?.data || error.message);
         return Promise.reject(error);
     },
 );
@@ -42,27 +40,22 @@ export const authService = {
                 password,
             });
 
-            if (response.data.success && response.data.token) {
-                localStorage.setItem('token', response.data.token);
-                if (response.data.user) {
-                    localStorage.setItem(
-                        'user',
-                        JSON.stringify(response.data.user),
-                    );
-                }
-                return { success: true };
+            if (response.data) {
+                return {
+                    success: true,
+                    data: response.data,
+                };
             }
 
             return {
                 success: false,
-                error: 'Đăng nhập thất bại',
+                message: 'Invalid response format',
             };
         } catch (error) {
+            console.error('Login error details:', error.response?.data);
             return {
                 success: false,
-                error:
-                    error.response?.data?.error ||
-                    'Lỗi kết nối, vui lòng thử lại sau',
+                message: error.response?.data?.message || 'Đăng nhập thất bại',
             };
         }
     },
@@ -93,17 +86,26 @@ export const authService = {
 
     getProfile: async () => {
         try {
-            const response = await axios.get(`${API_URL}/profile`);
+            const token = localStorage.getItem('token');
+            if (!token) {
+                throw new Error('No authentication token found');
+            }
+
+            const response = await axios.get(`${API_URL}/users/profile`, {
+                headers: {
+                    Authorization: `Bearer ${token}`,
+                },
+            });
+
             return {
                 success: true,
                 data: response.data,
             };
         } catch (error) {
+            console.error('Profile fetch error:', error);
             return {
                 success: false,
-                error:
-                    error.response?.data?.error ||
-                    'Không thể tải thông tin người dùng',
+                error: error.response?.data?.message || 'Could not fetch profile',
             };
         }
     },
