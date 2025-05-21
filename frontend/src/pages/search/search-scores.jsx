@@ -11,6 +11,7 @@ const SearchScoresPage = () => {
         year: '2024',
         page: 1,
     });
+    const [searchQuery, setSearchQuery] = useState('');  // Separate search query state
     const [scores, setScores] = useState([]);
     const [pagination, setPagination] = useState({
         currentPage: 1,
@@ -20,60 +21,13 @@ const SearchScoresPage = () => {
     });
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(null);
-    const [searchText, setSearchText] = useState('');
 
-    const fetchScores = useCallback(async () => {
+    const fetchScores = useCallback(async (params) => {
         try {
             setLoading(true);
             setError(null);
-            const response = await admissionScoreService.getScores(filters);
-            setScores(response.data);
-            setPagination(response.pagination);
-        } catch (err) {
-            setError(err.message);
-            setScores([]);
-        } finally {
-            setLoading(false);
-        }
-    }, [filters]);
-
-    useEffect(() => {
-        fetchScores();
-    }, [fetchScores]);
-
-    const handleFilterChange = (field, value) => {
-        setFilters((prev) => ({
-            ...prev,
-            [field]: value,
-        }));
-    };
-
-    const handleApplyFilters = () => {
-        fetchScores();
-    };
-
-    const handlePageChange = (newPage) => {
-        setFilters((prev) => ({
-            ...prev,
-            page: newPage,
-        }));
-    };
-
-    const handleSearch = async (e) => {
-        e.preventDefault();
-        try {
-            setLoading(true);
-            setError(null);
-
-            const query = searchText.trim();
-            const searchFilters = {
-                ...filters,
-                page: 1,
-                keyword: query,
-            };
-
-            const response =
-                await admissionScoreService.getScores(searchFilters);
+            const response = await admissionScoreService.getScores(params);
+            
             if (response.success) {
                 setScores(response.data);
                 setPagination(response.pagination);
@@ -87,6 +41,48 @@ const SearchScoresPage = () => {
         } finally {
             setLoading(false);
         }
+    }, []);
+
+    // Initial load
+    useEffect(() => {
+        fetchScores(filters);
+    }, [fetchScores, filters]);
+
+    const handleSearch = useCallback((e) => {
+        e?.preventDefault();
+        const searchFilters = {
+            ...filters,
+            page: 1,
+            keyword: searchQuery.trim()
+        };
+
+        if (!searchQuery.trim()) {
+            delete searchFilters.keyword;
+        }
+
+        fetchScores(searchFilters);
+    }, [filters, searchQuery, fetchScores]);
+
+    const handleSearchInputChange = (e) => {
+        setSearchQuery(e.target.value);
+        if (!e.target.value.trim()) {
+            fetchScores(filters); // Reset to default filters if search is cleared
+        }
+    };
+
+    const handleFilterChange = (field, value) => {
+        setFilters(prev => ({
+            ...prev,
+            [field]: value,
+            page: field !== 'page' ? 1 : value // Reset page when changing filters except for pagination
+        }));
+    };
+
+    const handlePageChange = (newPage) => {
+        setFilters((prev) => ({
+            ...prev,
+            page: newPage,
+        }));
     };
 
     const renderPaginationButtons = () => {
@@ -174,8 +170,8 @@ const SearchScoresPage = () => {
                     <input
                         type="text"
                         placeholder="Nhập tên trường, mã trường hoặc mã ngành..."
-                        value={searchText}
-                        onChange={(e) => setSearchText(e.target.value)}
+                        value={searchQuery}
+                        onChange={handleSearchInputChange}
                     />
                     <button type="submit">
                         <i className="fas fa-search"></i>
@@ -252,7 +248,7 @@ const SearchScoresPage = () => {
                         <div className="filter-actions">
                             <button
                                 className="filter-apply-btn"
-                                onClick={handleApplyFilters}
+                                onClick={handleSearch} // Changed from handleApplyFilters to handleSearch
                             >
                                 Áp dụng bộ lọc
                             </button>
@@ -266,7 +262,6 @@ const SearchScoresPage = () => {
                                         year: '2024',
                                         page: 1,
                                     });
-                                    setSearchText('');
                                     fetchScores();
                                 }}
                             >
