@@ -352,8 +352,8 @@
   },
   {
     "school_id": "C52",
-    "school_name": "Trường Cao Đẳng Sư Phạm Bà Rịa–vũng Tàu",
-    "location": "Bà Rịa – Vũng Tàu",
+    "school_name": "Trường Cao Đẳng Sư Phạm Bà Rịa-vũng Tàu",
+    "location": "Bà Rịa - Vũng Tàu",
     "school_type": "Trường cao đẳng sư phạm",
     "ownership": "Công lập"
   },
@@ -520,14 +520,14 @@
   },
   {
     "school_id": "TAG",
-    "school_name": "Trường Đại Học An Giang – Đại Học Quốc Gia Thành Phố Hồ Chí Minh",
+    "school_name": "Trường Đại Học An Giang - Đại Học Quốc Gia Thành Phố Hồ Chí Minh",
     "location": "An Giang",
     "school_type": "Trường đại học",
     "ownership": "Công lập"
   },
   {
     "school_id": "BUV",
-    "school_name": "Trường Đại Học Anh Quốc – Việt Nam",
+    "school_name": "Trường Đại Học Anh Quốc - Việt Nam",
     "location": "Hà Nội",
     "school_type": "Trường đại học",
     "ownership": "Nước ngoài",
@@ -535,8 +535,8 @@
   },
   {
     "school_id": "BVU",
-    "school_name": "Trường Đại Học Bà Rịa – Vũng Tàu",
-    "location": "Bà Rịa – Vũng Tàu",
+    "school_name": "Trường Đại Học Bà Rịa - Vũng Tàu",
+    "location": "Bà Rịa - Vũng Tàu",
     "school_type": "Trường đại học",
     "ownership": "Tư thục",
     "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FBVU.jpg&w=256&q=75"
@@ -551,7 +551,7 @@
   },
   {
     "school_id": "QSB",
-    "school_name": "Trường Đại Học Bách Khoa – Đại Học Quốc Gia Thành Phố Hồ Chí Minh",
+    "school_name": "Trường Đại Học Bách Khoa - Đại Học Quốc Gia Thành Phố Hồ Chí Minh",
     "location": "Thành Phố Hồ Chí Minh",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -559,7 +559,7 @@
   },
   {
     "school_id": "DDK",
-    "school_name": "Trường Đại Học Bách Khoa – Đại Học Đà Nẵng",
+    "school_name": "Trường Đại Học Bách Khoa - Đại Học Đà Nẵng",
     "location": "Đà Nẵng",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -598,7 +598,7 @@
   },
   {
     "school_id": "QHI",
-    "school_name": "Trường Đại Học Công Nghệ – Đại Học Quốc Gia Hà Nội",
+    "school_name": "Trường Đại Học Công Nghệ - Đại Học Quốc Gia Hà Nội",
     "location": "Hà Nội",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -653,7 +653,7 @@
   },
   {
     "school_id": "QSC",
-    "school_name": "Trường Đại Học Công Nghệ Thông Tin – Đại Học Quốc Gia Thành Phố Hồ Chí Minh",
+    "school_name": "Trường Đại Học Công Nghệ Thông Tin - Đại Học Quốc Gia Thành Phố Hồ Chí Minh",
     "location": "Thành Phố Hồ Chí Minh",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -661,7 +661,7 @@
   },
   {
     "school_id": "VKU",
-    "school_name": "Trường Đại Học Công Nghệ Thông Tin Và Truyền Thông Việt Hàn – Đại Học Đà Nẵng",
+    "school_name": "Trường Đại Học Công Nghệ Thông Tin Và Truyền Thông Việt Hàn - Đại Học Đà Nẵng",
     "location": "Đà Nẵng",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -669,7 +669,7 @@
   },
   {
     "school_id": "DTC",
-    "school_name": "Trường Đại Học Công Nghệ Thông Tin Và Truyền Thông – Đại Học Thái Nguyên",
+    "school_name": "Trường Đại Học Công Nghệ Thông Tin Và Truyền Thông - Đại Học Thái Nguyên",
     "location": "Thái Nguyên",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -724,7 +724,7 @@
   },
   {
     "school_id": "VHD",
-    "school_name": "Trường Đại Học Công Nghiệp Việt – Hung",
+    "school_name": "Trường Đại Học Công Nghiệp Việt - Hung",
     "location": "Hà Nội",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -773,7 +773,7 @@
   {
     "school_id": "PVU",
     "school_name": "Trường Đại Học Dầu Khí Việt Nam",
-    "location": "Bà Rịa – Vũng Tàu",
+    "location": "Bà Rịa - Vũng Tàu",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
     "school_img": "https://diemthi.tuyensinh247.com/_next/image?url=%2Fimages%2Fsimages%2FPVU.jpg&w=256&q=75"
@@ -875,7 +875,7 @@
   },
   {
     "school_id": "QHS",
-    "school_name": "Trường Đại Học Giáo Dục – Đại Học Quốc Gia Hà Nội",
+    "school_name": "Trường Đại Học Giáo Dục - Đại Học Quốc Gia Hà Nội",
     "location": "Hà Nội",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -995,7 +995,7 @@
   },
   {
     "school_id": "DHV",
-    "school_name": "Trường Đại Học Hùng Vương – Thành Phố Hồ Chí Minh",
+    "school_name": "Trường Đại Học Hùng Vương - Thành Phố Hồ Chí Minh",
     "location": "Thành Phố Hồ Chí Minh",
     "school_type": "Trường đại học",
     "ownership": "Tư thục",
@@ -1059,7 +1059,7 @@
   },
   {
     "school_id": "DVB",
-    "school_name": "Trường Đại Học Kinh Tế – Công Nghệ Thái Nguyên",
+    "school_name": "Trường Đại Học Kinh Tế - Công Nghệ Thái Nguyên",
     "location": "Thái Nguyên",
     "school_type": "Trường đại học",
     "ownership": "Tư thục",
@@ -1067,7 +1067,7 @@
   },
   {
     "school_id": "QHE",
-    "school_name": "Trường Đại Học Kinh Tế – Đại Học Quốc Gia Hà Nội",
+    "school_name": "Trường Đại Học Kinh Tế - Đại Học Quốc Gia Hà Nội",
     "location": "Hà Nội",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -1075,7 +1075,7 @@
   },
   {
     "school_id": "DKB",
-    "school_name": "Trường Đại Học Kinh Tế – Kỹ Thuật Bình Dương",
+    "school_name": "Trường Đại Học Kinh Tế - Kỹ Thuật Bình Dương",
     "location": "Bình Dương",
     "school_type": "Trường đại học",
     "ownership": "Tư thục",
@@ -1083,7 +1083,7 @@
   },
   {
     "school_id": "QSK",
-    "school_name": "Trường Đại Học Kinh Tế – Luật – Đại Học Quốc Gia Thành Phố Hồ Chí Minh",
+    "school_name": "Trường Đại Học Kinh Tế - Luật - Đại Học Quốc Gia Thành Phố Hồ Chí Minh",
     "location": "Thành Phố Hồ Chí Minh",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -1091,7 +1091,7 @@
   },
   {
     "school_id": "UEF",
-    "school_name": "Trường Đại Học Kinh Tế – Tài Chính Thành Phố Hồ Chí Minh",
+    "school_name": "Trường Đại Học Kinh Tế - Tài Chính Thành Phố Hồ Chí Minh",
     "location": "Thành Phố Hồ Chí Minh",
     "school_type": "Trường đại học",
     "ownership": "Tư thục",
@@ -1131,7 +1131,7 @@
   },
   {
     "school_id": "DTE",
-    "school_name": "Trường Đại Học Kinh Tế Và Quản Trị Kinh Doanh – Đại Học Thái Nguyên",
+    "school_name": "Trường Đại Học Kinh Tế Và Quản Trị Kinh Doanh - Đại Học Thái Nguyên",
     "location": "Thái Nguyên",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -1139,7 +1139,7 @@
   },
   {
     "school_id": "DHK",
-    "school_name": "Trường Đại Học Kinh Tế – Đại Học Huế",
+    "school_name": "Trường Đại Học Kinh Tế - Đại Học Huế",
     "location": "Thừa Thiên Huế",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -1147,7 +1147,7 @@
   },
   {
     "school_id": "KCC",
-    "school_name": "Trường Đại Học Kỹ Thuật – Công Nghệ Cần Thơ",
+    "school_name": "Trường Đại Học Kỹ Thuật - Công Nghệ Cần Thơ",
     "location": "Cần Thơ",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -1155,7 +1155,7 @@
   },
   {
     "school_id": "DTK",
-    "school_name": "Trường Đại Học Kỹ Thuật Công Nghiệp – Đại Học Thái Nguyên",
+    "school_name": "Trường Đại Học Kỹ Thuật Công Nghiệp - Đại Học Thái Nguyên",
     "location": "Thái Nguyên",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -1163,7 +1163,7 @@
   },
   {
     "school_id": "YDN",
-    "school_name": "Trường Đại Học Kỹ Thuật Y – Dược Đà Nẵng",
+    "school_name": "Trường Đại Học Kỹ Thuật Y - Dược Đà Nẵng",
     "location": "Đà Nẵng",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -1187,7 +1187,7 @@
   },
   {
     "school_id": "QHT",
-    "school_name": "Trường Đại Học Khoa Học Tự Nhiên – Đại Học Quốc Gia Hà Nội",
+    "school_name": "Trường Đại Học Khoa Học Tự Nhiên - Đại Học Quốc Gia Hà Nội",
     "location": "Hà Nội",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -1195,7 +1195,7 @@
   },
   {
     "school_id": "QST",
-    "school_name": "Trường Đại Học Khoa Học Tự Nhiên – Đại Học Quốc Gia Thành Phố Hồ Chí Minh",
+    "school_name": "Trường Đại Học Khoa Học Tự Nhiên - Đại Học Quốc Gia Thành Phố Hồ Chí Minh",
     "location": "Thành Phố Hồ Chí Minh",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -1211,7 +1211,7 @@
   },
   {
     "school_id": "QHX",
-    "school_name": "Trường Đại Học Khoa Học Xã Hội Và Nhân Văn – Đại Học Quốc Gia Hà Nội",
+    "school_name": "Trường Đại Học Khoa Học Xã Hội Và Nhân Văn - Đại Học Quốc Gia Hà Nội",
     "location": "Hà Nội",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -1219,7 +1219,7 @@
   },
   {
     "school_id": "QSX",
-    "school_name": "Trường Đại Học Khoa Học Xã Hội Và Nhân Văn – Đại Học Quốc Gia Thành Phố Hồ Chí Minh",
+    "school_name": "Trường Đại Học Khoa Học Xã Hội Và Nhân Văn - Đại Học Quốc Gia Thành Phố Hồ Chí Minh",
     "location": "Thành Phố Hồ Chí Minh",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -1227,7 +1227,7 @@
   },
   {
     "school_id": "DHT",
-    "school_name": "Trường Đại Học Khoa Học – Đại Học Huế",
+    "school_name": "Trường Đại Học Khoa Học - Đại Học Huế",
     "location": "Thừa Thiên Huế",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -1235,7 +1235,7 @@
   },
   {
     "school_id": "DTZ",
-    "school_name": "Trường Đại Học Khoa Học – Đại Học Thái Nguyên",
+    "school_name": "Trường Đại Học Khoa Học - Đại Học Thái Nguyên",
     "location": "Thái Nguyên",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -1251,7 +1251,7 @@
   },
   {
     "school_id": "DLX",
-    "school_name": "Trường Đại Học Lao Động – Xã Hội",
+    "school_name": "Trường Đại Học Lao Động - Xã Hội",
     "location": "Hà Nội",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -1267,7 +1267,7 @@
   },
   {
     "school_id": "QHL",
-    "school_name": "Trường Đại Học Luật – Đại Học Quốc Gia Hà Nội",
+    "school_name": "Trường Đại Học Luật - Đại Học Quốc Gia Hà Nội",
     "location": "Hà Nội",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -1291,7 +1291,7 @@
   },
   {
     "school_id": "DHA",
-    "school_name": "Trường Đại Học Luật – Đại Học Huế",
+    "school_name": "Trường Đại Học Luật - Đại Học Huế",
     "location": "Thừa Thiên Huế",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -1307,7 +1307,7 @@
   },
   {
     "school_id": "MDA",
-    "school_name": "Trường Đại Học Mỏ – Địa Chất",
+    "school_name": "Trường Đại Học Mỏ - Địa Chất",
     "location": "Hà Nội",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -1394,7 +1394,7 @@
   },
   {
     "school_id": "DHL",
-    "school_name": "Trường Đại Học Nông Lâm – Đại Học Huế",
+    "school_name": "Trường Đại Học Nông Lâm - Đại Học Huế",
     "location": "Thừa Thiên Huế",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -1402,7 +1402,7 @@
   },
   {
     "school_id": "DTN",
-    "school_name": "Trường Đại Học Nông Lâm – Đại Học Thái Nguyên",
+    "school_name": "Trường Đại Học Nông Lâm - Đại Học Thái Nguyên",
     "location": "Thái Nguyên",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -1418,7 +1418,7 @@
   },
   {
     "school_id": "DHN",
-    "school_name": "Trường Đại Học Nghệ Thuật – Đại Học Huế",
+    "school_name": "Trường Đại Học Nghệ Thuật - Đại Học Huế",
     "location": "Thừa Thiên Huế",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -1426,7 +1426,7 @@
   },
   {
     "school_id": "QHF",
-    "school_name": "Trường Đại Học Ngoại Ngữ – Đại Học Quốc Gia Hà Nội",
+    "school_name": "Trường Đại Học Ngoại Ngữ - Đại Học Quốc Gia Hà Nội",
     "location": "Hà Nội",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -1434,7 +1434,7 @@
   },
   {
     "school_id": "DNT",
-    "school_name": "Trường Đại Học Ngoại Ngữ – Tin Học Thành Phố Hồ Chí Minh",
+    "school_name": "Trường Đại Học Ngoại Ngữ - Tin Học Thành Phố Hồ Chí Minh",
     "location": "Thành Phố Hồ Chí Minh",
     "school_type": "Trường đại học",
     "ownership": "Tư thục",
@@ -1442,7 +1442,7 @@
   },
   {
     "school_id": "DHF",
-    "school_name": "Trường Đại Học Ngoại Ngữ – Đại Học Huế",
+    "school_name": "Trường Đại Học Ngoại Ngữ - Đại Học Huế",
     "location": "Thừa Thiên Huế",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -1561,7 +1561,7 @@
   },
   {
     "school_id": "QSQ",
-    "school_name": "Trường Đại Học Quốc Tế – Đại Học Quốc Gia Thành Phố Hồ Chí Minh",
+    "school_name": "Trường Đại Học Quốc Tế - Đại Học Quốc Gia Thành Phố Hồ Chí Minh",
     "location": "Thành Phố Hồ Chí Minh",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -1728,7 +1728,7 @@
   },
   {
     "school_id": "DDS",
-    "school_name": "Trường Đại Học Sư Phạm – Đại Học Đà Nẵng",
+    "school_name": "Trường Đại Học Sư Phạm - Đại Học Đà Nẵng",
     "location": "Đà Nẵng",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -1736,7 +1736,7 @@
   },
   {
     "school_id": "DHS",
-    "school_name": "Trường Đại Học Sư Phạm – Đại Học Huế",
+    "school_name": "Trường Đại Học Sư Phạm - Đại Học Huế",
     "location": "Thừa Thiên Huế",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -1744,7 +1744,7 @@
   },
   {
     "school_id": "DTS",
-    "school_name": "Trường Đại Học Sư Phạm – Đại Học Thái Nguyên",
+    "school_name": "Trường Đại Học Sư Phạm - Đại Học Thái Nguyên",
     "location": "Thái Nguyên",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -1752,14 +1752,14 @@
   },
   {
     "school_id": "DKQ",
-    "school_name": "Trường Đại Học Tài Chính – Kế Toán",
+    "school_name": "Trường Đại Học Tài Chính - Kế Toán",
     "location": "Quảng Ngãi",
     "school_type": "Trường đại học",
     "ownership": "Công lập"
   },
   {
     "school_id": "DMS",
-    "school_name": "Trường Đại Học Tài Chính – Marketing",
+    "school_name": "Trường Đại Học Tài Chính - Marketing",
     "location": "Thành Phố Hồ Chí Minh",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -1767,7 +1767,7 @@
   },
   {
     "school_id": "FBU",
-    "school_name": "Trường Đại Học Tài Chính – Ngân Hàng Hà Nội",
+    "school_name": "Trường Đại Học Tài Chính - Ngân Hàng Hà Nội",
     "location": "Hà Nội",
     "school_type": "Trường đại học",
     "ownership": "Tư thục",
@@ -1775,7 +1775,7 @@
   },
   {
     "school_id": "DFA",
-    "school_name": "Trường Đại Học Tài Chính – Quản Trị Kinh Doanh",
+    "school_name": "Trường Đại Học Tài Chính - Quản Trị Kinh Doanh",
     "location": "Hưng Yên",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -2014,7 +2014,7 @@
   },
   {
     "school_id": "VJU",
-    "school_name": "Trường Đại Học Việt Nhật – Đại Học Quốc Gia Hà Nội",
+    "school_name": "Trường Đại Học Việt Nhật - Đại Học Quốc Gia Hà Nội",
     "location": "Hà Nội",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -2069,7 +2069,7 @@
   },
   {
     "school_id": "QHY",
-    "school_name": "Trường Đại Học Y Dược – Đại Học Quốc Gia Hà Nội",
+    "school_name": "Trường Đại Học Y Dược - Đại Học Quốc Gia Hà Nội",
     "location": "Hà Nội",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -2109,7 +2109,7 @@
   },
   {
     "school_id": "DHY",
-    "school_name": "Trường Đại Học Y Dược – Đại Học Huế",
+    "school_name": "Trường Đại Học Y Dược - Đại Học Huế",
     "location": "Thừa Thiên Huế",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -2117,7 +2117,7 @@
   },
   {
     "school_id": "DTY",
-    "school_name": "Trường Đại Học Y Dược – Đại Học Thái Nguyên",
+    "school_name": "Trường Đại Học Y Dược - Đại Học Thái Nguyên",
     "location": "Thái Nguyên",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -2173,7 +2173,7 @@
   },
   {
     "school_id": "DDQ",
-    "school_name": "Trường Đại Học Kinh Tế – Đại Học Đà Nẵng",
+    "school_name": "Trường Đại Học Kinh Tế - Đại Học Đà Nẵng",
     "location": "Đà Nẵng",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -2181,7 +2181,7 @@
   },
   {
     "school_id": "DDF",
-    "school_name": "Trường Đại Học Ngoại Ngữ – Đại Học Đà Nẵng",
+    "school_name": "Trường Đại Học Ngoại Ngữ - Đại Học Đà Nẵng",
     "location": "Đà Nẵng",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -2189,7 +2189,7 @@
   },
   {
     "school_id": "DDC",
-    "school_name": "Trường Đại Học Sư Phạm Kỹ Thuật – Đại Học Đà Nẵng",
+    "school_name": "Trường Đại Học Sư Phạm Kỹ Thuật - Đại Học Đà Nẵng",
     "location": "Đà Nẵng",
     "school_type": "Trường đại học",
     "ownership": "Công lập"
@@ -2399,7 +2399,7 @@
   },
   {
     "school_id": "V25",
-    "school_name": "Viện Sốt Rét – Ký Sinh Trùng – Côn Trùng Trung Ương",
+    "school_name": "Viện Sốt Rét - Ký Sinh Trùng - Côn Trùng Trung Ương",
     "location": "Hà Nội",
     "school_type": "Viện nghiên cứu",
     "ownership": "Công lập"
@@ -2464,7 +2464,7 @@
   },
   {
     "school_id": "LAH",
-    "school_name": "Trường Sĩ Quan Lục Quân 1 – Đại học Trần Quốc Tuấn",
+    "school_name": "Trường Sĩ Quan Lục Quân 1 - Đại học Trần Quốc Tuấn",
     "location": "Hà Nội",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -2488,7 +2488,7 @@
   },
   {
     "school_id": "PKH",
-    "school_name": "Học Viện Phòng Không – Không Quân",
+    "school_name": "Học Viện Phòng Không - Không Quân",
     "location": "Hà Nội",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -2504,7 +2504,7 @@
   },
   {
     "school_id": "TTH",
-    "school_name": "Trường Sĩ Quan Thông Tin – Hệ Quân sự – Đại Học Thông Tin Liên Lạc",
+    "school_name": "Trường Sĩ Quan Thông Tin - Hệ Quân sự - Đại Học Thông Tin Liên Lạc",
     "location": "Khánh Hòa",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -2512,7 +2512,7 @@
   },
   {
     "school_id": "KQH",
-    "school_name": "Học Viện Kỹ Thuật Quân Sự – Hệ Quân sự",
+    "school_name": "Học Viện Kỹ Thuật Quân Sự - Hệ Quân sự",
     "location": "Hà Nội",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -2552,7 +2552,7 @@
   },
   {
     "school_id": "RHM",
-    "school_name": "Trường Đại Học Răng – Hàm – Mặt",
+    "school_name": "Trường Đại Học Răng - Hàm - Mặt",
     "location": "Hà Nội",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -2584,7 +2584,7 @@
   },
   {
     "school_id": "VPH",
-    "school_name": "Trường Sĩ Quan Kĩ Thuật Quân Sự –  Hệ Quân sự – Đại Học Trần Đại Nghĩa",
+    "school_name": "Trường Sĩ Quan Kĩ Thuật Quân Sự -  Hệ Quân sự - Đại Học Trần Đại Nghĩa",
     "location": "Hồ Chí Minh",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -2672,7 +2672,7 @@
   },
   {
     "school_id": "DTQ",
-    "school_name": "Khoa Quốc Tế – Đại Học Thái Nguyên",
+    "school_name": "Khoa Quốc Tế - Đại Học Thái Nguyên",
     "location": "Thái Nguyên",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -2712,7 +2712,7 @@
   },
   {
     "school_id": "DDV",
-    "school_name": "Viện nghiên cứu và đào tạo Việt Anh – Đại học Đà Nẵng",
+    "school_name": "Viện nghiên cứu và đào tạo Việt Anh - Đại học Đà Nẵng",
     "location": "Đà Nẵng",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -2720,7 +2720,7 @@
   },
   {
     "school_id": "DHE",
-    "school_name": "Khoa Kỹ thuật và Công nghệ – Đại học Huế",
+    "school_name": "Khoa Kỹ thuật và Công nghệ - Đại học Huế",
     "location": "Huế",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -2752,7 +2752,7 @@
   },
   {
     "school_id": "HCB",
-    "school_name": "Trường Đại Học Kỹ Thuật – Hậu Cần Công An Nhân Dân (Phía Bắc)",
+    "school_name": "Trường Đại Học Kỹ Thuật - Hậu Cần Công An Nhân Dân (Phía Bắc)",
     "location": "Bắc Ninh",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -2760,7 +2760,7 @@
   },
   {
     "school_id": "HCN",
-    "school_name": "Trường Đại Học Kỹ Thuật – Hậu Cần Công An Nhân Dân (Phía Nam)",
+    "school_name": "Trường Đại Học Kỹ Thuật - Hậu Cần Công An Nhân Dân (Phía Nam)",
     "location": "Bắc Ninh",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -2776,7 +2776,7 @@
   },
   {
     "school_id": "KSV",
-    "school_name": "Đại học Kinh Tế Thành Phố Hồ Chí Minh – Phân hiệu Vĩnh Long",
+    "school_name": "Đại học Kinh Tế Thành Phố Hồ Chí Minh - Phân hiệu Vĩnh Long",
     "location": "Vĩnh Long",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -2784,7 +2784,7 @@
   },
   {
     "school_id": "QHD",
-    "school_name": "Trường Quản Trị và Kinh Doanh – Đại Học Quốc Gia Hà Nội",
+    "school_name": "Trường Quản Trị và Kinh Doanh - Đại Học Quốc Gia Hà Nội",
     "location": "Hà Nội",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -2832,7 +2832,7 @@
   },
   {
     "school_id": "DHD",
-    "school_name": "Trường Du Lịch – Đại Học Huế",
+    "school_name": "Trường Du Lịch - Đại Học Huế",
     "location": "Huế",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -2840,7 +2840,7 @@
   },
   {
     "school_id": "KGH",
-    "school_name": "Trường Sĩ Quan Không Quân – Hệ Đại học",
+    "school_name": "Trường Sĩ Quan Không Quân - Hệ Đại học",
     "location": "Khánh Hòa",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -2856,7 +2856,7 @@
   },
   {
     "school_id": "TGH",
-    "school_name": "Trường Sĩ Quan Tăng – Thiết Giáp",
+    "school_name": "Trường Sĩ Quan Tăng - Thiết Giáp",
     "location": "Vĩnh Phúc",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -2864,7 +2864,7 @@
   },
   {
     "school_id": "SNH",
-    "school_name": "Trường Sĩ Quan Công Binh – Hệ Quân sự – Đại học Ngô Quyền",
+    "school_name": "Trường Sĩ Quan Công Binh - Hệ Quân sự - Đại học Ngô Quyền",
     "location": "Bình Dương",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -2872,7 +2872,7 @@
   },
   {
     "school_id": "DSK",
-    "school_name": "Trường Đại học Sư phạm Kỹ thuật – Đại học Đà Nẵng",
+    "school_name": "Trường Đại học Sư phạm Kỹ thuật - Đại học Đà Nẵng",
     "location": "Đà Nẵng",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -2888,7 +2888,7 @@
   },
   {
     "school_id": "DHI",
-    "school_name": "Khoa Quốc tế – Đại học Huế",
+    "school_name": "Khoa Quốc tế - Đại học Huế",
     "location": "Huế",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -2912,7 +2912,7 @@
   },
   {
     "school_id": "DLS",
-    "school_name": "Trường Đại Học Lao Động – Xã Hội (Cơ sở II)",
+    "school_name": "Trường Đại Học Lao Động - Xã Hội (Cơ sở II)",
     "location": "Hồ Chí Minh",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -2928,7 +2928,7 @@
   },
   {
     "school_id": "QHQ",
-    "school_name": "Trường Quốc Tế – Đại Học Quốc Gia Hà Nội",
+    "school_name": "Trường Quốc Tế - Đại Học Quốc Gia Hà Nội",
     "location": "Hà Nội",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -2944,7 +2944,7 @@
   },
   {
     "school_id": "QHK",
-    "school_name": "Trường Khoa học liên ngành và Nghệ thuật – Đại học Quốc gia Hà Nội",
+    "school_name": "Trường Khoa học liên ngành và Nghệ thuật - Đại học Quốc gia Hà Nội",
     "location": "Hà Nội",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -2952,7 +2952,7 @@
   },
   {
     "school_id": "DHC",
-    "school_name": "Khoa Giáo Dục Thể Chất – Đại Học Huế",
+    "school_name": "Khoa Giáo Dục Thể Chất - Đại Học Huế",
     "location": "Huế",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -2960,7 +2960,7 @@
   },
   {
     "school_id": "DTF",
-    "school_name": "Trường Ngoại Ngữ – Đại Học Thái Nguyên",
+    "school_name": "Trường Ngoại Ngữ - Đại Học Thái Nguyên",
     "location": "Thái Nguyên",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -2976,7 +2976,7 @@
   },
   {
     "school_id": "LBH",
-    "school_name": "Trường Sĩ Quan Lục Quân 2 – Đại học Nguyễn Huệ",
+    "school_name": "Trường Sĩ Quan Lục Quân 2 - Đại học Nguyễn Huệ",
     "location": "Đồng Nai",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -2992,7 +2992,7 @@
   },
   {
     "school_id": "DDY",
-    "school_name": "Trường Y Dược – Đại Học Đà Nẵng",
+    "school_name": "Trường Y Dược - Đại Học Đà Nẵng",
     "location": "Đà Nẵng",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -3008,7 +3008,7 @@
   },
   {
     "school_id": "QSY",
-    "school_name": "Trường Đại học Khoa học sức khỏe – Đại học Quốc Gia Thành Phố Hồ Chí Minh",
+    "school_name": "Trường Đại học Khoa học sức khỏe - Đại học Quốc Gia Thành Phố Hồ Chí Minh",
     "location": "Hồ Chí Minh",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -3024,7 +3024,7 @@
   },
   {
     "school_id": "NQH",
-    "school_name": "Học Viện Khoa Học Quân Sự – Hệ Quân sự",
+    "school_name": "Học Viện Khoa Học Quân Sự - Hệ Quân sự",
     "location": "Hà Nội",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -3040,7 +3040,7 @@
   },
   {
     "school_id": "",
-    "school_name": "SP2 – Trường Đại Học Sư Phạm Hà Nội 2",
+    "school_name": "SP2 - Trường Đại Học Sư Phạm Hà Nội 2",
     "location": "Vĩnh Phúc",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -3048,7 +3048,7 @@
   },
   {
     "school_id": "YQH",
-    "school_name": "Học Viện Quân Y – Hệ Quân sự",
+    "school_name": "Học Viện Quân Y - Hệ Quân sự",
     "location": "Hà Nội",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -3056,7 +3056,7 @@
   },
   {
     "school_id": "HEH",
-    "school_name": "Học Viện Hậu Cần – Hệ Quân sự",
+    "school_name": "Học Viện Hậu Cần - Hệ Quân sự",
     "location": "Hà Nội",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
@@ -3072,7 +3072,7 @@
   },
   {
     "school_id": "LCH",
-    "school_name": "Trường Sĩ Quan Chính Trị – Đại Học Chính Trị",
+    "school_name": "Trường Sĩ Quan Chính Trị - Đại Học Chính Trị",
     "location": "Bắc Ninh",
     "school_type": "Trường đại học",
     "ownership": "Công lập",
