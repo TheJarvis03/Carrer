@@ -656,3 +656,16 @@
         min-width: unset;
     }
 }
+
+.sd-majors-section .sd-section-title + div {
+    white-space: pre-wrap; /* Preserve line breaks */
+    text-align: justify;   /* Justify text alignment */
+    margin: 1rem 0;        /* Add spacing around the text */
+    padding: 1rem;         /* Add padding for better readability */
+    background-color: #f9f9f9; /* Light background for contrast */
+    border: 1px solid #ddd; /* Subtle border for separation */
+    border-radius: 8px;    /* Rounded corners for a modern look */
+    line-height: 1.6;      /* Improve line spacing for readability */
+    font-size: 1rem;       /* Standard font size */
+    color: #333;           /* Dark text for better contrast */
+}

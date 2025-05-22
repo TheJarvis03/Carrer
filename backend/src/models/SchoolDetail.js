@@ -20,6 +20,12 @@ const SchoolDetailSchema = new mongoose.Schema(
         tuition: {
             type: String,
         },
+        html_content: {
+            type: String,
+        },
+        text_content: {
+            type: String,
+        },
         majors: [
             {
                 index: {

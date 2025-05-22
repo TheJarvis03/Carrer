@@ -154,6 +154,12 @@ const SchoolDetailPage = () => {
                     <section className="sd-majors-section">
                         <div className="sd-majors-content">
                             <h2 className="sd-section-title">
+                                Cách tính điểm xét tuyển {school.school_name}
+                            </h2>
+                            <div>
+                                {school.text_content}
+                            </div>
+                            <h2 className="sd-section-title">
                                 Danh sách ngành đào tạo
                                 {school?.method_link && (
                                     <a
