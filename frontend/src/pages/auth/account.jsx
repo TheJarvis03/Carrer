@@ -16,8 +16,8 @@ const UserAccountPage = () => {
                 setLoading(true);
                 setError(null);
 
-                // Check if user exists
-                if (!user) {
+                // Ensure user is available before fetching data
+                if (!user || !user.username) {
                     setError('Vui lòng đăng nhập để xem thông tin');
                     return;
                 }

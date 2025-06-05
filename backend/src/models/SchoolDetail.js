@@ -23,9 +23,6 @@ const SchoolDetailSchema = new mongoose.Schema(
         html_content: {
             type: String,
         },
-        text_content: {
-            type: String,
-        },
         majors: [
             {
                 index: {

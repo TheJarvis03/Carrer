@@ -20,7 +20,6 @@ const schoolDetailService = {
                         tuition: data.tuition,
                         method_link: data.method_link,
                         html_content: data.html_content,
-                        text_content: data.text_content,
                         majors: data.majors || [],
                     },
                 };

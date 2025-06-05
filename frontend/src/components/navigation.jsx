@@ -347,7 +347,7 @@ const Navigation = () => {
                                 className={`dropdown-menu ${showUserDropdown ? 'active' : ''}`}
                             >
                                 <Link
-                                    to="/profile"
+                                    to="/account" // Updated path to match UserAccountPage
                                     onClick={() => setShowUserDropdown(false)}
                                 >
                                     Thông tin cá nhân
