@@ -230,7 +230,7 @@ const SchoolDetailPage = () => {
                                 .sort(([yearA], [yearB]) => yearB - yearA)
                                 .map(([year, yearScores]) => (
                                     <div key={year} className="sd-admission-year">
-                                        <h3>Điểm chuẩn năm {year}</h3>
+                                        <h3>Điểm chuẩn năm 2024</h3>
                                         <div className="sd-admission-table-wrapper">
                                             <table className="sd-admission-detail-table">
                                                 <thead>

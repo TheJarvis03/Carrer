@@ -208,6 +208,12 @@
     margin: 0 auto;
 }
 
+.sd-overview-description {
+    text-align: justify; /* Align text evenly on both sides */
+    line-height: 1.6;    /* Improve readability with proper line spacing */
+    margin: 1rem 0;      /* Add spacing around the section */
+}
+
 /* Tables shared styles */
 .sd-majors-table,
 .sd-admission-scores {
